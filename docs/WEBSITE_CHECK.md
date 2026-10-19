@@ -29,4 +29,13 @@ No database migration is needed for the dashboard, gradebook, or origin fixes. E
 
 ## Post-deployment verification
 
-Pending the deployment of this change.
+Deployment `ffdcb33` is live on Render. All 22 public Playwright checks pass on desktop/mobile, including the two upload-auth checks that failed before the origin fix. These checks cover public navigation, signup form rendering, mocked login errors/retry, responsive layout, sign-in redirects and protected course/admin/test assets.
+
+Additional live checks pass:
+- Health endpoint: HTTP 200.
+- `/dashboard/grades`: signed-out browser redirects to `/login` (Next may stream the redirect in an initial HTTP 200 response).
+- About, Contact and Privacy pages: HTTP 200.
+- Correct public-origin upload/check-in requests reach authentication and return HTTP 401 when signed out.
+- A cross-site upload request returns HTTP 403.
+
+The hosted application is not certified as fully integrated: Gemini access and email setup remain unresolved as described above. Production accounts were not created or modified by these checks.
