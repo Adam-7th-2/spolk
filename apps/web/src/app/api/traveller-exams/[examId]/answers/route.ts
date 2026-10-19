@@ -25,6 +25,12 @@ export async function GET(request:Request,{params}:{params:Promise<{examId:strin
   const download=url.searchParams.get("download");if(download){if(!ctx.sitting)return NextResponse.json({error:"Attempt not found."},{status:403});const{record,bytes}=await uploadedAnswer(ctx.accountId,examId,download);if(record.startedAt!==ctx.sitting.started_at)return NextResponse.json({error:"File does not belong to this attempt."},{status:403});return new Response(new Uint8Array(bytes),{headers:{...noStore,"Content-Type":"application/octet-stream","Content-Disposition":`attachment; filename="answer-${record.id}.${record.kind}"`,"X-Content-Type-Options":"nosniff"}});}
   if(!ctx.sitting?.submitted_at||!ctx.sitting.submission_id)return NextResponse.json({error:"Submit the test before viewing feedback. Answer keys stay private during the attempt."},{status:403});
   const{data:submission}=await ctx.db.from("submissions").select("body").eq("id",ctx.sitting.submission_id).eq("account_id",ctx.accountId).maybeSingle();if(!submission)return NextResponse.json({error:"Submission unavailable."},{status:403});
+  if(!ctx.staff){
+   const{data:grade,error:gradeError}=await ctx.db.from("grades").select("score,feedback,graded_at").eq("submission_id",ctx.sitting.submission_id).maybeSingle();
+   if(gradeError)return NextResponse.json({error:"Your grade could not be loaded. Please retry."},{status:503,headers:noStore});
+   const uploads=(await listAnswerUploads(ctx.accountId,examId)).filter(u=>u.startedAt===ctx.sitting!.started_at);
+   return NextResponse.json({report:null,grade:grade?{score:grade.score,feedback:grade.feedback,gradedAt:grade.graded_at}:null,uploads:uploads.map(u=>({id:u.id,name:u.name,manualReview:u.manualReview,createdAt:u.createdAt}))},{headers:noStore});
+  }
   const report=await referenceReview(examId,submission.body);const uploads=(await listAnswerUploads(ctx.accountId,examId)).filter(u=>u.startedAt===ctx.sitting!.started_at);
   return NextResponse.json({report,uploads:uploads.map(u=>({id:u.id,name:u.name,manualReview:u.manualReview,createdAt:u.createdAt}))},{headers:noStore});
  }catch{return NextResponse.json({error:"The file or private grading reference is unavailable. Your teacher can still review the submitted work."},{status:503,headers:noStore});}

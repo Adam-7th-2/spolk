@@ -10,6 +10,10 @@ The source folder is `apps/web/private/library/traveller/beginners/Traveller_Beg
 4. Use the new searchable page-by-page paper text when useful. It contains 6,619 original PDF words across the 32 test pages, with original source-page numbers and word coordinates retained in the private JSON.
 5. Upload answer files, check the imported answer text, and confirm final submission before the deadline. The existing autosave, deadlines and teacher grading flow remains in place.
 
+The student page now embeds the protected question-paper PDF, with original images available as a fallback. Students can type answers in blank fields for each original PDF page or upload their own PDF/Word answer document. Uploads replace the current draft. Saving is separate from final submission, which requires an explicit review checkbox. Uploaded legacy DOC files, scans and handwriting still need teacher review; DOCX and text PDFs can be extracted automatically.
+
+Published reference answers are staff-only even after submission. The student feedback endpoint does not retrieve the private answer index or generate reference-based review; it returns only the learner's own uploaded files and their teacher grade/feedback when available. Staff keep the existing private comparison view.
+
 Only an active authorized attempt can fetch student extraction JSON. Finishing the exam does not expose teacher keys. Text does not reproduce pictures, column layout or table relationships; the original paper remains authoritative. Extracted words are not newly generated questions or automatic answer forms.
 
 ## Admin and assigned teacher flow
