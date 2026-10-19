@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "test:e2e:local":"playwright test --config playwright.local.config.ts",
+    "test:e2e:local": "playwright test --config playwright.local.config.ts",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -23,6 +23,7 @@
     "livekit-server-sdk": "^2.19.1",
     "lucide-react": "latest",
     "next": "latest",
+    "nodemailer": "^10.1.7",
     "react": "latest",
     "react-dom": "latest",
     "three": "^0.186.1",
