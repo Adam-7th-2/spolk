@@ -1,0 +1,12 @@
+export function websiteHelp(question:string){
+ const q=question.toLowerCase();
+ if(/password|reset|log.?in|sign.?in/.test(q))return {answer:"Use Log in to access your account. If you forgot your password, request a reset link. Never share passwords or verification codes in this chat.",links:[{title:"Log in",url:"/login"},{title:"Reset password",url:"/reset-password"}]};
+ if(/enrol|enroll|apply|join|buy/.test(q))return {answer:"Choose a course and submit an application. Academy staff review enrollment requests. Your approved courses appear in My learning.",links:[{title:"Explore courses",url:"/courses"},{title:"Apply for a course",url:"/apply"}]};
+ if(/homework|assignment|upload|grade/.test(q))return {answer:"Open your course, choose an available lesson, and use its homework section. Submit your answer or supported file there. Teacher grades and replies appear in your workspace notifications.",links:[{title:"My learning",url:"/dashboard"},{title:"Notifications",url:"/workspace/notifications"}]};
+ if(/teacher|message|contact|support/.test(q))return {answer:"Open Messages to ask a lesson question or reply to your teacher. This chatbot is automated; a human teacher replies in your private conversation.",links:[{title:"Messages",url:"/workspace/messages"}]};
+ if(/streak|check.?in|daily/.test(q))return {answer:"Visit My learning each day to check in. Streaks use UTC calendar days and count dashboard visits separately from lesson completion. Your dashboard shows your current streak and weekly goal.",links:[{title:"My learning",url:"/dashboard"}]};
+ if(/profile|first name|timezone|time zone|notification|email/.test(q))return {answer:"Edit your name, time zone, learning preferences and email consent in Profile. In-app updates appear in Notifications. Email delivery depends on the academy's email configuration.",links:[{title:"Profile",url:"/workspace/profile"},{title:"Notifications",url:"/workspace/notifications"}]};
+ if(/speaking|microphone|voice/.test(q))return {answer:"Speaking practice lets you select a course and lesson, then type or use browser speech recognition. Allow microphone permission to speak. You can always type instead and save your practice afterward.",links:[{title:"Speaking practice",url:"/dashboard/speaking-practice"}]};
+ if(/^(hi|hello|hey)[!.\s]*$/.test(q.trim()))return {answer:"Hi! I can help you find your way around Spolk. Choose My courses for lesson questions, or ask about enrollment, homework, speaking practice, notifications or your profile.",links:[]};
+ return null;
+}
