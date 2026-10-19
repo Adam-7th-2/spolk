@@ -3,6 +3,7 @@ import {z} from "zod";
 import {currentUser,database} from "@/lib/supabase";
 import {buildTutorMessages,citationsValid,OllamaProvider} from "@/lib/rag";
 import {collectCourseEvidence} from "@/lib/course-evidence";
+import {GeminiProvider} from "@/lib/gemini";
 import {practiceEvidence} from "@/lib/practice-evidence";
 export async function POST(request:Request){
  const user=await currentUser();if(!user)return NextResponse.json({error:"Sign in to use the tutor."},{status:401});
@@ -19,7 +20,7 @@ export async function POST(request:Request){
  const sources=evidence.map(e=>({id:e.id,title:e.title,lessonId:e.lessonId,url:e.url,kind:e.kind}));
  async function stillVisible(){const[{data:ok},{data:staffAdmin},{data:staffTeacher}]=await Promise.all([db.rpc("enrolled",{cid:input.courseId}),db.rpc("is_admin"),db.rpc("teaches",{cid:input.courseId})]);if(!ok&&!staffAdmin&&!staffTeacher)return false;const fresh=await collectCourseEvidence(db,input.courseId,input.lessonId);return evidence.every(e=>fresh.evidence.some(f=>f.id===e.id&&f.content===e.content));}
  if(!await stillVisible())return NextResponse.json({error:"Source access changed. Please try again."},{status:403});
- try{const answer=await new OllamaProvider().complete(buildTutorMessages(input.question,evidence,input.language));if(!citationsValid(answer,evidence))throw new Error("Unsupported citations");if(!await stillVisible())return NextResponse.json({error:"Source access changed. Please try again."},{status:403});return NextResponse.json({answer,sources,generated:true});}
+ try{const answer=await (process.env.GEMINI_API_KEY?new GeminiProvider():new OllamaProvider()).complete(buildTutorMessages(input.question,evidence,input.language));if(!citationsValid(answer,evidence))throw new Error("Unsupported citations");if(!await stillVisible())return NextResponse.json({error:"Source access changed. Please try again."},{status:403});return NextResponse.json({answer,sources,generated:true});}
  catch{if(!await stillVisible())return NextResponse.json({error:"Source access changed. Please try again."},{status:403});return NextResponse.json({answer:"Let’s use your course material. Read the short extract below, then write or say one sentence of your own. Open the lesson for its PDF, listening activities, questions and video.",excerpts:evidence.map(e=>({content:e.content,title:e.title,id:e.id})),sources,generated:false});}
  }catch{return NextResponse.json({error:"Course materials could not be loaded, or this lesson is locked. Please choose an available lesson."},{status:503});}
 }
