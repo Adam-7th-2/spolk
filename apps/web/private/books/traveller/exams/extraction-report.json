@@ -1,0 +1,392 @@
+{
+  "source": "Traveller Beginners_Tests.pdf",
+  "sourceSha256": "a2e86c1be205ee8b3e59f9e0bf11fee3c7328cc1550c6b3346066abb4d65a9d7",
+  "notes": [
+    "Text extraction preserves words, not the meaning of images or the visual order of every table. The original paper is authoritative.",
+    "Original Word text is staff-only because editable test documents may contain additional material.",
+    "Teacher keys and transcripts are never included in student extraction files."
+  ],
+  "files": [
+    {
+      "name": "01 Pista 1.mp3",
+      "bytes": 379619,
+      "sha256": "0248e8ebe068f36b5c86de9cafd63654334b4f38872bab7eeee7f7d5765fd69a",
+      "kind": "mp3"
+    },
+    {
+      "name": "02 Beg_test1_m1.mp3",
+      "bytes": 686948,
+      "sha256": "907084d77d18784f339ff8dddbe687d16d59c76f810cc82ccecf7a56dc7dcf08",
+      "kind": "mp3"
+    },
+    {
+      "name": "03 Beg_test2_m2.mp3",
+      "bytes": 988022,
+      "sha256": "0dca0fb9b3b1d1650ad34f2473180c79da4452de7528612a78732c675bb754ae",
+      "kind": "mp3"
+    },
+    {
+      "name": "04 Beg_test3_m3.mp3",
+      "bytes": 724478,
+      "sha256": "cb6a72e66344e17672434eaa2c359fc4c25adef36ec2136e3d743b95f03faea3",
+      "kind": "mp3"
+    },
+    {
+      "name": "05 Beg_test4_m4.mp3",
+      "bytes": 1266995,
+      "sha256": "0d558027ce4f7a92325c3bb99d3e78af2c304481df3f9d4e1fcf37c81b695505",
+      "kind": "mp3"
+    },
+    {
+      "name": "06 Beg_midtest.mp3",
+      "bytes": 1247813,
+      "sha256": "aa91453470e0eba03838909572b09feefe06e886961fb1f7d14a34659d252b00",
+      "kind": "mp3"
+    },
+    {
+      "name": "07 Beg_test5_m5.mp3",
+      "bytes": 1368326,
+      "sha256": "a4648a0feccdcb43681fb663499db7b2a870e6a7d408b853647f31166fac4e88",
+      "kind": "mp3"
+    },
+    {
+      "name": "08 Beg_test6_m6.mp3",
+      "bytes": 915464,
+      "sha256": "2861e974ae0e2a6b7d82a03764e1f424a230bf848095df67242c94adfaa07a5c",
+      "kind": "mp3"
+    },
+    {
+      "name": "09 Beg_test7_m7.mp3",
+      "bytes": 836651,
+      "sha256": "82b2a4cd89ccbb416fb9f4d176c4b40d1babdfb00037c4d3742f30b1c86229c2",
+      "kind": "mp3"
+    },
+    {
+      "name": "10 Beg_test8_m8.mp3",
+      "bytes": 618143,
+      "sha256": "29b11b306986dd1e3a3b4f913bd6e8113ddd011aab0fce9f38a0706790571179",
+      "kind": "mp3"
+    },
+    {
+      "name": "11 Beg_finaltest.mp3",
+      "bytes": 1593089,
+      "sha256": "3126cb7650bd7e3c3dbe8812ec0d1a0bcad1cf4787bb6840069be4372c2f1426",
+      "kind": "mp3"
+    },
+    {
+      "name": "Final Test_Traveller Beg.doc",
+      "bytes": 93696,
+      "sha256": "2f1554fbe6db2570dcd7a4aee55539d5d07b57f8ec79dfef09470939668e7033",
+      "kind": "doc",
+      "textUrl": "/api/traveller-exam-assets/final/word-text"
+    },
+    {
+      "name": "Frenglish.ru.url",
+      "bytes": 130,
+      "sha256": "4f497d899835cc3e08d77d96584175d641329f4186c82735e413c645d41611c4",
+      "kind": "url"
+    },
+    {
+      "name": "mid-term Test_Traveller Beg.doc",
+      "bytes": 2301952,
+      "sha256": "e74e86385bae8478174c4367b423dad9a8735849a21fb9becb4cf22fb2cc14ae",
+      "kind": "doc",
+      "textUrl": "/api/traveller-exam-assets/midterm/word-text"
+    },
+    {
+      "name": "Readme-www.frenglish.ru.txt",
+      "bytes": 5864,
+      "sha256": "3d596ef49b58679c2e875d67e29ab180f77b5cf7b48b1926a2bc441b057a7f6e",
+      "kind": "txt"
+    },
+    {
+      "name": "Test 1_Traveller Beg.doc",
+      "bytes": 72192,
+      "sha256": "c43c723838de64610ca55f2f3c9ffcc915467bef9f0e02fabffc2ae591340603",
+      "kind": "doc",
+      "textUrl": "/api/traveller-exam-assets/module-1/word-text"
+    },
+    {
+      "name": "Test 2_Traveller Beg.doc",
+      "bytes": 218624,
+      "sha256": "38fb27c055f9e70cf631af8f0792869d93c4a6aa54e0cd1f55e613f2086b7b57",
+      "kind": "doc",
+      "textUrl": "/api/traveller-exam-assets/module-2/word-text"
+    },
+    {
+      "name": "Test 3_Traveller Beg.doc",
+      "bytes": 600064,
+      "sha256": "62acacd3a2bfcab569a7707447543e9ffc8a36dccf1241d6d491fc9ba5d55cdc",
+      "kind": "doc",
+      "textUrl": "/api/traveller-exam-assets/module-3/word-text"
+    },
+    {
+      "name": "Test 4_Traveller Beg.doc",
+      "bytes": 83456,
+      "sha256": "2cd5ed8384a3a324ae887b62429903aa877cb7e7a88cd0c76eef0ff3dd38fce3",
+      "kind": "doc",
+      "textUrl": "/api/traveller-exam-assets/module-4/word-text"
+    },
+    {
+      "name": "Test 5_Traveller Beg.doc",
+      "bytes": 73216,
+      "sha256": "cf5e7507de1c68f211071384964aaf4d2f2dd7fda5ef4e764a7935bba6275f05",
+      "kind": "doc",
+      "textUrl": "/api/traveller-exam-assets/module-5/word-text"
+    },
+    {
+      "name": "Test 6_Traveller Beg.doc",
+      "bytes": 65024,
+      "sha256": "aab0871eb0ef31fb15b51bc23a3fd5a3a40b88ec6c515dbee961ffafbad65eed",
+      "kind": "doc",
+      "textUrl": "/api/traveller-exam-assets/module-6/word-text"
+    },
+    {
+      "name": "Test 7_Traveller Beg.doc",
+      "bytes": 68096,
+      "sha256": "1363660b19c223f9f02aff09d15fe3288c1fb54400d78f0e694f3e2699c4e971",
+      "kind": "doc",
+      "textUrl": "/api/traveller-exam-assets/module-7/word-text"
+    },
+    {
+      "name": "Test 8_Traveller Beg.doc",
+      "bytes": 78336,
+      "sha256": "59037f143fc7e209269179746d357df265f9133d403aefb7f287d73f3d525069",
+      "kind": "doc",
+      "textUrl": "/api/traveller-exam-assets/module-8/word-text"
+    },
+    {
+      "name": "Traveller Beg_KEY TO TESTS.doc",
+      "bytes": 127488,
+      "sha256": "ed188ad3367117e9c4082374df0961e93d74df844d1e798b8185564a03fd7122",
+      "kind": "doc",
+      "textUrl": "/api/traveller-exam-assets/module-1/key-word-text"
+    },
+    {
+      "name": "Traveller Beginners_Key to Test.pdf",
+      "bytes": 238823,
+      "sha256": "0cf496d3f8935462331cb712bd9143c4ecd80dc79af9eb28aa588057080c0fd0",
+      "kind": "pdf",
+      "pageCount": 8,
+      "textUrl": "/api/traveller-exam-assets/module-1/pack-pdf-1"
+    },
+    {
+      "name": "Traveller Beginners_Tests.pdf",
+      "bytes": 3028973,
+      "sha256": "a2e86c1be205ee8b3e59f9e0bf11fee3c7328cc1550c6b3346066abb4d65a9d7",
+      "kind": "pdf",
+      "pageCount": 36,
+      "textUrl": "/api/traveller-exam-assets/module-1/pack-pdf-2"
+    },
+    {
+      "name": "Traveller_Beginner_test_www.frenglish.ru.pdf",
+      "bytes": 3142981,
+      "sha256": "3e79135cc1a78e7292dc698628b9eb0988cf6481f1c5af1d9b7f06557a10b152",
+      "kind": "pdf",
+      "pageCount": 36,
+      "textUrl": "/api/traveller-exam-assets/module-1/pack-pdf-3"
+    },
+    {
+      "name": "Сказать спасибо.url",
+      "bytes": 124,
+      "sha256": "4085cd3b0666bf458d0557f06a718c61601f1e0aa6c5f7c1fdd3a1a3d67f3e68",
+      "kind": "url"
+    }
+  ],
+  "exams": [
+    {
+      "id": "module-1",
+      "title": "Module 1 exam",
+      "week": 3,
+      "pages": [
+        5,
+        6,
+        7
+      ],
+      "wordCount": 467,
+      "wordDocument": "Test 1_Traveller Beg.doc",
+      "wordTextAvailable": true,
+      "wordTextWords": 421,
+      "audioTrack": 2,
+      "audio": "02 Beg_test1_m1.mp3",
+      "keyPages": [
+        1
+      ]
+    },
+    {
+      "id": "module-2",
+      "title": "Module 2 exam",
+      "week": 5,
+      "pages": [
+        8,
+        9,
+        10
+      ],
+      "wordCount": 501,
+      "wordDocument": "Test 2_Traveller Beg.doc",
+      "wordTextAvailable": true,
+      "wordTextWords": 428,
+      "audioTrack": 3,
+      "audio": "03 Beg_test2_m2.mp3",
+      "keyPages": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "module-3",
+      "title": "Module 3 exam",
+      "week": 7,
+      "pages": [
+        11,
+        12,
+        13
+      ],
+      "wordCount": 558,
+      "wordDocument": "Test 3_Traveller Beg.doc",
+      "wordTextAvailable": true,
+      "wordTextWords": 467,
+      "audioTrack": 4,
+      "audio": "04 Beg_test3_m3.mp3",
+      "keyPages": [
+        2
+      ]
+    },
+    {
+      "id": "module-4",
+      "title": "Module 4 exam",
+      "week": 9,
+      "pages": [
+        14,
+        15,
+        16
+      ],
+      "wordCount": 580,
+      "wordDocument": "Test 4_Traveller Beg.doc",
+      "wordTextAvailable": true,
+      "wordTextWords": 517,
+      "audioTrack": 5,
+      "audio": "05 Beg_test4_m4.mp3",
+      "keyPages": [
+        3
+      ]
+    },
+    {
+      "id": "midterm",
+      "title": "Mid-term: Modules 1–4",
+      "week": 9,
+      "pages": [
+        17,
+        18,
+        19,
+        20
+      ],
+      "wordCount": 843,
+      "wordDocument": "mid-term Test_Traveller Beg.doc",
+      "wordTextAvailable": true,
+      "wordTextWords": 794,
+      "audioTrack": 6,
+      "audio": "06 Beg_midtest.mp3",
+      "keyPages": [
+        4
+      ]
+    },
+    {
+      "id": "module-5",
+      "title": "Module 5 exam",
+      "week": 11,
+      "pages": [
+        21,
+        22,
+        23
+      ],
+      "wordCount": 609,
+      "wordDocument": "Test 5_Traveller Beg.doc",
+      "wordTextAvailable": true,
+      "wordTextWords": 571,
+      "audioTrack": 7,
+      "audio": "07 Beg_test5_m5.mp3",
+      "keyPages": [
+        5
+      ]
+    },
+    {
+      "id": "module-6",
+      "title": "Module 6 exam",
+      "week": 13,
+      "pages": [
+        24,
+        25,
+        26
+      ],
+      "wordCount": 593,
+      "wordDocument": "Test 6_Traveller Beg.doc",
+      "wordTextAvailable": true,
+      "wordTextWords": 556,
+      "audioTrack": 8,
+      "audio": "08 Beg_test6_m6.mp3",
+      "keyPages": [
+        6
+      ]
+    },
+    {
+      "id": "module-7",
+      "title": "Module 7 exam",
+      "week": 15,
+      "pages": [
+        27,
+        28,
+        29
+      ],
+      "wordCount": 613,
+      "wordDocument": "Test 7_Traveller Beg.doc",
+      "wordTextAvailable": true,
+      "wordTextWords": 572,
+      "audioTrack": 9,
+      "audio": "09 Beg_test7_m7.mp3",
+      "keyPages": [
+        6,
+        7
+      ]
+    },
+    {
+      "id": "module-8",
+      "title": "Module 8 exam",
+      "week": 17,
+      "pages": [
+        30,
+        31,
+        32
+      ],
+      "wordCount": 716,
+      "wordDocument": "Test 8_Traveller Beg.doc",
+      "wordTextAvailable": true,
+      "wordTextWords": 683,
+      "audioTrack": 10,
+      "audio": "10 Beg_test8_m8.mp3",
+      "keyPages": [
+        7
+      ]
+    },
+    {
+      "id": "final",
+      "title": "Final exam: Modules 1–8",
+      "week": 18,
+      "pages": [
+        33,
+        34,
+        35,
+        36
+      ],
+      "wordCount": 1139,
+      "wordDocument": "Final Test_Traveller Beg.doc",
+      "wordTextAvailable": true,
+      "wordTextWords": 1115,
+      "audioTrack": 11,
+      "audio": "11 Beg_finaltest.mp3",
+      "keyPages": [
+        8
+      ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+"use client";
+import {useEffect,useState} from 'react';
+type Extraction={wordCount:number;pages:{sourcePage:number;text:string;words:{text:string}[]}[]};
+export function ExamText({examId}:{examId:string}){
+ const[data,setData]=useState<Extraction|null>(null),[error,setError]=useState(false),[search,setSearch]=useState(''),[retry,setRetry]=useState(0);
+ useEffect(()=>{const controller=new AbortController();let active=true;fetch(`/api/traveller-exam-assets/${examId}/extracted`,{cache:'no-store',signal:controller.signal}).then(async r=>{if(!r.ok)throw new Error();return r.json();}).then(value=>{if(active){setData(value);setError(false);}}).catch(()=>{if(active)setError(true);});return()=>{active=false;controller.abort();};},[examId,retry]);
+ const visible=data?.pages.filter(p=>p.text.toLowerCase().includes(search.trim().toLowerCase()))||[];
+ return <section className="exam-text-view"><h3>Read and search the test text</h3><p className="fine">Text from the original test paper, in source-page order. Pictures, columns and tables may not be represented accurately; always check the original page. Teacher answers are not included.</p>{error?<p role="alert">Text could not load. Check your active exam attempt. <button type="button" className="text-link" onClick={()=>setRetry(r=>r+1)}>Retry text</button></p>:!data?<p role="status">Loading paper text…</p>:<><p>{data.pages.length} original pages · {data.wordCount.toLocaleString('en')} extracted words</p><label>Search this paper<input type="search" value={search} onChange={e=>setSearch(e.target.value)} maxLength={100} placeholder="Find a word or question"/></label><p role="status">{visible.length} matching pages</p>{visible.map(page=><details key={page.sourcePage} open={search.trim()?true:undefined}><summary>Original PDF page {page.sourcePage} · {page.words.length} words</summary><pre>{page.text}</pre></details>)}</>}</section>;
+}

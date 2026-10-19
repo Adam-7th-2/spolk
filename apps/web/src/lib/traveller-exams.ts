@@ -5,6 +5,11 @@ export function travellerExam(id:string){return manifest.exams.find(e=>e.id===id
 export type ExamAsset={filename:string;type:string;staffOnly:boolean;download?:boolean};
 export function examAsset(id:string,asset:string):ExamAsset|null{
  const exam=travellerExam(id);if(!exam)return null;
+ if(asset==="extracted")return {filename:`${id}-extracted.json`,type:"application/json; charset=utf-8",staffOnly:false};
+ if(asset==="word-text")return {filename:`${id}-word.txt`,type:"text/plain; charset=utf-8",staffOnly:true};
+ if(asset==="extraction-report")return {filename:"extraction-report.json",type:"application/json; charset=utf-8",staffOnly:true};
+ if(asset==="key-word-text")return {filename:"teacher-key-word.txt",type:"text/plain; charset=utf-8",staffOnly:true};
+ if(/^pack-pdf-[1-3]$/.test(asset))return {filename:`${asset}.txt`,type:"text/plain; charset=utf-8",staffOnly:true};
  if(asset==="key")return {filename:exam.files.key,type:"application/pdf",staffOnly:true};
  if(asset==="key-text")return {filename:exam.files.keyText,type:"text/plain; charset=utf-8",staffOnly:true};
  if(asset==="key-document")return {filename:"teacher-key.doc",type:"application/msword",staffOnly:true,download:true};
