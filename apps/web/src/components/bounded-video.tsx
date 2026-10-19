@@ -9,8 +9,11 @@ function loadAPI(){
  if(window.YT?.Player)return Promise.resolve(window.YT);
  if(!apiPromise)apiPromise=new Promise<API>((resolve,reject)=>{
   const previous=window.onYouTubeIframeAPIReady;
-  window.onYouTubeIframeAPIReady=()=>{previous?.();if(window.YT)resolve(window.YT);};
-  const script=document.createElement("script");script.src="https://www.youtube.com/iframe_api";script.onerror=()=>{apiPromise=undefined;reject(new Error("YouTube could not be reached."));};document.head.appendChild(script);
+  const script=document.createElement("script");
+  const failed=()=>{clearTimeout(timer);script.remove();window.onYouTubeIframeAPIReady=previous;apiPromise=undefined;reject(new Error("YouTube could not be reached."));};
+  const timer=setTimeout(failed,15000);
+  window.onYouTubeIframeAPIReady=()=>{clearTimeout(timer);previous?.();if(window.YT?.Player)resolve(window.YT);else failed();};
+  script.src="https://www.youtube.com/iframe_api";script.onerror=failed;document.head.appendChild(script);
  });
  return apiPromise;
 }
@@ -26,10 +29,10 @@ export function BoundedVideo({videoId,start,end,title,onNext,nextLabel="Next pag
    setElapsed(end-start);setEnded(true);setReady(false);
   };
   const timeout=setTimeout(()=>{if(!disposed)setError("YouTube did not respond. Check your connection or browser video blocking settings, then retry.");},20000);
+  const iframe=document.createElement("iframe");const source=new URL(youtubeClipEmbed(videoId,start,end));source.searchParams.set("enablejsapi","1");source.searchParams.set("origin",window.location.origin);source.searchParams.set("cc_lang_pref","en");
+  iframe.src=source.toString();iframe.title=title;iframe.className="course-video-frame";iframe.allow="autoplay; encrypted-media; picture-in-picture; fullscreen";iframe.allowFullscreen=true;iframe.referrerPolicy="strict-origin-when-cross-origin";host.current?.replaceChildren(iframe);
   loadAPI().then(api=>{
    if(disposed||!host.current)return;
-   const iframe=document.createElement("iframe");const source=new URL(youtubeClipEmbed(videoId,start,end));source.hostname="www.youtube.com";source.searchParams.set("enablejsapi","1");source.searchParams.set("origin",window.location.origin);source.searchParams.set("cc_lang_pref","en");
-   iframe.src=source.toString();iframe.title=title;iframe.className="course-video-frame";iframe.allow="autoplay; encrypted-media; picture-in-picture; fullscreen";iframe.allowFullscreen=true;iframe.referrerPolicy="strict-origin-when-cross-origin";host.current.replaceChildren(iframe);
    instance=new api.Player(iframe,{events:{onReady:()=>{
     if(disposed)return;clearTimeout(timeout);setReady(true);setError("");
     tick=setInterval(()=>{
