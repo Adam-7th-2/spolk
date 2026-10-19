@@ -1,0 +1,522 @@
+{
+  "examId": "module-8",
+  "sourceHash": "7a216d5fde82bd002fefd1e81d856c18e30457231bfce13a80ea487128c15e00",
+  "fields": [
+    {
+      "id": "vocabulary.a.1",
+      "section": "vocabulary",
+      "group": "a",
+      "number": "1",
+      "expected": "Spring",
+      "source": "module-8:key:vocabulary.a.1",
+      "kind": "short",
+      "accepted": [
+        "Spring"
+      ]
+    },
+    {
+      "id": "vocabulary.a.2",
+      "section": "vocabulary",
+      "group": "a",
+      "number": "2",
+      "expected": "cruise",
+      "source": "module-8:key:vocabulary.a.2",
+      "kind": "short",
+      "accepted": [
+        "cruise"
+      ]
+    },
+    {
+      "id": "vocabulary.a.3",
+      "section": "vocabulary",
+      "group": "a",
+      "number": "3",
+      "expected": "painkiller",
+      "source": "module-8:key:vocabulary.a.3",
+      "kind": "short",
+      "accepted": [
+        "painkiller"
+      ]
+    },
+    {
+      "id": "vocabulary.a.4",
+      "section": "vocabulary",
+      "group": "a",
+      "number": "4",
+      "expected": "autumn",
+      "source": "module-8:key:vocabulary.a.4",
+      "kind": "short",
+      "accepted": [
+        "autumn"
+      ]
+    },
+    {
+      "id": "vocabulary.a.5",
+      "section": "vocabulary",
+      "group": "a",
+      "number": "5",
+      "expected": "port",
+      "source": "module-8:key:vocabulary.a.5",
+      "kind": "short",
+      "accepted": [
+        "port"
+      ]
+    },
+    {
+      "id": "vocabulary.b.1",
+      "section": "vocabulary",
+      "group": "b",
+      "number": "1",
+      "expected": "credit card",
+      "source": "module-8:key:vocabulary.b.1",
+      "kind": "short",
+      "accepted": [
+        "credit card"
+      ]
+    },
+    {
+      "id": "vocabulary.b.2",
+      "section": "vocabulary",
+      "group": "b",
+      "number": "2",
+      "expected": "hiking",
+      "source": "module-8:key:vocabulary.b.2",
+      "kind": "short",
+      "accepted": [
+        "hiking"
+      ]
+    },
+    {
+      "id": "vocabulary.b.3",
+      "section": "vocabulary",
+      "group": "b",
+      "number": "3",
+      "expected": "invite",
+      "source": "module-8:key:vocabulary.b.3",
+      "kind": "short",
+      "accepted": [
+        "invite"
+      ]
+    },
+    {
+      "id": "vocabulary.b.4",
+      "section": "vocabulary",
+      "group": "b",
+      "number": "4",
+      "expected": "flight",
+      "source": "module-8:key:vocabulary.b.4",
+      "kind": "short",
+      "accepted": [
+        "flight"
+      ]
+    },
+    {
+      "id": "vocabulary.b.5",
+      "section": "vocabulary",
+      "group": "b",
+      "number": "5",
+      "expected": "postcard",
+      "source": "module-8:key:vocabulary.b.5",
+      "kind": "short",
+      "accepted": [
+        "postcard"
+      ]
+    },
+    {
+      "id": "vocabulary.b.6",
+      "section": "vocabulary",
+      "group": "b",
+      "number": "6",
+      "expected": "terrible",
+      "source": "module-8:key:vocabulary.b.6",
+      "kind": "short",
+      "accepted": [
+        "terrible"
+      ]
+    },
+    {
+      "id": "communication.1",
+      "section": "communication",
+      "group": null,
+      "number": "1",
+      "expected": "b",
+      "source": "module-8:key:communication.1",
+      "kind": "choice",
+      "accepted": [
+        "b"
+      ]
+    },
+    {
+      "id": "communication.2",
+      "section": "communication",
+      "group": null,
+      "number": "2",
+      "expected": "d",
+      "source": "module-8:key:communication.2",
+      "kind": "choice",
+      "accepted": [
+        "d"
+      ]
+    },
+    {
+      "id": "communication.3",
+      "section": "communication",
+      "group": null,
+      "number": "3",
+      "expected": "e",
+      "source": "module-8:key:communication.3",
+      "kind": "choice",
+      "accepted": [
+        "e"
+      ]
+    },
+    {
+      "id": "communication.4",
+      "section": "communication",
+      "group": null,
+      "number": "4",
+      "expected": "a",
+      "source": "module-8:key:communication.4",
+      "kind": "choice",
+      "accepted": [
+        "a"
+      ]
+    },
+    {
+      "id": "communication.5",
+      "section": "communication",
+      "group": null,
+      "number": "5",
+      "expected": "c",
+      "source": "module-8:key:communication.5",
+      "kind": "choice",
+      "accepted": [
+        "c"
+      ]
+    },
+    {
+      "id": "communication.6",
+      "section": "communication",
+      "group": null,
+      "number": "6",
+      "expected": "f",
+      "source": "module-8:key:communication.6",
+      "kind": "choice",
+      "accepted": [
+        "f"
+      ]
+    },
+    {
+      "id": "grammar.a.1",
+      "section": "grammar",
+      "group": "a",
+      "number": "1",
+      "expected": "’m going to meet",
+      "source": "module-8:key:grammar.a.1",
+      "kind": "short",
+      "accepted": [
+        "’m going to meet"
+      ]
+    },
+    {
+      "id": "grammar.a.2",
+      "section": "grammar",
+      "group": "a",
+      "number": "2",
+      "expected": "’s going to take",
+      "source": "module-8:key:grammar.a.2",
+      "kind": "short",
+      "accepted": [
+        "’s going to take"
+      ]
+    },
+    {
+      "id": "grammar.a.3",
+      "section": "grammar",
+      "group": "a",
+      "number": "3",
+      "expected": "’m going to write down",
+      "source": "module-8:key:grammar.a.3",
+      "kind": "short",
+      "accepted": [
+        "’m going to write down"
+      ]
+    },
+    {
+      "id": "grammar.a.4",
+      "section": "grammar",
+      "group": "a",
+      "number": "4",
+      "expected": "are ... going to travel, are going to go",
+      "source": "module-8:key:grammar.a.4",
+      "kind": "review",
+      "accepted": [
+        "are ... going to travel, are going to go"
+      ]
+    },
+    {
+      "id": "grammar.a.5",
+      "section": "grammar",
+      "group": "a",
+      "number": "5",
+      "expected": "is ...  going to arrive",
+      "source": "module-8:key:grammar.a.5",
+      "kind": "review",
+      "accepted": [
+        "is ...  going to arrive"
+      ]
+    },
+    {
+      "id": "grammar.a.6",
+      "section": "grammar",
+      "group": "a",
+      "number": "6",
+      "expected": "aren’t going to buy",
+      "source": "module-8:key:grammar.a.6",
+      "kind": "short",
+      "accepted": [
+        "aren’t going to buy"
+      ]
+    },
+    {
+      "id": "grammar.a.7",
+      "section": "grammar",
+      "group": "a",
+      "number": "7",
+      "expected": "Are ... going to order",
+      "source": "module-8:key:grammar.a.7",
+      "kind": "review",
+      "accepted": [
+        "Are ... going to order"
+      ]
+    },
+    {
+      "id": "grammar.b.1",
+      "section": "grammar",
+      "group": "b",
+      "number": "1",
+      "expected": "Jack wants to visit a/the castle.",
+      "source": "module-8:key:grammar.b.1",
+      "kind": "review",
+      "accepted": [
+        "Jack wants to visit a/the castle."
+      ]
+    },
+    {
+      "id": "grammar.b.2",
+      "section": "grammar",
+      "group": "b",
+      "number": "2",
+      "expected": "I would like to go to a/the Chinese restaurant.",
+      "source": "module-8:key:grammar.b.2",
+      "kind": "review",
+      "accepted": [
+        "I would like to go to a/the Chinese restaurant."
+      ]
+    },
+    {
+      "id": "grammar.b.3",
+      "section": "grammar",
+      "group": "b",
+      "number": "3",
+      "expected": "They want to tour an/the island.",
+      "source": "module-8:key:grammar.b.3",
+      "kind": "review",
+      "accepted": [
+        "They want to tour an/the island."
+      ]
+    },
+    {
+      "id": "grammar.b.4",
+      "section": "grammar",
+      "group": "b",
+      "number": "4",
+      "expected": "We would like to do water sports.",
+      "source": "module-8:key:grammar.b.4",
+      "kind": "review",
+      "accepted": [
+        "We would like to do water sports."
+      ]
+    },
+    {
+      "id": "grammar.b.5",
+      "section": "grammar",
+      "group": "b",
+      "number": "5",
+      "expected": "She doesn’t want to travel by plane.",
+      "source": "module-8:key:grammar.b.5",
+      "kind": "review",
+      "accepted": [
+        "She doesn’t want to travel by plane."
+      ]
+    },
+    {
+      "id": "grammar.c.1",
+      "section": "grammar",
+      "group": "c",
+      "number": "1",
+      "expected": "should get",
+      "source": "module-8:key:grammar.c.1",
+      "kind": "short",
+      "accepted": [
+        "should get"
+      ]
+    },
+    {
+      "id": "grammar.c.2",
+      "section": "grammar",
+      "group": "c",
+      "number": "2",
+      "expected": "shouldn’t eat",
+      "source": "module-8:key:grammar.c.2",
+      "kind": "short",
+      "accepted": [
+        "shouldn’t eat"
+      ]
+    },
+    {
+      "id": "grammar.c.3",
+      "section": "grammar",
+      "group": "c",
+      "number": "3",
+      "expected": "should book",
+      "source": "module-8:key:grammar.c.3",
+      "kind": "short",
+      "accepted": [
+        "should book"
+      ]
+    },
+    {
+      "id": "grammar.c.4",
+      "section": "grammar",
+      "group": "c",
+      "number": "4",
+      "expected": "should be",
+      "source": "module-8:key:grammar.c.4",
+      "kind": "short",
+      "accepted": [
+        "should be"
+      ]
+    },
+    {
+      "id": "grammar.c.5",
+      "section": "grammar",
+      "group": "c",
+      "number": "5",
+      "expected": "should take",
+      "source": "module-8:key:grammar.c.5",
+      "kind": "short",
+      "accepted": [
+        "should take"
+      ]
+    },
+    {
+      "id": "grammar.c.6",
+      "section": "grammar",
+      "group": "c",
+      "number": "6",
+      "expected": "shouldn’t listen",
+      "source": "module-8:key:grammar.c.6",
+      "kind": "short",
+      "accepted": [
+        "shouldn’t listen"
+      ]
+    },
+    {
+      "id": "listen.1",
+      "section": "listen",
+      "group": null,
+      "number": "1",
+      "expected": "June",
+      "source": "module-8:key:listen.1",
+      "kind": "short",
+      "accepted": [
+        "June"
+      ]
+    },
+    {
+      "id": "listen.2",
+      "section": "listen",
+      "group": null,
+      "number": "2",
+      "expected": "train",
+      "source": "module-8:key:listen.2",
+      "kind": "short",
+      "accepted": [
+        "train"
+      ]
+    },
+    {
+      "id": "listen.3",
+      "section": "listen",
+      "group": null,
+      "number": "3",
+      "expected": "James",
+      "source": "module-8:key:listen.3",
+      "kind": "short",
+      "accepted": [
+        "James"
+      ]
+    },
+    {
+      "id": "read.1",
+      "section": "read",
+      "group": null,
+      "number": "1",
+      "expected": "He/She had a bad headache and backache.",
+      "source": "module-8:key:read.1",
+      "kind": "review",
+      "accepted": [
+        "He/She had a bad headache and backache."
+      ]
+    },
+    {
+      "id": "read.2",
+      "section": "read",
+      "group": null,
+      "number": "2",
+      "expected": "He/She gets a stomach ache.",
+      "source": "module-8:key:read.2",
+      "kind": "review",
+      "accepted": [
+        "He/She gets a stomach ache."
+      ]
+    },
+    {
+      "id": "read.3",
+      "section": "read",
+      "group": null,
+      "number": "3",
+      "expected": "The flu.",
+      "source": "module-8:key:read.3",
+      "kind": "short",
+      "accepted": [
+        "The flu."
+      ]
+    },
+    {
+      "id": "read.4",
+      "section": "read",
+      "group": null,
+      "number": "4",
+      "expected": "He/She shouldn’t go out/ to school / to work.",
+      "source": "module-8:key:read.4",
+      "kind": "review",
+      "accepted": [
+        "He/She shouldn’t go out/ to school / to work."
+      ]
+    },
+    {
+      "id": "write",
+      "section": "write",
+      "group": null,
+      "number": "",
+      "expected": "Open writing task: teacher review required.",
+      "accepted": [],
+      "kind": "review",
+      "source": "module-8:paper:write"
+    }
+  ],
+  "keyText": "Answer booklet page 7\nTEST 8\nVOCABULARY\nA.\n1. Spring\n2. cruise\n3. painkiller\n4. autumn\n5. port\nB. \n1. credit card\n2. hiking\n3. invite\n4. flight\n5. postcard\n6. terrible\nCOMMUNICATION\n1. b\n2. d\n3. e\n4. a\n5. c\n6. f\nGRAMMAR\nA.\n1. ’m going to meet\n2. ’s going to take\n3. ’m going to write down\n4. are ... going to travel, are \n    going to go\n5. is ...  going to arrive\n6. aren’t going to buy\n7. Are ... going to order\nB. \n1. Jack wants to visit a/the \n    castle.\n2. I would like to go to a/the \n    Chinese restaurant.\n3. They want to tour an/the \n    island.\n4. We would like to do water \n    sports.\n5. She doesn’t want to travel \n    by plane.\nC.\n1. should get\n2. shouldn’t eat\n3. should book\n4. should be\n5. should take\n6. shouldn’t listen\nLISTEN\n1. June\n2. train\n3. James\nREAD\n1. He/She had a bad \n    headache and backache.\n2. He/She gets a stomach  \n    ache.\n3. The flu.\n4. He/She shouldn’t go out/ \n    to school / to work.\nLISTENING TRANSCRIPT\nSam    Hey, Diego. What’s wrong?\nDiego  I need a holiday!\nSam     Me too. When are you going? In May?\nDiego   No, in June. I’m going to visit Paris.\nSam     Are you going to travel by plane?\nDiego   No, way. I hate planes. I’m going to take the train.\nSam     Are you going to travel alone? \nDiego No, James is going to come along.\nSam     What about your brother?\nDiego  He isn’t going to come. He’s going to Madrid.\n Copyright © MM Publications\n",
+  "paperText": "Original test booklet PDF page 30\n29\nTraveller\n Copyright © MM Publications\nTest 8 Module 8\nA. Cross out the odd word.\nVOCABULARY \n1. January \nSpring \nMarch \nJune\n2. forest \nisland \nmountain \ncruise\n3. painkiller \nbackache \nsore throat \nheadache\n4. campsite \nnational park \ncastle \nautumn \n5. airport \nflight \nplane \nport\nB. Circle the correct words.\n5\nSCORE\n1. Sheila never buys things with a brochure / credit card.\n2. John went hiking / sunbathing in the forest.\n3. They want to exchange / invite us to a party.\n4. What time is your ticket / flight?\n5. Karen sent me a sunscreen / postcard from Barbados.\n6. We didn’t enjoy our trip. It was terrible / impressive.\n6\nSCORE\nCOMMUNICATION \nMatch.\n1. What’s the date today? \n2. Would you like to come to the cinema with us?\n3. What’s wrong?\n4. I don’t know what to do. Any ideas?\n5. Don’t miss Peter’s party. \n6. What are you going to do this summer?\n6\nSCORE\na. You should see a doctor.\nb. It’s 6th December.\nc. I can’t wait for it.\nd. I’m sorry, I’ve got other plans.\ne. I think I’ve got the flu.\nf. I’m going to travel around South America.\n29\n\n\nOriginal test booklet PDF page 31\n30\nTraveller\n Copyright © MM Publications\nGRAMMAR \nA. Complete the sentences with the Future going to of the verbs in the box.\n8\nSCORE\nB. Write sentences using the prompts.\n1. Jack / want / visit / castle / .\n                                                                                                                                                           \n2. I / would like / go to / Chinese restaurant / .\n                                                                                                                                                           \n3. They / want / tour / island / .\n                                                                                                                                                           \n4. We / would like / do / water sports / .\n                                                                                                                                                           \n5. She / not want / travel / by plane / .\n                                                                                                                                                           \nC. Complete the sentences with should / shouldn’t and the verbs in the box.\n1. I’m very tired. I                                                               some sleep.\n2. You’ve got bad teeth. You                                                               chocolate every day.\n3. My parents want to go to Ireland. They                                                               tickets soon.\n4. The street is very busy. You                                                               careful.\n5. Colin has a headache. He                                                               a painkiller.\n6. You’re studying for an exam. You                                                               to music.\n5\nSCORE\n6\nSCORE\nLISTEN \nListen to the dialogue and complete the sentences.\n1. Diego is going to go on holiday in                                                    .\n2. Diego is going to travel by                                                    .\n3. Diego is going to go on holiday with                                                    .\n6\nSCORE\n1. A: Where are you going?\nB: I                                                         my friends in the park.\n2. She                                                         a taxi to the port.\n3. I                                                         my doctor’s phone number for you. He’s really good.\n4. A: So                                                         you                                                         by plane?\nB: No, we decided that we                                                         on a cruise.\n5. A: What time                                                         he                                                        ?\nB: At 7:30 pm.\n6. They                                                         souvenirs from that shop. They’re expensive.\n7. A:                                                         we                                                         snake soup?\nB: I don’t think so.\ntake           eat           get           listen            be            book    \ntravel         order          write down          arrive          meet          not buy          go          take\n30\n\n\nOriginal test booklet PDF page 32\n31\nTraveller\n Copyright © MM Publications\nREAD\nRead the health advice website and answer the questions.\nWrite a short paragraph about your holiday plans. Answer the questions below.\nWhere are you going to go?\nWhen are you going to leave and come back?\nWho are you going to go with?\nWhat are you going to take with you?\n                                                                                                                                                                                                                      \n                                                                                                                                                                                                                      \n                                                                                                                                                                                                                      \n                                                                                                                                                                                                                      \n                                                                                                                                                                                                                      \n                                                                                                                                                                                                                      \n                                                                                                                                                                                                                      \n                                                                                                                                                                                                                      \nWRITE \n10\nSCORE\n60\nTOTAL SCORE\n8\nSCORE\n1. What problems did the person have yesterday?  \n \n2. What happens when the person eats something?  \n3. What does the nurse think the person has? \n \n4. Where shouldn’t the person go? \n \nNurse Nadia’s Online help...\nDear Nurse Nadia,\nI think I have a problem. You see, I woke up yesterday with a really bad headache and backache. \nI took painkillers, but they didn’t help. Today I have a terrible sore throat and a temperature. \nAlso, when I try to eat something, I get a stomach ache. Is it serious? Should I go to a doctor?\nSick in Surrey\nDear Sick,\nThat sounds like the flu! You should drink a lot of fluids, like water and orange juice, and get \nsome rest. Your body is tired and going to school or work isn’t going to help at all. You shouldn’t \ngo out, just stay in bed. If you still feel bad in a few days, you should definitely see a doctor!\nTake care,\nNurse\nhttp://www.nursenad.com\n31\n"
+}

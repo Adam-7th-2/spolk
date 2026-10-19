@@ -1,0 +1,438 @@
+{
+  "examId": "module-4",
+  "sourceHash": "981ef19865dc8776dd8534e4d2c912e1403544850bea3e58e6ff4ca29f9ff220",
+  "fields": [
+    {
+      "id": "vocabulary.a.rooms",
+      "section": "vocabulary",
+      "group": "a",
+      "number": "rooms",
+      "expected": "kitchen, WC",
+      "source": "module-4:key:vocabulary.a.rooms",
+      "kind": "category",
+      "accepted": [
+        "kitchen, WC"
+      ]
+    },
+    {
+      "id": "vocabulary.a.furniture",
+      "section": "vocabulary",
+      "group": "a",
+      "number": "furniture",
+      "expected": "chair, bookcase",
+      "source": "module-4:key:vocabulary.a.furniture",
+      "kind": "category",
+      "accepted": [
+        "chair, bookcase"
+      ]
+    },
+    {
+      "id": "vocabulary.a.places",
+      "section": "vocabulary",
+      "group": "a",
+      "number": "places",
+      "expected": "restaurant, hospital",
+      "source": "module-4:key:vocabulary.a.places",
+      "kind": "category",
+      "accepted": [
+        "restaurant, hospital"
+      ]
+    },
+    {
+      "id": "vocabulary.b.1",
+      "section": "vocabulary",
+      "group": "b",
+      "number": "1",
+      "expected": "bedside",
+      "source": "module-4:key:vocabulary.b.1",
+      "kind": "short",
+      "accepted": [
+        "bedside"
+      ]
+    },
+    {
+      "id": "vocabulary.b.2",
+      "section": "vocabulary",
+      "group": "b",
+      "number": "2",
+      "expected": "lights",
+      "source": "module-4:key:vocabulary.b.2",
+      "kind": "short",
+      "accepted": [
+        "lights"
+      ]
+    },
+    {
+      "id": "vocabulary.b.3",
+      "section": "vocabulary",
+      "group": "b",
+      "number": "3",
+      "expected": "fridge",
+      "source": "module-4:key:vocabulary.b.3",
+      "kind": "short",
+      "accepted": [
+        "fridge"
+      ]
+    },
+    {
+      "id": "vocabulary.b.4",
+      "section": "vocabulary",
+      "group": "b",
+      "number": "4",
+      "expected": "ground",
+      "source": "module-4:key:vocabulary.b.4",
+      "kind": "short",
+      "accepted": [
+        "ground"
+      ]
+    },
+    {
+      "id": "vocabulary.b.5",
+      "section": "vocabulary",
+      "group": "b",
+      "number": "5",
+      "expected": "straight",
+      "source": "module-4:key:vocabulary.b.5",
+      "kind": "short",
+      "accepted": [
+        "straight"
+      ]
+    },
+    {
+      "id": "communication.1",
+      "section": "communication",
+      "group": null,
+      "number": "1",
+      "expected": "a",
+      "source": "module-4:key:communication.1",
+      "kind": "choice",
+      "accepted": [
+        "a"
+      ]
+    },
+    {
+      "id": "communication.2",
+      "section": "communication",
+      "group": null,
+      "number": "2",
+      "expected": "d",
+      "source": "module-4:key:communication.2",
+      "kind": "choice",
+      "accepted": [
+        "d"
+      ]
+    },
+    {
+      "id": "communication.3",
+      "section": "communication",
+      "group": null,
+      "number": "3",
+      "expected": "e",
+      "source": "module-4:key:communication.3",
+      "kind": "choice",
+      "accepted": [
+        "e"
+      ]
+    },
+    {
+      "id": "communication.4",
+      "section": "communication",
+      "group": null,
+      "number": "4",
+      "expected": "b",
+      "source": "module-4:key:communication.4",
+      "kind": "choice",
+      "accepted": [
+        "b"
+      ]
+    },
+    {
+      "id": "communication.5",
+      "section": "communication",
+      "group": null,
+      "number": "5",
+      "expected": "c",
+      "source": "module-4:key:communication.5",
+      "kind": "choice",
+      "accepted": [
+        "c"
+      ]
+    },
+    {
+      "id": "grammar.a.1",
+      "section": "grammar",
+      "group": "a",
+      "number": "1",
+      "expected": "Are there, there aren’t, There’s",
+      "source": "module-4:key:grammar.a.1",
+      "kind": "short",
+      "accepted": [
+        "Are there, there aren’t, There’s"
+      ]
+    },
+    {
+      "id": "grammar.a.2",
+      "section": "grammar",
+      "group": "a",
+      "number": "2",
+      "expected": "Is there, there is",
+      "source": "module-4:key:grammar.a.2",
+      "kind": "short",
+      "accepted": [
+        "Is there, there is"
+      ]
+    },
+    {
+      "id": "grammar.a.3",
+      "section": "grammar",
+      "group": "a",
+      "number": "3",
+      "expected": "There are",
+      "source": "module-4:key:grammar.a.3",
+      "kind": "short",
+      "accepted": [
+        "There are"
+      ]
+    },
+    {
+      "id": "grammar.b.1",
+      "section": "grammar",
+      "group": "b",
+      "number": "1",
+      "expected": "next to",
+      "source": "module-4:key:grammar.b.1",
+      "kind": "short",
+      "accepted": [
+        "next to"
+      ]
+    },
+    {
+      "id": "grammar.b.2",
+      "section": "grammar",
+      "group": "b",
+      "number": "2",
+      "expected": "me",
+      "source": "module-4:key:grammar.b.2",
+      "kind": "short",
+      "accepted": [
+        "me"
+      ]
+    },
+    {
+      "id": "grammar.b.3",
+      "section": "grammar",
+      "group": "b",
+      "number": "3",
+      "expected": "in",
+      "source": "module-4:key:grammar.b.3",
+      "kind": "short",
+      "accepted": [
+        "in"
+      ]
+    },
+    {
+      "id": "grammar.b.4",
+      "section": "grammar",
+      "group": "b",
+      "number": "4",
+      "expected": "them",
+      "source": "module-4:key:grammar.b.4",
+      "kind": "short",
+      "accepted": [
+        "them"
+      ]
+    },
+    {
+      "id": "grammar.b.5",
+      "section": "grammar",
+      "group": "b",
+      "number": "5",
+      "expected": "opposite",
+      "source": "module-4:key:grammar.b.5",
+      "kind": "short",
+      "accepted": [
+        "opposite"
+      ]
+    },
+    {
+      "id": "grammar.b.6",
+      "section": "grammar",
+      "group": "b",
+      "number": "6",
+      "expected": "They",
+      "source": "module-4:key:grammar.b.6",
+      "kind": "short",
+      "accepted": [
+        "They"
+      ]
+    },
+    {
+      "id": "grammar.b.7",
+      "section": "grammar",
+      "group": "b",
+      "number": "7",
+      "expected": "him",
+      "source": "module-4:key:grammar.b.7",
+      "kind": "short",
+      "accepted": [
+        "him"
+      ]
+    },
+    {
+      "id": "grammar.b.8",
+      "section": "grammar",
+      "group": "b",
+      "number": "8",
+      "expected": "between",
+      "source": "module-4:key:grammar.b.8",
+      "kind": "short",
+      "accepted": [
+        "between"
+      ]
+    },
+    {
+      "id": "grammar.c.1",
+      "section": "grammar",
+      "group": "c",
+      "number": "1",
+      "expected": "The, a",
+      "source": "module-4:key:grammar.c.1",
+      "kind": "short",
+      "accepted": [
+        "The, a"
+      ]
+    },
+    {
+      "id": "grammar.c.2",
+      "section": "grammar",
+      "group": "c",
+      "number": "2",
+      "expected": "an",
+      "source": "module-4:key:grammar.c.2",
+      "kind": "short",
+      "accepted": [
+        "an"
+      ]
+    },
+    {
+      "id": "grammar.c.3",
+      "section": "grammar",
+      "group": "c",
+      "number": "3",
+      "expected": "the",
+      "source": "module-4:key:grammar.c.3",
+      "kind": "short",
+      "accepted": [
+        "the"
+      ]
+    },
+    {
+      "id": "grammar.c.4",
+      "section": "grammar",
+      "group": "c",
+      "number": "4",
+      "expected": "a, the",
+      "source": "module-4:key:grammar.c.4",
+      "kind": "short",
+      "accepted": [
+        "a, the"
+      ]
+    },
+    {
+      "id": "listen.1",
+      "section": "listen",
+      "group": null,
+      "number": "1",
+      "expected": "a",
+      "source": "module-4:key:listen.1",
+      "kind": "choice",
+      "accepted": [
+        "a"
+      ]
+    },
+    {
+      "id": "listen.2",
+      "section": "listen",
+      "group": null,
+      "number": "2",
+      "expected": "b",
+      "source": "module-4:key:listen.2",
+      "kind": "choice",
+      "accepted": [
+        "b"
+      ]
+    },
+    {
+      "id": "listen.3",
+      "section": "listen",
+      "group": null,
+      "number": "3",
+      "expected": "b",
+      "source": "module-4:key:listen.3",
+      "kind": "choice",
+      "accepted": [
+        "b"
+      ]
+    },
+    {
+      "id": "read.1",
+      "section": "read",
+      "group": null,
+      "number": "1",
+      "expected": "T",
+      "source": "module-4:key:read.1",
+      "kind": "choice",
+      "accepted": [
+        "T"
+      ]
+    },
+    {
+      "id": "read.2",
+      "section": "read",
+      "group": null,
+      "number": "2",
+      "expected": "F",
+      "source": "module-4:key:read.2",
+      "kind": "choice",
+      "accepted": [
+        "F"
+      ]
+    },
+    {
+      "id": "read.3",
+      "section": "read",
+      "group": null,
+      "number": "3",
+      "expected": "F",
+      "source": "module-4:key:read.3",
+      "kind": "choice",
+      "accepted": [
+        "F"
+      ]
+    },
+    {
+      "id": "read.4",
+      "section": "read",
+      "group": null,
+      "number": "4",
+      "expected": "F",
+      "source": "module-4:key:read.4",
+      "kind": "choice",
+      "accepted": [
+        "F"
+      ]
+    },
+    {
+      "id": "write",
+      "section": "write",
+      "group": null,
+      "number": "",
+      "expected": "Open writing task: teacher review required.",
+      "accepted": [],
+      "kind": "review",
+      "source": "module-4:paper:write"
+    }
+  ],
+  "keyText": "Answer booklet page 3\nTEST 4\nVOCABULARY\nA.\nrooms:  kitchen, WC\nfurniture: chair, bookcase\nplaces: restaurant, hospital\nB.\n1. bedside\n2. lights\n3. fridge\n4. ground\n5. straight\nCOMMUNICATION\n1. a\n2. d\n3. e\n4. b\n5. c\nGRAMMAR\nA.\n1. Are there, there aren’t, \n    There’s\n2. Is there, there is\n3. There are\nB.\n1. next to\n2. me\n3. in\n4. them\n5. opposite\n6. They\n7. him\n8. between\nC.\n1. The, a\n2. an\n3. the\n4. a, the\nLISTEN\n1. a\n2. b\n3. b\nREAD\n1. T\n2. F\n3. F\n4. F\nLISTENING TRANSCRIPTS\n1.\nEric \nHarry, where’s the remote control?\nHarry \nI think it’s on the sofa.\nEric \nNo, that’s your mobile.\nHarry \nOh. Then, maybe it’s next to the TV.\nEric \nNo, it isn’t here. Oh, there it is. It’s on the armchair.\n2.\nMan \nThere’s something wrong with the microwave.\nWoman I know. We need a new one.\nMan \nLet’s go shopping then.\nWoman OK, but I think we need a dishwasher. I do the washing-up every day and I hate it.\n3.\nMan \nExcuse me, Miss.Where’s the National Bank?\nWoman   Uhmm... Go down this road and turn left at the police station.\nMan  \nOK, thanks.\nWoman   Wait! That’s not all. \nMan  \nOh.\nWoman   Then, go straight on. It’s on your right between the hospital and the cathedral.\nMan         Thank you. \n \n \n \n Copyright © MM Publications\n",
+  "paperText": "Original test booklet PDF page 14\n13\n Copyright © MM Publications\nTest 4  Module 4\nA. Put the words in the correct category. \nchair                 kitchen               restaurant                WC               bookcase                    hospital\nA. Complete with the correct form of there is/are.\nrooms\nfurniture\nplaces\n                                                \n                                                \n                                                     \n                                                              \n                                                  \n                                                      \n6\nSCORE\nB. Circle the correct words.\n1. Your mobile phone is on the bedside / bed table.\n2. Turn right at the traffic lamps / lights.\n3. The food is in the fridge / shower.\n4. Monica lives on the ground / primary floor.\n5. Go straight / down on and turn left at the school.\n5\nSCORE\nMatch the questions with the answers.\n5\nSCORE\n1. A:                                   two museums in your neighbourhood?\n    B: No,                                  .                                   only one museum. \n2. A:                                   a bathroom upstairs, too?\n    B: Yes,                                  . \n3. A:                                   two presents for you on the table. \n     B: Thanks! \n6\nSCORE\nVOCABULARY \nGRAMMAR \nCOMMUNICATION \n1. Need any help?\n2. What’s your address?\n3. Where’s my camera?\n4. Where’s the police station?\n5. Is there a big garden?\na. Yes, please. Where’s the bathroom?\nb. It’s next to St. Peter’s Cathedral.\nc. Yes, it’s fantastic.\nd. It’s 26 Bradford Road.\ne. On the sofa.\nTraveller\n13\n\n\nOriginal test booklet PDF page 15\n14\n Copyright © MM Publications\nB. Circle the correct words.\n1. The hospital is next to / between the cathedral.\n2. Be quiet please, children. Listen to me / I.\n3. The dog food is in / in front the cupboard.\n4. Your parents have a lot of housework. Help her / them.\n5. There’s a police station under / opposite my house.\n6. Mr and Mrs Albert live near our house. They / Them have got three sons.\n7. I know him / he. He lives on the fourth floor.\n8. The restaurant is in / between the gym and the school.\nC. Complete with a, an or the.\n1.                                  balcony has got                                  fantastic view.\n2. Is there                                  Italian restaurant in your neighbourhood?\n3. Mandy always takes her dog for a walk in                                  park next to her house.\n4. I’ve got                                  new TV. It’s in                                  living room.\n6\nSCORE\n8\nSCORE\nListen to three dialogues and choose a or b.\n6\nSCORE\nLISTEN\n1. What’s on the armchair?\n    a. the remote control  \nb. a mobile \n2. What haven’t they got?\n    a. a microwave \n \nb. a  dishwasher  \n3. Where’s the bank?\n    a. next to the police station \nb. next to the hospital\nTraveller\n14\n\n\nOriginal test booklet PDF page 16\n15\n Copyright © MM Publications\n1. Emma likes her new flat. \n2. There is a trendy rug next to Emma’s bed. \n3. Emma’s got a bookcase in her bedroom.\n4. There is a small park opposite Emma’s flat.\nRead the e-mail and write T for True or F for False.\nREAD\n8\nSCORE\n                                                                                                                                                                                         \n                                                                                                                                                                                         \n                                                                                                                                                                                         \n                                                                                                                                                                                         \n                                                                                                                                                                                         \n                                                                                                                                                                                         \n                                                                                                                                                                                                                      \n                                                                                                                                                                                                                      \nWrite a paragraph describing your living room or your bedroom.\nWRITE\n10\nSCORE\n60\nTOTAL SCORE\nDear Anna,\nHello! I’m at my new flat near my university. It’s fantastic! It’s big and the furniture is very modern. \nThere is a big living room and a small kitchen. In my bedroom, there is a bed, a desk, a chair \nand a bedside table with a lamp on it. There is also a very trendy red and orange rug on the floor \nin front of my bed. In the living room, there’s a sofa, a TV and a bookcase next to the window. \nThe neighbourhood is nice, too. Opposite my flat, there is a large park. Well, I’ve got lots of work \nto do now, so take care!\nLove,\nEmma\nannawilson82@gmail.com\nemmafielding773@yahoo.co.uk\nTraveller\n15\n"
+}

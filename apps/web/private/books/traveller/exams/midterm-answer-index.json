@@ -1,0 +1,666 @@
+{
+  "examId": "midterm",
+  "sourceHash": "52872dbe9d76e310a7806ae61d12e1f0fa1195680452381b1ff2a20f67bf9a72",
+  "fields": [
+    {
+      "id": "vocabulary.a.1",
+      "section": "vocabulary",
+      "group": "a",
+      "number": "1",
+      "expected": "Turkey",
+      "source": "midterm:key:vocabulary.a.1",
+      "kind": "short",
+      "accepted": [
+        "Turkey"
+      ]
+    },
+    {
+      "id": "vocabulary.a.2",
+      "section": "vocabulary",
+      "group": "a",
+      "number": "2",
+      "expected": "camera",
+      "source": "midterm:key:vocabulary.a.2",
+      "kind": "short",
+      "accepted": [
+        "camera"
+      ]
+    },
+    {
+      "id": "vocabulary.a.3",
+      "section": "vocabulary",
+      "group": "a",
+      "number": "3",
+      "expected": "passport",
+      "source": "midterm:key:vocabulary.a.3",
+      "kind": "short",
+      "accepted": [
+        "passport"
+      ]
+    },
+    {
+      "id": "vocabulary.a.4",
+      "section": "vocabulary",
+      "group": "a",
+      "number": "4",
+      "expected": "cupboard",
+      "source": "midterm:key:vocabulary.a.4",
+      "kind": "short",
+      "accepted": [
+        "cupboard"
+      ]
+    },
+    {
+      "id": "vocabulary.a.5",
+      "section": "vocabulary",
+      "group": "a",
+      "number": "5",
+      "expected": "colleague",
+      "source": "midterm:key:vocabulary.a.5",
+      "kind": "short",
+      "accepted": [
+        "colleague"
+      ]
+    },
+    {
+      "id": "vocabulary.a.6",
+      "section": "vocabulary",
+      "group": "a",
+      "number": "6",
+      "expected": "desk",
+      "source": "midterm:key:vocabulary.a.6",
+      "kind": "short",
+      "accepted": [
+        "desk"
+      ]
+    },
+    {
+      "id": "vocabulary.b.1",
+      "section": "vocabulary",
+      "group": "b",
+      "number": "1",
+      "expected": "c",
+      "source": "midterm:key:vocabulary.b.1",
+      "kind": "choice",
+      "accepted": [
+        "c"
+      ]
+    },
+    {
+      "id": "vocabulary.b.2",
+      "section": "vocabulary",
+      "group": "b",
+      "number": "2",
+      "expected": "a",
+      "source": "midterm:key:vocabulary.b.2",
+      "kind": "choice",
+      "accepted": [
+        "a"
+      ]
+    },
+    {
+      "id": "vocabulary.b.3",
+      "section": "vocabulary",
+      "group": "b",
+      "number": "3",
+      "expected": "e",
+      "source": "midterm:key:vocabulary.b.3",
+      "kind": "choice",
+      "accepted": [
+        "e"
+      ]
+    },
+    {
+      "id": "vocabulary.b.4",
+      "section": "vocabulary",
+      "group": "b",
+      "number": "4",
+      "expected": "f",
+      "source": "midterm:key:vocabulary.b.4",
+      "kind": "choice",
+      "accepted": [
+        "f"
+      ]
+    },
+    {
+      "id": "vocabulary.b.5",
+      "section": "vocabulary",
+      "group": "b",
+      "number": "5",
+      "expected": "d",
+      "source": "midterm:key:vocabulary.b.5",
+      "kind": "choice",
+      "accepted": [
+        "d"
+      ]
+    },
+    {
+      "id": "vocabulary.b.6",
+      "section": "vocabulary",
+      "group": "b",
+      "number": "6",
+      "expected": "b",
+      "source": "midterm:key:vocabulary.b.6",
+      "kind": "choice",
+      "accepted": [
+        "b"
+      ]
+    },
+    {
+      "id": "vocabulary.c.1",
+      "section": "vocabulary",
+      "group": "c",
+      "number": "1",
+      "expected": "view",
+      "source": "midterm:key:vocabulary.c.1",
+      "kind": "short",
+      "accepted": [
+        "view"
+      ]
+    },
+    {
+      "id": "vocabulary.c.2",
+      "section": "vocabulary",
+      "group": "c",
+      "number": "2",
+      "expected": "motorbike",
+      "source": "midterm:key:vocabulary.c.2",
+      "kind": "short",
+      "accepted": [
+        "motorbike"
+      ]
+    },
+    {
+      "id": "vocabulary.c.3",
+      "section": "vocabulary",
+      "group": "c",
+      "number": "3",
+      "expected": "shower",
+      "source": "midterm:key:vocabulary.c.3",
+      "kind": "short",
+      "accepted": [
+        "shower"
+      ]
+    },
+    {
+      "id": "vocabulary.c.4",
+      "section": "vocabulary",
+      "group": "c",
+      "number": "4",
+      "expected": "rubbish",
+      "source": "midterm:key:vocabulary.c.4",
+      "kind": "short",
+      "accepted": [
+        "rubbish"
+      ]
+    },
+    {
+      "id": "vocabulary.c.5",
+      "section": "vocabulary",
+      "group": "c",
+      "number": "5",
+      "expected": "garden",
+      "source": "midterm:key:vocabulary.c.5",
+      "kind": "short",
+      "accepted": [
+        "garden"
+      ]
+    },
+    {
+      "id": "vocabulary.c.6",
+      "section": "vocabulary",
+      "group": "c",
+      "number": "6",
+      "expected": "centre",
+      "source": "midterm:key:vocabulary.c.6",
+      "kind": "short",
+      "accepted": [
+        "centre"
+      ]
+    },
+    {
+      "id": "communication.1",
+      "section": "communication",
+      "group": null,
+      "number": "1",
+      "expected": "b",
+      "source": "midterm:key:communication.1",
+      "kind": "choice",
+      "accepted": [
+        "b"
+      ]
+    },
+    {
+      "id": "communication.2",
+      "section": "communication",
+      "group": null,
+      "number": "2",
+      "expected": "a",
+      "source": "midterm:key:communication.2",
+      "kind": "choice",
+      "accepted": [
+        "a"
+      ]
+    },
+    {
+      "id": "communication.3",
+      "section": "communication",
+      "group": null,
+      "number": "3",
+      "expected": "b",
+      "source": "midterm:key:communication.3",
+      "kind": "choice",
+      "accepted": [
+        "b"
+      ]
+    },
+    {
+      "id": "communication.4",
+      "section": "communication",
+      "group": null,
+      "number": "4",
+      "expected": "b",
+      "source": "midterm:key:communication.4",
+      "kind": "choice",
+      "accepted": [
+        "b"
+      ]
+    },
+    {
+      "id": "communication.5",
+      "section": "communication",
+      "group": null,
+      "number": "5",
+      "expected": "b",
+      "source": "midterm:key:communication.5",
+      "kind": "choice",
+      "accepted": [
+        "b"
+      ]
+    },
+    {
+      "id": "communication.6",
+      "section": "communication",
+      "group": null,
+      "number": "6",
+      "expected": "a",
+      "source": "midterm:key:communication.6",
+      "kind": "choice",
+      "accepted": [
+        "a"
+      ]
+    },
+    {
+      "id": "grammar.a.1",
+      "section": "grammar",
+      "group": "a",
+      "number": "1",
+      "expected": "How",
+      "source": "midterm:key:grammar.a.1",
+      "kind": "short",
+      "accepted": [
+        "How"
+      ]
+    },
+    {
+      "id": "grammar.a.2",
+      "section": "grammar",
+      "group": "a",
+      "number": "2",
+      "expected": "Where",
+      "source": "midterm:key:grammar.a.2",
+      "kind": "short",
+      "accepted": [
+        "Where"
+      ]
+    },
+    {
+      "id": "grammar.a.3",
+      "section": "grammar",
+      "group": "a",
+      "number": "3",
+      "expected": "Whose",
+      "source": "midterm:key:grammar.a.3",
+      "kind": "short",
+      "accepted": [
+        "Whose"
+      ]
+    },
+    {
+      "id": "grammar.a.4",
+      "section": "grammar",
+      "group": "a",
+      "number": "4",
+      "expected": "When",
+      "source": "midterm:key:grammar.a.4",
+      "kind": "short",
+      "accepted": [
+        "When"
+      ]
+    },
+    {
+      "id": "grammar.a.5",
+      "section": "grammar",
+      "group": "a",
+      "number": "5",
+      "expected": "Who",
+      "source": "midterm:key:grammar.a.5",
+      "kind": "short",
+      "accepted": [
+        "Who"
+      ]
+    },
+    {
+      "id": "grammar.a.6",
+      "section": "grammar",
+      "group": "a",
+      "number": "6",
+      "expected": "What",
+      "source": "midterm:key:grammar.a.6",
+      "kind": "short",
+      "accepted": [
+        "What"
+      ]
+    },
+    {
+      "id": "grammar.b.1",
+      "section": "grammar",
+      "group": "b",
+      "number": "1",
+      "expected": "Has ... got, has got, hasn’t got",
+      "source": "midterm:key:grammar.b.1",
+      "kind": "review",
+      "accepted": [
+        "Has ... got, has got, hasn’t got"
+      ]
+    },
+    {
+      "id": "grammar.b.2",
+      "section": "grammar",
+      "group": "b",
+      "number": "2",
+      "expected": "Have ... got, have got, haven’t got",
+      "source": "midterm:key:grammar.b.2",
+      "kind": "review",
+      "accepted": [
+        "Have ... got, have got, haven’t got"
+      ]
+    },
+    {
+      "id": "grammar.c.1",
+      "section": "grammar",
+      "group": "c",
+      "number": "1",
+      "expected": "Do ... play, plays, sometimes goes",
+      "source": "midterm:key:grammar.c.1",
+      "kind": "review",
+      "accepted": [
+        "Do ... play, plays, sometimes goes"
+      ]
+    },
+    {
+      "id": "grammar.c.2",
+      "section": "grammar",
+      "group": "c",
+      "number": "2",
+      "expected": "doesn’t iron, always does",
+      "source": "midterm:key:grammar.c.2",
+      "kind": "short",
+      "accepted": [
+        "doesn’t iron, always does"
+      ]
+    },
+    {
+      "id": "grammar.c.3",
+      "section": "grammar",
+      "group": "c",
+      "number": "3",
+      "expected": "Does ... use, usually takes",
+      "source": "midterm:key:grammar.c.3",
+      "kind": "review",
+      "accepted": [
+        "Does ... use, usually takes"
+      ]
+    },
+    {
+      "id": "grammar.c.4",
+      "section": "grammar",
+      "group": "c",
+      "number": "4",
+      "expected": "don’t watch",
+      "source": "midterm:key:grammar.c.4",
+      "kind": "short",
+      "accepted": [
+        "don’t watch"
+      ]
+    },
+    {
+      "id": "grammar.c.5",
+      "section": "grammar",
+      "group": "c",
+      "number": "5",
+      "expected": "Do ... listen",
+      "source": "midterm:key:grammar.c.5",
+      "kind": "review",
+      "accepted": [
+        "Do ... listen"
+      ]
+    },
+    {
+      "id": "grammar.c.6",
+      "section": "grammar",
+      "group": "c",
+      "number": "6",
+      "expected": "get",
+      "source": "midterm:key:grammar.c.6",
+      "kind": "short",
+      "accepted": [
+        "get"
+      ]
+    },
+    {
+      "id": "grammar.d.1",
+      "section": "grammar",
+      "group": "d",
+      "number": "1",
+      "expected": "b",
+      "source": "midterm:key:grammar.d.1",
+      "kind": "choice",
+      "accepted": [
+        "b"
+      ]
+    },
+    {
+      "id": "grammar.d.2",
+      "section": "grammar",
+      "group": "d",
+      "number": "2",
+      "expected": "b",
+      "source": "midterm:key:grammar.d.2",
+      "kind": "choice",
+      "accepted": [
+        "b"
+      ]
+    },
+    {
+      "id": "grammar.d.3",
+      "section": "grammar",
+      "group": "d",
+      "number": "3",
+      "expected": "a",
+      "source": "midterm:key:grammar.d.3",
+      "kind": "choice",
+      "accepted": [
+        "a"
+      ]
+    },
+    {
+      "id": "grammar.d.4",
+      "section": "grammar",
+      "group": "d",
+      "number": "4",
+      "expected": "c",
+      "source": "midterm:key:grammar.d.4",
+      "kind": "choice",
+      "accepted": [
+        "c"
+      ]
+    },
+    {
+      "id": "grammar.d.5",
+      "section": "grammar",
+      "group": "d",
+      "number": "5",
+      "expected": "a",
+      "source": "midterm:key:grammar.d.5",
+      "kind": "choice",
+      "accepted": [
+        "a"
+      ]
+    },
+    {
+      "id": "grammar.d.6",
+      "section": "grammar",
+      "group": "d",
+      "number": "6",
+      "expected": "b",
+      "source": "midterm:key:grammar.d.6",
+      "kind": "choice",
+      "accepted": [
+        "b"
+      ]
+    },
+    {
+      "id": "grammar.d.7",
+      "section": "grammar",
+      "group": "d",
+      "number": "7",
+      "expected": "c",
+      "source": "midterm:key:grammar.d.7",
+      "kind": "choice",
+      "accepted": [
+        "c"
+      ]
+    },
+    {
+      "id": "grammar.d.8",
+      "section": "grammar",
+      "group": "d",
+      "number": "8",
+      "expected": "a",
+      "source": "midterm:key:grammar.d.8",
+      "kind": "choice",
+      "accepted": [
+        "a"
+      ]
+    },
+    {
+      "id": "listen.1",
+      "section": "listen",
+      "group": null,
+      "number": "1",
+      "expected": "a",
+      "source": "midterm:key:listen.1",
+      "kind": "choice",
+      "accepted": [
+        "a"
+      ]
+    },
+    {
+      "id": "listen.2",
+      "section": "listen",
+      "group": null,
+      "number": "2",
+      "expected": "a",
+      "source": "midterm:key:listen.2",
+      "kind": "choice",
+      "accepted": [
+        "a"
+      ]
+    },
+    {
+      "id": "listen.3",
+      "section": "listen",
+      "group": null,
+      "number": "3",
+      "expected": "b",
+      "source": "midterm:key:listen.3",
+      "kind": "choice",
+      "accepted": [
+        "b"
+      ]
+    },
+    {
+      "id": "read.1",
+      "section": "read",
+      "group": null,
+      "number": "1",
+      "expected": "F",
+      "source": "midterm:key:read.1",
+      "kind": "choice",
+      "accepted": [
+        "F"
+      ]
+    },
+    {
+      "id": "read.2",
+      "section": "read",
+      "group": null,
+      "number": "2",
+      "expected": "F",
+      "source": "midterm:key:read.2",
+      "kind": "choice",
+      "accepted": [
+        "F"
+      ]
+    },
+    {
+      "id": "read.3",
+      "section": "read",
+      "group": null,
+      "number": "3",
+      "expected": "T",
+      "source": "midterm:key:read.3",
+      "kind": "choice",
+      "accepted": [
+        "T"
+      ]
+    },
+    {
+      "id": "read.4",
+      "section": "read",
+      "group": null,
+      "number": "4",
+      "expected": "F",
+      "source": "midterm:key:read.4",
+      "kind": "choice",
+      "accepted": [
+        "F"
+      ]
+    },
+    {
+      "id": "read.5",
+      "section": "read",
+      "group": null,
+      "number": "5",
+      "expected": "T",
+      "source": "midterm:key:read.5",
+      "kind": "choice",
+      "accepted": [
+        "T"
+      ]
+    },
+    {
+      "id": "write",
+      "section": "write",
+      "group": null,
+      "number": "",
+      "expected": "Open writing task: teacher review required.",
+      "accepted": [],
+      "kind": "review",
+      "source": "midterm:paper:write"
+    }
+  ],
+  "keyText": "Answer booklet page 4\nMID-TERM TEST 1-4\nVOCABULARY\nA.\n1. Turkey\n2. camera\n3. passport\n4. cupboard\n5. colleague\n6. desk\nB.\n1. c\n2. a\n3. e\n4. f\n5. d\n6. b\nC.\n1. view\n2. motorbike\n3. shower\n4. rubbish\n5. garden\n6. centre\nCOMMUNICATION\n1. b\n2. a\n3. b\n4. b\n5. b\n6. a\nGRAMMAR\nA.\n1. How\n2. Where\n3. Whose\n4. When\n5. Who\n6. What\nB.\n1. Has ... got, has got, \n    hasn’t got\n2. Have ... got, have got, \n    haven’t got\nC.\n1. Do ... play, plays, \n    sometimes goes\n2. doesn’t iron, always does\n3. Does ... use, usually takes\n4. don’t watch\n5. Do ... listen\n6. get\nD.\n1. b\n2. b\n3. a\n4. c\n5. a\n6. b\n7. c\n8. a\nLISTEN\n1. a\n2. a\n3. b\nREAD\n1. F\n2. F\n3. T\n4. F\n5. T\nLISTENING TRANSCRIPTS\n1. \nTony \nHey, let’s watch Pop Idol. It’s on now. Change the channel.\nRuth \nNo way. The basketball game starts in five minutes.\nTony \nWhat? At 7.30? Please don’t tell me that you want to watch it!\nRuth \nOf course I do.\nTony \nPlease! Pop Idol finishes at 8.00.\nRuth \nNo!\n2. \nNadia \nIs that Charlie’s sister?\nWendy No, Charlie’s sister hasn’t got fair hair. She’s got medium-length brown hair and she’s slim.\nNadia \nThen, who’s that chubby girl next to Charlie?\nWendy I don’t know. Ask him.\n3. \nMark \nWhat’s your new flat like?\nDebbie It’s great. It’s got a large bedroom with a big window and a fantastic view.\nMark \nWhat about the living room?\nDebbie It isn’t very big but there’s a nice balcony. The kitchen is small too but I don’t mind.\n",
+  "paperText": "Original test booklet PDF page 17\n16\n Copyright © MM Publications\nMid-term Test  Modules 1-4\nA. Cross out the odd word.\n1. VOCABULARY \n1. French               Turkey               Chinese              Brazilian \n2. camera              shoes                  suit                     trousers\n3. theatre               museum            passport              bank\n4. cooker               cupboard           fridge                 microwave\n5. architect            doctor               chef                    colleague\n6. sink                   shower               desk                    toilet\nB. Match.\n6\nSCORE\n1. mobile\n2. police\n3. remote\n4. soap\n5. living\n6. ground\n6\nSCORE\nC. Complete with the words in the box.\n6\nSCORE\na. officer\nb. floor\nc. phone\nd. room \ne. control\nf. opera\nshower                    view                  rubbish                    garden                    centre                   motorbike  \n1. The                                        from my bedroom is fantastic.\n2. Victor rides a                                        to work.  \n3. Jennifer has a                                        every morning.\n4. Please, take out the                                       .\n5. There’s a lovely                                        behind the house.\n6. Frank lives in the city                                       .\nTraveller\n16\n\n\nOriginal test booklet PDF page 18\n17\n Copyright © MM Publications\nChoose a or b.\nCOMMUNICATION\n1. A: How’s it going?\n    B:                         \n        a. I take the bus.\n        b. Not bad.\n2. A: Have you got any brothers or sisters?\n    B:                         \n        a. No, I’m an only child.\n        b. No, I’m not.\n3. A: How do you get to work?\n    B:                         \n        a. I give my sister a lift.\n        b. I use the underground.\n4. A: What’s your address?\n    B:                         \n        a. On Wilkinson Road. \n        b. 17 Terryville Road.\n5. A: What time do you start work?\n    B:                         \n        a. On Mondays, Wednesdays and Fridays.\n        b. At 8 o’clock.\n6. A: What do you do?\n    B:                         \n        a. I’m a musician.\n       b. I’m fine thanks.\n6\nSCORE\nA. Complete with Whose, Who, What, When, How or Where.\nGRAMMAR\n1. A:                             old is David?\n    B: He’s seventeen years old.\n2. A:                             is the bank?\n    B: It’s opposite the police station.\n3. A:                             is this jacket?\n    B: I think it’s Debbie’s.\n4. A:                             do you go to the gym?\n    B: On Mondays and Wednesdays.\n5. A:                             is that girl over there?\n    B: Oh, that’s Linda.\n6. A:                             do you usually do in the evening?\n    B: I hang out with my family.\n6\nSCORE\n    \nTraveller\n17\n\n\nOriginal test booklet PDF page 19\n18\n Copyright © MM Publications\nB. Complete with the correct form of the verb have got.\n1. A:                                   Karen                                   long fair hair?\n    B: She                                   long hair but she                                   fair hair. Her hair is brown.\n2. A:                                   they                                   any children?\n    B: Yes, they have. They                                   two sons.\n    A: What about a daughter? \n    B: No, they                                   a daughter.\n6\nSCORE\nC. Complete with the Present Simple of the verbs in brackets.\n1. A:                                     the boys                                     (play) basketball on Tuesday afternoons?\n    B: No. Jeffrey                                     (play) tennis and Paul                                    (sometimes / go) jogging then.\n2. Kathy                                     (not iron) but she                                     (always / do) the washing.\n3. A:                                     Samantha                                     (use) the underground every day?\n    B: No, she                                     (usually / take) the bus.\n4. My wife and I                                     (not watch) reality shows. \n5. A:                                     you                                     (listen) to the radio in your car?\n    B: Yes, I do.\n6. I                                     (get) home late on Fridays.\nD. Choose a, b or c.\n1. What do you do                        the weekend?\n     a. for               b. at               c. in \n2. Susan is                        famous actress.\n     a. the             b. a                c. an\n3. Mandy’s got a brother.                        name is Carl.\n     a. His             b. Him          c. He’s\n4. Ray’s got a cat.                        black and white. \n     a. It                b. Its              c. It’s\n10\nSCORE\n8\nSCORE\n5. There are two lamps in my bedroom.                       \n     red lamp is on my desk.\n    a. The               b. A               c. This \n6. The rug is                        of my bed.\n     a. next               b. in front      c. under\n7. I never watch chat shows. I hate                       .\n    a. it                    b. their           c. them\n8. This isn’t my jacket.                        is my jacket over there.\n    a. That              b. This           c. These\nTraveller\n18\n\n\nOriginal test booklet PDF page 20\n19\n Copyright © MM Publications\n  \nLISTEN\nListen to three dialogues and choose picture a or b.\nRead and write T for True or F for False.\nMy name is Darcy Smith and I am 20 years old. I \nlive with my flatmate Sally and our dog, Rex. Sally \nand I are good friends but I have a problem with \nher. Sally thinks she does all the housework but \nshe’s wrong! I do the washing-up every night after \ndinner. I hoover the living room and do the washing \nevery Wednesday. I also take the dog for a walk \nevery day. Sally never does that! On Saturdays Sally \nand I usually tidy the house. Sally sometimes irons \nher clothes but she never irons my clothes!\nREAD \n10\nSCORE\n80\nTOTAL SCORE\n6\nSCORE\n1. The basketball game starts at:      \n    \na.      \n \n        \nb.\nWrite a paragraph about yourself. Answer the questions below:\nWRITE\n3. Debbie’s flat:\n    \n \na.      \n \n        \n          \n       b.\n                                                                                                                                                                                         \n                                                                                                                                                                                         \n                                                                                                                                                                                         \n                                                                                                                                                                                         \n                                                                                                                                                                                         \n                                                                                                                                                                                         \n10\nSCORE\n1. Darcy and Sally have a cat named Rex.   \n2. Sally thinks Darcy does all the housework.  \n3. Darcy walks Rex every day.  \n4. Darcy hoovers the living room every night.\n5. Darcy and Sally tidy the house at the weekends. \n2. Charlie’s sister:\n    \na.      \n \n      \n  b.\nWhat’s your name?\nWhere are you from?\nHow old are you?\nWhat do you do? \nWhat do you look like?\nWhat do you do in your free time?\nTraveller\n19\n"
+}

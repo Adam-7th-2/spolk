@@ -14,16 +14,14 @@ __pycache__/
 *.py[cod]
 apps/web/next-env.d.ts
 
-# Runtime/private assets belong in persistent server storage, never Git.
-apps/web/private/
-
-# Original textbook files and page renderings are private local assets.
-apps/web/private/books/
+# Course materials are tracked only in this private repository.
+# Runtime student work and credentials remain outside version control.
+apps/web/private/*
+!apps/web/private/books/
+!apps/web/private/library/
 
 .next-verify/
 .next-local/
-
-apps/web/private/library/
 
 apps/web/private/answer-uploads/
 apps/web/private/homework-uploads/

@@ -1,0 +1,402 @@
+{
+  "examId": "module-7",
+  "sourceHash": "f6ca2127616fd8d7871933ecc69f7a0737d4fa19de4eeb691433180776b5e5c9",
+  "fields": [
+    {
+      "id": "vocabulary.a.1",
+      "section": "vocabulary",
+      "group": "a",
+      "number": "1",
+      "expected": "court",
+      "source": "module-7:key:vocabulary.a.1",
+      "kind": "short",
+      "accepted": [
+        "court"
+      ]
+    },
+    {
+      "id": "vocabulary.a.2",
+      "section": "vocabulary",
+      "group": "a",
+      "number": "2",
+      "expected": "plastic",
+      "source": "module-7:key:vocabulary.a.2",
+      "kind": "short",
+      "accepted": [
+        "plastic"
+      ]
+    },
+    {
+      "id": "vocabulary.a.3",
+      "section": "vocabulary",
+      "group": "a",
+      "number": "3",
+      "expected": "ball",
+      "source": "module-7:key:vocabulary.a.3",
+      "kind": "short",
+      "accepted": [
+        "ball"
+      ]
+    },
+    {
+      "id": "vocabulary.a.4",
+      "section": "vocabulary",
+      "group": "a",
+      "number": "4",
+      "expected": "Degree",
+      "source": "module-7:key:vocabulary.a.4",
+      "kind": "short",
+      "accepted": [
+        "Degree"
+      ]
+    },
+    {
+      "id": "vocabulary.b.1",
+      "section": "vocabulary",
+      "group": "b",
+      "number": "1",
+      "expected": "crowded",
+      "source": "module-7:key:vocabulary.b.1",
+      "kind": "short",
+      "accepted": [
+        "crowded"
+      ]
+    },
+    {
+      "id": "vocabulary.b.2",
+      "section": "vocabulary",
+      "group": "b",
+      "number": "2",
+      "expected": "stadium",
+      "source": "module-7:key:vocabulary.b.2",
+      "kind": "short",
+      "accepted": [
+        "stadium"
+      ]
+    },
+    {
+      "id": "vocabulary.b.3",
+      "section": "vocabulary",
+      "group": "b",
+      "number": "3",
+      "expected": "have fun",
+      "source": "module-7:key:vocabulary.b.3",
+      "kind": "short",
+      "accepted": [
+        "have fun"
+      ]
+    },
+    {
+      "id": "vocabulary.b.4",
+      "section": "vocabulary",
+      "group": "b",
+      "number": "4",
+      "expected": "trouble",
+      "source": "module-7:key:vocabulary.b.4",
+      "kind": "short",
+      "accepted": [
+        "trouble"
+      ]
+    },
+    {
+      "id": "vocabulary.b.5",
+      "section": "vocabulary",
+      "group": "b",
+      "number": "5",
+      "expected": "married",
+      "source": "module-7:key:vocabulary.b.5",
+      "kind": "short",
+      "accepted": [
+        "married"
+      ]
+    },
+    {
+      "id": "vocabulary.b.6",
+      "section": "vocabulary",
+      "group": "b",
+      "number": "6",
+      "expected": "tired",
+      "source": "module-7:key:vocabulary.b.6",
+      "kind": "short",
+      "accepted": [
+        "tired"
+      ]
+    },
+    {
+      "id": "communication.1",
+      "section": "communication",
+      "group": null,
+      "number": "1",
+      "expected": "d",
+      "source": "module-7:key:communication.1",
+      "kind": "choice",
+      "accepted": [
+        "d"
+      ]
+    },
+    {
+      "id": "communication.2",
+      "section": "communication",
+      "group": null,
+      "number": "2",
+      "expected": "a",
+      "source": "module-7:key:communication.2",
+      "kind": "choice",
+      "accepted": [
+        "a"
+      ]
+    },
+    {
+      "id": "communication.3",
+      "section": "communication",
+      "group": null,
+      "number": "3",
+      "expected": "c",
+      "source": "module-7:key:communication.3",
+      "kind": "choice",
+      "accepted": [
+        "c"
+      ]
+    },
+    {
+      "id": "communication.4",
+      "section": "communication",
+      "group": null,
+      "number": "4",
+      "expected": "b",
+      "source": "module-7:key:communication.4",
+      "kind": "choice",
+      "accepted": [
+        "b"
+      ]
+    },
+    {
+      "id": "grammar.a.1",
+      "section": "grammar",
+      "group": "a",
+      "number": "1",
+      "expected": "Did ... buy, bought",
+      "source": "module-7:key:grammar.a.1",
+      "kind": "review",
+      "accepted": [
+        "Did ... buy, bought"
+      ]
+    },
+    {
+      "id": "grammar.a.2",
+      "section": "grammar",
+      "group": "a",
+      "number": "2",
+      "expected": "won",
+      "source": "module-7:key:grammar.a.2",
+      "kind": "short",
+      "accepted": [
+        "won"
+      ]
+    },
+    {
+      "id": "grammar.a.3",
+      "section": "grammar",
+      "group": "a",
+      "number": "3",
+      "expected": "visited, didn’t play, watched",
+      "source": "module-7:key:grammar.a.3",
+      "kind": "short",
+      "accepted": [
+        "visited, didn’t play, watched"
+      ]
+    },
+    {
+      "id": "grammar.a.4",
+      "section": "grammar",
+      "group": "a",
+      "number": "4",
+      "expected": "did ... go, didn’t come",
+      "source": "module-7:key:grammar.a.4",
+      "kind": "review",
+      "accepted": [
+        "did ... go, didn’t come"
+      ]
+    },
+    {
+      "id": "grammar.b.1",
+      "section": "grammar",
+      "group": "b",
+      "number": "1",
+      "expected": "wasn’t",
+      "source": "module-7:key:grammar.b.1",
+      "kind": "short",
+      "accepted": [
+        "wasn’t"
+      ]
+    },
+    {
+      "id": "grammar.b.2",
+      "section": "grammar",
+      "group": "b",
+      "number": "2",
+      "expected": "were",
+      "source": "module-7:key:grammar.b.2",
+      "kind": "short",
+      "accepted": [
+        "were"
+      ]
+    },
+    {
+      "id": "grammar.b.3",
+      "section": "grammar",
+      "group": "b",
+      "number": "3",
+      "expected": "Were, weren’t",
+      "source": "module-7:key:grammar.b.3",
+      "kind": "short",
+      "accepted": [
+        "Were, weren’t"
+      ]
+    },
+    {
+      "id": "grammar.b.4",
+      "section": "grammar",
+      "group": "b",
+      "number": "4",
+      "expected": "Was",
+      "source": "module-7:key:grammar.b.4",
+      "kind": "short",
+      "accepted": [
+        "Was"
+      ]
+    },
+    {
+      "id": "grammar.c.1",
+      "section": "grammar",
+      "group": "c",
+      "number": "1",
+      "expected": "do, played",
+      "source": "module-7:key:grammar.c.1",
+      "kind": "short",
+      "accepted": [
+        "do, played"
+      ]
+    },
+    {
+      "id": "grammar.c.2",
+      "section": "grammar",
+      "group": "c",
+      "number": "2",
+      "expected": "went",
+      "source": "module-7:key:grammar.c.2",
+      "kind": "short",
+      "accepted": [
+        "went"
+      ]
+    },
+    {
+      "id": "grammar.c.3",
+      "section": "grammar",
+      "group": "c",
+      "number": "3",
+      "expected": "walk, took",
+      "source": "module-7:key:grammar.c.3",
+      "kind": "short",
+      "accepted": [
+        "walk, took"
+      ]
+    },
+    {
+      "id": "listen.1",
+      "section": "listen",
+      "group": null,
+      "number": "1",
+      "expected": "b",
+      "source": "module-7:key:listen.1",
+      "kind": "choice",
+      "accepted": [
+        "b"
+      ]
+    },
+    {
+      "id": "listen.2",
+      "section": "listen",
+      "group": null,
+      "number": "2",
+      "expected": "a",
+      "source": "module-7:key:listen.2",
+      "kind": "choice",
+      "accepted": [
+        "a"
+      ]
+    },
+    {
+      "id": "listen.3",
+      "section": "listen",
+      "group": null,
+      "number": "3",
+      "expected": "c",
+      "source": "module-7:key:listen.3",
+      "kind": "choice",
+      "accepted": [
+        "c"
+      ]
+    },
+    {
+      "id": "read.1",
+      "section": "read",
+      "group": null,
+      "number": "1",
+      "expected": "F",
+      "source": "module-7:key:read.1",
+      "kind": "choice",
+      "accepted": [
+        "F"
+      ]
+    },
+    {
+      "id": "read.2",
+      "section": "read",
+      "group": null,
+      "number": "2",
+      "expected": "F",
+      "source": "module-7:key:read.2",
+      "kind": "choice",
+      "accepted": [
+        "F"
+      ]
+    },
+    {
+      "id": "read.3",
+      "section": "read",
+      "group": null,
+      "number": "3",
+      "expected": "T",
+      "source": "module-7:key:read.3",
+      "kind": "choice",
+      "accepted": [
+        "T"
+      ]
+    },
+    {
+      "id": "read.4",
+      "section": "read",
+      "group": null,
+      "number": "4",
+      "expected": "F",
+      "source": "module-7:key:read.4",
+      "kind": "choice",
+      "accepted": [
+        "F"
+      ]
+    },
+    {
+      "id": "write",
+      "section": "write",
+      "group": null,
+      "number": "",
+      "expected": "Open writing task: teacher review required.",
+      "accepted": [],
+      "kind": "review",
+      "source": "module-7:paper:write"
+    }
+  ],
+  "keyText": "Answer booklet page 6\nTEST 7\nVOCABULARY\nA.\n1. court\n2. plastic\n3. ball\n4. Degree\nB. \n1. crowded\n2. stadium\n3. have fun\n4. trouble\n5. married\n6. tired\nCOMMUNICATION\n1. d\n2. a\n3. c\n4. b\nGRAMMAR\nA.\n1. Did ... buy, bought\n2. won\n3. visited, didn’t play, \n    watched\n4. did ... go, didn’t come\nB. \n1. wasn’t\n2. were\n3. Were, weren’t\n4. Was\nC.\n1. do, played\n2. went\n3. walk, took\nLISTEN\n1. b\n2. a\n3. c\nREAD\n1. F\n2. F\n3. T\n4. F\n\n\nAnswer booklet page 7\nTraveller\nLISTENING TRANSCRIPT\nMarian Hey, Elly. Did you have fun last weekend with Tony, Dave and Lisa?\nElly \nNot really.\nMarian Why not?\nElly \nWell, on Friday night Tony, Lisa and I went clubbing ... \nMarian What about Dave?\nElly \nHe didn’t come. He was really tired.\nMarian I see. So, what happened?\nElly \nAt the club Tony fell and broke his leg.\nMarian No!!!!\nElly \nYep! Lisa and I drove him to hospital, and then Lisa drove to the hotel to get Dave.\nMarian Uh-huh.\nElly \nBut, on her way to the hotel she crashed into a tree and broke her arm.\nMarian What a day!\nTraveller\n",
+  "paperText": "Original test booklet PDF page 27\n26\nTraveller\n Copyright © MM Publications\nA. Cross out the odd word.\n4\nSCORE\nB. Complete with the words in the box.\n1. There were a lot of people in the shopping centre. It was                                                .\n2. Let’s go to the                                                . There’s an interesting match tonight.\n3. Did everybody                                                at the party yesterday?\n4. Oh no! I broke the window! I’m in big                                                !\n5. Our grandparents got                                                in 1952.\n6. Ronald is                                                because he didn’t sleep well last night.\n6\nSCORE\nComplete the dialogue with the sentences.\n8\nSCORE\nTest 7 Module 7\nVOCABULARY \nCOMMUNICATION \n1. arm \nfoot \nnose \ncourt\n2. stadium \nplastic \nbookshop \nswimming pool\n3. golf \nhockey \nball \nathletics\n4. Geography \nMaths \nDegree \nPhysics\nhave fun           tired           crowded           married           trouble           stadium    \na. He had an accident last night.\nb. Because I came home to get some things for him.\nc. The lights went out, he fell and broke his arm.\nd. Why are you so upset?\nA: (1)                                   \nB: My brother is in hospital.\nA: What happened to him?\nB: (2)                                   \nA: How did it happen?\nB: (3)                                   \nA: Why aren’t you with him?\nB: (4)                                   \n26\n\n\nOriginal test booklet PDF page 28\n27\nTraveller\n Copyright © MM Publications\nA. Complete with the Past Simple of the verbs in brackets.\n1. A:                                              Sheila                                              (buy) a dress?\nB: No, she didn’t, but she                                              (buy) a skirt.\n2. The famous tennis player                                              (win) the match.\n3. Yesterday evening my friend Helen                                              (visit) me but we                                              \n(not play) video games. We                                              (watch) TV.\n4. A: Where                                              you                                              (go) yesterday?\n B: To a party, but Julie                                              (not come) with me.\nB. Complete the sentences with was/wasn’t/were/weren’t.\n1. The race                                  interesting. Everybody left.\n2. Phil and Grace                                  really tired after shopping all day.\n3. A:                                  you at the shopping centre yesterday?\nB: No, we                                  . \n4. A:                                  Mike interested in Information Technology at school?\nB: No, he didn’t like it.\nC. Circle the correct words.\n1. A: When do / did you usually play volleyball?\n B: On Tuesdays and Thursdays at 5:00, but yesterday we play / played at 6:00.\n2. Last night, they go / went to bed at 3am in the morning.\n3. Every day we walk / walked to school but two days ago we take / took the bus.\n5\nSCORE\n5\nSCORE\n8\nSCORE\nListen to the dialogue and match the people with the actions.\n6\nSCORE\nGRAMMAR \nLISTEN \n1. Dave  \na. broke his / her leg. \n2. Tony  \nb. didn’t go clubbing.\n3. Lisa \n \nc. had a car accident.\n27\n\n\nOriginal test booklet PDF page 29\n28\nTraveller\n Copyright © MM Publications\nRead the blog entry and write T for True or F for False.\n1. Jim had an accident at work.  \n2. Jim crashed his car into a tree. \n3. Jim’s sister took him to hospital.\n4. Jim broke his arm and can’t go to work.\nWrite a short paragraph about what you did last weekend.\n8\nSCORE\n10\nSCORE\n60\nTOTAL SCORE\nREAD \nWRITE\n                                                                                                                                                                                                                      \n                                                                                                                                                                                                                      \n                                                                                                                                                                                                                      \n                                                                                                                                                                                                                      \n                                                                                                                                                                                                                      \n                                                                                                                                                                                                                      \n                                                                                                                                                                                                                      \n                                                                                                                                                                                                                      \n                                                                                                                                                                                                                      \n                                                                                                                                                                                                                      \nBLOG\nHi! I’m Tyler and I’m 21. I live in Liverpool and I’m a hairdresser. I had an awful night, last \nnight. On my way home from work, I had an accident. I fell off my motorbike in the middle \nof the road. Luckily, a car didn’t hit me, but my motorbike went flying across the road and \ncrashed into a tree. I hit my arm badly and it hurt a lot. So, I called my sister, and she drove \nme to hospital. And guess what? I broke my arm and now it’s in plaster! It’s horrible! But \nthat’s not all. I can go to work but I can’t play football for two months. What a nightmare!\nposted by Jim Bevan \n13:46pm\nwww.jobblog.net\n28\n"
+}

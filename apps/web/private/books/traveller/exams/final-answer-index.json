@@ -1,0 +1,858 @@
+{
+  "examId": "final",
+  "sourceHash": "52ca35e66e960fea9eb74f00f8b23308f876f1b25d777366d234135d21b178b8",
+  "fields": [
+    {
+      "id": "vocabulary.a.jobs",
+      "section": "vocabulary",
+      "group": "a",
+      "number": "jobs",
+      "expected": "mechanic, hairdresser",
+      "source": "final:key:vocabulary.a.jobs",
+      "kind": "category",
+      "accepted": [
+        "mechanic, hairdresser"
+      ]
+    },
+    {
+      "id": "vocabulary.a.family",
+      "section": "vocabulary",
+      "group": "a",
+      "number": "family",
+      "expected": "husband, daughter",
+      "source": "final:key:vocabulary.a.family",
+      "kind": "category",
+      "accepted": [
+        "husband, daughter"
+      ]
+    },
+    {
+      "id": "vocabulary.a.clothes",
+      "section": "vocabulary",
+      "group": "a",
+      "number": "clothes",
+      "expected": "jumper, skirt parts of a house: garage, kitchen",
+      "source": "final:key:vocabulary.a.clothes",
+      "kind": "review",
+      "accepted": [
+        "jumper, skirt parts of a house: garage, kitchen"
+      ]
+    },
+    {
+      "id": "vocabulary.a.furniture",
+      "section": "vocabulary",
+      "group": "a",
+      "number": "furniture",
+      "expected": "bookcase, mirror",
+      "source": "final:key:vocabulary.a.furniture",
+      "kind": "category",
+      "accepted": [
+        "bookcase, mirror"
+      ]
+    },
+    {
+      "id": "vocabulary.a.food",
+      "section": "vocabulary",
+      "group": "a",
+      "number": "food",
+      "expected": "omelette, yogurt parts of the body: face, arm",
+      "source": "final:key:vocabulary.a.food",
+      "kind": "review",
+      "accepted": [
+        "omelette, yogurt parts of the body: face, arm"
+      ]
+    },
+    {
+      "id": "vocabulary.a.buildings",
+      "section": "vocabulary",
+      "group": "a",
+      "number": "buildings",
+      "expected": "bank, stadium",
+      "source": "final:key:vocabulary.a.buildings",
+      "kind": "category",
+      "accepted": [
+        "bank, stadium"
+      ]
+    },
+    {
+      "id": "vocabulary.b.1",
+      "section": "vocabulary",
+      "group": "b",
+      "number": "1",
+      "expected": "chubby",
+      "source": "final:key:vocabulary.b.1",
+      "kind": "short",
+      "accepted": [
+        "chubby"
+      ]
+    },
+    {
+      "id": "vocabulary.b.2",
+      "section": "vocabulary",
+      "group": "b",
+      "number": "2",
+      "expected": "delicious",
+      "source": "final:key:vocabulary.b.2",
+      "kind": "short",
+      "accepted": [
+        "delicious"
+      ]
+    },
+    {
+      "id": "vocabulary.b.3",
+      "section": "vocabulary",
+      "group": "b",
+      "number": "3",
+      "expected": "accident",
+      "source": "final:key:vocabulary.b.3",
+      "kind": "short",
+      "accepted": [
+        "accident"
+      ]
+    },
+    {
+      "id": "vocabulary.b.4",
+      "section": "vocabulary",
+      "group": "b",
+      "number": "4",
+      "expected": "environment",
+      "source": "final:key:vocabulary.b.4",
+      "kind": "short",
+      "accepted": [
+        "environment"
+      ]
+    },
+    {
+      "id": "vocabulary.b.5",
+      "section": "vocabulary",
+      "group": "b",
+      "number": "5",
+      "expected": "popular",
+      "source": "final:key:vocabulary.b.5",
+      "kind": "short",
+      "accepted": [
+        "popular"
+      ]
+    },
+    {
+      "id": "vocabulary.b.6",
+      "section": "vocabulary",
+      "group": "b",
+      "number": "6",
+      "expected": "documentary",
+      "source": "final:key:vocabulary.b.6",
+      "kind": "short",
+      "accepted": [
+        "documentary"
+      ]
+    },
+    {
+      "id": "vocabulary.b.7",
+      "section": "vocabulary",
+      "group": "b",
+      "number": "7",
+      "expected": "competition",
+      "source": "final:key:vocabulary.b.7",
+      "kind": "short",
+      "accepted": [
+        "competition"
+      ]
+    },
+    {
+      "id": "vocabulary.b.8",
+      "section": "vocabulary",
+      "group": "b",
+      "number": "8",
+      "expected": "become",
+      "source": "final:key:vocabulary.b.8",
+      "kind": "short",
+      "accepted": [
+        "become"
+      ]
+    },
+    {
+      "id": "vocabulary.c.1",
+      "section": "vocabulary",
+      "group": "c",
+      "number": "1",
+      "expected": "sunbathe",
+      "source": "final:key:vocabulary.c.1",
+      "kind": "short",
+      "accepted": [
+        "sunbathe"
+      ]
+    },
+    {
+      "id": "vocabulary.c.2",
+      "section": "vocabulary",
+      "group": "c",
+      "number": "2",
+      "expected": "slice",
+      "source": "final:key:vocabulary.c.2",
+      "kind": "short",
+      "accepted": [
+        "slice"
+      ]
+    },
+    {
+      "id": "vocabulary.c.3",
+      "section": "vocabulary",
+      "group": "c",
+      "number": "3",
+      "expected": "neighbourhood",
+      "source": "final:key:vocabulary.c.3",
+      "kind": "short",
+      "accepted": [
+        "neighbourhood"
+      ]
+    },
+    {
+      "id": "vocabulary.c.4",
+      "section": "vocabulary",
+      "group": "c",
+      "number": "4",
+      "expected": "booked",
+      "source": "final:key:vocabulary.c.4",
+      "kind": "short",
+      "accepted": [
+        "booked"
+      ]
+    },
+    {
+      "id": "vocabulary.c.5",
+      "section": "vocabulary",
+      "group": "c",
+      "number": "5",
+      "expected": "Turn",
+      "source": "final:key:vocabulary.c.5",
+      "kind": "short",
+      "accepted": [
+        "Turn"
+      ]
+    },
+    {
+      "id": "vocabulary.c.6",
+      "section": "vocabulary",
+      "group": "c",
+      "number": "6",
+      "expected": "miss",
+      "source": "final:key:vocabulary.c.6",
+      "kind": "short",
+      "accepted": [
+        "miss"
+      ]
+    },
+    {
+      "id": "vocabulary.c.7",
+      "section": "vocabulary",
+      "group": "c",
+      "number": "7",
+      "expected": "player",
+      "source": "final:key:vocabulary.c.7",
+      "kind": "short",
+      "accepted": [
+        "player"
+      ]
+    },
+    {
+      "id": "vocabulary.c.8",
+      "section": "vocabulary",
+      "group": "c",
+      "number": "8",
+      "expected": "boring",
+      "source": "final:key:vocabulary.c.8",
+      "kind": "short",
+      "accepted": [
+        "boring"
+      ]
+    },
+    {
+      "id": "communication.1",
+      "section": "communication",
+      "group": null,
+      "number": "1",
+      "expected": "d",
+      "source": "final:key:communication.1",
+      "kind": "choice",
+      "accepted": [
+        "d"
+      ]
+    },
+    {
+      "id": "communication.2",
+      "section": "communication",
+      "group": null,
+      "number": "2",
+      "expected": "i",
+      "source": "final:key:communication.2",
+      "kind": "choice",
+      "accepted": [
+        "i"
+      ]
+    },
+    {
+      "id": "communication.3",
+      "section": "communication",
+      "group": null,
+      "number": "3",
+      "expected": "h",
+      "source": "final:key:communication.3",
+      "kind": "choice",
+      "accepted": [
+        "h"
+      ]
+    },
+    {
+      "id": "communication.4",
+      "section": "communication",
+      "group": null,
+      "number": "4",
+      "expected": "j",
+      "source": "final:key:communication.4",
+      "kind": "choice",
+      "accepted": [
+        "j"
+      ]
+    },
+    {
+      "id": "communication.5",
+      "section": "communication",
+      "group": null,
+      "number": "5",
+      "expected": "e",
+      "source": "final:key:communication.5",
+      "kind": "choice",
+      "accepted": [
+        "e"
+      ]
+    },
+    {
+      "id": "communication.6",
+      "section": "communication",
+      "group": null,
+      "number": "6",
+      "expected": "a",
+      "source": "final:key:communication.6",
+      "kind": "choice",
+      "accepted": [
+        "a"
+      ]
+    },
+    {
+      "id": "communication.7",
+      "section": "communication",
+      "group": null,
+      "number": "7",
+      "expected": "g",
+      "source": "final:key:communication.7",
+      "kind": "choice",
+      "accepted": [
+        "g"
+      ]
+    },
+    {
+      "id": "communication.8",
+      "section": "communication",
+      "group": null,
+      "number": "8",
+      "expected": "b",
+      "source": "final:key:communication.8",
+      "kind": "choice",
+      "accepted": [
+        "b"
+      ]
+    },
+    {
+      "id": "communication.9",
+      "section": "communication",
+      "group": null,
+      "number": "9",
+      "expected": "c",
+      "source": "final:key:communication.9",
+      "kind": "choice",
+      "accepted": [
+        "c"
+      ]
+    },
+    {
+      "id": "communication.10",
+      "section": "communication",
+      "group": null,
+      "number": "10",
+      "expected": "f",
+      "source": "final:key:communication.10",
+      "kind": "choice",
+      "accepted": [
+        "f"
+      ]
+    },
+    {
+      "id": "grammar.a.1",
+      "section": "grammar",
+      "group": "a",
+      "number": "1",
+      "expected": "to go",
+      "source": "final:key:grammar.a.1",
+      "kind": "short",
+      "accepted": [
+        "to go"
+      ]
+    },
+    {
+      "id": "grammar.a.2",
+      "section": "grammar",
+      "group": "a",
+      "number": "2",
+      "expected": "going",
+      "source": "final:key:grammar.a.2",
+      "kind": "short",
+      "accepted": [
+        "going"
+      ]
+    },
+    {
+      "id": "grammar.a.3",
+      "section": "grammar",
+      "group": "a",
+      "number": "3",
+      "expected": "a",
+      "source": "final:key:grammar.a.3",
+      "kind": "choice",
+      "accepted": [
+        "a"
+      ]
+    },
+    {
+      "id": "grammar.a.4",
+      "section": "grammar",
+      "group": "a",
+      "number": "4",
+      "expected": "some",
+      "source": "final:key:grammar.a.4",
+      "kind": "short",
+      "accepted": [
+        "some"
+      ]
+    },
+    {
+      "id": "grammar.a.5",
+      "section": "grammar",
+      "group": "a",
+      "number": "5",
+      "expected": "The",
+      "source": "final:key:grammar.a.5",
+      "kind": "short",
+      "accepted": [
+        "The"
+      ]
+    },
+    {
+      "id": "grammar.a.6",
+      "section": "grammar",
+      "group": "a",
+      "number": "6",
+      "expected": "to",
+      "source": "final:key:grammar.a.6",
+      "kind": "short",
+      "accepted": [
+        "to"
+      ]
+    },
+    {
+      "id": "grammar.a.7",
+      "section": "grammar",
+      "group": "a",
+      "number": "7",
+      "expected": "sometimes",
+      "source": "final:key:grammar.a.7",
+      "kind": "short",
+      "accepted": [
+        "sometimes"
+      ]
+    },
+    {
+      "id": "grammar.a.8",
+      "section": "grammar",
+      "group": "a",
+      "number": "8",
+      "expected": "on",
+      "source": "final:key:grammar.a.8",
+      "kind": "short",
+      "accepted": [
+        "on"
+      ]
+    },
+    {
+      "id": "grammar.a.9",
+      "section": "grammar",
+      "group": "a",
+      "number": "9",
+      "expected": "him",
+      "source": "final:key:grammar.a.9",
+      "kind": "short",
+      "accepted": [
+        "him"
+      ]
+    },
+    {
+      "id": "grammar.a.10",
+      "section": "grammar",
+      "group": "a",
+      "number": "10",
+      "expected": "going to buy",
+      "source": "final:key:grammar.a.10",
+      "kind": "short",
+      "accepted": [
+        "going to buy"
+      ]
+    },
+    {
+      "id": "grammar.a.11",
+      "section": "grammar",
+      "group": "a",
+      "number": "11",
+      "expected": "get",
+      "source": "final:key:grammar.a.11",
+      "kind": "short",
+      "accepted": [
+        "get"
+      ]
+    },
+    {
+      "id": "grammar.a.12",
+      "section": "grammar",
+      "group": "a",
+      "number": "12",
+      "expected": "How much",
+      "source": "final:key:grammar.a.12",
+      "kind": "short",
+      "accepted": [
+        "How much"
+      ]
+    },
+    {
+      "id": "grammar.a.13",
+      "section": "grammar",
+      "group": "a",
+      "number": "13",
+      "expected": "There are",
+      "source": "final:key:grammar.a.13",
+      "kind": "short",
+      "accepted": [
+        "There are"
+      ]
+    },
+    {
+      "id": "grammar.a.14",
+      "section": "grammar",
+      "group": "a",
+      "number": "14",
+      "expected": "should",
+      "source": "final:key:grammar.a.14",
+      "kind": "short",
+      "accepted": [
+        "should"
+      ]
+    },
+    {
+      "id": "grammar.a.15",
+      "section": "grammar",
+      "group": "a",
+      "number": "15",
+      "expected": "them",
+      "source": "final:key:grammar.a.15",
+      "kind": "short",
+      "accepted": [
+        "them"
+      ]
+    },
+    {
+      "id": "grammar.b.1",
+      "section": "grammar",
+      "group": "b",
+      "number": "1",
+      "expected": "c",
+      "source": "final:key:grammar.b.1",
+      "kind": "choice",
+      "accepted": [
+        "c"
+      ]
+    },
+    {
+      "id": "grammar.b.2",
+      "section": "grammar",
+      "group": "b",
+      "number": "2",
+      "expected": "b",
+      "source": "final:key:grammar.b.2",
+      "kind": "choice",
+      "accepted": [
+        "b"
+      ]
+    },
+    {
+      "id": "grammar.b.3",
+      "section": "grammar",
+      "group": "b",
+      "number": "3",
+      "expected": "a",
+      "source": "final:key:grammar.b.3",
+      "kind": "choice",
+      "accepted": [
+        "a"
+      ]
+    },
+    {
+      "id": "grammar.b.4",
+      "section": "grammar",
+      "group": "b",
+      "number": "4",
+      "expected": "c",
+      "source": "final:key:grammar.b.4",
+      "kind": "choice",
+      "accepted": [
+        "c"
+      ]
+    },
+    {
+      "id": "grammar.b.5",
+      "section": "grammar",
+      "group": "b",
+      "number": "5",
+      "expected": "c",
+      "source": "final:key:grammar.b.5",
+      "kind": "choice",
+      "accepted": [
+        "c"
+      ]
+    },
+    {
+      "id": "grammar.c.1",
+      "section": "grammar",
+      "group": "c",
+      "number": "1",
+      "expected": "got",
+      "source": "final:key:grammar.c.1",
+      "kind": "short",
+      "accepted": [
+        "got"
+      ]
+    },
+    {
+      "id": "grammar.c.2",
+      "section": "grammar",
+      "group": "c",
+      "number": "2",
+      "expected": "takes",
+      "source": "final:key:grammar.c.2",
+      "kind": "short",
+      "accepted": [
+        "takes"
+      ]
+    },
+    {
+      "id": "grammar.c.3",
+      "section": "grammar",
+      "group": "c",
+      "number": "3",
+      "expected": "Are ... studying, ’m checking",
+      "source": "final:key:grammar.c.3",
+      "kind": "review",
+      "accepted": [
+        "Are ... studying, ’m checking"
+      ]
+    },
+    {
+      "id": "grammar.c.4",
+      "section": "grammar",
+      "group": "c",
+      "number": "4",
+      "expected": "does ... teach",
+      "source": "final:key:grammar.c.4",
+      "kind": "review",
+      "accepted": [
+        "does ... teach"
+      ]
+    },
+    {
+      "id": "grammar.c.5",
+      "section": "grammar",
+      "group": "c",
+      "number": "5",
+      "expected": "made",
+      "source": "final:key:grammar.c.5",
+      "kind": "short",
+      "accepted": [
+        "made"
+      ]
+    },
+    {
+      "id": "grammar.c.6",
+      "section": "grammar",
+      "group": "c",
+      "number": "6",
+      "expected": "isn’t cleaning",
+      "source": "final:key:grammar.c.6",
+      "kind": "short",
+      "accepted": [
+        "isn’t cleaning"
+      ]
+    },
+    {
+      "id": "grammar.c.7",
+      "section": "grammar",
+      "group": "c",
+      "number": "7",
+      "expected": "didn’t go",
+      "source": "final:key:grammar.c.7",
+      "kind": "short",
+      "accepted": [
+        "didn’t go"
+      ]
+    },
+    {
+      "id": "grammar.c.8",
+      "section": "grammar",
+      "group": "c",
+      "number": "8",
+      "expected": "don’t eat",
+      "source": "final:key:grammar.c.8",
+      "kind": "short",
+      "accepted": [
+        "don’t eat"
+      ]
+    },
+    {
+      "id": "grammar.c.9",
+      "section": "grammar",
+      "group": "c",
+      "number": "9",
+      "expected": "played",
+      "source": "final:key:grammar.c.9",
+      "kind": "short",
+      "accepted": [
+        "played"
+      ]
+    },
+    {
+      "id": "listen.1",
+      "section": "listen",
+      "group": null,
+      "number": "1",
+      "expected": "a",
+      "source": "final:key:listen.1",
+      "kind": "choice",
+      "accepted": [
+        "a"
+      ]
+    },
+    {
+      "id": "listen.2",
+      "section": "listen",
+      "group": null,
+      "number": "2",
+      "expected": "b",
+      "source": "final:key:listen.2",
+      "kind": "choice",
+      "accepted": [
+        "b"
+      ]
+    },
+    {
+      "id": "listen.3",
+      "section": "listen",
+      "group": null,
+      "number": "3",
+      "expected": "a",
+      "source": "final:key:listen.3",
+      "kind": "choice",
+      "accepted": [
+        "a"
+      ]
+    },
+    {
+      "id": "listen.4",
+      "section": "listen",
+      "group": null,
+      "number": "4",
+      "expected": "a",
+      "source": "final:key:listen.4",
+      "kind": "choice",
+      "accepted": [
+        "a"
+      ]
+    },
+    {
+      "id": "read.1",
+      "section": "read",
+      "group": null,
+      "number": "1",
+      "expected": "You can walk around or go jogging.",
+      "source": "final:key:read.1",
+      "kind": "review",
+      "accepted": [
+        "You can walk around or go jogging."
+      ]
+    },
+    {
+      "id": "read.2",
+      "section": "read",
+      "group": null,
+      "number": "2",
+      "expected": "The new gym.",
+      "source": "final:key:read.2",
+      "kind": "short",
+      "accepted": [
+        "The new gym."
+      ]
+    },
+    {
+      "id": "read.3",
+      "section": "read",
+      "group": null,
+      "number": "3",
+      "expected": "Ten.",
+      "source": "final:key:read.3",
+      "kind": "short",
+      "accepted": [
+        "Ten."
+      ]
+    },
+    {
+      "id": "read.4",
+      "section": "read",
+      "group": null,
+      "number": "4",
+      "expected": "There are two indoor and one outdoor.",
+      "source": "final:key:read.4",
+      "kind": "review",
+      "accepted": [
+        "There are two indoor and one outdoor."
+      ]
+    },
+    {
+      "id": "read.5",
+      "section": "read",
+      "group": null,
+      "number": "5",
+      "expected": "They can hang out with their friends and play video games or pool.",
+      "source": "final:key:read.5",
+      "kind": "review",
+      "accepted": [
+        "They can hang out with their friends and play video games or pool."
+      ]
+    },
+    {
+      "id": "write",
+      "section": "write",
+      "group": null,
+      "number": "",
+      "expected": "Open writing task: teacher review required.",
+      "accepted": [],
+      "kind": "review",
+      "source": "final:paper:write"
+    }
+  ],
+  "keyText": "Answer booklet page 8\nLISTENING TRANSCRIPTS\n1.\nMrs Brown What’s all that?\nMr Brown \nFood. I went to the supermarket, remember?\nMrs Brown Yes, I know. How many packets of pasta did \n \nyou buy? One, two.......seven, eight!\nMr Brown \nIt was on your shopping list.\nMrs Brown Not eight, I wrote three.\nMr Brown \nDid you? I thought it was an eight.\n2.\nBill \nSo, what are we going to do tomorrow?\nDave How about going hiking?\nBill \nBut isn’t it going to rain?\nDave No, I listened to the weather. Cloudy, windy but \n \nno rain.\nBill \nOK then. Where are my hiking boots?\n3. \nReporter Was it difficult to get a degree in Physics?\nBrenda \nWell, it wasn’t very easy, but I had great \n \nprofessors.\nReporter And how old were you when you got your \n \ndegree?\nBrenda \nI was twenty-one. That was in 2005 and in \n \n2008 I got a job at the university.\n4. \nTina What’s that? Tea? But, you don’t like tea. Do you \n \nstill have the flu?\nGreg No, that was last week.\nTina Do you still have a sore throat?\nGreg No, it’s my stomach. I think I ate too much.\nFINAL TEST \nVOCABULARY\nA.\njobs: mechanic, \nhairdresser\nfamily: husband, \ndaughter\nclothes: jumper, skirt\nparts of a house: \ngarage, kitchen\nfurniture: bookcase, \nmirror\nfood: omelette, yogurt\nparts of the body: \nface, arm\nbuildings: bank, \nstadium\nB. \n1. chubby\n2. delicious\n3. accident\n4. environment\n5. popular\n6. documentary\n7. competition\n8. become\nC. \n1. sunbathe\n2. slice\n3. neighbourhood\n4. booked\n5. Turn\n6. miss\n7. player\n8. boring\nCOMMUNICATION\n  1. d\n  2. i\n  3. h\n  4. j\n  5. e\n  6. a\n  7. g\n  8. b\n  9. c\n10. f\nGRAMMAR\nA.\n  1. to go\n  2. going\n  3. a\n  4. some\n  5. The\n  6. to\n  7. sometimes\n  8. on\n  9. him\n10. going to buy\n11. get\n12. How much\n13. There are\n14. should\n15. them\nB.\n1. c\n2. b\n3. a\n4. c\n5. c\nC.\n1. got\n2. takes\n3. Are ... studying, ’m \n    checking\n4. does ... teach\n5. made\n6. isn’t cleaning\n7. didn’t go\n8. don’t eat\n9. played\nLISTEN\n1. a\n2. b\n3. a\n4. a\nREAD\n1. You can walk\n    around or go \n    jogging.\n2. The new gym.\n3. Ten.\n4. There are two \n    indoor and one \n    outdoor.\n5. They can hang out \n    with their friends \n    and play video \n    games or pool.\n",
+  "paperText": "Original test booklet PDF page 33\n32\nTraveller\n Copyright © MM Publications\nC. Circle the correct words.\n8\nSCORE\n1. In the summer I usually sunscreen / sunbathe every day.\n2. Give me a can / slice of cake, please.\n3. There are a lot of trees in my neighbour / neighbourhood.\n4. Olivia booked / exchanged a ticket for her trip.\n5. Throw / Turn off the lights when you leave a room.\n6. Don’t check / miss the new game show tonight.\n7. The tennis player / racket walked onto the court.\n8. I don’t like this film. It’s interesting / boring.\nA. Put the words in the correct category.\n16\nSCORE\nB. Complete with the words in the box.\n8\nSCORE\nFinal Test\nVOCABULARY \nmechanic        daughter       bank        garage       mirror       kitchen        omelette       hairdresser        skirt \nyoghurt       arm        husband        face        jumper        stadium       bookcase\n1. Helen is tall and a bit                                                    .\n2. This cheesecake is                                                    !\n3. My father had a(n)                                                     last week. He crashed his car into a tree.\n4. We should all try to protect the                                                    .\n5. Volleyball is very                                                     at my school.\n6. There is a(n)                                                     about snakes on at 7 o’clock tonight.\n7. The Maths                                                     was very difficult so I didn’t win.\n8. Lee wants to                                                     a dentist.\njobs\nfamily\nclothes\nparts of a house\n                                        \n                                        \n                                        \n                                        \n                                        \n                                        \n                                        \n                                        \nfurniture\nfood\nparts of the body\nbuildings\n                                        \n                                        \n                                        \n                                        \n                                        \n                                        \n                                        \n                                        \nenvironment             chubby             popular             become\ndelicious             competition             documentary             accident\n32\n\n\nOriginal test booklet PDF page 34\n33\nTraveller\n Copyright © MM Publications\nCOMMUNICATION\nMatch.\n10\nSCORE\nA. Circle the correct words.\n1. A: Would you like (1)go / to go out tonight?\n    B: Sure.\n    A: How about (2)go / going out for dinner? There’s (3)a / the new Mexican restaurant on Billford Street.\n    B: I don’t want to have Mexican tonight. I’d like (4)some / any pasta.\n    A: OK then. (5)A / The Italian restaurant next (6)at / to the History Museum is brilliant. I (7)sometimes / never    \n        go there with Jake (8)at / on Saturdays. It’s got great food.\n    B: Where’s Jake today? Ask (9)him / his to come. \n    A: OK.\n2. A: This bookshop is very big!\n     B: Yeah. So, what are we (10)buy / going to buy for Linda?\n     A: She likes travelling. Let’s (11)get / getting her a book about a country. Here’s a book about Australia.\n     B: It looks interesting. (12)How much / How many is it?\n A: It’s €40. It’s a bit expensive.\n B: (13)There are / They’re a lot of books about Australia and New Zealand over there. We (14)would / should   \n          go and see (15)their / them.\n A: You’re right. Come on.\n15\nSCORE\n 1. Why did you stay at home last night?\n 2. Where are you from?\n 3. What’s on?\n 4. How much milk do we need?\n 5. How do you get to work?\n 6. What do you do?\n 7. How’s it going?\n 8. Whose backpack is that?\n 9. Would you like to go for a coffee later?\n10. When did you buy that car?\na. I’m an electrician.\nb. It’s Ethan’s.\nc. I’m afraid I’m busy.\nd. Because I was very tired.\ne. I use pubic transport.\nf. Two years ago.\ng. Not bad.\nh. A soap opera.\ni. The UK.\nj. A bottle.\nGRAMMAR\nB. Choose a, b or c.\nMy brother is an actor. He wants (1)                        and work in Spain, (2)                        there’s a problem. He \n(3)                        speak Spanish. So, at the moment he’s taking Spanish lessons. He loves the language and studies \nevery evening. He hasn’t got (4)                         free time on weekdays. He only goes out with his friends \n(5)                        the weekend.\n1. a. go  \nb. going \n c. to go\n2. a. and   \nb. but \nc. so\n3. a. can’t \nb. don’t \nc. can\n4. a. a \n \nb. some \nc. any\n5. a. in \n     b. on \nc. at\n 5\nSCORE\n33\n\n\nOriginal test booklet PDF page 35\n34\nTraveller\n Copyright © MM Publications\nC. Complete with the Present Simple, the Present Progressive or the Past Simple   \n     of the verbs in brackets.\n10\nSCORE\nLISTEN \nListen to four dialogues and choose a or b.\n1. How many packets of pasta did the woman need?\n    a. 3                                               b. 8\n2. What’s the weather going to be like tomorrow?\n    a. It’s going to rain.                 b. It’s going to be cloudy and windy.\n3. When did Brenda get her degree in Physics?\n    a. In 2005.                                b. In 2008.\n4. Why is Greg drinking tea?\n    a. He’s got a stomach ache.   b. He’s got a sore throat.\n 8\nSCORE\n1. They                                                    (get) married two years ago.\n2. Jack always                                                    (take) the dog for a walk in the evening.\n3. A:                                                    you                                                    (study) for an exam now?\n  B: No, I                                                    (check) my e-mails.\n4. A: How many hours                                                    Donna                                                    (teach) every day?\n  B: About seven.\n5. Yesterday, I                                                    (make) dinner for my family.\n6. Patty                                                    (not clean) the house at the moment. She’s on the phone.\n7. We                                                    (not go) to the cinema last week.\n8. I                                                    (not eat) breakfast every day.\n9. My friends                                                    (play) tennis last Saturday.\n34\n\n\nOriginal test booklet PDF page 36\n35\nTraveller\n Copyright © MM Publications\n \n \nREAD\nRead the text and answer the questions.\nThe Durham Sports Centre is open and ready for business! You can walk around or go \njogging on our new athletics track. There is also a new gym. It’s very modern and great for \ngymnastics and other sports. We’ve also got a great Olympic swimming pool and a new \nhockey rink. Tennis isn’t much fun when it’s hot outside, so we’ve got ten tennis courts \nand they are all indoors! We’ve also got two indoor volleyball courts and one outside, \ntoo. The Durham Sports Centre is also a great place to hang out with your friends and play \nvideo games or pool. You don’t need to be an athlete to have fun here, because there is \nsomething for everybody. Come and visit us today!\nWrite an e-mail to a friend giving him/her your news. Write about one of the following ideas.\n-your new house: Where is it? What’s it like? Do you like it?\n-your new neighbourhood: What’s it like? What kind of buildings/places has it got? Do you like it? \n-a new friend: What does he/she look like? Where did you meet him/her? What do you do together in your free \n  time?\n-a party/concert/holiday: When did you go? Who did you go with? Were there lots of people there? What did you \n  do? Did you have fun?\n-an accident: When did it happen? What happened? Did you hurt/break anything?\n-your holiday/weekend plans: Where are you going to go? Who are you going to go with? What are you going to \n do there?\n                                                                                                                                                                                                                      \n                                                                                                                                                                                                                      \n                                                                                                                                                                                                                      \n                                                                                                                                                                                                                       \n                                                                                                                                                                                                                      \n                                                                                                                                                                                                                      \n                                                                                                                                                                                                                      \nWRITE \n10\nSCORE\n100\nTOTAL SCORE\n10\nSCORE\n1. What can you do on the athletics track?\n2. What is very modern?\n3. How many tennis courts are there?\n4. Where are the volleyball courts?\n5. What can people that don’t like sports do there ?\n                                                                                                     \n                                                                                                     \n                                                                                                     \n                                                                                                     \n                                                                                                     \n35\n"
+}

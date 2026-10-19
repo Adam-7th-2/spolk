@@ -1,0 +1,426 @@
+{
+  "examId": "module-3",
+  "sourceHash": "b79410298ca74623d4e1cf110b2f6d54142ae07e17632226f262e610141d5f17",
+  "fields": [
+    {
+      "id": "vocabulary.a.1",
+      "section": "vocabulary",
+      "group": "a",
+      "number": "1",
+      "expected": "(any day of the week)",
+      "source": "module-3:key:vocabulary.a.1",
+      "kind": "review",
+      "accepted": [
+        "(any day of the week)"
+      ]
+    },
+    {
+      "id": "vocabulary.a.2",
+      "section": "vocabulary",
+      "group": "a",
+      "number": "2",
+      "expected": "(any TV programme)",
+      "source": "module-3:key:vocabulary.a.2",
+      "kind": "review",
+      "accepted": [
+        "(any TV programme)"
+      ]
+    },
+    {
+      "id": "vocabulary.a.3",
+      "section": "vocabulary",
+      "group": "a",
+      "number": "3",
+      "expected": "(any means of transport)",
+      "source": "module-3:key:vocabulary.a.3",
+      "kind": "review",
+      "accepted": [
+        "(any means of transport)"
+      ]
+    },
+    {
+      "id": "vocabulary.b.1",
+      "section": "vocabulary",
+      "group": "b",
+      "number": "1",
+      "expected": "b",
+      "source": "module-3:key:vocabulary.b.1",
+      "kind": "choice",
+      "accepted": [
+        "b"
+      ]
+    },
+    {
+      "id": "vocabulary.b.2",
+      "section": "vocabulary",
+      "group": "b",
+      "number": "2",
+      "expected": "c",
+      "source": "module-3:key:vocabulary.b.2",
+      "kind": "choice",
+      "accepted": [
+        "c"
+      ]
+    },
+    {
+      "id": "vocabulary.b.3",
+      "section": "vocabulary",
+      "group": "b",
+      "number": "3",
+      "expected": "b",
+      "source": "module-3:key:vocabulary.b.3",
+      "kind": "choice",
+      "accepted": [
+        "b"
+      ]
+    },
+    {
+      "id": "vocabulary.b.4",
+      "section": "vocabulary",
+      "group": "b",
+      "number": "4",
+      "expected": "a",
+      "source": "module-3:key:vocabulary.b.4",
+      "kind": "choice",
+      "accepted": [
+        "a"
+      ]
+    },
+    {
+      "id": "communication.1",
+      "section": "communication",
+      "group": null,
+      "number": "1",
+      "expected": "b",
+      "source": "module-3:key:communication.1",
+      "kind": "choice",
+      "accepted": [
+        "b"
+      ]
+    },
+    {
+      "id": "communication.2",
+      "section": "communication",
+      "group": null,
+      "number": "2",
+      "expected": "a",
+      "source": "module-3:key:communication.2",
+      "kind": "choice",
+      "accepted": [
+        "a"
+      ]
+    },
+    {
+      "id": "communication.3",
+      "section": "communication",
+      "group": null,
+      "number": "3",
+      "expected": "a",
+      "source": "module-3:key:communication.3",
+      "kind": "choice",
+      "accepted": [
+        "a"
+      ]
+    },
+    {
+      "id": "communication.4",
+      "section": "communication",
+      "group": null,
+      "number": "4",
+      "expected": "a",
+      "source": "module-3:key:communication.4",
+      "kind": "choice",
+      "accepted": [
+        "a"
+      ]
+    },
+    {
+      "id": "grammar.a.1",
+      "section": "grammar",
+      "group": "a",
+      "number": "1",
+      "expected": "In",
+      "source": "module-3:key:grammar.a.1",
+      "kind": "short",
+      "accepted": [
+        "In"
+      ]
+    },
+    {
+      "id": "grammar.a.2",
+      "section": "grammar",
+      "group": "a",
+      "number": "2",
+      "expected": "take",
+      "source": "module-3:key:grammar.a.2",
+      "kind": "short",
+      "accepted": [
+        "take"
+      ]
+    },
+    {
+      "id": "grammar.a.3",
+      "section": "grammar",
+      "group": "a",
+      "number": "3",
+      "expected": "walks",
+      "source": "module-3:key:grammar.a.3",
+      "kind": "short",
+      "accepted": [
+        "walks"
+      ]
+    },
+    {
+      "id": "grammar.a.4",
+      "section": "grammar",
+      "group": "a",
+      "number": "4",
+      "expected": "goes",
+      "source": "module-3:key:grammar.a.4",
+      "kind": "short",
+      "accepted": [
+        "goes"
+      ]
+    },
+    {
+      "id": "grammar.a.5",
+      "section": "grammar",
+      "group": "a",
+      "number": "5",
+      "expected": "at",
+      "source": "module-3:key:grammar.a.5",
+      "kind": "short",
+      "accepted": [
+        "at"
+      ]
+    },
+    {
+      "id": "grammar.a.6",
+      "section": "grammar",
+      "group": "a",
+      "number": "6",
+      "expected": "go",
+      "source": "module-3:key:grammar.a.6",
+      "kind": "short",
+      "accepted": [
+        "go"
+      ]
+    },
+    {
+      "id": "grammar.b.1",
+      "section": "grammar",
+      "group": "b",
+      "number": "1",
+      "expected": "doesn’t like, likes",
+      "source": "module-3:key:grammar.b.1",
+      "kind": "short",
+      "accepted": [
+        "doesn’t like, likes"
+      ]
+    },
+    {
+      "id": "grammar.b.2",
+      "section": "grammar",
+      "group": "b",
+      "number": "2",
+      "expected": "don’t read",
+      "source": "module-3:key:grammar.b.2",
+      "kind": "short",
+      "accepted": [
+        "don’t read"
+      ]
+    },
+    {
+      "id": "grammar.b.3",
+      "section": "grammar",
+      "group": "b",
+      "number": "3",
+      "expected": "does ... finish, finishes",
+      "source": "module-3:key:grammar.b.3",
+      "kind": "review",
+      "accepted": [
+        "does ... finish, finishes"
+      ]
+    },
+    {
+      "id": "grammar.b.4",
+      "section": "grammar",
+      "group": "b",
+      "number": "4",
+      "expected": "Do ... go",
+      "source": "module-3:key:grammar.b.4",
+      "kind": "review",
+      "accepted": [
+        "Do ... go"
+      ]
+    },
+    {
+      "id": "grammar.c.1",
+      "section": "grammar",
+      "group": "c",
+      "number": "1",
+      "expected": "Ian never plays tennis.",
+      "source": "module-3:key:grammar.c.1",
+      "kind": "short",
+      "accepted": [
+        "Ian never plays tennis."
+      ]
+    },
+    {
+      "id": "grammar.c.2",
+      "section": "grammar",
+      "group": "c",
+      "number": "2",
+      "expected": "James sometimes gets home at 8:00.",
+      "source": "module-3:key:grammar.c.2",
+      "kind": "short",
+      "accepted": [
+        "James sometimes gets home at 8:00."
+      ]
+    },
+    {
+      "id": "grammar.c.3",
+      "section": "grammar",
+      "group": "c",
+      "number": "3",
+      "expected": "Jessica doesn’t usually take a taxi.",
+      "source": "module-3:key:grammar.c.3",
+      "kind": "short",
+      "accepted": [
+        "Jessica doesn’t usually take a taxi."
+      ]
+    },
+    {
+      "id": "grammar.c.4",
+      "section": "grammar",
+      "group": "c",
+      "number": "4",
+      "expected": "I often get up late.",
+      "source": "module-3:key:grammar.c.4",
+      "kind": "short",
+      "accepted": [
+        "I often get up late."
+      ]
+    },
+    {
+      "id": "grammar.c.5",
+      "section": "grammar",
+      "group": "c",
+      "number": "5",
+      "expected": "Nancy doesn’t always have breakfast.",
+      "source": "module-3:key:grammar.c.5",
+      "kind": "short",
+      "accepted": [
+        "Nancy doesn’t always have breakfast."
+      ]
+    },
+    {
+      "id": "listen.1",
+      "section": "listen",
+      "group": null,
+      "number": "1",
+      "expected": "F",
+      "source": "module-3:key:listen.1",
+      "kind": "choice",
+      "accepted": [
+        "F"
+      ]
+    },
+    {
+      "id": "listen.2",
+      "section": "listen",
+      "group": null,
+      "number": "2",
+      "expected": "T",
+      "source": "module-3:key:listen.2",
+      "kind": "choice",
+      "accepted": [
+        "T"
+      ]
+    },
+    {
+      "id": "listen.3",
+      "section": "listen",
+      "group": null,
+      "number": "3",
+      "expected": "T",
+      "source": "module-3:key:listen.3",
+      "kind": "choice",
+      "accepted": [
+        "T"
+      ]
+    },
+    {
+      "id": "listen.4",
+      "section": "listen",
+      "group": null,
+      "number": "4",
+      "expected": "T",
+      "source": "module-3:key:listen.4",
+      "kind": "choice",
+      "accepted": [
+        "T"
+      ]
+    },
+    {
+      "id": "read.1",
+      "section": "read",
+      "group": null,
+      "number": "1",
+      "expected": "10 o’clock.",
+      "source": "module-3:key:read.1",
+      "kind": "short",
+      "accepted": [
+        "10 o’clock."
+      ]
+    },
+    {
+      "id": "read.2",
+      "section": "read",
+      "group": null,
+      "number": "2",
+      "expected": "After work.",
+      "source": "module-3:key:read.2",
+      "kind": "short",
+      "accepted": [
+        "After work."
+      ]
+    },
+    {
+      "id": "read.3",
+      "section": "read",
+      "group": null,
+      "number": "3",
+      "expected": "Yes, she does.",
+      "source": "module-3:key:read.3",
+      "kind": "short",
+      "accepted": [
+        "Yes, she does."
+      ]
+    },
+    {
+      "id": "read.4",
+      "section": "read",
+      "group": null,
+      "number": "4",
+      "expected": "No, she doesn’t.",
+      "source": "module-3:key:read.4",
+      "kind": "short",
+      "accepted": [
+        "No, she doesn’t."
+      ]
+    },
+    {
+      "id": "write",
+      "section": "write",
+      "group": null,
+      "number": "",
+      "expected": "Open writing task: teacher review required.",
+      "accepted": [],
+      "kind": "review",
+      "source": "module-3:paper:write"
+    }
+  ],
+  "keyText": "Answer booklet page 2\nTEST 3\nVOCABULARY\nA.\n1. (any day of the week)\n2. (any TV programme)\n3. (any means of transport)\nB.\n1. b\n2. c\n3. b\n4. a\nCOMMUNICATION\n1. b\n2. a\n3. a\n4. a\nGRAMMAR\nA.\n1. In\n2. take\n3. walks\n4. goes\n5. at\n6. go\nB.\n1. doesn’t like, likes\n2. don’t read \n3. does ... finish, finishes\n4. Do ... go \nC.\n1. Ian never plays tennis.\n2. James sometimes gets \n    home at 8:00.\n3. Jessica doesn’t usually \n    take a taxi.\n4. I often get up late.\n5. Nancy doesn’t always have \n    breakfast.\nLISTEN\n1. F\n2. T\n3. T\n4. T\nREAD\n1. 10 o’clock.\n2. After work.\n3. Yes, she does.\n4. No, she doesn’t.\nLISTENING TRANSCRIPT\nMaggie Natalie, does Jeff help you with the housework?\nNatalie Oh, yes. He’s great.\nMaggie Really?\nNatalie Yeah. He hoovers and does the washing every weekend. \nMaggie Does he also iron the clothes?\nNatalie No, he hates that. So, I iron all the clothes.\nMaggie What about the washing-up?\nNatalie Jeff does that, too. \nMaggie I see. And who cooks?\nNatalie Well, I usually cook. But Jeff sometimes cooks too.\n",
+  "paperText": "Original test booklet PDF page 11\n10\nTraveller\n Copyright © MM Publications\nA. Write:\nB. Choose a, b or c.\n1.   Where’s the remote                                         ? \na.  channel \nb.  control \nc.  show\n2.   I often                                          the underground.\na.  go \nb.  drive \nc.  use\n3.   We                                          Chinese lessons on Mondays and Wednesdays.\na.  make \nb.  have \nc.  do\n4.   Rita usually                                          her motorbike to work.\na.  rides \nb.  uses \nc.  drives\nChoose a or b.\n1.   A: What’s the time?\nB:                                         \na.  At 8 o’clock.\nb.  It’s eight o’clock.\n2.   A: When do you go jogging?\nB:                                         \na.  At the weekend. \nb.  I always go.\n3.   A: Do you like sports?\nB:                                         \na.  Yes, I do.\nb.  No, I’m not.\n4.   A: I love documentaries.\nB:                                         \na.  Me too.\nb.  Yes, I do.\nTest 3  Module 3\nVOCABULARY \nCOMMUNICATION \n1.  three days of the week\n                                                                                                                                    \n2.  three TV programmes\n                                                                                                                                    \n3.  three means of transport\n                                                                                                                                    \n9\nSCORE\n4\nSCORE\n4\nSCORE\na. \nb. \na.  \nb. \na. \nb.\na.\nb.\n\n\nOriginal test booklet PDF page 12\n11\nTraveller\n Copyright © MM Publications\n \n \nGRAMMAR \nA. Circle the correct words.\nAlex and Victor are university students. (1) In / On the morning, they (2) take / takes the bus to \nuniversity together. After their classes, Alex (3) walk / walks to work and Victor (4) go / goes home to \nstudy. They sometimes meet (5) at / in about nine and (6) go / goes out with their friends. \n6\nSCORE\nB. Complete with the Present Simple of the words in brackets.\n 1.  Olivia                                           (not like) football. She                                           (like) basketball.\n2.  Martha and Ian                                           (not read) the newspaper in the morning.\n3.   A: What time                                           this sitcom                                           (finish)?\nB: I think it                                           (finish) at seven o’clock.\n4.   A:                                           the girls                                           (go) to bed late on Fridays?\nB: Yes, they do.  \nC. Put the words in the correct order to form sentences.\n1.   tennis / Ian / plays / never / .\n                                                                                                                                                                                     \n2.   at / sometimes / gets / James / 8:00 / home / .\n                                                                                                                                                                                     \n3.   a / doesn’t / take / taxi / Jessica / usually / .\n                                                                                                                                                                                     \n4.   often / get / late / up / I / .\n                                                                                                                                                                                     \n5.   breakfast / doesn’t / Nancy / always / have / .\n                                                                                                                                                                                     \n6\nSCORE\n5\nSCORE\nLISTEN\nListen to two friends talking and write T for True or F for False.\n1.  Natalie hoovers the house every weekend. \n2.  Jeff does the washing every weekend. \n3.  Jeff doesn’t iron the clothes. \n4.  Jeff does the washing-up. \n8\nSCORE\n\n\nOriginal test booklet PDF page 13\n12\nTraveller\n Copyright © MM Publications\n \n \nREAD\nRead and answer the questions. \nCharlotte Everson is a 45-year-old mother and \ngrandmother. She’s got a daughter and two grandsons. \nShe’s a very active woman. She goes jogging every morning. \nThen she has a shower and goes to work. She works from \nten to six but she doesn’t go home after work. She goes to \nher daughter’s house and helps her with the housework. Of \ncourse, she also plays with her grandsons. They all have \ndinner together and then she goes home. She goes to bed late, \nbut she always gets up early.\nWrite a short paragraph about your daily routine.\n                                                                                                                                                                                                                      \n                                                                                                                                                                                                                      \n                                                                                                                                                                                                                      \n                                                                                                                                                                                                                      \n                                                                                                                                                                                                                      \n                                                                                                                                                                                                                      \n                                                                                                                                                                                                                      \n                                                                                                                                                                                                                       \nWRITE\n10\nSCORE\n60\nTOTAL SCORE\n8\nSCORE\n1.   What time does Charlotte start work?\n                                                                                                                                                                                     \n2.   When does Charlotte visit her daughter?\n                                                                                                                                                                                     \n3.   Does Charlotte have dinner at her daughter’s house?\n                                                                                                                                                                                     \n4.   Does Charlotte go to bed early?\n                                                                                                                                                                                     \n12\n"
+}

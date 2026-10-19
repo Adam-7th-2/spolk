@@ -1,0 +1,418 @@
+{
+  "examId": "module-1",
+  "sourceHash": "20dd4403251066f1911aa34df4537a9a2e971876957fa607fca1e839874812f0",
+  "fields": [
+    {
+      "id": "vocabulary.a.relationships",
+      "section": "vocabulary",
+      "group": "a",
+      "number": "relationships",
+      "expected": "flatmate, colleague",
+      "source": "module-1:key:vocabulary.a.relationships",
+      "kind": "category",
+      "accepted": [
+        "flatmate, colleague"
+      ]
+    },
+    {
+      "id": "vocabulary.a.country",
+      "section": "vocabulary",
+      "group": "a",
+      "number": "country",
+      "expected": "Italy, France",
+      "source": "module-1:key:vocabulary.a.country",
+      "kind": "category",
+      "accepted": [
+        "Italy, France"
+      ]
+    },
+    {
+      "id": "vocabulary.a.nationality",
+      "section": "vocabulary",
+      "group": "a",
+      "number": "nationality",
+      "expected": "Polish, Mexican",
+      "source": "module-1:key:vocabulary.a.nationality",
+      "kind": "category",
+      "accepted": [
+        "Polish, Mexican"
+      ]
+    },
+    {
+      "id": "vocabulary.a.numbers",
+      "section": "vocabulary",
+      "group": "a",
+      "number": "numbers",
+      "expected": "seventy, eighteen",
+      "source": "module-1:key:vocabulary.a.numbers",
+      "kind": "category",
+      "accepted": [
+        "seventy, eighteen"
+      ]
+    },
+    {
+      "id": "vocabulary.b.1",
+      "section": "vocabulary",
+      "group": "b",
+      "number": "1",
+      "expected": "Ms",
+      "source": "module-1:key:vocabulary.b.1",
+      "kind": "short",
+      "accepted": [
+        "Ms"
+      ]
+    },
+    {
+      "id": "vocabulary.b.2",
+      "section": "vocabulary",
+      "group": "b",
+      "number": "2",
+      "expected": "friend",
+      "source": "module-1:key:vocabulary.b.2",
+      "kind": "short",
+      "accepted": [
+        "friend"
+      ]
+    },
+    {
+      "id": "vocabulary.b.3",
+      "section": "vocabulary",
+      "group": "b",
+      "number": "3",
+      "expected": "Peru",
+      "source": "module-1:key:vocabulary.b.3",
+      "kind": "short",
+      "accepted": [
+        "Peru"
+      ]
+    },
+    {
+      "id": "vocabulary.b.4",
+      "section": "vocabulary",
+      "group": "b",
+      "number": "4",
+      "expected": "assistant",
+      "source": "module-1:key:vocabulary.b.4",
+      "kind": "short",
+      "accepted": [
+        "assistant"
+      ]
+    },
+    {
+      "id": "vocabulary.b.5",
+      "section": "vocabulary",
+      "group": "b",
+      "number": "5",
+      "expected": "present",
+      "source": "module-1:key:vocabulary.b.5",
+      "kind": "short",
+      "accepted": [
+        "present"
+      ]
+    },
+    {
+      "id": "communication.1",
+      "section": "communication",
+      "group": null,
+      "number": "1",
+      "expected": "a",
+      "source": "module-1:key:communication.1",
+      "kind": "choice",
+      "accepted": [
+        "a"
+      ]
+    },
+    {
+      "id": "communication.2",
+      "section": "communication",
+      "group": null,
+      "number": "2",
+      "expected": "b",
+      "source": "module-1:key:communication.2",
+      "kind": "choice",
+      "accepted": [
+        "b"
+      ]
+    },
+    {
+      "id": "communication.3",
+      "section": "communication",
+      "group": null,
+      "number": "3",
+      "expected": "b",
+      "source": "module-1:key:communication.3",
+      "kind": "choice",
+      "accepted": [
+        "b"
+      ]
+    },
+    {
+      "id": "communication.4",
+      "section": "communication",
+      "group": null,
+      "number": "4",
+      "expected": "a",
+      "source": "module-1:key:communication.4",
+      "kind": "choice",
+      "accepted": [
+        "a"
+      ]
+    },
+    {
+      "id": "grammar.a.1",
+      "section": "grammar",
+      "group": "a",
+      "number": "1",
+      "expected": "What",
+      "source": "module-1:key:grammar.a.1",
+      "kind": "short",
+      "accepted": [
+        "What"
+      ]
+    },
+    {
+      "id": "grammar.a.2",
+      "section": "grammar",
+      "group": "a",
+      "number": "2",
+      "expected": "Who",
+      "source": "module-1:key:grammar.a.2",
+      "kind": "short",
+      "accepted": [
+        "Who"
+      ]
+    },
+    {
+      "id": "grammar.a.3",
+      "section": "grammar",
+      "group": "a",
+      "number": "3",
+      "expected": "How",
+      "source": "module-1:key:grammar.a.3",
+      "kind": "short",
+      "accepted": [
+        "How"
+      ]
+    },
+    {
+      "id": "grammar.a.4",
+      "section": "grammar",
+      "group": "a",
+      "number": "4",
+      "expected": "Where",
+      "source": "module-1:key:grammar.a.4",
+      "kind": "short",
+      "accepted": [
+        "Where"
+      ]
+    },
+    {
+      "id": "grammar.a.5",
+      "section": "grammar",
+      "group": "a",
+      "number": "5",
+      "expected": "What",
+      "source": "module-1:key:grammar.a.5",
+      "kind": "short",
+      "accepted": [
+        "What"
+      ]
+    },
+    {
+      "id": "grammar.b.1",
+      "section": "grammar",
+      "group": "b",
+      "number": "1",
+      "expected": "Is, isn’t",
+      "source": "module-1:key:grammar.b.1",
+      "kind": "short",
+      "accepted": [
+        "Is, isn’t"
+      ]
+    },
+    {
+      "id": "grammar.b.2",
+      "section": "grammar",
+      "group": "b",
+      "number": "2",
+      "expected": "Are, aren’t",
+      "source": "module-1:key:grammar.b.2",
+      "kind": "short",
+      "accepted": [
+        "Are, aren’t"
+      ]
+    },
+    {
+      "id": "grammar.b.3",
+      "section": "grammar",
+      "group": "b",
+      "number": "3",
+      "expected": "are",
+      "source": "module-1:key:grammar.b.3",
+      "kind": "short",
+      "accepted": [
+        "are"
+      ]
+    },
+    {
+      "id": "grammar.b.4",
+      "section": "grammar",
+      "group": "b",
+      "number": "4",
+      "expected": "is",
+      "source": "module-1:key:grammar.b.4",
+      "kind": "short",
+      "accepted": [
+        "is"
+      ]
+    },
+    {
+      "id": "grammar.c.1",
+      "section": "grammar",
+      "group": "c",
+      "number": "1",
+      "expected": "an, a",
+      "source": "module-1:key:grammar.c.1",
+      "kind": "short",
+      "accepted": [
+        "an, a"
+      ]
+    },
+    {
+      "id": "grammar.c.2",
+      "section": "grammar",
+      "group": "c",
+      "number": "2",
+      "expected": "Are you",
+      "source": "module-1:key:grammar.c.2",
+      "kind": "short",
+      "accepted": [
+        "Are you"
+      ]
+    },
+    {
+      "id": "grammar.c.3",
+      "section": "grammar",
+      "group": "c",
+      "number": "3",
+      "expected": "My, his",
+      "source": "module-1:key:grammar.c.3",
+      "kind": "short",
+      "accepted": [
+        "My, his"
+      ]
+    },
+    {
+      "id": "grammar.c.4",
+      "section": "grammar",
+      "group": "c",
+      "number": "4",
+      "expected": "We’re, Our",
+      "source": "module-1:key:grammar.c.4",
+      "kind": "short",
+      "accepted": [
+        "We’re, Our"
+      ]
+    },
+    {
+      "id": "grammar.c.5",
+      "section": "grammar",
+      "group": "c",
+      "number": "5",
+      "expected": "She",
+      "source": "module-1:key:grammar.c.5",
+      "kind": "short",
+      "accepted": [
+        "She"
+      ]
+    },
+    {
+      "id": "listen.surname",
+      "section": "listen",
+      "group": null,
+      "number": "surname",
+      "expected": "Sawyer",
+      "source": "module-1:key:listen.surname",
+      "kind": "short",
+      "accepted": [
+        "Sawyer"
+      ]
+    },
+    {
+      "id": "listen.age",
+      "section": "listen",
+      "group": null,
+      "number": "age",
+      "expected": "23",
+      "source": "module-1:key:listen.age",
+      "kind": "short",
+      "accepted": [
+        "23"
+      ]
+    },
+    {
+      "id": "listen.job",
+      "section": "listen",
+      "group": null,
+      "number": "job",
+      "expected": "Actress",
+      "source": "module-1:key:listen.job",
+      "kind": "short",
+      "accepted": [
+        "Actress"
+      ]
+    },
+    {
+      "id": "read.1",
+      "section": "read",
+      "group": null,
+      "number": "1",
+      "expected": "Vicky",
+      "source": "module-1:key:read.1",
+      "kind": "short",
+      "accepted": [
+        "Vicky"
+      ]
+    },
+    {
+      "id": "read.2",
+      "section": "read",
+      "group": null,
+      "number": "2",
+      "expected": "Tyler / Ethan",
+      "source": "module-1:key:read.2",
+      "kind": "short",
+      "accepted": [
+        "Tyler / Ethan",
+        "Tyler and Ethan",
+        "Ethan and Tyler",
+        "Tyler, Ethan",
+        "Ethan, Tyler"
+      ]
+    },
+    {
+      "id": "read.3",
+      "section": "read",
+      "group": null,
+      "number": "3",
+      "expected": "Ethan",
+      "source": "module-1:key:read.3",
+      "kind": "short",
+      "accepted": [
+        "Ethan"
+      ]
+    },
+    {
+      "id": "write",
+      "section": "write",
+      "group": null,
+      "number": "",
+      "expected": "Open writing task: teacher review required.",
+      "accepted": [],
+      "kind": "review",
+      "source": "module-1:paper:write"
+    }
+  ],
+  "keyText": "Answer booklet page 1\nTEST 1\nVOCABULARY\nA.\nrelationships:  flatmate, \ncolleague\ncountry:  Italy, France\nnationality:  Polish, Mexican\nnumbers:  seventy, eighteen\nB.\n1. Ms\n2. friend\n3. Peru\n4. assistant\n5. present\nCOMMUNICATION\n1. a\n2. b\n3. b\n4. a\nGRAMMAR\nA.\n1. What\n2. Who\n3. How\n4. Where\n5. What\nB.\n1. Is, isn’t\n2. Are, aren’t\n3. are \n4. is\nC.\n1. an, a\n2. Are you\n3. My, his\n4. We’re, Our\n5. She\nLISTEN\nSurname: Sawyer\nAge: 23\nJob:  Actress\nREAD\n1. Vicky\n2. Tyler / Ethan\n3. Ethan\nListening transcript\nA:  Good morning. My name is Grace Sawyer.\nB:  Hello, Ms Sawyer. How do you spell your surname?\nA:  S-A-W-Y-E-R.\nB:  OK. Thank you. Now ... how old are you?\nA:  I’m twenty-three.\nB:  Thirty-three. \nA:  No, twenty-three.\nB:  Ah, sorry.... And what do you do?\nA:  I’m an actress.\nB:  OK.... (fade out)\n",
+  "paperText": "Original test booklet PDF page 5\n4\nTraveller\n Copyright © MM Publications\nA. Put the words in the correct category. \nItaly        flatmate        Polish        seventy        Mexican        eighteen        colleague        France \nrelationships\ncountry\nnationality\nnumbers\n                                        \n                                        \n                                        \n                                        \n                                        \n                                        \n                                        \n                                        \n8\nSCORE\nB. Circle the correct words.\n1. This is my boss Ms / Mr Lefort. She’s French.\n2. Victor is my best classmate / friend.\n3. I live in Peru / Peruvian.\n4. Julia is a shop officer / assistant.\n5. Happy Birthday. Here’s your present / place.\n5\nSCORE\nChoose a, b or c.\n4\nSCORE\nTest 1  Module 1\nVOCABULARY \nCOMMUNICATION \n1.   A: How are you?\nB:                                               \na.  Not bad.\nb.  And you?\nc.  Thanks.\n2.   A: What’s up?\nB:                                               \na.  Bye.\nb.  Not much.\nc.  See you.\n3.   A: See you later.\nB:                                               \na.  Good morning.\nb.  Take care.\nc.  I’m very well.\n4.   A: How’s it going?\nB:                                               \na.  Great.\nb.  Good evening.\nc.  Have a nice weekend.\n4\n\n\nOriginal test booklet PDF page 6\n5\nTraveller\n Copyright © MM Publications\nJOBCENTRE FORM\nFIRST NAME:                                                   \nSURNAME: \n                                                 \nAGE: \n                                                 \nJOB: \n                                                 \nA. Complete the questions with Who, What, Where or How. \n1.                                         ’s your e-mail? \nakaren23@gmail.com\n2.                                         ’s your favourite teacher? \nMrs Turner.\n3.                                         old are you? \nI’m fifteen years old.\n4.                                         are you from? \nVenezuela.\n5.                                         do you do? \nI’m a firefighter.\nB. Complete with the correct form of the verb be.\n1.   A:                                John from South Africa?\nB: No, he                                 . \n2.   A:                                  they actors?\nB: No, they                                .\n3.   Ted and I                                  twenty years old.\n4.   Amanda                                  our new neighbour.\nC. Circle the correct words.\n1.  William is a / an electrician and his flatmate is a / an dentist.\n2.   A: Are you / You are from Colombia?\nB: No, I’m not.\n3.  My / I’m name is Luke and he’s / his name is Joseph.\n4.  We’re / Our married. We’re / Our surname is Madison.\n5.  She / Her is from Hungary.\n8\nSCORE\n6\nSCORE\n5\nSCORE\nListen and complete the form.\n6\nSCORE\nGRAMMAR \nGrace\nLISTEN \n5\n\n\nOriginal test booklet PDF page 7\n6\nTraveller\n Copyright © MM Publications\nBLOG\nHi! I’m Tyler and I’m 21. I live in Liverpool and I’m a hairdresser. \nPosted by Tyler Nickson at 12:00\n.....................................\nRE: Hello, Tyler! I’m a hairdresser, too.      My name’s Vicky and I’m 28. I live in London with my \nflatmate, Susan.\nPosted by Vicky Manciny at 12:14\n......................................\nRE: My name’s Ethan and I live in Liverpool, too. I’m 25 years old and I’m a reporter.\nPosted by Ethan Thomson at 12: 25\nwww.jobblog.net\nRead the blog and complete the sentences with Tyler, Vicky or Ethan. \n1.                                                        is 28 years old.\n2.                                               and                                               live in Liverpool.\n3.                                                        isn’t a hairdresser.\nComplete the form about yourself. Then write sentences about yourself.\nFirst name: \n                                                                     \nSurname: \n \n                                                      \nNationality: \n \n                                                       \nAge: \n                                                                     \nMarital status:                                                                   _\nPhone number:                                                                   _\nE-mail: \n                                                                     \n8\nSCORE\n10\nSCORE\n60\nTOTAL SCORE\nREAD \nWRITE\n                                                                                                                                                                                                                      \n                                                                                                                                                                                                                      \n                                                                                                                                                                                                                      \n                                                                                                                                                                                                                      \n                                                                                                                                                                                                                      \n                                                                                                                                                                                                                      \n                                                                                                                                                                                                                      \n6\n"
+}

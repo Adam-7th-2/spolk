@@ -1,0 +1,426 @@
+{
+  "examId": "module-6",
+  "sourceHash": "0d7df846b46aa964cb9b26406da476002c997694c46295c16561b1b3618c6609",
+  "fields": [
+    {
+      "id": "vocabulary.1",
+      "section": "vocabulary",
+      "group": null,
+      "number": "1",
+      "expected": "singer",
+      "source": "module-6:key:vocabulary.1",
+      "kind": "short",
+      "accepted": [
+        "singer"
+      ]
+    },
+    {
+      "id": "vocabulary.2",
+      "section": "vocabulary",
+      "group": null,
+      "number": "2",
+      "expected": "wake",
+      "source": "module-6:key:vocabulary.2",
+      "kind": "short",
+      "accepted": [
+        "wake"
+      ]
+    },
+    {
+      "id": "vocabulary.3",
+      "section": "vocabulary",
+      "group": null,
+      "number": "3",
+      "expected": "Turn",
+      "source": "module-6:key:vocabulary.3",
+      "kind": "short",
+      "accepted": [
+        "Turn"
+      ]
+    },
+    {
+      "id": "vocabulary.4",
+      "section": "vocabulary",
+      "group": null,
+      "number": "4",
+      "expected": "cold",
+      "source": "module-6:key:vocabulary.4",
+      "kind": "short",
+      "accepted": [
+        "cold"
+      ]
+    },
+    {
+      "id": "vocabulary.5",
+      "section": "vocabulary",
+      "group": null,
+      "number": "5",
+      "expected": "information",
+      "source": "module-6:key:vocabulary.5",
+      "kind": "short",
+      "accepted": [
+        "information"
+      ]
+    },
+    {
+      "id": "vocabulary.6",
+      "section": "vocabulary",
+      "group": null,
+      "number": "6",
+      "expected": "draw, artist",
+      "source": "module-6:key:vocabulary.6",
+      "kind": "short",
+      "accepted": [
+        "draw, artist"
+      ]
+    },
+    {
+      "id": "vocabulary.7",
+      "section": "vocabulary",
+      "group": null,
+      "number": "7",
+      "expected": "transport",
+      "source": "module-6:key:vocabulary.7",
+      "kind": "short",
+      "accepted": [
+        "transport"
+      ]
+    },
+    {
+      "id": "vocabulary.8",
+      "section": "vocabulary",
+      "group": null,
+      "number": "8",
+      "expected": "care",
+      "source": "module-6:key:vocabulary.8",
+      "kind": "short",
+      "accepted": [
+        "care"
+      ]
+    },
+    {
+      "id": "communication.1",
+      "section": "communication",
+      "group": null,
+      "number": "1",
+      "expected": "d",
+      "source": "module-6:key:communication.1",
+      "kind": "choice",
+      "accepted": [
+        "d"
+      ]
+    },
+    {
+      "id": "communication.2",
+      "section": "communication",
+      "group": null,
+      "number": "2",
+      "expected": "f",
+      "source": "module-6:key:communication.2",
+      "kind": "choice",
+      "accepted": [
+        "f"
+      ]
+    },
+    {
+      "id": "communication.3",
+      "section": "communication",
+      "group": null,
+      "number": "3",
+      "expected": "b",
+      "source": "module-6:key:communication.3",
+      "kind": "choice",
+      "accepted": [
+        "b"
+      ]
+    },
+    {
+      "id": "communication.4",
+      "section": "communication",
+      "group": null,
+      "number": "4",
+      "expected": "a",
+      "source": "module-6:key:communication.4",
+      "kind": "choice",
+      "accepted": [
+        "a"
+      ]
+    },
+    {
+      "id": "communication.5",
+      "section": "communication",
+      "group": null,
+      "number": "5",
+      "expected": "c",
+      "source": "module-6:key:communication.5",
+      "kind": "choice",
+      "accepted": [
+        "c"
+      ]
+    },
+    {
+      "id": "communication.6",
+      "section": "communication",
+      "group": null,
+      "number": "6",
+      "expected": "e",
+      "source": "module-6:key:communication.6",
+      "kind": "choice",
+      "accepted": [
+        "e"
+      ]
+    },
+    {
+      "id": "grammar.a.1",
+      "section": "grammar",
+      "group": "a",
+      "number": "1",
+      "expected": "can play",
+      "source": "module-6:key:grammar.a.1",
+      "kind": "short",
+      "accepted": [
+        "can play"
+      ]
+    },
+    {
+      "id": "grammar.a.2",
+      "section": "grammar",
+      "group": "a",
+      "number": "2",
+      "expected": "can’t swim",
+      "source": "module-6:key:grammar.a.2",
+      "kind": "short",
+      "accepted": [
+        "can’t swim"
+      ]
+    },
+    {
+      "id": "grammar.a.3",
+      "section": "grammar",
+      "group": "a",
+      "number": "3",
+      "expected": "can communicate",
+      "source": "module-6:key:grammar.a.3",
+      "kind": "short",
+      "accepted": [
+        "can communicate"
+      ]
+    },
+    {
+      "id": "grammar.a.4",
+      "section": "grammar",
+      "group": "a",
+      "number": "4",
+      "expected": "can’t go",
+      "source": "module-6:key:grammar.a.4",
+      "kind": "short",
+      "accepted": [
+        "can’t go"
+      ]
+    },
+    {
+      "id": "grammar.a.5",
+      "section": "grammar",
+      "group": "a",
+      "number": "5",
+      "expected": "can’t send",
+      "source": "module-6:key:grammar.a.5",
+      "kind": "short",
+      "accepted": [
+        "can’t send"
+      ]
+    },
+    {
+      "id": "grammar.b.1",
+      "section": "grammar",
+      "group": "b",
+      "number": "1",
+      "expected": "Are your sisters dancing?, aren’t dancing, are listening",
+      "source": "module-6:key:grammar.b.1",
+      "kind": "review",
+      "accepted": [
+        "Are your sisters dancing?, aren’t dancing, are listening"
+      ]
+    },
+    {
+      "id": "grammar.b.2",
+      "section": "grammar",
+      "group": "b",
+      "number": "2",
+      "expected": "isn’t cooking, is talking",
+      "source": "module-6:key:grammar.b.2",
+      "kind": "short",
+      "accepted": [
+        "isn’t cooking, is talking"
+      ]
+    },
+    {
+      "id": "grammar.b.3",
+      "section": "grammar",
+      "group": "b",
+      "number": "3",
+      "expected": "Is Ron swimming",
+      "source": "module-6:key:grammar.b.3",
+      "kind": "short",
+      "accepted": [
+        "Is Ron swimming"
+      ]
+    },
+    {
+      "id": "grammar.b.4",
+      "section": "grammar",
+      "group": "b",
+      "number": "4",
+      "expected": "Are you surfing, ’m checking",
+      "source": "module-6:key:grammar.b.4",
+      "kind": "short",
+      "accepted": [
+        "Are you surfing, ’m checking"
+      ]
+    },
+    {
+      "id": "grammar.b.5",
+      "section": "grammar",
+      "group": "b",
+      "number": "5",
+      "expected": "are waiting",
+      "source": "module-6:key:grammar.b.5",
+      "kind": "short",
+      "accepted": [
+        "are waiting"
+      ]
+    },
+    {
+      "id": "grammar.c.1",
+      "section": "grammar",
+      "group": "c",
+      "number": "1",
+      "expected": "Let’s, How about",
+      "source": "module-6:key:grammar.c.1",
+      "kind": "short",
+      "accepted": [
+        "Let’s, How about"
+      ]
+    },
+    {
+      "id": "grammar.c.2",
+      "section": "grammar",
+      "group": "c",
+      "number": "2",
+      "expected": "How about",
+      "source": "module-6:key:grammar.c.2",
+      "kind": "short",
+      "accepted": [
+        "How about"
+      ]
+    },
+    {
+      "id": "grammar.c.3",
+      "section": "grammar",
+      "group": "c",
+      "number": "3",
+      "expected": "Let’s, How about",
+      "source": "module-6:key:grammar.c.3",
+      "kind": "short",
+      "accepted": [
+        "Let’s, How about"
+      ]
+    },
+    {
+      "id": "listen.1",
+      "section": "listen",
+      "group": null,
+      "number": "1",
+      "expected": "F",
+      "source": "module-6:key:listen.1",
+      "kind": "choice",
+      "accepted": [
+        "F"
+      ]
+    },
+    {
+      "id": "listen.2",
+      "section": "listen",
+      "group": null,
+      "number": "2",
+      "expected": "T",
+      "source": "module-6:key:listen.2",
+      "kind": "choice",
+      "accepted": [
+        "T"
+      ]
+    },
+    {
+      "id": "listen.3",
+      "section": "listen",
+      "group": null,
+      "number": "3",
+      "expected": "F",
+      "source": "module-6:key:listen.3",
+      "kind": "choice",
+      "accepted": [
+        "F"
+      ]
+    },
+    {
+      "id": "listen.4",
+      "section": "listen",
+      "group": null,
+      "number": "4",
+      "expected": "T",
+      "source": "module-6:key:listen.4",
+      "kind": "choice",
+      "accepted": [
+        "T"
+      ]
+    },
+    {
+      "id": "read.1",
+      "section": "read",
+      "group": null,
+      "number": "1",
+      "expected": "the Internet café near his house / an Internet café",
+      "source": "module-6:key:read.1",
+      "kind": "review",
+      "accepted": [
+        "the Internet café near his house / an Internet café"
+      ]
+    },
+    {
+      "id": "read.2",
+      "section": "read",
+      "group": null,
+      "number": "2",
+      "expected": "his computer games",
+      "source": "module-6:key:read.2",
+      "kind": "short",
+      "accepted": [
+        "his computer games"
+      ]
+    },
+    {
+      "id": "read.3",
+      "section": "read",
+      "group": null,
+      "number": "3",
+      "expected": "printer, keyboard",
+      "source": "module-6:key:read.3",
+      "kind": "short",
+      "accepted": [
+        "printer, keyboard"
+      ]
+    },
+    {
+      "id": "write",
+      "section": "write",
+      "group": null,
+      "number": "",
+      "expected": "Open writing task: teacher review required.",
+      "accepted": [],
+      "kind": "review",
+      "source": "module-6:paper:write"
+    }
+  ],
+  "keyText": "Answer booklet page 6\nTraveller\nTEST 6\nVOCABULARY\n1. singer\n2. wake\n3. Turn\n4. cold\n5. information\n6. draw, artist\n7. transport\n8. care\nCOMMUNICATION\n1. d\n2. f\n3. b\n4. a\n5. c\n6. e\nGRAMMAR\nA.\n1. can play\n2. can’t swim\n3. can communicate\n4. can’t go \n5. can’t send\nB. \n1. Are your sisters dancing?,  \n   aren’t dancing, are listening\n2. isn’t cooking, is talking\n3. Is Ron swimming\n4. Are you surfing, ’m \n    checking\n5. are waiting\nC.\n1. Let’s, How about\n2. How about\n3. Let’s, How about\nLISTEN\n1. F\n2. T\n3. F\n4. T\nREAD\n1. the Internet café near his \n    house / an Internet café\n2. his computer games\n3. printer, keyboard\nLISTENING TRANSCRIPT\nKaren \nHello?\nSimon Hi, Karen. How’s it going?\nKaren \nOK, I guess.\nSimon Are you studying for the exam?\nKaren \nNo, I’m not. I’m listening to music. I need to relax a bit. What about you?\nSimon I’m surfing the Net. Listen, how about going out?\nKaren \nSure. We can study together later.\nSimon OK. Let’s go to the cinema.\nKaren \nNo, I don’t want to. How about going for a coffee?\nSimon Sure. Where?\nKaren \nLet’s go to Jimmy’s Café.\nSimon Is that in the park?\nKaren \nYes, it is.\nSimon OK. Meet you there in ten minutes.\n",
+  "paperText": "Original test booklet PDF page 24\n23\n Copyright © MM Publications\nTest 6 Module 6\nCircle the correct words.\nA. Complete with can/can’t and the verbs in the box.\n1. Madonna is a famous singer / athlete.\n2. What time does Lucy answer / wake up in the morning?\n3. Carry / Turn off the lights when you leave the room, please.\n4. It’s cold / sunny today. Take a jacket with you.\n5. You can find a lot of population / information on the Internet.\n6. My cousin can draw / swim very well. He’s a(n) writer / artist.\n7. People should use public transport / volunteer.\n8. Elaine doesn’t care / protect about the environment. She doesn’t recycle her rubbish. \n9\nSCORE\nMatch.\n6\nSCORE\n1. Sylvia                                                the piano and the guitar. She’s a musician.\n2. I don’t want to go to the beach. I                                               .\n3. I                                                with my friends over the Internet. It’s fun!\n4. We                                                to the concert. It’s raining!\n5. Sorry, I                                                you an e-mail. I don’t know how to use a computer.\n5\nSCORE\nVOCABULARY \nGRAMMAR \nCOMMUNICATION \n1. What’s the weather like?\n2. What are you doing?\n3. How about going for a coffee?\n4. I’ve got a lot of homework.\n5. Can I speak to Mary, please?\n6. Are you working today?\na. Too bad.\nb. That sounds like a good idea.\nc. She isn’t here. Can I take a message?\nd. It’s cold and windy.\ne. No, I have the day off.\nf. I’m surfing the Net.\n         communicate \n             swim \n                go \n                send \n     \n play \nTraveller\n23\n\n\nOriginal test booklet PDF page 25\n24\n Copyright © MM Publications\nB. Complete with the Present Progressive of the verbs in brackets.\n 8\nSCORE\n 5\nSCORE\n1. A:                                          (your sisters/dance)?\n    B: No, they                                          (not dance). They                                          (listen) to music.\n2. My mother                                   (not cook) dinner at the moment. She                                   (talk) on the phone.\n3. A:                                          (Ron/swim) in the lake?\n     B: Yes. There he is.\n4. A:                                          (you/surf) the Net?\n     B: No. I                                          (check) my e-mails.\n5. My friends                                          (wait) for the bus.\n1. A: I’m really hungry.\n B:                                               make some sandwiches.\n A: No.                                              ordering a pizza?\n B: OK.\n2. A: A team of volunteers is cleaning the lake.\n B:                                              joining them?\n3. A:                                              send Grace a letter.\n B:                                              calling her?\n A: Good idea.\n 9\nSCORE\nC. Complete the dialogues using Let’s or How about.\nListen to two friends talking and write T for True or F for False.\n1. Karen is studying at the moment.\n2. Simon is surfing the Net at the moment.\n3. Karen wants to go to the cinema.\n4. The café is in the park.\nLISTEN\nTraveller\n24\n\n\nOriginal test booklet PDF page 26\n25\n Copyright © MM Publications\nRead the e-mail and complete the blanks with the correct words.\nWrite a short e-mail to a friend. Use the ideas below to help you.\nHey Brad, \nWhat’s up? I’m writing from the Internet café near my house. There’s something wrong with my \ncomputer at home, so I can’t check my e-mails or surf the Net at the moment. It’s horrible! I’m so \nbored all the time, and you know how I love my computer games. I don’t know what’s wrong with \nmy computer. I’ve got a new printer and keyboard, so it’s not those. Maybe it’s my screen, who \nknows? Anyway, let’s get together soon and hang out. I’M BORED!\nBest wishes,\nJake\n8\nSCORE\nGive your news\nAsk him/her to go out with you\nREAD\nWRITE\n1. Jake is at                                        at the moment.\n2. Jake loves                                       .\n3. Jake has a new                                        and                                       .\n10\nSCORE\n60\nTOTAL SCORE\n                                                                                                                                                                                         \n                                                                                                                                                                                         \n                                                                                                                                                                                                                      \n                                                                                                                                                                                                                      \n                                                                                                                                                                                                                      \n                                                                                                                                                                                                                      \n                                                                                                                                                                                                                      \n                                                                                                                                                                                                                      \n                                                                                                                                                                                                                       \nbradleycummings@hotmail.com\njakehlenington@mymail.com\nTraveller\n25\n"
+}

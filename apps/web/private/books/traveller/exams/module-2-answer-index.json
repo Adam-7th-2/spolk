@@ -1,0 +1,474 @@
+{
+  "examId": "module-2",
+  "sourceHash": "4af3114e4fd8519e6326884e8b92e373cc07d24ff01002add881c613ec0c7ece",
+  "fields": [
+    {
+      "id": "vocabulary.a.1",
+      "section": "vocabulary",
+      "group": "a",
+      "number": "1",
+      "expected": "short",
+      "source": "module-2:key:vocabulary.a.1",
+      "kind": "short",
+      "accepted": [
+        "short"
+      ]
+    },
+    {
+      "id": "vocabulary.a.2",
+      "section": "vocabulary",
+      "group": "a",
+      "number": "2",
+      "expected": "hair",
+      "source": "module-2:key:vocabulary.a.2",
+      "kind": "short",
+      "accepted": [
+        "hair"
+      ]
+    },
+    {
+      "id": "vocabulary.a.3",
+      "section": "vocabulary",
+      "group": "a",
+      "number": "3",
+      "expected": "girl",
+      "source": "module-2:key:vocabulary.a.3",
+      "kind": "short",
+      "accepted": [
+        "girl"
+      ]
+    },
+    {
+      "id": "vocabulary.a.4",
+      "section": "vocabulary",
+      "group": "a",
+      "number": "4",
+      "expected": "jacket",
+      "source": "module-2:key:vocabulary.a.4",
+      "kind": "short",
+      "accepted": [
+        "jacket"
+      ]
+    },
+    {
+      "id": "vocabulary.a.5",
+      "section": "vocabulary",
+      "group": "a",
+      "number": "5",
+      "expected": "shirt",
+      "source": "module-2:key:vocabulary.a.5",
+      "kind": "short",
+      "accepted": [
+        "shirt"
+      ]
+    },
+    {
+      "id": "vocabulary.a.6",
+      "section": "vocabulary",
+      "group": "a",
+      "number": "6",
+      "expected": "handsome",
+      "source": "module-2:key:vocabulary.a.6",
+      "kind": "short",
+      "accepted": [
+        "handsome"
+      ]
+    },
+    {
+      "id": "vocabulary.b.1",
+      "section": "vocabulary",
+      "group": "b",
+      "number": "1",
+      "expected": "wife",
+      "source": "module-2:key:vocabulary.b.1",
+      "kind": "short",
+      "accepted": [
+        "wife"
+      ]
+    },
+    {
+      "id": "vocabulary.b.2",
+      "section": "vocabulary",
+      "group": "b",
+      "number": "2",
+      "expected": "backpack",
+      "source": "module-2:key:vocabulary.b.2",
+      "kind": "short",
+      "accepted": [
+        "backpack"
+      ]
+    },
+    {
+      "id": "vocabulary.b.3",
+      "section": "vocabulary",
+      "group": "b",
+      "number": "3",
+      "expected": "beautiful",
+      "source": "module-2:key:vocabulary.b.3",
+      "kind": "short",
+      "accepted": [
+        "beautiful"
+      ]
+    },
+    {
+      "id": "vocabulary.b.4",
+      "section": "vocabulary",
+      "group": "b",
+      "number": "4",
+      "expected": "expensive",
+      "source": "module-2:key:vocabulary.b.4",
+      "kind": "short",
+      "accepted": [
+        "expensive"
+      ]
+    },
+    {
+      "id": "vocabulary.b.5",
+      "section": "vocabulary",
+      "group": "b",
+      "number": "5",
+      "expected": "dictionary",
+      "source": "module-2:key:vocabulary.b.5",
+      "kind": "short",
+      "accepted": [
+        "dictionary"
+      ]
+    },
+    {
+      "id": "communication.1",
+      "section": "communication",
+      "group": null,
+      "number": "1",
+      "expected": "c",
+      "source": "module-2:key:communication.1",
+      "kind": "choice",
+      "accepted": [
+        "c"
+      ]
+    },
+    {
+      "id": "communication.2",
+      "section": "communication",
+      "group": null,
+      "number": "2",
+      "expected": "e",
+      "source": "module-2:key:communication.2",
+      "kind": "choice",
+      "accepted": [
+        "e"
+      ]
+    },
+    {
+      "id": "communication.3",
+      "section": "communication",
+      "group": null,
+      "number": "3",
+      "expected": "a",
+      "source": "module-2:key:communication.3",
+      "kind": "choice",
+      "accepted": [
+        "a"
+      ]
+    },
+    {
+      "id": "communication.4",
+      "section": "communication",
+      "group": null,
+      "number": "4",
+      "expected": "f",
+      "source": "module-2:key:communication.4",
+      "kind": "choice",
+      "accepted": [
+        "f"
+      ]
+    },
+    {
+      "id": "communication.5",
+      "section": "communication",
+      "group": null,
+      "number": "5",
+      "expected": "d",
+      "source": "module-2:key:communication.5",
+      "kind": "choice",
+      "accepted": [
+        "d"
+      ]
+    },
+    {
+      "id": "communication.6",
+      "section": "communication",
+      "group": null,
+      "number": "6",
+      "expected": "b",
+      "source": "module-2:key:communication.6",
+      "kind": "choice",
+      "accepted": [
+        "b"
+      ]
+    },
+    {
+      "id": "grammar.a.1",
+      "section": "grammar",
+      "group": "a",
+      "number": "1",
+      "expected": "These umbrellas are black and blue.",
+      "source": "module-2:key:grammar.a.1",
+      "kind": "short",
+      "accepted": [
+        "These umbrellas are black and blue."
+      ]
+    },
+    {
+      "id": "grammar.a.2",
+      "section": "grammar",
+      "group": "a",
+      "number": "2",
+      "expected": "Those torches are new.",
+      "source": "module-2:key:grammar.a.2",
+      "kind": "short",
+      "accepted": [
+        "Those torches are new."
+      ]
+    },
+    {
+      "id": "grammar.a.3",
+      "section": "grammar",
+      "group": "a",
+      "number": "3",
+      "expected": "Those women have got long hair.",
+      "source": "module-2:key:grammar.a.3",
+      "kind": "short",
+      "accepted": [
+        "Those women have got long hair."
+      ]
+    },
+    {
+      "id": "grammar.a.4",
+      "section": "grammar",
+      "group": "a",
+      "number": "4",
+      "expected": "Has Tina got black dresses?",
+      "source": "module-2:key:grammar.a.4",
+      "kind": "short",
+      "accepted": [
+        "Has Tina got black dresses?"
+      ]
+    },
+    {
+      "id": "grammar.a.5",
+      "section": "grammar",
+      "group": "a",
+      "number": "5",
+      "expected": "These passports are Canadian.",
+      "source": "module-2:key:grammar.a.5",
+      "kind": "short",
+      "accepted": [
+        "These passports are Canadian."
+      ]
+    },
+    {
+      "id": "grammar.b.1",
+      "section": "grammar",
+      "group": "b",
+      "number": "1",
+      "expected": "Has ... got, has, has got",
+      "source": "module-2:key:grammar.b.1",
+      "kind": "review",
+      "accepted": [
+        "Has ... got, has, has got"
+      ]
+    },
+    {
+      "id": "grammar.b.2",
+      "section": "grammar",
+      "group": "b",
+      "number": "2",
+      "expected": "have got, have got, has got",
+      "source": "module-2:key:grammar.b.2",
+      "kind": "short",
+      "accepted": [
+        "have got, have got, has got"
+      ]
+    },
+    {
+      "id": "grammar.b.3",
+      "section": "grammar",
+      "group": "b",
+      "number": "3",
+      "expected": "Have ... got, haven’t, has got",
+      "source": "module-2:key:grammar.b.3",
+      "kind": "review",
+      "accepted": [
+        "Have ... got, haven’t, has got"
+      ]
+    },
+    {
+      "id": "grammar.c.1",
+      "section": "grammar",
+      "group": "c",
+      "number": "1",
+      "expected": "a",
+      "source": "module-2:key:grammar.c.1",
+      "kind": "choice",
+      "accepted": [
+        "a"
+      ]
+    },
+    {
+      "id": "grammar.c.2",
+      "section": "grammar",
+      "group": "c",
+      "number": "2",
+      "expected": "a",
+      "source": "module-2:key:grammar.c.2",
+      "kind": "choice",
+      "accepted": [
+        "a"
+      ]
+    },
+    {
+      "id": "grammar.c.3",
+      "section": "grammar",
+      "group": "c",
+      "number": "3",
+      "expected": "b",
+      "source": "module-2:key:grammar.c.3",
+      "kind": "choice",
+      "accepted": [
+        "b"
+      ]
+    },
+    {
+      "id": "grammar.c.4",
+      "section": "grammar",
+      "group": "c",
+      "number": "4",
+      "expected": "a",
+      "source": "module-2:key:grammar.c.4",
+      "kind": "choice",
+      "accepted": [
+        "a"
+      ]
+    },
+    {
+      "id": "grammar.c.5",
+      "section": "grammar",
+      "group": "c",
+      "number": "5",
+      "expected": "b",
+      "source": "module-2:key:grammar.c.5",
+      "kind": "choice",
+      "accepted": [
+        "b"
+      ]
+    },
+    {
+      "id": "grammar.c.6",
+      "section": "grammar",
+      "group": "c",
+      "number": "6",
+      "expected": "b",
+      "source": "module-2:key:grammar.c.6",
+      "kind": "choice",
+      "accepted": [
+        "b"
+      ]
+    },
+    {
+      "id": "grammar.c.7",
+      "section": "grammar",
+      "group": "c",
+      "number": "7",
+      "expected": "b",
+      "source": "module-2:key:grammar.c.7",
+      "kind": "choice",
+      "accepted": [
+        "b"
+      ]
+    },
+    {
+      "id": "listen.1",
+      "section": "listen",
+      "group": null,
+      "number": "1",
+      "expected": "friend",
+      "source": "module-2:key:listen.1",
+      "kind": "short",
+      "accepted": [
+        "friend"
+      ]
+    },
+    {
+      "id": "listen.2",
+      "section": "listen",
+      "group": null,
+      "number": "2",
+      "expected": "Linda’s",
+      "source": "module-2:key:listen.2",
+      "kind": "short",
+      "accepted": [
+        "Linda’s"
+      ]
+    },
+    {
+      "id": "listen.3",
+      "section": "listen",
+      "group": null,
+      "number": "3",
+      "expected": "cheap",
+      "source": "module-2:key:listen.3",
+      "kind": "short",
+      "accepted": [
+        "cheap"
+      ]
+    },
+    {
+      "id": "read.dylan",
+      "section": "read",
+      "group": null,
+      "number": "dylan",
+      "expected": "b",
+      "source": "module-2:key:read.dylan",
+      "kind": "choice",
+      "accepted": [
+        "b"
+      ]
+    },
+    {
+      "id": "read.henry",
+      "section": "read",
+      "group": null,
+      "number": "henry",
+      "expected": "a",
+      "source": "module-2:key:read.henry",
+      "kind": "choice",
+      "accepted": [
+        "a"
+      ]
+    },
+    {
+      "id": "read.luke",
+      "section": "read",
+      "group": null,
+      "number": "luke",
+      "expected": "b",
+      "source": "module-2:key:read.luke",
+      "kind": "choice",
+      "accepted": [
+        "b"
+      ]
+    },
+    {
+      "id": "write",
+      "section": "write",
+      "group": null,
+      "number": "",
+      "expected": "Open writing task: teacher review required.",
+      "accepted": [],
+      "kind": "review",
+      "source": "module-2:paper:write"
+    }
+  ],
+  "keyText": "Answer booklet page 1\nTEST 2\nVOCABULARY\nA.\n1. short\n2. hair\n3. girl\n4. jacket\n5. shirt\n6. handsome\nB.\n1. wife\n2. backpack\n3. beautiful\n4. expensive\n5. dictionary\nCOMMUNICATION\n1. c\n2. e\n3. a\n4. f\n5. d\n6. b\nGRAMMAR\nA.\n1. These umbrellas are black \n    and blue.\n2. Those torches are new.\n3. Those women have got \n    long hair.\n4. Has Tina got black \n    dresses?\n5. These passports are \n    Canadian.\nB.\n1. Has ... got, has, has got\n2. have got, have got, has got\n3. Have ... got, haven’t, \n    has got\nC.\n1. a\n2. a\n3. b\n4. a\n5. b\n6. b\n7. b\nLISTEN\n1. friend\n2. Linda’s\n3. cheap\nREAD\nDylan:   b\nHenry:  a\nLuke:    b\n Copyright © MM Publications\n\n\nAnswer booklet page 2\nTraveller\nLISTENING TRANSCRIPTS\n1. \nMan  \nHey, Penny. Is that your brother?\nPenny \nNo, that’s Wayne.\nMan \nWho? \nPenny \nYou know, my friend.\nMan \nOf course, Wayne.\n2.\nWoman Whose ticket is this?\nLinda \nIt’s Jason’s.\nJason \nNo, it isn’t. My ticket is here.\nLinda \nIs it? Oh, so it’s my ticket, sorry.\nWoman Here you are Linda. \n3. \nWoman 1 Oh, that green top is very nice.\nWoman 2 Yes, it is.\nWoman 1 Is it expensive?\nWoman 2 I don’t know. Let’s see. It’s €10.\nWoman 1 That’s not expensive. Get it!\nWoman 2 OK.\n",
+  "paperText": "Original test booklet PDF page 8\n7\nTraveller\n Copyright © MM Publications\nTest 2  Module 2\nA. Cross out the odd word.\nVOCABULARY \n1.  orange \npurple \nshort \ngreen\n2.  hair \npassport \nticket \nmap\n3.  brother \ngirl \nfather \nhusband\n4.  cheap \njacket \ntrendy \nhorrible\n5.  shirt \nshoes \ntrainers \nboots \n6.  slim \nhandsome \noverweight \nchubby\nB. Complete the sentences with the words in the box.\nexpensive          wife          dictionary           beautiful          backpack\n6\nSCORE\n1.  This is my                                              Linda.\n2.   A: Where’s my camera?\nB: It’s in your                                             .\n3.  Alice is a(n)                                              young woman.\n4.  This jacket is nice but it’s very                                             .\n5.  This word isn’t in the                                             .\n5\nSCORE\nCOMMUNICATION \nMatch.\n1.  Who’s got my mobile phone? \n2.  Whose trainers are these?\n3.  Are you an only child?\n4.  How old is your father?\n5.  That’s my jacket, it isn’t your jacket. \n6.  You look familiar.\na.  No, I’ve got a sister.\nb.  I’m your cousin’s flatmate.\nc.  Ben.\nd.  I’m so sorry.\ne.  They’re Kelly’s.\nf.  He’s in his fifties.\n6\nSCORE\n7\n\n\nOriginal test booklet PDF page 9\n8\nTraveller\n Copyright © MM Publications\nGRAMMAR \nA. Write the sentences in the plural.\n1.   This umbrella is black and blue.\n                                                                                                                                                                \n2.   That torch is new.\n                                                                                                                                                                \n3.   That woman has got long hair.\n                                                                                                                                                                \n4.   Has Tina got a black dress?\n                                                                                                                                                                \n5.   This passport is Canadian.\n                                                                                                                                                                \n5\nSCORE\nB. Complete with the correct form of the verb have got.\n1.   A:                                      your dad                                    a map of the USA?\nB: Yes, he                                   . He                               a map of Canada, too.\n2.   I                                    two daughters and one son. My daughters                                    fair hair and blue eyes \nbut my son                                    dark hair and brown eyes. \n3.   A:                                    you                                    a camera?\nB: No, I                                   . But my brother                                    two cameras. \nC. Choose a or b.\n1.   Is                                   your camera?\na. this \nb. these\n2.   My                                   has got a lot of T-shirts.\na. flatmate \nb. flatmate’s\n3.   My eyes aren’t grey,                                   blue.\na. it’s \nb. they’re\n4.   Dave has got a                                  .\na. blue suit \nb. suit blue\n5.   This umbrella is                                  .\na. my father \nb. my father’s\n6.   A: I’m sorry but                                   my jumper.\nB: You’re right. I’m sorry.\na. that \nb. that’s\n7.   That is a very                                  .\na. dress beautiful  \nb. beautiful dress\n9\nSCORE\n7\nSCORE\nLISTEN \nListen to three dialogues and circle the correct answer.\n1. Wayne is Penny’s friend / brother.\n2. The ticket is Jason’s / Linda’s. \n3. The top is cheap / expensive. \n6\nSCORE\n8\n\n\nOriginal test booklet PDF page 10\n9\nTraveller\n Copyright © MM Publications\n \n \nREAD\nRead and tick the correct pictures.\nDylan, Henry and Luke are brothers but they look very different. Dylan is tall and slim but Henry and \nLuke are medium-height and chubby. Dylan and Henry have got dark hair but Luke has got fair hair. \nChoose two family members and write a few sentences about them.\nWhat are their names?\nHow old are they?\nWhat do they do?\nWhat do they look like?\n                                                                                                                                                                                                                            \n                                                                                                                                                                                                                            \n                                                                                                                                                                                                                            \n                                                                                                                                                                                                                            \n                                                                                                                                                                                                                           \n                                                                                                                                                                                                                            \n                                                                                                                                                                                                                            \n                                                                                                                                                                                                                            \nWRITE \n10\nSCORE\n60\nTOTAL SCORE\n6\nSCORE\nDylan\na\nb\na\nb\na\nb\nHenry\nLuke\n9\n"
+}

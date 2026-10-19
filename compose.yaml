@@ -1,0 +1,27 @@
+services:
+  web:
+    build:
+      context: .
+      args:
+        NEXT_PUBLIC_SITE_URL: ${NEXT_PUBLIC_SITE_URL:?Set the public HTTPS site URL}
+        NEXT_PUBLIC_SUPABASE_URL: ${NEXT_PUBLIC_SUPABASE_URL:?Set the hosted Supabase URL}
+        NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY: ${NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY:?Set the public Supabase key}
+    env_file:
+      - apps/web/.env.production
+    environment:
+      NODE_ENV: production
+      SPOLK_DATA_MODE: hosted
+      PORT: "3000"
+    ports:
+      - "127.0.0.1:3000:3000"
+    volumes:
+      - spolk-private-data:/data
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "node", "-e", "fetch('http://127.0.0.1:3000/api/health').then(r=>{if(!r.ok)process.exit(1)}).catch(()=>process.exit(1))"]
+      interval: 30s
+      timeout: 10s
+      start_period: 60s
+      retries: 3
+volumes:
+  spolk-private-data:

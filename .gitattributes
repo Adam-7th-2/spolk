@@ -1,0 +1,3 @@
+# Preserve supplied course material byte for byte, including text and metadata.
+apps/web/private/** -text
+*.sh text eol=lf

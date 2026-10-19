@@ -1,0 +1,486 @@
+{
+  "examId": "module-5",
+  "sourceHash": "d61476dc6637afb1b4a8f85fd141effc739cd43f835a67ced45a097932297a2a",
+  "fields": [
+    {
+      "id": "vocabulary.a.1",
+      "section": "vocabulary",
+      "group": "a",
+      "number": "1",
+      "expected": "yoghurt",
+      "source": "module-5:key:vocabulary.a.1",
+      "kind": "short",
+      "accepted": [
+        "yoghurt"
+      ]
+    },
+    {
+      "id": "vocabulary.a.2",
+      "section": "vocabulary",
+      "group": "a",
+      "number": "2",
+      "expected": "mushroom",
+      "source": "module-5:key:vocabulary.a.2",
+      "kind": "short",
+      "accepted": [
+        "mushroom"
+      ]
+    },
+    {
+      "id": "vocabulary.a.3",
+      "section": "vocabulary",
+      "group": "a",
+      "number": "3",
+      "expected": "meat",
+      "source": "module-5:key:vocabulary.a.3",
+      "kind": "short",
+      "accepted": [
+        "meat"
+      ]
+    },
+    {
+      "id": "vocabulary.a.4",
+      "section": "vocabulary",
+      "group": "a",
+      "number": "4",
+      "expected": "rice",
+      "source": "module-5:key:vocabulary.a.4",
+      "kind": "short",
+      "accepted": [
+        "rice"
+      ]
+    },
+    {
+      "id": "vocabulary.a.5",
+      "section": "vocabulary",
+      "group": "a",
+      "number": "5",
+      "expected": "tuna",
+      "source": "module-5:key:vocabulary.a.5",
+      "kind": "short",
+      "accepted": [
+        "tuna"
+      ]
+    },
+    {
+      "id": "vocabulary.a.6",
+      "section": "vocabulary",
+      "group": "a",
+      "number": "6",
+      "expected": "meal",
+      "source": "module-5:key:vocabulary.a.6",
+      "kind": "short",
+      "accepted": [
+        "meal"
+      ]
+    },
+    {
+      "id": "vocabulary.b.1",
+      "section": "vocabulary",
+      "group": "b",
+      "number": "1",
+      "expected": "a",
+      "source": "module-5:key:vocabulary.b.1",
+      "kind": "choice",
+      "accepted": [
+        "a"
+      ]
+    },
+    {
+      "id": "vocabulary.b.2",
+      "section": "vocabulary",
+      "group": "b",
+      "number": "2",
+      "expected": "b",
+      "source": "module-5:key:vocabulary.b.2",
+      "kind": "choice",
+      "accepted": [
+        "b"
+      ]
+    },
+    {
+      "id": "vocabulary.b.3",
+      "section": "vocabulary",
+      "group": "b",
+      "number": "3",
+      "expected": "c",
+      "source": "module-5:key:vocabulary.b.3",
+      "kind": "choice",
+      "accepted": [
+        "c"
+      ]
+    },
+    {
+      "id": "vocabulary.b.4",
+      "section": "vocabulary",
+      "group": "b",
+      "number": "4",
+      "expected": "b",
+      "source": "module-5:key:vocabulary.b.4",
+      "kind": "choice",
+      "accepted": [
+        "b"
+      ]
+    },
+    {
+      "id": "vocabulary.b.5",
+      "section": "vocabulary",
+      "group": "b",
+      "number": "5",
+      "expected": "a",
+      "source": "module-5:key:vocabulary.b.5",
+      "kind": "choice",
+      "accepted": [
+        "a"
+      ]
+    },
+    {
+      "id": "vocabulary.c.1",
+      "section": "vocabulary",
+      "group": "c",
+      "number": "1",
+      "expected": "can",
+      "source": "module-5:key:vocabulary.c.1",
+      "kind": "short",
+      "accepted": [
+        "can"
+      ]
+    },
+    {
+      "id": "vocabulary.c.2",
+      "section": "vocabulary",
+      "group": "c",
+      "number": "2",
+      "expected": "slice",
+      "source": "module-5:key:vocabulary.c.2",
+      "kind": "short",
+      "accepted": [
+        "slice"
+      ]
+    },
+    {
+      "id": "vocabulary.c.3",
+      "section": "vocabulary",
+      "group": "c",
+      "number": "3",
+      "expected": "packet",
+      "source": "module-5:key:vocabulary.c.3",
+      "kind": "short",
+      "accepted": [
+        "packet"
+      ]
+    },
+    {
+      "id": "vocabulary.c.4",
+      "section": "vocabulary",
+      "group": "c",
+      "number": "4",
+      "expected": "cup",
+      "source": "module-5:key:vocabulary.c.4",
+      "kind": "short",
+      "accepted": [
+        "cup"
+      ]
+    },
+    {
+      "id": "communication.1",
+      "section": "communication",
+      "group": null,
+      "number": "1",
+      "expected": "c",
+      "source": "module-5:key:communication.1",
+      "kind": "choice",
+      "accepted": [
+        "c"
+      ]
+    },
+    {
+      "id": "communication.2",
+      "section": "communication",
+      "group": null,
+      "number": "2",
+      "expected": "b",
+      "source": "module-5:key:communication.2",
+      "kind": "choice",
+      "accepted": [
+        "b"
+      ]
+    },
+    {
+      "id": "communication.3",
+      "section": "communication",
+      "group": null,
+      "number": "3",
+      "expected": "d",
+      "source": "module-5:key:communication.3",
+      "kind": "choice",
+      "accepted": [
+        "d"
+      ]
+    },
+    {
+      "id": "communication.4",
+      "section": "communication",
+      "group": null,
+      "number": "4",
+      "expected": "a",
+      "source": "module-5:key:communication.4",
+      "kind": "choice",
+      "accepted": [
+        "a"
+      ]
+    },
+    {
+      "id": "grammar.a.1",
+      "section": "grammar",
+      "group": "a",
+      "number": "1",
+      "expected": "any",
+      "source": "module-5:key:grammar.a.1",
+      "kind": "short",
+      "accepted": [
+        "any"
+      ]
+    },
+    {
+      "id": "grammar.a.2",
+      "section": "grammar",
+      "group": "a",
+      "number": "2",
+      "expected": "an",
+      "source": "module-5:key:grammar.a.2",
+      "kind": "short",
+      "accepted": [
+        "an"
+      ]
+    },
+    {
+      "id": "grammar.a.3",
+      "section": "grammar",
+      "group": "a",
+      "number": "3",
+      "expected": "a",
+      "source": "module-5:key:grammar.a.3",
+      "kind": "choice",
+      "accepted": [
+        "a"
+      ]
+    },
+    {
+      "id": "grammar.a.4",
+      "section": "grammar",
+      "group": "a",
+      "number": "4",
+      "expected": "any",
+      "source": "module-5:key:grammar.a.4",
+      "kind": "short",
+      "accepted": [
+        "any"
+      ]
+    },
+    {
+      "id": "grammar.a.5",
+      "section": "grammar",
+      "group": "a",
+      "number": "5",
+      "expected": "some",
+      "source": "module-5:key:grammar.a.5",
+      "kind": "short",
+      "accepted": [
+        "some"
+      ]
+    },
+    {
+      "id": "grammar.a.6",
+      "section": "grammar",
+      "group": "a",
+      "number": "6",
+      "expected": "some",
+      "source": "module-5:key:grammar.a.6",
+      "kind": "short",
+      "accepted": [
+        "some"
+      ]
+    },
+    {
+      "id": "grammar.a.7",
+      "section": "grammar",
+      "group": "a",
+      "number": "7",
+      "expected": "a",
+      "source": "module-5:key:grammar.a.7",
+      "kind": "choice",
+      "accepted": [
+        "a"
+      ]
+    },
+    {
+      "id": "grammar.b.1",
+      "section": "grammar",
+      "group": "b",
+      "number": "1",
+      "expected": "How much",
+      "source": "module-5:key:grammar.b.1",
+      "kind": "short",
+      "accepted": [
+        "How much"
+      ]
+    },
+    {
+      "id": "grammar.b.2",
+      "section": "grammar",
+      "group": "b",
+      "number": "2",
+      "expected": "How much",
+      "source": "module-5:key:grammar.b.2",
+      "kind": "short",
+      "accepted": [
+        "How much"
+      ]
+    },
+    {
+      "id": "grammar.b.3",
+      "section": "grammar",
+      "group": "b",
+      "number": "3",
+      "expected": "How many",
+      "source": "module-5:key:grammar.b.3",
+      "kind": "short",
+      "accepted": [
+        "How many"
+      ]
+    },
+    {
+      "id": "grammar.b.4",
+      "section": "grammar",
+      "group": "b",
+      "number": "4",
+      "expected": "How much",
+      "source": "module-5:key:grammar.b.4",
+      "kind": "short",
+      "accepted": [
+        "How much"
+      ]
+    },
+    {
+      "id": "grammar.b.5",
+      "section": "grammar",
+      "group": "b",
+      "number": "5",
+      "expected": "How many",
+      "source": "module-5:key:grammar.b.5",
+      "kind": "short",
+      "accepted": [
+        "How many"
+      ]
+    },
+    {
+      "id": "grammar.b.6",
+      "section": "grammar",
+      "group": "b",
+      "number": "6",
+      "expected": "How much",
+      "source": "module-5:key:grammar.b.6",
+      "kind": "short",
+      "accepted": [
+        "How much"
+      ]
+    },
+    {
+      "id": "listen.1",
+      "section": "listen",
+      "group": null,
+      "number": "1",
+      "expected": "a",
+      "source": "module-5:key:listen.1",
+      "kind": "choice",
+      "accepted": [
+        "a"
+      ]
+    },
+    {
+      "id": "listen.2",
+      "section": "listen",
+      "group": null,
+      "number": "2",
+      "expected": "b",
+      "source": "module-5:key:listen.2",
+      "kind": "choice",
+      "accepted": [
+        "b"
+      ]
+    },
+    {
+      "id": "listen.3",
+      "section": "listen",
+      "group": null,
+      "number": "3",
+      "expected": "a",
+      "source": "module-5:key:listen.3",
+      "kind": "choice",
+      "accepted": [
+        "a"
+      ]
+    },
+    {
+      "id": "read.1",
+      "section": "read",
+      "group": null,
+      "number": "1",
+      "expected": "T",
+      "source": "module-5:key:read.1",
+      "kind": "choice",
+      "accepted": [
+        "T"
+      ]
+    },
+    {
+      "id": "read.2",
+      "section": "read",
+      "group": null,
+      "number": "2",
+      "expected": "F",
+      "source": "module-5:key:read.2",
+      "kind": "choice",
+      "accepted": [
+        "F"
+      ]
+    },
+    {
+      "id": "read.3",
+      "section": "read",
+      "group": null,
+      "number": "3",
+      "expected": "T",
+      "source": "module-5:key:read.3",
+      "kind": "choice",
+      "accepted": [
+        "T"
+      ]
+    },
+    {
+      "id": "read.4",
+      "section": "read",
+      "group": null,
+      "number": "4",
+      "expected": "F",
+      "source": "module-5:key:read.4",
+      "kind": "choice",
+      "accepted": [
+        "F"
+      ]
+    },
+    {
+      "id": "write",
+      "section": "write",
+      "group": null,
+      "number": "",
+      "expected": "Open writing task: teacher review required.",
+      "accepted": [],
+      "kind": "review",
+      "source": "module-5:paper:write"
+    }
+  ],
+  "keyText": "Answer booklet page 5\nTEST 5\nVOCABULARY\nA.\n1. yoghurt\n2. mushroom\n3. meat\n4. rice\n5. tuna\n6. meal\nB.\n1. a\n2. b\n3. c\n4. b\n5. a\nC.\n1. can\n2. slice\n3. packet\n4. cup\nCOMMUNICATION\n1. c\n2. b\n3. d\n4. a\nGRAMMAR\nA.\n1. any\n2. an\n3. a\n4. any\n5. some\n6. some\n7. a\nB.\n1. How much\n2. How much\n3. How many\n4. How much\n5. How many\n6. How much\nLISTEN\n1. a\n2. b\n3. a\nREAD\n1. T\n2. F\n3. T\n4. F\nLISTENING TRANSCRIPTS\n1. \nMan \nThese apples look nice.\nWoman Oh, yeah. That’s right we need some fruit. But, we don’t need any apples.\nMan \nWhat about strawberries?\nWoman Yes, we need some. Let’s get some bananas, too.\nMan \nNo. We’ve got some at home. (fade out)\n2. \nWaiter \nCan I take your order?\nWoman Yes. I’d like a steak, please.\nWaiter \nWould you like rice or chips with that?\nWoman Chips, please.\nWaiter \nOK. Anything else?\nWoman Yes. Have you got any sausages?\nWaiter \nI’m afraid we haven’t got any.\nWoman OK, then, I’d like a tomato salad, too.\nWaiter \nThank you.\n3.\nMan \nHello. I’d like a hot dog, please.\nWoman Do you want ketchup or mustard?\nMan \nSome mustard, please.\nWoman Sure. That’s €2.50.\nMan \nUhmm. I’d like a can of lemonade, too.\nWoman Ah. OK. That’s €4.00.\nMan \nThere you go.\nWoman Enjoy!\n Copyright © MM Publications\n",
+  "paperText": "Original test booklet PDF page 21\n20\n Copyright © MM Publications\nA. Cross out the odd word.\nB. Choose a, b or c.\n1.  This banana ice cream is                                  .\n      a. delicious \nb. very much \n c. medium\n2. Here’s your hot dog and 35 cents                                  .\n     a. euros \nb. change \n c. money\n3. I think I’d like some                                   for dessert.\n    a. ketchup \nb. kebab \n c. cheesecake\n4. Would you like                                   in your coffee?\n     a. sauce \nb. sugar \n c. soup\n5. When I’m very                                  , I always drink lemonade. \n    a. thirsty \nb. afraid \n c. hungry\nTest 5 Module 5\nVOCABULARY\n1. banana \norange \npeach \nyoghurt\n2. mushroom \nsteak \nham \nsausage\n3. tomato \ncarrot \nmeat \nlettuce\n4. rice \ntea \nmilk \ncoke\n5. doughnut \nice cream \ntuna \nchocolate\n6. pound \nmeal \ndollar \neuro\n6\nSCORE\n5\nSCORE\nC. Complete with the words in the box.\n1. Get me a                               of coke from the fridge, please.\n2. Would you like a                               of bread with your soup?\n3. Are you hungry? I have a                               of crisps in my bag.\n4. There’s a                               of coffee on the table. Whose is it?\n4\nSCORE\n       slice \n  packet  \ncup \n \ncan \nTraveller\n\n\nOriginal test booklet PDF page 22\n21\n Copyright © MM Publications\nCOMMUNICATION\nComplete the dialogue with the sentences.\n8\nSCORE\nWaiter Hello. (1)                                    \nWoman Yes. I’d like a slice of mushroom pizza, please.\nWaiter OK. (2)                                    \nWoman Sure. I’d like some cheesecake.\nWaiter (3)                                    \nWoman Oh. Then, I’d like some chocolate cake.  \nWaiter OK. (4)                                    \nWoman Yes. Thank you. \nA. Complete with some, any or a(n).\n1. Have we got                                lemonade in the cupboard?\n2. Look! There’s                                apple under the chair. \n3. I’m hungry. I’d like                                sandwich, please.\n4. There isn’t                                water in the fridge.\n5. Would you like                                hot chocolate?\n6. I’d like                                rice, please.\n7. Let’s have                                hot dog after the concert.\n7\nSCORE\nB. Complete the sentences with how much or how many.\n1.                                             ketchup do you want on your burger?\n2.                                             sugar do you need for the cake?\n3.                                            pancakes do you have for breakfast?\n4.                                            is that T-shirt?\n5.                                            bottles of milk are there in the fridge?\n6.                                            ice cream do you want with your dessert? \n6\nSCORE\na. Is that all?\nb. Would you like some dessert?\nc. Can I take your order?\nd. I’m afraid we haven’t got any cheesecake.\nGRAMMAR \nListen to three dialogues and choose a or b.\n1. What fruit do they need?\n     a. strawberries                       b. apples\n2. What does the woman order?\n     a. sausages and chips           b. steak and chips\n6\nSCORE\nLISTEN\n3. How much is the man’s meal?\n     a. €4.00                       b. €2.50\nTraveller\n\n\nOriginal test booklet PDF page 23\n22\n Copyright © MM Publications\n1. Lee’s sister has lunch at Charlton’s every Friday.\n2. Charlton’s opens at eight in the evening.\n3. Abuela’s is a Mexican restaurant.\n4. Pizza is Lee’s favourite food.\nREAD\nRead the e-mail and write T for True or F for False.\nWrite a short paragraph about your eating habits. Answer the questions below.\nWhat do you usually have for breakfast, lunch and dinner? \nWhat’s your favourite meal, dessert, etc.?\n                                                                                                                                                                                         \n                                                                                                                                                                                         \n                                                                                                                                                                                         \n                                                                                                                                                                                         \n                                                                                                                                                                                         \n                                                                                                                                                                                         \n                                                                                                                                                                                         \n                                                                                                                                                                                         \nWRITE\n10\nSCORE\n60\nTOTAL SCORE\n8\nSCORE\nHi Alfie,\nI’m free for lunch tomorrow, so let’s go somewhere nice for a change.\nCharlton’s has got lovely food. My sister goes there every Friday for lunch. They serve hot and \ncold food and they’re open from 8am to 8pm. \nThere’s also Abuela’s in the town centre. They’ve got traditional Mexican food. I really want to go \nthere. Do you like Mexican food? \nOr, we can go to Dolmia’s for some pizza. Pizza isn’t really my favourite food, but you always \nenjoy it so, we can go there. \nLet me know what you think,\nLee\nalfierobertson@yahoo.co.uk\nleefthompson@gmail.com@yahoo.co.uk\nTraveller\n22\n"
+}

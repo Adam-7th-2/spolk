@@ -1,0 +1,27 @@
+# Deployment template only. Importing this Blueprint creates PAID resources.
+# Review the cost and connect your own Render account before applying it.
+services:
+  - type: web
+    name: spolk
+    runtime: docker
+    repo: https://github.com/Adam-7th-2/spolk
+    branch: main
+    plan: starter
+    region: frankfurt
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    autoDeployTrigger: 'off'
+    healthCheckPath: /api/health
+    disk:
+      name: spolk-private-data
+      mountPath: /data
+      sizeGB: 5
+    envVars:
+      - key: NEXT_PUBLIC_SITE_URL
+        sync: false
+      - key: NEXT_PUBLIC_SUPABASE_URL
+        sync: false
+      - key: NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY
+        sync: false
+      - key: EMAIL_DELIVERY_ENABLED
+        value: '0'
