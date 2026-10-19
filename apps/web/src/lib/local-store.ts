@@ -50,6 +50,7 @@ export async function openLocalStore(directory:string,root:string){
  // Idempotent workflow upgrade for databases created before the card-based quiz.
  await db.transaction(async tx=>{await tx.exec(await readFile(resolve(root,"supabase/migrations/202610190001_assessment_cards.sql"),"utf8"));});
  await db.transaction(async tx=>{await tx.exec(await readFile(resolve(root,"supabase/migrations/202610190002_student_workspace.sql"),"utf8"));});
+ await db.transaction(async tx=>{await tx.exec((await readFile(resolve(root,"supabase/migrations/202610190004_daily_checkins.sql"),"utf8")).replace(/^\s*(begin|commit);\s*$/gmi,""));});
  return {
   db,
   async actor<T>(id:string|null,run:(tx:Transaction)=>Promise<T>){return db.transaction(async tx=>{

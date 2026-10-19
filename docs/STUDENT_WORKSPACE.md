@@ -28,3 +28,12 @@ NEXT_PUBLIC_SITE_URL=https://your-site.example
 Keep the service-role and provider keys server-only. Run `node scripts/send-notification-emails.mjs --send` from the repository root on a server scheduler, for example every minute. The worker leases up to 20 queued items, uses a stable provider idempotency key, retries failures after five minutes, and stops after five attempts. It marks accepted requests only after the provider confirms an ID; this does not prove inbox delivery. The app does not require mail delivery to save coursework or replies. See the [Resend send API](https://resend.com/docs/api-reference/emails/send-email) for provider configuration.
 
 Verify the worker without sending email using `node --test scripts/email-delivery.test.mjs`. No provider was connected or real email sent during local implementation.
+
+
+## Automatic daily check-ins
+
+Apply `supabase/migrations/202610190004_daily_checkins.sql` after the preceding migrations using the Supabase SQL Editor. No new paid service or scheduled worker is required. The Render connector cannot apply this database update.
+
+Opening the student dashboard sends an authenticated, same-origin POST to `/api/daily-checkin`. The server assigns the UTC date; users cannot backdate attendance. The database records one check-in per account/day and notifies each administrator once. Repeat visits and refreshes do not duplicate notifications. A visible dashboard checks again each minute and when the tab becomes visible, including across midnight UTC.
+
+The dashboard displays the current visit streak, longest streak, seven-day attendance and a five-day goal over the last seven days. Check-ins represent visits, not completed lessons or grades. Admins see recent check-ins on `/admin`; notification email remains disabled unless the existing email worker is separately configured. Students cannot view other learners' check-ins or directly edit attendance. If the migration is not yet applied, the check-in card shows an unavailable state while the rest of the dashboard continues working.
