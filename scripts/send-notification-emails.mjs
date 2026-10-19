@@ -8,7 +8,7 @@ if(process.env.SPOLK_DATA_MODE==='local'||process.env.EMAIL_DELIVERY_ENABLED!=='
 }
 const required=['NEXT_PUBLIC_SUPABASE_URL','SUPABASE_SERVICE_ROLE_KEY','RESEND_API_KEY','NOTIFICATION_FROM_EMAIL','NEXT_PUBLIC_SITE_URL'];
 if(required.some(key=>!process.env[key]))throw new Error('Missing hosted email configuration. See docs/STUDENT_WORKSPACE.md.');
-const settings={apiKey:process.env.RESEND_API_KEY,from:process.env.NOTIFICATION_FROM_EMAIL,siteUrl:process.env.NEXT_PUBLIC_SITE_URL};
+const settings={apiKey:process.env.RESEND_API_KEY,from:process.env.NOTIFICATION_FROM_EMAIL,siteUrl:process.env.NEXT_PUBLIC_SITE_URL,logoUrl:process.env.NOTIFICATION_LOGO_URL};
 if(new URL(settings.siteUrl).protocol!=='https:')throw new Error('Use the public HTTPS site URL for notification links.');
 const db=createClient(process.env.NEXT_PUBLIC_SUPABASE_URL,process.env.SUPABASE_SERVICE_ROLE_KEY,{auth:{persistSession:false,autoRefreshToken:false}});
 const{data:messages,error}=await db.rpc('claim_notification_emails');if(error)throw new Error('Unable to claim queued mail. Check the workspace migration and service-role access.');

@@ -23,8 +23,8 @@ export async function localClient(){
     cookieStore.set("spolk-local-session",result.token,{httpOnly:true,sameSite:"lax",path:"/",maxAge:604800});
     return {data:{user:result.user},error:null};
    },
-   async signUp(input:{email:string;password:string}){
-    try{return {data:{user:await store.signup(input.email,input.password)},error:null};}
+   async signUp(input:{email:string;password:string;options?:{data?:Record<string,unknown>}}){
+    try{return {data:{user:await store.signup(input.email,input.password,input.options?.data)},error:null};}
     catch{return {data:{user:null},error:{code:"user_already_exists",status:400}};}
    },
    async signOut(){if(token)await store.logout(token);cookieStore.delete("spolk-local-session");return {error:null};},

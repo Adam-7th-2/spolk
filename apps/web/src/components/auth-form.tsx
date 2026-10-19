@@ -5,6 +5,7 @@ import {useRouter} from "next/navigation";
 import {createBrowserClient} from "@supabase/ssr";
 import {authenticate,requestReset} from "@/app/auth/actions";
 import {signinErrorMessage} from "@/lib/auth-errors";
+import {SignupDetails} from "./signup-details";
 
 export function AuthForm({reset=false,initialMessage="",offline=false}:{reset?:boolean;initialMessage?:string;offline?:boolean}){
  const[mode,setMode]=useState("login");
@@ -39,6 +40,7 @@ export function AuthForm({reset=false,initialMessage="",offline=false}:{reset?:b
   </div>}
   <form action={action} onSubmit={event=>{if(!reset&&mode==="login"&&!offline){event.preventDefault();void browserLogin(event.currentTarget);}}}>
    <input type="hidden" name="mode" value={mode}/>
+   {!reset&&mode==="register"&&<SignupDetails/>}
    <label htmlFor="email">Email address</label>
    <input id="email" name="email" type="email" autoComplete="email" required maxLength={254}/>
    {!reset&&<>

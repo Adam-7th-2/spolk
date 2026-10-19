@@ -20,7 +20,7 @@ export async function openLocalStore(directory:string,root:string){
  const exists=(await db.query<{table_name:string|null}>("select to_regclass('auth.local_accounts')::text as table_name")).rows[0].table_name;
  if(!exists)await db.transaction(async tx=>{
   await tx.exec(`create role anon;create role authenticated;create schema auth;
-   create table auth.users(id uuid primary key,email text unique not null);
+   create table auth.users(id uuid primary key,email text unique not null,raw_user_meta_data jsonb not null default '{}');
    create table auth.local_accounts(id uuid primary key references auth.users on delete cascade,email text unique not null,password_hash text not null,salt text not null);
    create table auth.local_sessions(token_hash text primary key,account_id uuid not null references auth.users on delete cascade,expires_at timestamptz not null);
    create function auth.uid() returns uuid language sql stable as $$select nullif(current_setting('request.jwt.claim.sub',true),'')::uuid$$;
@@ -34,7 +34,7 @@ export async function openLocalStore(directory:string,root:string){
   await tx.exec("grant usage on schema public to anon,authenticated;grant select on public.schools,public.programs,public.courses to anon;grant select,insert,update,delete on all tables in schema public to authenticated;");
   for(const account of demoAccounts){
    const salt=randomBytes(16).toString("hex");
-   await tx.query("insert into auth.users values($1,$2)",[account.id,account.email]);
+   await tx.query("insert into auth.users(id,email,raw_user_meta_data) values($1,$2,'{\"email_notifications\":true}')",[account.id,account.email]);
    await tx.query("insert into auth.local_accounts values($1,$2,$3,$4)",[account.id,account.email,hash(demoPassword,salt),salt]);
    if(account.role!=="student")await tx.query("insert into public.user_roles values($1,$2)",[account.id,account.role]);
   }
@@ -51,6 +51,7 @@ export async function openLocalStore(directory:string,root:string){
  await db.transaction(async tx=>{await tx.exec(await readFile(resolve(root,"supabase/migrations/202610190001_assessment_cards.sql"),"utf8"));});
  await db.transaction(async tx=>{await tx.exec(await readFile(resolve(root,"supabase/migrations/202610190002_student_workspace.sql"),"utf8"));});
  await db.transaction(async tx=>{await tx.exec((await readFile(resolve(root,"supabase/migrations/202610190004_daily_checkins.sql"),"utf8")).replace(/^\s*(begin|commit);\s*$/gmi,""));});
+ await db.transaction(async tx=>{await tx.exec("alter table auth.users add column if not exists raw_user_meta_data jsonb not null default '{}';");await tx.exec((await readFile(resolve(root,"supabase/migrations/202610190005_signup_profiles.sql"),"utf8")).replace(/^\s*(begin|commit);\s*$/gmi,""));});
  return {
   db,
   async actor<T>(id:string|null,run:(tx:Transaction)=>Promise<T>){return db.transaction(async tx=>{
@@ -73,9 +74,9 @@ export async function openLocalStore(directory:string,root:string){
    await db.query("insert into auth.local_sessions values($1,$2,now()+interval '7 days')",[digest(token),account.id]);
    return {token,user:{id:account.id,email:account.email}};
   },
-  async signup(email:string,password:string){
+  async signup(email:string,password:string,metadata:Record<string,unknown>={}){
    const id=randomUUID(),salt=randomBytes(16).toString("hex");
-   await db.transaction(async tx=>{await tx.query("insert into auth.users values($1,$2)",[id,email.trim().toLowerCase()]);await tx.query("insert into auth.local_accounts values($1,$2,$3,$4)",[id,email.trim().toLowerCase(),hash(password,salt),salt]);});
+   await db.transaction(async tx=>{await tx.query("insert into auth.users(id,email,raw_user_meta_data) values($1,$2,$3::jsonb)",[id,email.trim().toLowerCase(),JSON.stringify(metadata)]);await tx.query("insert into auth.local_accounts values($1,$2,$3,$4)",[id,email.trim().toLowerCase(),hash(password,salt),salt]);});
    return {id,email:email.trim().toLowerCase()};
   },
   async logout(token:string){await db.query("delete from auth.local_sessions where token_hash=$1",[digest(token)]);},

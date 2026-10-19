@@ -4,6 +4,7 @@ import {database,isConfigured} from "@/lib/supabase";
 import {redirect} from "next/navigation";
 import {signupErrorMessage,signinErrorMessage} from "@/lib/auth-errors";
 import {localMode} from "@/lib/local-mode";
+import {profileSchema} from "@/lib/profile";
 export type AuthState={message:string;error:boolean};
 export async function authenticate(_:AuthState,form:FormData):Promise<AuthState>{
  if(!isConfigured())return {message:"Account services are not configured yet. Your details have not been submitted.",error:true};
@@ -14,7 +15,9 @@ export async function authenticate(_:AuthState,form:FormData):Promise<AuthState>
  if(!parsed.success)return {message:mode==="register"?"Enter a valid email and a password of at least 12 characters.":"Enter your email and password.",error:true};
  const db=await database();
  if(mode==="register"){
-  const {error}=await db.auth.signUp({...parsed.data,options:{emailRedirectTo:`${process.env.NEXT_PUBLIC_SITE_URL||"http://localhost:3000"}/auth/callback`}});
+  const profile=profileSchema.safeParse({...Object.fromEntries(form),email_notifications:form.get("email_notifications")==="on"});
+  if(!profile.success)return {message:"Complete your name, location, time zone, and learning goal (at least 10 characters).",error:true};
+  const {error}=await db.auth.signUp({...parsed.data,options:{data:profile.data,emailRedirectTo:`${process.env.NEXT_PUBLIC_SITE_URL||"http://localhost:3000"}/auth/callback`}});
   if(error) console.error("[auth.signup]",{code:error.code||"unknown",status:error.status});
   return {message:error?signupErrorMessage(error):localMode()?"Your local account is ready. Log in with your email and password. Apply for a course to request enrollment.":"Check your email for the verification link. Once verified, you can sign in.",error:Boolean(error)};
  }
