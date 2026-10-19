@@ -1,0 +1,1 @@
+Place the original, approved uploaded logo at spolk-logo.png in this directory. The original was visible in chat but was not attached as an accessible file. The current wordmark is plain text, not a recreation of the supplied symbol.

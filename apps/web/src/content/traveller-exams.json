@@ -1,0 +1,503 @@
+{
+  "source": "Traveller Beginners_Tests.pdf",
+  "sourcePageCount": 36,
+  "courseSlug": "traveller-beginners",
+  "notes": [
+    "Track 1 is the titles track, as confirmed by the test booklet introduction.",
+    "Tracks 2–11 map to module tests, mid-term and final; they are exam listening audio, not the Student’s Book lesson recordings.",
+    "Original tests are teacher-graded using the private key; writing is not automatically scored.",
+    "45/60/90-minute limits are proposed academy settings, not durations printed by the publisher."
+  ],
+  "exams": [
+    {
+      "id": "module-1",
+      "title": "Module 1 exam",
+      "lessonId": "1e5e2c9e-db71-5821-8dc7-016e0e898740",
+      "assignmentId": "bfe9ba06-d8d2-5b97-9bfb-7691cd0c0eaa",
+      "moduleId": "a2adaf64-0c25-569d-8140-d9f2b19d73c7",
+      "week": 3,
+      "minutes": 45,
+      "maxMarks": 60,
+      "sourcePages": [
+        5,
+        6,
+        7
+      ],
+      "track": 2,
+      "audioSource": "02 Beg_test1_m1.mp3",
+      "position": 90,
+      "files": {
+        "paper": "module-1.pdf",
+        "audio": "module-1.mp3",
+        "document": "module-1.doc",
+        "key": "module-1-key.pdf",
+        "keyText": "module-1-key.txt",
+        "paperText": "module-1-paper.txt"
+      },
+      "sha256": "9c2a4866f3635e52761d3ec5844ba4a711f1f9a0e1a956f047993b57cd70768d",
+      "documentSource": "Test 1_Traveller Beg.doc",
+      "keyRegions": [
+        {
+          "sourcePage": 1,
+          "clip": [
+            35,
+            75,
+            565,
+            480
+          ]
+        }
+      ],
+      "resourceHashes": {
+        "paper": "9c2a4866f3635e52761d3ec5844ba4a711f1f9a0e1a956f047993b57cd70768d",
+        "audio": "907084d77d18784f339ff8dddbe687d16d59c76f810cc82ccecf7a56dc7dcf08",
+        "document": "c43c723838de64610ca55f2f3c9ffcc915467bef9f0e02fabffc2ae591340603",
+        "key": "0f9c61bb9f207a0719c4d885dd63279eb91a909b6ae9077360108f046e96f89d",
+        "keyText": "80bcb23ae41bb8d8ddf3a73f92d6589ba0241cb6235b4127f7f26940d5732825",
+        "paperText": "b4245a4a3d9ce75081d69a15e8360de2ecee26b82bc9bf03410397ad10b1a217"
+      }
+    },
+    {
+      "id": "module-2",
+      "title": "Module 2 exam",
+      "lessonId": "9aa5dc03-5c29-5df8-a734-b8f12023f424",
+      "assignmentId": "25872766-cc9c-54eb-b6fb-86be91a5a637",
+      "moduleId": "40eb12c6-6f0a-51ef-b613-f5a81ac557bd",
+      "week": 5,
+      "minutes": 45,
+      "maxMarks": 60,
+      "sourcePages": [
+        8,
+        9,
+        10
+      ],
+      "track": 3,
+      "audioSource": "03 Beg_test2_m2.mp3",
+      "position": 90,
+      "files": {
+        "paper": "module-2.pdf",
+        "audio": "module-2.mp3",
+        "document": "module-2.doc",
+        "key": "module-2-key.pdf",
+        "keyText": "module-2-key.txt",
+        "paperText": "module-2-paper.txt"
+      },
+      "sha256": "dc978e18c02de67e78cbd2fe867539dd218f4f469dbb2b01451b78084038b94f",
+      "documentSource": "Test 2_Traveller Beg.doc",
+      "keyRegions": [
+        {
+          "sourcePage": 1,
+          "clip": [
+            35,
+            490,
+            565,
+            750
+          ]
+        },
+        {
+          "sourcePage": 2,
+          "clip": [
+            35,
+            45,
+            565,
+            350
+          ]
+        }
+      ],
+      "resourceHashes": {
+        "paper": "dc978e18c02de67e78cbd2fe867539dd218f4f469dbb2b01451b78084038b94f",
+        "audio": "0dca0fb9b3b1d1650ad34f2473180c79da4452de7528612a78732c675bb754ae",
+        "document": "38fb27c055f9e70cf631af8f0792869d93c4a6aa54e0cd1f55e613f2086b7b57",
+        "key": "93540143ee37e22f7f9d5e77c2cb532c4e2174bdd4893499120b8ea1273d106a",
+        "keyText": "21b12403628bce9e4a8b983a7a6478324da22db74b935a9737469ab963fe643e",
+        "paperText": "7771071b417b0c793192b6a9dcc6744e653ddc6feaf6ac8d9eeaa5d0ea883962"
+      }
+    },
+    {
+      "id": "module-3",
+      "title": "Module 3 exam",
+      "lessonId": "6024df1f-cf8a-51e0-9818-7d3b9a701d97",
+      "assignmentId": "4728ab3f-4dfa-557a-b9f5-1acfdfcfc7f5",
+      "moduleId": "d260d87c-8421-50fd-9ac9-56504d20181c",
+      "week": 7,
+      "minutes": 45,
+      "maxMarks": 60,
+      "sourcePages": [
+        11,
+        12,
+        13
+      ],
+      "track": 4,
+      "audioSource": "04 Beg_test3_m3.mp3",
+      "position": 90,
+      "files": {
+        "paper": "module-3.pdf",
+        "audio": "module-3.mp3",
+        "document": "module-3.doc",
+        "key": "module-3-key.pdf",
+        "keyText": "module-3-key.txt",
+        "paperText": "module-3-paper.txt"
+      },
+      "sha256": "ccb9bde55f67c05773a232f669016828a05b197bf75d4052f2a0be4290b29e23",
+      "documentSource": "Test 3_Traveller Beg.doc",
+      "keyRegions": [
+        {
+          "sourcePage": 2,
+          "clip": [
+            35,
+            365,
+            565,
+            755
+          ]
+        }
+      ],
+      "resourceHashes": {
+        "paper": "ccb9bde55f67c05773a232f669016828a05b197bf75d4052f2a0be4290b29e23",
+        "audio": "cb6a72e66344e17672434eaa2c359fc4c25adef36ec2136e3d743b95f03faea3",
+        "document": "62acacd3a2bfcab569a7707447543e9ffc8a36dccf1241d6d491fc9ba5d55cdc",
+        "key": "e92f3bb33b7cceba6e94e51baa0f352bab42016d66c025940512ea039905a4b1",
+        "keyText": "e81795bbf4093081001a2dfc2818959c951bcd02e19280091bedc9fc6febce10",
+        "paperText": "a9ef75b7afe12957ecce4b20b50994f0780138443bf9777d2f4d1ce7700c1075"
+      }
+    },
+    {
+      "id": "module-4",
+      "title": "Module 4 exam",
+      "lessonId": "7b43c810-a40e-5059-88b3-5ee1f0e05ba8",
+      "assignmentId": "03653dec-a518-5d2a-a03c-47713e317f2d",
+      "moduleId": "80ae2785-3a26-5078-a1d8-910dff6d6ada",
+      "week": 9,
+      "minutes": 45,
+      "maxMarks": 60,
+      "sourcePages": [
+        14,
+        15,
+        16
+      ],
+      "track": 5,
+      "audioSource": "05 Beg_test4_m4.mp3",
+      "position": 90,
+      "files": {
+        "paper": "module-4.pdf",
+        "audio": "module-4.mp3",
+        "document": "module-4.doc",
+        "key": "module-4-key.pdf",
+        "keyText": "module-4-key.txt",
+        "paperText": "module-4-paper.txt"
+      },
+      "sha256": "160421b43819f5214c88ac34740406bb30f6dd729bd08de5b689f3701aad317f",
+      "documentSource": "Test 4_Traveller Beg.doc",
+      "keyRegions": [
+        {
+          "sourcePage": 3,
+          "clip": [
+            35,
+            75,
+            565,
+            750
+          ]
+        }
+      ],
+      "resourceHashes": {
+        "paper": "160421b43819f5214c88ac34740406bb30f6dd729bd08de5b689f3701aad317f",
+        "audio": "0d558027ce4f7a92325c3bb99d3e78af2c304481df3f9d4e1fcf37c81b695505",
+        "document": "2cd5ed8384a3a324ae887b62429903aa877cb7e7a88cd0c76eef0ff3dd38fce3",
+        "key": "c9a5d0cfd3afe77c4c1fb3ff79fab5f72b571da92e73a5c4cc96f8e9c935943d",
+        "keyText": "ae58491a9cffc92facab9dbeb5f6c2139979068ee46e3e6853491786ca061b2d",
+        "paperText": "a0c30405acc74bb0261fda6c60b0a53c2c715bdd2515a2d910fd7acca9a8852b"
+      }
+    },
+    {
+      "id": "midterm",
+      "title": "Mid-term: Modules 1–4",
+      "lessonId": "01e7b948-fba4-515b-9b58-1f04a243aba6",
+      "assignmentId": "e9482af5-cfcc-553e-a63a-6024a1804111",
+      "moduleId": "80ae2785-3a26-5078-a1d8-910dff6d6ada",
+      "week": 9,
+      "minutes": 60,
+      "maxMarks": 80,
+      "sourcePages": [
+        17,
+        18,
+        19,
+        20
+      ],
+      "track": 6,
+      "audioSource": "06 Beg_midtest.mp3",
+      "position": 91,
+      "files": {
+        "paper": "midterm.pdf",
+        "audio": "midterm.mp3",
+        "document": "midterm.doc",
+        "key": "midterm-key.pdf",
+        "keyText": "midterm-key.txt",
+        "paperText": "midterm-paper.txt"
+      },
+      "sha256": "8952b21cf642309c5f962a001a6871256cfb3f469c03a425019a21d40c48f1fa",
+      "documentSource": "mid-term Test_Traveller Beg.doc",
+      "keyRegions": [
+        {
+          "sourcePage": 4,
+          "clip": [
+            35,
+            75,
+            565,
+            750
+          ]
+        }
+      ],
+      "resourceHashes": {
+        "paper": "8952b21cf642309c5f962a001a6871256cfb3f469c03a425019a21d40c48f1fa",
+        "audio": "aa91453470e0eba03838909572b09feefe06e886961fb1f7d14a34659d252b00",
+        "document": "e74e86385bae8478174c4367b423dad9a8735849a21fb9becb4cf22fb2cc14ae",
+        "key": "91b6c298cad03f591511fc925086d446a72b61f09a81b450fdffa93a79bd7c33",
+        "keyText": "df300a7106fb9fa3615607e86aaf793ee13618b9ac4cdf2b26c5ffda464fc9ed",
+        "paperText": "c63484a230cfed32a188caf56efe230fc1b2503b378e03a58a2c2d495a4bd917"
+      }
+    },
+    {
+      "id": "module-5",
+      "title": "Module 5 exam",
+      "lessonId": "1202257b-f60c-52d4-a9e6-44f654c66f9e",
+      "assignmentId": "cf11b7c6-fb48-5742-a9aa-4ed9979ffc42",
+      "moduleId": "2244057d-a4f6-557b-b863-9e76f68fd953",
+      "week": 11,
+      "minutes": 45,
+      "maxMarks": 60,
+      "sourcePages": [
+        21,
+        22,
+        23
+      ],
+      "track": 7,
+      "audioSource": "07 Beg_test5_m5.mp3",
+      "position": 90,
+      "files": {
+        "paper": "module-5.pdf",
+        "audio": "module-5.mp3",
+        "document": "module-5.doc",
+        "key": "module-5-key.pdf",
+        "keyText": "module-5-key.txt",
+        "paperText": "module-5-paper.txt"
+      },
+      "sha256": "e56c8d734e8217f270e7a9ea4967184cfff0766dd5bb3662befe44df6e4de078",
+      "documentSource": "Test 5_Traveller Beg.doc",
+      "keyRegions": [
+        {
+          "sourcePage": 5,
+          "clip": [
+            35,
+            75,
+            565,
+            750
+          ]
+        }
+      ],
+      "resourceHashes": {
+        "paper": "e56c8d734e8217f270e7a9ea4967184cfff0766dd5bb3662befe44df6e4de078",
+        "audio": "a4648a0feccdcb43681fb663499db7b2a870e6a7d408b853647f31166fac4e88",
+        "document": "cf5e7507de1c68f211071384964aaf4d2f2dd7fda5ef4e764a7935bba6275f05",
+        "key": "1d9b8102f3b91fce3de203487b6eb4298fda819641839f31b3446c3ef79490c5",
+        "keyText": "fb4391e3befafbae7be4a4550f5b285a9e745111079e2e07835844c82cbff97a",
+        "paperText": "b9d25b025ed3cd69d259c2c478f89941c7f8b7fc2abb96a6f32787cb17ce4639"
+      }
+    },
+    {
+      "id": "module-6",
+      "title": "Module 6 exam",
+      "lessonId": "1d71653e-5da3-5b3f-bc37-17791d74d78d",
+      "assignmentId": "d9fe3b5b-a80c-5301-9ba2-4b3a6a269631",
+      "moduleId": "09a08441-57b4-5373-b491-1a5ac8414c7a",
+      "week": 13,
+      "minutes": 45,
+      "maxMarks": 60,
+      "sourcePages": [
+        24,
+        25,
+        26
+      ],
+      "track": 8,
+      "audioSource": "08 Beg_test6_m6.mp3",
+      "position": 90,
+      "files": {
+        "paper": "module-6.pdf",
+        "audio": "module-6.mp3",
+        "document": "module-6.doc",
+        "key": "module-6-key.pdf",
+        "keyText": "module-6-key.txt",
+        "paperText": "module-6-paper.txt"
+      },
+      "sha256": "d4996ea13c4eb4d853c808def2f690bf086bae3f704b8c56b19e36e4f7de9b53",
+      "documentSource": "Test 6_Traveller Beg.doc",
+      "keyRegions": [
+        {
+          "sourcePage": 6,
+          "clip": [
+            35,
+            60,
+            565,
+            520
+          ]
+        }
+      ],
+      "resourceHashes": {
+        "paper": "d4996ea13c4eb4d853c808def2f690bf086bae3f704b8c56b19e36e4f7de9b53",
+        "audio": "2861e974ae0e2a6b7d82a03764e1f424a230bf848095df67242c94adfaa07a5c",
+        "document": "aab0871eb0ef31fb15b51bc23a3fd5a3a40b88ec6c515dbee961ffafbad65eed",
+        "key": "097205666424a64f4ceebec382a4c3dd4e8083f4b015709afeab75c85e49699c",
+        "keyText": "6b72ee83a662f15d9181c1b9dd087c9375158ccad22a650d3d25ee4be17c831f",
+        "paperText": "568fe299712954c2fccffc2ffd2a9b4d835a48896bace34e4872074fb3c2103e"
+      }
+    },
+    {
+      "id": "module-7",
+      "title": "Module 7 exam",
+      "lessonId": "d98e942d-e4c2-51c7-bbbb-6f5e2c43744f",
+      "assignmentId": "eed5d666-ef28-504a-8a9d-35ee6f1f5a06",
+      "moduleId": "af2ad401-ad45-53b5-bfa7-883cc855b778",
+      "week": 15,
+      "minutes": 45,
+      "maxMarks": 60,
+      "sourcePages": [
+        27,
+        28,
+        29
+      ],
+      "track": 9,
+      "audioSource": "09 Beg_test7_m7.mp3",
+      "position": 90,
+      "files": {
+        "paper": "module-7.pdf",
+        "audio": "module-7.mp3",
+        "document": "module-7.doc",
+        "key": "module-7-key.pdf",
+        "keyText": "module-7-key.txt",
+        "paperText": "module-7-paper.txt"
+      },
+      "sha256": "30fcd34cfa76c036a5f619e3cff23e01d16dbed2660b17005392b3d1111b6625",
+      "documentSource": "Test 7_Traveller Beg.doc",
+      "keyRegions": [
+        {
+          "sourcePage": 6,
+          "clip": [
+            35,
+            530,
+            565,
+            750
+          ]
+        },
+        {
+          "sourcePage": 7,
+          "clip": [
+            35,
+            60,
+            565,
+            280
+          ]
+        }
+      ],
+      "resourceHashes": {
+        "paper": "30fcd34cfa76c036a5f619e3cff23e01d16dbed2660b17005392b3d1111b6625",
+        "audio": "82b2a4cd89ccbb416fb9f4d176c4b40d1babdfb00037c4d3742f30b1c86229c2",
+        "document": "1363660b19c223f9f02aff09d15fe3288c1fb54400d78f0e694f3e2699c4e971",
+        "key": "a6af234a9cae5cced520eda89602db837c60a7cc6f61f337dd575f8323ba318a",
+        "keyText": "adab3baf5827bf6c107f9bb08dacd9a549a18d47404ff3bdbfb878d94ec28952",
+        "paperText": "6dce83c7d411e4a67a80afaa0254ca9ac42512e96c7a2a45b81572f32d961c5b"
+      }
+    },
+    {
+      "id": "module-8",
+      "title": "Module 8 exam",
+      "lessonId": "01b5af2d-e402-5244-8b1f-57eb3978ec57",
+      "assignmentId": "d9e6b410-00c6-5421-ae66-ff9f8a23aa39",
+      "moduleId": "625f7fe5-bff0-57a7-81ca-7c688fc0ae81",
+      "week": 17,
+      "minutes": 45,
+      "maxMarks": 60,
+      "sourcePages": [
+        30,
+        31,
+        32
+      ],
+      "track": 10,
+      "audioSource": "10 Beg_test8_m8.mp3",
+      "position": 90,
+      "files": {
+        "paper": "module-8.pdf",
+        "audio": "module-8.mp3",
+        "document": "module-8.doc",
+        "key": "module-8-key.pdf",
+        "keyText": "module-8-key.txt",
+        "paperText": "module-8-paper.txt"
+      },
+      "sha256": "c40a31cee092e1e83e416f443b5866830398263616298eb8f4352643b9447ff3",
+      "documentSource": "Test 8_Traveller Beg.doc",
+      "keyRegions": [
+        {
+          "sourcePage": 7,
+          "clip": [
+            35,
+            290,
+            565,
+            755
+          ]
+        }
+      ],
+      "resourceHashes": {
+        "paper": "c40a31cee092e1e83e416f443b5866830398263616298eb8f4352643b9447ff3",
+        "audio": "29b11b306986dd1e3a3b4f913bd6e8113ddd011aab0fce9f38a0706790571179",
+        "document": "59037f143fc7e209269179746d357df265f9133d403aefb7f287d73f3d525069",
+        "key": "f9410bf5719f41c773e32b022c872f8febf9df35b50bd13e34d62ae83bcc6119",
+        "keyText": "e7ddf32ed8bd63ac2f0015a0743109d15826fac86ae69e4efecbbe0c942be62f",
+        "paperText": "364235a073f0a18ef9425b88a5f28299c29c9f4c05ebfe46febb1c51e770e05d"
+      }
+    },
+    {
+      "id": "final",
+      "title": "Final exam: Modules 1–8",
+      "lessonId": "a2404985-8ddd-58e1-8af0-6a4b20af6558",
+      "assignmentId": "21b0e959-755b-5054-a90f-407fc721578c",
+      "moduleId": "01d02777-8d30-59d1-ae99-764caf5d652f",
+      "week": 18,
+      "minutes": 90,
+      "maxMarks": 100,
+      "sourcePages": [
+        33,
+        34,
+        35,
+        36
+      ],
+      "track": 11,
+      "audioSource": "11 Beg_finaltest.mp3",
+      "position": 100,
+      "files": {
+        "paper": "final.pdf",
+        "audio": "final.mp3",
+        "document": "final.doc",
+        "key": "final-key.pdf",
+        "keyText": "final-key.txt",
+        "paperText": "final-paper.txt"
+      },
+      "sha256": "fc4b84da09e9453872db44930f70812219e36f0273d772a1e6b56bbdbabce069",
+      "documentSource": "Final Test_Traveller Beg.doc",
+      "keyRegions": [
+        {
+          "sourcePage": 8,
+          "clip": [
+            35,
+            80,
+            565,
+            750
+          ]
+        }
+      ],
+      "resourceHashes": {
+        "paper": "fc4b84da09e9453872db44930f70812219e36f0273d772a1e6b56bbdbabce069",
+        "audio": "3126cb7650bd7e3c3dbe8812ec0d1a0bcad1cf4787bb6840069be4372c2f1426",
+        "document": "2f1554fbe6db2570dcd7a4aee55539d5d07b57f8ec79dfef09470939668e7033",
+        "key": "167a5a4c91ebfcf9584e7e2fc71b1f0b5ff6f566a72be91011ca6f7820c4bb8d",
+        "keyText": "77e0850b542daa8fe42a7eaf20d00acbf9528170fae576ea8053b1789118bd4f",
+        "paperText": "92e17115550249ba04feb680ca6876a0ed9ae4fb0ac6baac62fd133f8c4d592a"
+      }
+    }
+  ]
+}

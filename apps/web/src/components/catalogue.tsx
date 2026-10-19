@@ -1,0 +1,6 @@
+"use client";
+import {useState} from "react";
+import {Search} from "lucide-react";
+import {courses,schools,filterCourses} from "@/lib/catalogue";
+import {CourseCard} from "./course-card";
+export function Catalogue(){const[q,setQ]=useState("");const[s,setS]=useState("");const[l,setL]=useState("");const result=filterCourses(courses,q,s,l);return <><div className="filters"><label className="search"><Search size={18}/><input aria-label="Search courses" placeholder="What would you like to learn?" value={q} onChange={e=>setQ(e.target.value)}/></label><select aria-label="School" value={s} onChange={e=>setS(e.target.value)}><option value="">All programs</option>{schools.map(x=><option key={x}>{x}</option>)}</select><select aria-label="CEFR level" value={l} onChange={e=>setL(e.target.value)}><option value="">All levels</option>{["A1","A2","B1","B2","C1","C2"].map(x=><option key={x}>{x}</option>)}</select></div><p className="fine" aria-live="polite">{result.length} course{result.length===1?"":"s"} to explore ? Preview curriculum; enrollment subject to approval.</p><div className="course-grid">{result.map(c=><CourseCard key={c.id} course={c}/>)}</div>{!result.length&&<div className="empty"><h2>A different path?</h2><p>No courses match these filters.</p><button className="button" onClick={()=>{setQ("");setS("");setL("")}}>Reset filters</button></div>}</>}

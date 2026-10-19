@@ -1,0 +1,246 @@
+[
+  {
+    "slug": "beginners",
+    "name": "Beginners",
+    "resources": [
+      {
+        "title": "Student's book",
+        "url": "https://dy.d-ld.net/764c3355fa"
+      },
+      {
+        "title": "Class Audio CDs",
+        "url": "https://dy.d-ld.net/1ecc3a4554"
+      },
+      {
+        "title": "Teacher's book",
+        "url": "https://dy.d-ld.net/23696b4552"
+      },
+      {
+        "title": "Workbook",
+        "url": "https://dy.d-ld.net/f0becc917e"
+      },
+      {
+        "title": "Tests",
+        "url": "https://dy.d-ld.net/696c5f0bc0"
+      },
+      {
+        "title": "Extra Materials",
+        "url": "https://dy.d-ld.net/b5285fcf72"
+      },
+      {
+        "title": "Portfolio",
+        "url": "https://dy.d-ld.net/d3fb5aacb2"
+      },
+      {
+        "title": "Grammar book Keys",
+        "url": "https://dy.d-ld.net/a2b27bebfc"
+      },
+      {
+        "title": "Whiteboard Software",
+        "url": "https://dy.d-ld.net/46df54f7e8"
+      }
+    ]
+  },
+  {
+    "slug": "elementary",
+    "name": "Elementary",
+    "resources": [
+      {
+        "title": "Student's book",
+        "url": "https://dy.d-ld.net/696df6cfe2"
+      },
+      {
+        "title": "Class Audio CDs",
+        "url": "https://dy.d-ld.net/f4420c41a4"
+      },
+      {
+        "title": "Workbook",
+        "url": "https://dy.d-ld.net/c8773d0298"
+      },
+      {
+        "title": "Tests",
+        "url": "https://dy.d-ld.net/bf5015373f"
+      },
+      {
+        "title": "Grammar book",
+        "url": "https://dy.d-ld.net/95706094f1"
+      },
+      {
+        "title": "Grammar book Keys",
+        "url": "https://dy.d-ld.net/e64ad0985c"
+      },
+      {
+        "title": "Extra Materials",
+        "url": "https://dy.d-ld.net/824561b7be"
+      },
+      {
+        "title": "Portfolio",
+        "url": "https://dy.d-ld.net/525acebc90"
+      },
+      {
+        "title": "Whiteboard Software",
+        "url": "https://dy.d-ld.net/f76503ff86"
+      }
+    ]
+  },
+  {
+    "slug": "pre-intermediate",
+    "name": "Pre-Intermediate",
+    "resources": [
+      {
+        "title": "Student's book",
+        "url": "https://dy.d-ld.net/87037049dc"
+      },
+      {
+        "title": "Workbook",
+        "url": "https://dy.d-ld.net/daadf62ac7"
+      },
+      {
+        "title": "Tests",
+        "url": "https://dy.d-ld.net/8815487115"
+      },
+      {
+        "title": "Grammar book",
+        "url": "https://dy.d-ld.net/3a2a14099d"
+      },
+      {
+        "title": "Extra Materials",
+        "url": "https://dy.d-ld.net/1c2258bea2"
+      },
+      {
+        "title": "Portfolio",
+        "url": "https://dy.d-ld.net/5bffd016fa"
+      },
+      {
+        "title": "Whiteboard Software",
+        "url": "https://dy.d-ld.net/64057e09f5"
+      }
+    ]
+  },
+  {
+    "slug": "b1",
+    "name": "Intermediate B1",
+    "resources": [
+      {
+        "title": "Student's book",
+        "url": "https://dy.d-ld.net/eed5a6b5d6"
+      },
+      {
+        "title": "Class Audio CDs",
+        "url": "https://dy.d-ld.net/6fe446803e"
+      },
+      {
+        "title": "Teacher's book",
+        "url": "https://dy.d-ld.net/cdc6cb72fa"
+      },
+      {
+        "title": "Workbook",
+        "url": "https://dy.d-ld.net/fc62013f85"
+      },
+      {
+        "title": "Workbook Teachers Edition",
+        "url": "https://dy.d-ld.net/d9619cafdc"
+      },
+      {
+        "title": "Tests",
+        "url": "https://dy.d-ld.net/37e018a368"
+      },
+      {
+        "title": "Extra Materials",
+        "url": "https://dy.d-ld.net/4be2322995"
+      },
+      {
+        "title": "Portfolio",
+        "url": "https://dy.d-ld.net/86b6f65966"
+      },
+      {
+        "title": "Whiteboard Software",
+        "url": "https://dy.d-ld.net/12115c1d69"
+      }
+    ]
+  },
+  {
+    "slug": "b1-plus",
+    "name": "Intermediate B1+",
+    "resources": [
+      {
+        "title": "Student's book",
+        "url": "https://dy.d-ld.net/0b006f374b"
+      },
+      {
+        "title": "Class Audio CDs",
+        "url": "https://dy.d-ld.net/ddfc35241e"
+      },
+      {
+        "title": "Teacher's book",
+        "url": null
+      },
+      {
+        "title": "Workbook",
+        "url": "https://dy.d-ld.net/1dbbcc00f9"
+      }
+    ]
+  },
+  {
+    "slug": "b2",
+    "name": "Intermediate B2",
+    "resources": [
+      {
+        "title": "Student's book",
+        "url": "https://dy.d-ld.net/40fc0a7b4f"
+      },
+      {
+        "title": "Class Audio CDs",
+        "url": "https://dy.d-ld.net/66e8baa5ee"
+      },
+      {
+        "title": "Workbook",
+        "url": "https://dy.d-ld.net/139a280b83"
+      },
+      {
+        "title": "Tests",
+        "url": "https://dy.d-ld.net/a0426618aa"
+      }
+    ]
+  },
+  {
+    "slug": "c1",
+    "name": "Advanced / C1",
+    "resources": [
+      {
+        "title": "Student's book",
+        "url": "https://dy.d-ld.net/9b6fab169f"
+      },
+      {
+        "title": "Advanced Test",
+        "url": "https://dy.d-ld.net/faec400906"
+      },
+      {
+        "title": "Class Audio",
+        "url": "https://dy.d-ld.net/7d1b8a2c44"
+      },
+      {
+        "title": "Workbook",
+        "url": "https://dy.d-ld.net/e093f4553a"
+      },
+      {
+        "title": "C1 Tests",
+        "url": "https://dy.d-ld.net/4a50154485"
+      },
+      {
+        "title": "C1 Teacher's book",
+        "url": "https://dy.d-ld.net/4a50154485"
+      }
+    ]
+  },
+  {
+    "slug": "teacher-resources",
+    "name": "Teacher Resources",
+    "resources": [
+      {
+        "title": "Resources Packs KSA",
+        "url": "https://dy.d-ld.net/937d261df6"
+      }
+    ]
+  }
+]

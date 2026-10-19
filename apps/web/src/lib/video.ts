@@ -1,0 +1,4 @@
+import {AccessToken} from "livekit-server-sdk";
+export interface VideoProvider{issueToken(identity:string,sessionId:string,teacher:boolean):Promise<{token:string;url:string}>}
+export class LiveKitProvider implements VideoProvider{async issueToken(identity:string,sessionId:string,teacher:boolean){const key=process.env.LIVEKIT_API_KEY,secret=process.env.LIVEKIT_API_SECRET,url=process.env.LIVEKIT_URL;if(!key||!secret||!url)throw new Error("Classroom service is not configured.");const token=new AccessToken(key,secret,{identity,ttl:"5m"});token.addGrant({roomJoin:true,room:sessionId,canSubscribe:true,canPublish:true,canPublishData:teacher,canPublishSources:teacher?[1,2,3,4]:[1,2],roomAdmin:teacher});return {token:await token.toJwt(),url};}}
+export function insideJoinWindow(startsAt:string,endsAt:string,now=Date.now()){return now>=Date.parse(startsAt)-15*60*1000&&now<Date.parse(endsAt);}

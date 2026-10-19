@@ -1,0 +1,25 @@
+import {beforeEach,it,expect,vi} from "vitest";
+const fixture=vi.hoisted(()=>({account:"a2000000-0000-4000-8000-000000000002",staff:false,loggedIn:true,submitted:false,expired:false,rejectDraft:false,calls:[] as string[]}));
+vi.mock("@/lib/supabase",()=>({
+ currentUser:async()=>fixture.loggedIn?{id:fixture.account}:null,
+ database:async()=>({rpc:async(name:string)=>{fixture.calls.push(name);return name==="save_traveller_exam_draft"?{error:fixture.rejectDraft?{message:"deadline"}:null}:{data:fixture.staff};},from:(table:string)=>{const builder={select:()=>builder,eq:()=>builder,maybeSingle:async()=>({data:table==="traveller_exams"?{course_id:"course",closes_at:"2099-01-01T00:00:00Z"}:table==="traveller_exam_sittings"?{started_at:"2026-01-01T00:00:00Z",deadline:fixture.expired?"2020-01-01T00:00:00Z":"2099-01-01T00:00:00Z",draft:{},submitted_at:fixture.submitted?"2026-01-01T01:00:00Z":null,submission_id:fixture.submitted?"submission-id":null}:{body:"Only the stored final submission."}})};return builder;}}),
+}));
+vi.mock("@/lib/exam-answer-store",()=>({
+ answerIndex:async()=>{fixture.calls.push("index");return {fields:[{id:"grammar.a.1",expected:"PRIVATE CORRECT ANSWER",accepted:[],kind:"short",section:"grammar",source:"fixture"}]};},
+ extractAnswerFile:async()=>{fixture.calls.push("extract");return {text:"grammar.a.1: My response",manualReview:false};},validateAnswerFile:()=>"txt",
+ storeAnswerFile:async()=>{fixture.calls.push("store");return {id:"upload-id",name:"answers.txt"};},
+ referenceReview:async(_exam:string,text:string)=>{fixture.calls.push("review:"+text);return {counts:{correct:0,incorrect:1,missing:0,review:0},rows:[]};},listAnswerUploads:async()=>[],
+ uploadedAnswer:async()=>{fixture.calls.push("download");return {record:{id:"upload",kind:"txt",startedAt:"2026-01-01T00:00:00Z"},bytes:Buffer.from("Own uploaded answers")};},
+}));
+import {GET,POST} from "../src/app/api/traveller-exams/[examId]/answers/route";
+const params={params:Promise.resolve({examId:"module-1"})};const base="http://localhost:3000/api/traveller-exams/module-1/answers";
+beforeEach(()=>{fixture.staff=false;fixture.loggedIn=true;fixture.submitted=false;fixture.expired=false;fixture.rejectDraft=false;fixture.calls.length=0;});
+async function upload(content="grammar.a.1: My response"){const form=new FormData();form.set("file",new File([content],"answers.txt",{type:"text/plain"}));const encoded=new Request(base,{method:"POST",body:form});return new Request(base,{method:"POST",headers:{origin:"http://localhost:3000","content-type":encoded.headers.get("content-type")!},body:await encoded.arrayBuffer()});}
+it("never retrieves correct answers for an active, unsubmitted student's report request",async()=>{const result=await GET(new Request(base),params);expect(result.status).toBe(403);expect(fixture.calls).not.toContain("index");expect(fixture.calls.some(c=>c.startsWith("review:"))).toBe(false);});
+it("a blank active-attempt template contains question identifiers but no reference answers",async()=>{const result=await GET(new Request(base+"?template=1"),params);expect(result.status).toBe(200);expect(await result.text()).toBe("grammar.a.1: ");});
+it("reviews only the server-stored submitted body, never query-supplied answers",async()=>{fixture.submitted=true;const response=await GET(new Request(base+"?answers=Forged"),params);expect(response.status).toBe(200);expect(fixture.calls).toContain("review:Only the stored final submission.");});
+it("rejects file/report access to another student's account",async()=>{const response=await GET(new Request(base+"?account=a2000000-0000-4000-8000-000000000003&download=id"),params);expect(response.status).toBe(403);expect(fixture.calls).not.toContain("download");});
+it("does not extract or save answer uploads after deadline or submission",async()=>{fixture.expired=true;expect((await POST(await upload(),params)).status).toBe(403);expect(fixture.calls).not.toContain("extract");fixture.expired=false;fixture.submitted=true;expect((await POST(await upload(),params)).status).toBe(403);expect(fixture.calls).not.toContain("store");});
+it("rechecks the database deadline before storing the file and never returns the key on upload",async()=>{const response=await POST(await upload(),params);expect(response.status).toBe(200);expect(fixture.calls.indexOf("save_traveller_exam_draft")).toBeLessThan(fixture.calls.indexOf("store"));const text=await response.text();expect(text).toContain("My response");expect(text).not.toContain("PRIVATE CORRECT ANSWER");});
+it("does not accept a file if the deadline expires while it is being extracted",async()=>{fixture.rejectDraft=true;const response=await POST(await upload(),params);expect(response.status).toBe(403);expect(fixture.calls).not.toContain("store");});
+it("bounds the actual incoming multipart bytes rather than trusting a declared length",async()=>{const response=await POST(await upload("x".repeat(6*1024*1024+65537)),params);expect(response.status).toBe(413);expect(fixture.calls).not.toContain("extract");});

@@ -1,0 +1,29 @@
+.tools/
+node_modules/
+.next/
+.env*
+!.env.example
+coverage/
+playwright-report/
+test-results/
+*.tsbuildinfo
+*.log
+*.pem
+*.key
+__pycache__/
+*.py[cod]
+apps/web/next-env.d.ts
+
+# Runtime/private assets belong in persistent server storage, never Git.
+apps/web/private/
+
+# Original textbook files and page renderings are private local assets.
+apps/web/private/books/
+
+.next-verify/
+.next-local/
+
+apps/web/private/library/
+
+apps/web/private/answer-uploads/
+apps/web/private/homework-uploads/

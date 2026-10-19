@@ -1,0 +1,20 @@
+{
+  "name": "spolk",
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "dev:local": "node scripts/dev-local.mjs",
+    "dev": "npm run dev -w @spolk/web",
+    "build": "npm run build -w @spolk/web",
+    "start": "npm run start -w @spolk/web",
+    "lint": "npm run lint -w @spolk/web",
+    "typecheck": "npm run typecheck -w @spolk/web",
+    "test": "npm run test -w @spolk/web",
+    "test:e2e": "npm run test:e2e -w @spolk/web"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

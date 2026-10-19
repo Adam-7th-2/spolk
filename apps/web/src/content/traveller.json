@@ -1,0 +1,3870 @@
+{
+  "slug": "traveller-beginners",
+  "title": "Traveller Beginners - complete supplied student book",
+  "level": "A1",
+  "weeks": 18,
+  "source": {
+    "title": "Traveller Beginners Student’s Book",
+    "author": "H. Q. Mitchell",
+    "pageCount": 126,
+    "sha256": "4a8aaabad1c8f7a357d252fd1c6c834c5fcf877f9c56cd4f66dfde46a7fed20e",
+    "pageImageHashes": [
+      "d29440b9f449043f39c3b28e8404d1a1baadf55f33134f7a9f3bea3a5c63eebf",
+      "ea361b2c9a7894dec56868ec93a8f116cd7ab06fc1b98e7de47e972a655b7509",
+      "a1a9d3382be44a22ea01eae86fba33f95a59c308108a924bdd972e0c7a39e3f7",
+      "33b423bdb7108154bce7c9f9cf00423b312bbd85ab94d4033ce975d21ad8f86f",
+      "8ff25806eb4251b607ba27aeb5eab61cfbee807c66a428d093249d9cc00d9f2f",
+      "600888eccaf84d5aab6ac5eb23a99cb1825e67024dbff292f365414a29d18ae1",
+      "b0388493c6370a37654671005388161d3bd4b48030fa0650e29f819f345bfa5c",
+      "9746b9c5560837af4b5eab651543d63fe2f6613cd148d14fcdf27732f62fe34b",
+      "1ab8471f6cb4852e321242c1dca0fc4827d7a7742b961d50de59ce0f8541d925",
+      "6c7c39ec044f8ac4db8003c71d31e751867adc02ce98f80935d99e53c6409bca",
+      "f52a41296d30c19fbdbcf9d9f39cad8e73663355bfa05fe2b684aea5b33d37c1",
+      "e541eb4785fc243ce8cb95c9d444231f9384027f19c23740bae94ebf139797df",
+      "e9e0f15429dc0cd348536ef5914aa3c5fe9565d630d514d7c668345f3fc69b2d",
+      "76f2b014b0d3850f49234ff58dfa782a9ad6076219a2be9eb5a09e8adfe9ea93",
+      "8cf49c562469629b64c9626bcda7469544f7b77b710fa09d7df4e92e9ec91700",
+      "d61ced36a31131bbd5c275dd71f877720182421128aa517620197936989d1134",
+      "647e11ea9188488d69c6387d8f2483452ff5be49291c3b979b10b5a1c6aaf04b",
+      "6a7aa693d3de30100a13ada04cf1e17ae5f60c74602b41a1acb47ae95787b1e0",
+      "389a78edf440e18aea50daef10564b329c82b50a34e36d264e4e6e66de723cc7",
+      "b6b0930ec9a034af4f21daecbfe9e8743232c1b87463c8acec6f42672f416804",
+      "4961e948d54e27d8fce187c83d094bff45b2783b78533552158f61329fb4c834",
+      "0b8d23b9995aeab80dbe0a773ca2a6881f206b4390bb7f32aa5070fc32190c3b",
+      "8a64def44e5ccbac7c59d77daa7a407678d922273ff248619b88d91309de890a",
+      "c19529602060b02bcf417fb96b6f5823ccc8918d092b44e510eb7ed3611038af",
+      "5a2c20dac33de3156ba1de4c7064ada7dbbaadf92edca102fa113d757417c70f",
+      "05a8544f00ba693218eee8ea1b7e273ff3e983a0aa7125e2edc39fbc4bb40684",
+      "dcd6e0bd88bfb398864af5c5fb113da95aa3a35f251155fa444ba7802667e006",
+      "c32fab8d892d732dafc35c2e3b90c00ec8c3c926b416c6b87f68e1e12df4fe5b",
+      "0c2dfb981c09eec641d3631c204b4cd5ecd1543d5b405de1bd71eb1a104ac0e3",
+      "6d0820bb931f9304d71c52fb7d983761c2d84346fd46d62c07f09dcd6b0a6555",
+      "e7d78f4d6ae02815b7ee3db87ed5c95b2d99d6c75d97c92044e6f764adb80c3e",
+      "d1f64a443f4fab2b27f0617e9d0f229f37cc050142abb1b21cc3221f2ecc1b60",
+      "1e179513a7e96c073ff2f2797fd120897a467d129414e2d8a9ed2285f368bc0f",
+      "21ff80fb23b50806b75e69d8166653d47024f1c2e94609c1a1c82bc6d8170b9e",
+      "283cf752c30b1847f4ac69a10d2878da2258017cd172dc6643fcb7ac82d63ff9",
+      "526fe23d9c6ed3f1836bf53db1a717a9a776a25682cc5ad6a14fcc730617b2a4",
+      "40b6f97511e3d8e123e773e8a59d13c45d6631577a96285c2effbbd980bbd7e6",
+      "35f00159715daab4ac20f84b8abbd5e622ba13e0e5bfeb447fd759999fc2ffb8",
+      "1f65152bbd3d4141eddf83dea2255ae218c16589768c8fc453f002a49bba7701",
+      "8c7c8c4022a3a62fbb5bb473e296696f47bccb174db549b6746caa5ceb2765d7",
+      "8120c93109a34bf927aa0ab77638e1c76f611b35e286a1b5fd588266cf674a19",
+      "b9d67fac4d1aff2b02966641138c758a415d6b51eb1b950a110dc14d29ef5869",
+      "01882eeda424f446ee6330a95502eca720dd49bc8697b77be47f9d175a9f29e2",
+      "6f74eddc5885535a02f423744aff4ec091ba455a2e22762c77543b83009aa1b2",
+      "38808ee975eebf2df8043b9d89a138d973589d6a39f39ce35a478290f8fa6454",
+      "a17487b260a9fc9e5a877f7efd16d3087e2f6f77c5f63d2c33d230a21d1abf19",
+      "3be7ec1f2da693e11321029d4c2b2e20c36dc60b74191e7ccaf837bb59614d1c",
+      "4ac4cbd8b5f01967e7a24580684020e69d60aec843c452b56ebf50160877e06f",
+      "ffecfad7974d790b5791dca0fca1aa42723750961f825bb9701234145fd98f3a",
+      "2fbe3efee0175d0f9eff59c9214a4ab899f6cf2eee77a2ff292a0691a0c54dc7",
+      "91a8966d1d8d7fcaec759556fc82c8902e986b65a177110d02135f81318dc405",
+      "905a883f07e4a537867300450a60cd6d35dcc575d042bdb2ffe06345745cc4a7",
+      "581628a3e8246ac84728455c1a7e122fb13d3f9c08ac0abf1d9234cfbbdbff3d",
+      "118109766243af40d5850909637522b01014ac59313f5c0ef9ea23e38f2d9309",
+      "414a596fc7306395df827862957e2111909b5c76825c21d47d2c7d66fd85fa88",
+      "29e550005588dd852836a1fa37f220b560247ed63da2c7124a9b0efcb62b058d",
+      "144e28ac752e6f4726a518c96350b04de9e9444ad6c60208462d06c79d18b1a0",
+      "af81bf117cbb6ce139cf85d6163022fda0800484147b647623d792b360545683",
+      "e51873643ed6d86daa6e3b0248eba1ba2cb9bcd1291ed6f802a7ec778d84657c",
+      "2e3842de30a9cff02982b565506ea0c2f9b41e0c647ab075c011b492f1f3d88c",
+      "db809844b43f5cedb9a4892ae1660dafc6bdd97a0a9d60d6f0a892973742faee",
+      "e963c663f48a9d89f2e142e839b4a7d6382fe7c899c86bd57742c42a07a1c93d",
+      "315f8d8e114ab11097f8b5b4663bb107f8f9150e700f72f4f4c4bba8e9f513a3",
+      "a6975626486d697a348807f570e2c4b2c28ce22b18be8a4bf8ea2d6651cca2bd",
+      "a701fd0a8ff7ce109fe1d2c22988d8b3a6ec8c6028203d13a2f617282987e3d7",
+      "3ce628758c5b3e8cf7481c96fdea726253ad6ed242b752cb88cb69c4bd667ca5",
+      "5a47cbcea44b162e13f99686816dbd74c2e8710dd2c0e3488028c6a213c9c364",
+      "46955d223a51442c878bac74017cda9ada9e10f9d0d08cdbdec63818159ab94a",
+      "f051c8021e0c641287d9b37212aa45263ce7f799aae15be92d75a8e5265ea6cc",
+      "079ed4e33a2308f0ec6409c16525bf5c35e7ff39aca5a66a01b0b0fdf7c53226",
+      "701227ec76ec8304e0a4fe8567789039654e9c47c58b53c24cab768c985ce630",
+      "f77b9eba4d159238ad1650c6db8594864b2f44452bd077e40f8634c9faa49c1c",
+      "a5136d9cff3278209163aa5ad45ba913b0b97ab5e6e6da7477c72a72874e9072",
+      "bfcc2da52f70329f698dc0a75df1b8b29eef4a78b0db5e5d779cfb612199be3d",
+      "386279b3b326801e5c18672e59ad19b0eeb00cad9b63400242214aff2de38111",
+      "598bdc4a675435bf30d642e91d714c46b96d3473c1d73a1321e9059776b6669b",
+      "d8b8f95926d76976935130b3a0e897f316d84a2c38ee5289539246a46915386f",
+      "cf6a0f41015e030fc2d1d27c95fcc520d399e179f46cc2c401219c9094c436b5",
+      "85cc56b0d91001f74fa9ab9d0147638682464a42ec7b053780718f36df65aaad",
+      "a4bf70916d596861a801c61f584f5b5b7977add25f6954598ed20e08fe5896e1",
+      "8cb444e86208c28d1a460f00ed1baf64cbe10df814c022ca41704fc6986af8ad",
+      "4c0b9b1a7a6604713c605efecd4ff4e8d10e237cf33a3204d1c779c580305bb4",
+      "c9eb81f4dc5c277243a4283efb371cfee21879bd337d3518a0b4427f2e10dc6c",
+      "ebfd0f55c2a8a0e716cc954d620fce530e46858f9f7a8779ec51751a069b5f20",
+      "e105ae52c5aef94a25a562bcdc763c4c5b1c194c1d94495a6d4690e9a9b3518e",
+      "86ff5b5c45ac9410b9ae558dc30541b0e11933602a5d62f8c0ca611b2319d2a6",
+      "ae9acd246a04eeaa27b88b61ea9912f9c08b6837f6fe159ed3a4fa08cb58e9d7",
+      "8b1b1cc48cf9aee44637f52bfe1e0554f33ec39edd92333657b51c13012a4f98",
+      "4089ebb014bfe6abc5f44c77c2ceca6ad985f28ca32e97d2e01ca9808b5373a8",
+      "20aabe9d481e31b9ee4941783bbf8d46638ba8a8a369f3adb1111ffc32f821b3",
+      "ac79c87c5dfc805f09cd2a0401ae4d22e617e9804d487ffd418216d2c509d692",
+      "9f97d566cbe936842c5dc12b49886208173a9aa08f7aeee26288f1e371ec86bb",
+      "4d458f80f788c4fcccd9f676f7746f793e152b75e7cd6bb9e6707487f7758541",
+      "d0498ed74dccfe1378e01667bbcdbb522c7a81d96cc47eb227492ba0cf8edbd0",
+      "d0912b231b665d1b960f7ff6a6f21501c873bc5a44aed3270c96dca273ac1083",
+      "33ba7b628157c6fa902c8c53d411ef178705a067f64efc3fcc8c171c14919e2a",
+      "4614af7ab8790b5fdc7bf67012dd02f8c1e7e6ec8eeca08a76f081c87b311603",
+      "01ff652b60852b8e99665af74c603da898cff0b38796bf9d9cbba3b832816a92",
+      "250e8158a5f6db75d83a196ed227164d1d6664d4f80d0b062ecfd3c795ea3c02",
+      "e4e6922d6046ca471abd9abe05fb4dc3b64ce1e968813e1cf3ca64d9b2b70e4a",
+      "40a715a5bbf2c50ae880820d7ba9b36a981bbebf0004f498567830028fe7517b",
+      "092cb1efa3c1e8b14a1476c8098c9456d4f7b81d8917c86af2d69704a7bfec04",
+      "950aaf14af446b58f0a8346ae16a1210abdabece00e9e39885fe9900b52ca8df",
+      "c4ecb706d41848c810709d0c1729021d4cec98534070dc502264505dd530ce3f",
+      "a785c2bda07ba182e76791bf37ede5f0da0a3f80184b8775313006dd6f4ed815",
+      "d0bb10c4cbfe95a112d667454b107e7eda0326111cc9edf7d0bcf0264a56ebf0",
+      "3bf58e0ed402e9fa3299e9975581214316a74a746dc32766677f448d30734bf0",
+      "127708b4627e229af4a3104892c4a153a35f3e0543369622a42ca8025019b0e6",
+      "f0f0cc761dc4655a8777f7d6d8443df0b76d240ba2a7c1e7dbc98cb99d2a7902",
+      "d3c1aa3309f3404c9241d176f3311de5ef00030d98c5f9555ade9cf48a82a83e",
+      "040a90bd80573334a1323ea04d3ee5829e8e392b06f17f3f6a6aa8b90e3764cb",
+      "f7c2ec97526b0fc3c8f2bc16ae51ca628982ec0a07d07475120bdf2f999f7905",
+      "b1e4a6c0817cd8c1bd19f4f47fda9eb06ada45592ec6ffdb6ffb46358b4b4229",
+      "63fc544458035f9cb6938127b2b62dafabdb9812ca8ae7f6d2902a769590b539",
+      "2dceff2dd78256736cbca434f73f3828cc94930065d12a724825ea5ad4ec6971",
+      "6b2e9fd78223b9b9e0fe27c2b950150876b119d9fe8d71de8fa9e9c09ff70cf8",
+      "a41fb4357bf22bee09ce91be67bcc8ce51b2274f7a573fcccde9cbf1e1747780",
+      "a7d742afe3550faa0a5e104e8df84448bc781eed12650ecd56c74f2cddf80622",
+      "abb82fe612b64ef1dc5e4fe0110df01384b72835287d05cf76e93d48e68a7f51",
+      "f5879f5957b6a05bfdf215bce9aa79211b70aa3f8b636df2a2bf50ab384daf81",
+      "a4dbc63e7098040810f6401c77d096a1d8d804c659c1fa15552a549a04b67e0e",
+      "19bd28670e3c6973f57c074eb92d3c59b29a3f04a53bde458efe3e8125135c71",
+      "b7819441edc8fcaa39c37bdc9bd6cc78341fcfeb85793eb0b39934bbf1311938",
+      "dd299b51141b9c33e2d579bcd3dc1d514477d44d6040f532e0422510f6f35f2d",
+      "8633a58685ab087972a7b41722e32ff5b2a1bb8885013f41dd2d1eaea7c85dc9",
+      "daeac9c6f86fa9bc06e41599dd928acfdc838c549270abeea1897064e1a14f33"
+    ],
+    "notes": [
+      "All 126 supplied PDF pages are included in original file order.",
+      "Contents pages are scanned in their supplied order.",
+      "The contents refer to printed Grammar Reference pages 125-129, Learning Tips and Irregular Verbs page 130, and Word List page 132; those pages are absent from this PDF.",
+      "The last two supplied PDF pages both show printed page 131 (British/American English). Both are preserved.",
+      "Publisher audio and the teacher answer key were not supplied. OCR text is incomplete; original page images remain the authoritative source."
+    ]
+  },
+  "modules": [
+    {
+      "id": "7435c09b-97c3-5f84-ba56-c48267ee29eb",
+      "title": "Hello: getting started",
+      "position": 0,
+      "weeks": [
+        1
+      ]
+    },
+    {
+      "id": "a2adaf64-0c25-569d-8140-d9f2b19d73c7",
+      "title": "1. Nice to meet you",
+      "position": 1,
+      "weeks": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": "40eb12c6-6f0a-51ef-b613-f5a81ac557bd",
+      "title": "2. All about me",
+      "position": 2,
+      "weeks": [
+        4,
+        5
+      ]
+    },
+    {
+      "id": "d260d87c-8421-50fd-9ac9-56504d20181c",
+      "title": "3. Everyday life",
+      "position": 3,
+      "weeks": [
+        6,
+        7
+      ]
+    },
+    {
+      "id": "80ae2785-3a26-5078-a1d8-910dff6d6ada",
+      "title": "4. Places",
+      "position": 4,
+      "weeks": [
+        8,
+        9
+      ]
+    },
+    {
+      "id": "2244057d-a4f6-557b-b863-9e76f68fd953",
+      "title": "5. Food",
+      "position": 5,
+      "weeks": [
+        10,
+        11
+      ]
+    },
+    {
+      "id": "09a08441-57b4-5373-b491-1a5ac8414c7a",
+      "title": "6. Get busy",
+      "position": 6,
+      "weeks": [
+        12,
+        13
+      ]
+    },
+    {
+      "id": "af2ad401-ad45-53b5-bfa7-883cc855b778",
+      "title": "7. Looking back",
+      "position": 7,
+      "weeks": [
+        14,
+        15
+      ]
+    },
+    {
+      "id": "625f7fe5-bff0-57a7-81ca-7c688fc0ae81",
+      "title": "8. On holiday",
+      "position": 8,
+      "weeks": [
+        16,
+        17
+      ]
+    },
+    {
+      "id": "01d02777-8d30-59d1-ae99-764caf5d652f",
+      "title": "Pairwork, songs and language reference",
+      "position": 9,
+      "weeks": [
+        18
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "id": "c2c67850-7d04-5fad-8ff7-f6fede1c4765",
+      "module_id": "7435c09b-97c3-5f84-ba56-c48267ee29eb",
+      "title": "Book cover and complete contents",
+      "position": 0,
+      "week": 1,
+      "minutes": 20,
+      "kind": "orientation",
+      "pages": [
+        1,
+        2,
+        3
+      ],
+      "body": "Week 1 | 20 minutes | Original PDF pages 1, 2, 3.\nRead every displayed original page and complete all its numbered tasks in order. The page images and lesson PDF preserve the supplied scan. Add your responses with the PDF page and exercise number. Discuss speaking and pairwork tasks with your teacher.\nRead the cover and both contents pages. Identify the book modules, learning goals, and reference sections. These scans include no publisher audio.\nListening: the publisher audio files were not supplied. Your teacher must provide authorized audio or mark that listening task pending; the app does not fabricate recordings or answer keys.\nSpolk practice below is additional material, separate from the original exercises. Original-page homework is teacher-reviewed; automatic quiz results are not the publisher answer key.",
+      "questions": [],
+      "assessment_id": null,
+      "assignment": null
+    },
+    {
+      "id": "8e963e27-4b9a-5fb0-a6b2-7332e2cec1bc",
+      "module_id": "7435c09b-97c3-5f84-ba56-c48267ee29eb",
+      "title": "International words, names and the alphabet",
+      "position": 1,
+      "week": 1,
+      "minutes": 60,
+      "kind": "study",
+      "pages": [
+        4,
+        5
+      ],
+      "body": "Week 1 | 60 minutes | Original PDF pages 4, 5.\nRead every displayed original page and complete all its numbered tasks in order. The page images and lesson PDF preserve the supplied scan. Add your responses with the PDF page and exercise number. Discuss speaking and pairwork tasks with your teacher.\nListening: the publisher audio files were not supplied. Your teacher must provide authorized audio or mark that listening task pending; the app does not fabricate recordings or answer keys.\nSpolk practice below is additional material, separate from the original exercises. Original-page homework is teacher-reviewed; automatic quiz results are not the publisher answer key.",
+      "questions": [
+        {
+          "id": "b7bc2927-a50c-5b7a-92fe-0c6b0d0d1123",
+          "kind": "multiple_choice",
+          "prompt": "Choose a greeting.",
+          "options": [
+            "Good night yesterday.",
+            "A computer.",
+            "Hello."
+          ],
+          "correct_answer": "Hello.",
+          "points": 1,
+          "position": 0
+        },
+        {
+          "id": "f52b16b3-b013-52a0-813d-43cc0efa5ed6",
+          "kind": "multiple_choice",
+          "prompt": "Complete: My ___ is Alex.",
+          "options": [
+            "old",
+            "name",
+            "from"
+          ],
+          "correct_answer": "name",
+          "points": 1,
+          "position": 1
+        },
+        {
+          "id": "4611e28c-1eb1-51cb-bc0e-33d02d88c550",
+          "kind": "multiple_choice",
+          "prompt": "Which question asks for spelling?",
+          "options": [
+            "How do you spell your name?",
+            "Where is the taxi?",
+            "How much is it?"
+          ],
+          "correct_answer": "How do you spell your name?",
+          "points": 1,
+          "position": 2
+        }
+      ],
+      "assessment_id": "e3e0abd8-e896-5540-a5ab-abc93ba05c07",
+      "assignment": {
+        "id": "912c5896-aafc-5ea0-bc3b-0250179a5631",
+        "title": "Original-page work: International words, names and the alphabet",
+        "instructions": "Complete ALL numbered exercises on original PDF pages 4, 5, in order. Label each response by PDF page and exercise number. For speaking/pairwork, add a short account of your teacher-led practice. Mark any listening task 'pending audio' until authorized audio is available. The teacher should grade reading/grammar/vocabulary and writing against the displayed pages and review speaking separately. Submit your work here. Do not invent answers to inaudible listening tasks."
+      }
+    },
+    {
+      "id": "ce5a087c-79c3-5f30-a968-592d46c77bab",
+      "module_id": "7435c09b-97c3-5f84-ba56-c48267ee29eb",
+      "title": "The English-speaking world and classroom language",
+      "position": 2,
+      "week": 1,
+      "minutes": 45,
+      "kind": "study",
+      "pages": [
+        6
+      ],
+      "body": "Week 1 | 45 minutes | Original PDF pages 6.\nRead every displayed original page and complete all its numbered tasks in order. The page images and lesson PDF preserve the supplied scan. Add your responses with the PDF page and exercise number. Discuss speaking and pairwork tasks with your teacher.\nListening: the publisher audio files were not supplied. Your teacher must provide authorized audio or mark that listening task pending; the app does not fabricate recordings or answer keys.\nSpolk practice below is additional material, separate from the original exercises. Original-page homework is teacher-reviewed; automatic quiz results are not the publisher answer key.",
+      "questions": [
+        {
+          "id": "df20487f-b525-54bb-82d1-b5a18b3a9555",
+          "kind": "multiple_choice",
+          "prompt": "Canada: choose the nationality.",
+          "options": [
+            "Canada",
+            "Canadians country",
+            "Canadian"
+          ],
+          "correct_answer": "Canadian",
+          "points": 1,
+          "position": 0
+        },
+        {
+          "id": "e4ba91a9-322b-531f-883f-749824fb725f",
+          "kind": "multiple_choice",
+          "prompt": "Choose a classroom request.",
+          "options": [
+            "The bag is red.",
+            "Please repeat.",
+            "The train leaves."
+          ],
+          "correct_answer": "Please repeat.",
+          "points": 1,
+          "position": 1
+        },
+        {
+          "id": "a6d88005-7467-598b-b1ac-469bb7c392f7",
+          "kind": "multiple_choice",
+          "prompt": "Choose a request for help.",
+          "options": [
+            "Can you help me, please?",
+            "I am a city.",
+            "It is a burger."
+          ],
+          "correct_answer": "Can you help me, please?",
+          "points": 1,
+          "position": 2
+        }
+      ],
+      "assessment_id": "e2a326c9-e77a-501e-a954-c60427594648",
+      "assignment": {
+        "id": "d37d1a03-4aca-5504-8b31-b3a63175bcf4",
+        "title": "Original-page work: The English-speaking world and classroom language",
+        "instructions": "Complete ALL numbered exercises on original PDF pages 6, in order. Label each response by PDF page and exercise number. For speaking/pairwork, add a short account of your teacher-led practice. Mark any listening task 'pending audio' until authorized audio is available. The teacher should grade reading/grammar/vocabulary and writing against the displayed pages and review speaking separately. Submit your work here. Do not invent answers to inaudible listening tasks."
+      }
+    },
+    {
+      "id": "b95c09d3-8f3d-54a7-8849-2a72d4250043",
+      "module_id": "a2adaf64-0c25-569d-8140-d9f2b19d73c7",
+      "title": "Nice to meet you: module introduction",
+      "position": 0,
+      "week": 2,
+      "minutes": 20,
+      "kind": "opener",
+      "pages": [
+        7
+      ],
+      "body": "Week 2 | 20 minutes | Original PDF pages 7.\nRead every displayed original page and complete all its numbered tasks in order. The page images and lesson PDF preserve the supplied scan. Add your responses with the PDF page and exercise number. Discuss speaking and pairwork tasks with your teacher.\nPreview the module objectives and pictures. Discuss the introductory questions and set a personal learning goal.\nListening: the publisher audio files were not supplied. Your teacher must provide authorized audio or mark that listening task pending; the app does not fabricate recordings or answer keys.\nSpolk practice below is additional material, separate from the original exercises. Original-page homework is teacher-reviewed; automatic quiz results are not the publisher answer key.",
+      "questions": [],
+      "assessment_id": null,
+      "assignment": null
+    },
+    {
+      "id": "6fa57655-eafe-5185-90dc-1802044a57d2",
+      "module_id": "a2adaf64-0c25-569d-8140-d9f2b19d73c7",
+      "title": "1a · How are you?",
+      "position": 1,
+      "week": 2,
+      "minutes": 60,
+      "kind": "study",
+      "pages": [
+        8,
+        9
+      ],
+      "body": "Week 2 | 60 minutes | Original PDF pages 8, 9.\nRead every displayed original page and complete all its numbered tasks in order. The page images and lesson PDF preserve the supplied scan. Add your responses with the PDF page and exercise number. Discuss speaking and pairwork tasks with your teacher.\nListening: the publisher audio files were not supplied. Your teacher must provide authorized audio or mark that listening task pending; the app does not fabricate recordings or answer keys.\nSpolk practice below is additional material, separate from the original exercises. Original-page homework is teacher-reviewed; automatic quiz results are not the publisher answer key.",
+      "questions": [
+        {
+          "id": "5afecc21-2849-5cdc-824d-3b7b11c6af02",
+          "kind": "multiple_choice",
+          "prompt": "Good morning, Alex. How ___ you?",
+          "options": [
+            "am",
+            "are",
+            "is"
+          ],
+          "correct_answer": "are",
+          "points": 1,
+          "position": 0
+        },
+        {
+          "id": "a13b94b0-c3e9-5016-b9b8-db50496fc2df",
+          "kind": "multiple_choice",
+          "prompt": "I ___ fine, thank you.",
+          "options": [
+            "am",
+            "is",
+            "are"
+          ],
+          "correct_answer": "am",
+          "points": 1,
+          "position": 1
+        },
+        {
+          "id": "d768e6d2-4a38-52b3-a8be-62559c9d101f",
+          "kind": "multiple_choice",
+          "prompt": "Which greeting fits the evening?",
+          "options": [
+            "Good morning.",
+            "Good afternoon.",
+            "Good evening."
+          ],
+          "correct_answer": "Good evening.",
+          "points": 1,
+          "position": 2
+        }
+      ],
+      "assessment_id": "2f0ac521-c64d-5b83-9c1f-405748f12175",
+      "assignment": {
+        "id": "4a85cbc6-682f-5cd1-92b6-c7a5a0b0666b",
+        "title": "Original-page work: 1a · How are you?",
+        "instructions": "Complete ALL numbered exercises on original PDF pages 8, 9, in order. Label each response by PDF page and exercise number. For speaking/pairwork, add a short account of your teacher-led practice. Mark any listening task 'pending audio' until authorized audio is available. The teacher should grade reading/grammar/vocabulary and writing against the displayed pages and review speaking separately. Submit your work here. Do not invent answers to inaudible listening tasks."
+      }
+    },
+    {
+      "id": "2f73b18e-07d3-556a-80c2-a5d899c66e09",
+      "module_id": "a2adaf64-0c25-569d-8140-d9f2b19d73c7",
+      "title": "1b · Where are you from?",
+      "position": 2,
+      "week": 2,
+      "minutes": 60,
+      "kind": "study",
+      "pages": [
+        10,
+        11
+      ],
+      "body": "Week 2 | 60 minutes | Original PDF pages 10, 11.\nRead every displayed original page and complete all its numbered tasks in order. The page images and lesson PDF preserve the supplied scan. Add your responses with the PDF page and exercise number. Discuss speaking and pairwork tasks with your teacher.\nListening: the publisher audio files were not supplied. Your teacher must provide authorized audio or mark that listening task pending; the app does not fabricate recordings or answer keys.\nSpolk practice below is additional material, separate from the original exercises. Original-page homework is teacher-reviewed; automatic quiz results are not the publisher answer key.",
+      "questions": [
+        {
+          "id": "70518249-aa8d-5ed9-bd2a-7f146cae0020",
+          "kind": "multiple_choice",
+          "prompt": "I am from Spain. I am ___.",
+          "options": [
+            "Spains",
+            "Spanish",
+            "Spain"
+          ],
+          "correct_answer": "Spanish",
+          "points": 1,
+          "position": 0
+        },
+        {
+          "id": "e908d688-5e73-55c7-ae59-421ff463959b",
+          "kind": "multiple_choice",
+          "prompt": "She is from Italy. She is ___.",
+          "options": [
+            "Italian",
+            "Italy",
+            "Italies"
+          ],
+          "correct_answer": "Italian",
+          "points": 1,
+          "position": 1
+        },
+        {
+          "id": "9522ece4-cea5-55f7-ba4b-638d96c2aa4f",
+          "kind": "multiple_choice",
+          "prompt": "Choose an introduction.",
+          "options": [
+            "These my friend Leo.",
+            "This my Leo is.",
+            "This is my friend, Leo."
+          ],
+          "correct_answer": "This is my friend, Leo.",
+          "points": 1,
+          "position": 2
+        }
+      ],
+      "assessment_id": "761677dd-9c13-56ad-9322-5832c105f68b",
+      "assignment": {
+        "id": "37dc1e26-1ff1-542c-b639-d4ec53177055",
+        "title": "Original-page work: 1b · Where are you from?",
+        "instructions": "Complete ALL numbered exercises on original PDF pages 10, 11, in order. Label each response by PDF page and exercise number. For speaking/pairwork, add a short account of your teacher-led practice. Mark any listening task 'pending audio' until authorized audio is available. The teacher should grade reading/grammar/vocabulary and writing against the displayed pages and review speaking separately. Submit your work here. Do not invent answers to inaudible listening tasks."
+      }
+    },
+    {
+      "id": "35cf2780-fa36-5942-b334-84dea390b80e",
+      "module_id": "a2adaf64-0c25-569d-8140-d9f2b19d73c7",
+      "title": "1c · Who's that?",
+      "position": 3,
+      "week": 2,
+      "minutes": 60,
+      "kind": "study",
+      "pages": [
+        12,
+        13
+      ],
+      "body": "Week 2 | 60 minutes | Original PDF pages 12, 13.\nRead every displayed original page and complete all its numbered tasks in order. The page images and lesson PDF preserve the supplied scan. Add your responses with the PDF page and exercise number. Discuss speaking and pairwork tasks with your teacher.\nListening: the publisher audio files were not supplied. Your teacher must provide authorized audio or mark that listening task pending; the app does not fabricate recordings or answer keys.\nSpolk practice below is additional material, separate from the original exercises. Original-page homework is teacher-reviewed; automatic quiz results are not the publisher answer key.",
+      "questions": [
+        {
+          "id": "515059ba-7c0c-5bab-b5c6-67eddbb2dbd3",
+          "kind": "multiple_choice",
+          "prompt": "Maria is my sister. ___ is a student.",
+          "options": [
+            "They",
+            "She",
+            "He"
+          ],
+          "correct_answer": "She",
+          "points": 1,
+          "position": 0
+        },
+        {
+          "id": "35d65e55-5901-5901-af0b-3575e4a122db",
+          "kind": "multiple_choice",
+          "prompt": "Ben and Sara are my friends. ___ are students.",
+          "options": [
+            "They",
+            "She",
+            "He"
+          ],
+          "correct_answer": "They",
+          "points": 1,
+          "position": 1
+        },
+        {
+          "id": "a892d8bc-70e2-5fbf-a9d5-b8c6a9182c5b",
+          "kind": "multiple_choice",
+          "prompt": "Tom is a teacher. ___ class is here.",
+          "options": [
+            "Her",
+            "Their",
+            "His"
+          ],
+          "correct_answer": "His",
+          "points": 1,
+          "position": 2
+        }
+      ],
+      "assessment_id": "e3eba2fd-eed3-5e99-b0bd-abbfe12d8cd3",
+      "assignment": {
+        "id": "8bf5b62f-f315-5cbb-801c-bfa2af9947ea",
+        "title": "Original-page work: 1c · Who's that?",
+        "instructions": "Complete ALL numbered exercises on original PDF pages 12, 13, in order. Label each response by PDF page and exercise number. For speaking/pairwork, add a short account of your teacher-led practice. Mark any listening task 'pending audio' until authorized audio is available. The teacher should grade reading/grammar/vocabulary and writing against the displayed pages and review speaking separately. Submit your work here. Do not invent answers to inaudible listening tasks."
+      }
+    },
+    {
+      "id": "9d20e90b-4b6f-504d-ae10-ff84b5ed7303",
+      "module_id": "a2adaf64-0c25-569d-8140-d9f2b19d73c7",
+      "title": "1d · Contact details",
+      "position": 4,
+      "week": 3,
+      "minutes": 60,
+      "kind": "study",
+      "pages": [
+        14,
+        15
+      ],
+      "body": "Week 3 | 60 minutes | Original PDF pages 14, 15.\nRead every displayed original page and complete all its numbered tasks in order. The page images and lesson PDF preserve the supplied scan. Add your responses with the PDF page and exercise number. Discuss speaking and pairwork tasks with your teacher.\nListening: the publisher audio files were not supplied. Your teacher must provide authorized audio or mark that listening task pending; the app does not fabricate recordings or answer keys.\nSpolk practice below is additional material, separate from the original exercises. Original-page homework is teacher-reviewed; automatic quiz results are not the publisher answer key.",
+      "questions": [
+        {
+          "id": "14f95abc-e010-5950-a995-0e58a7efb5ee",
+          "kind": "multiple_choice",
+          "prompt": "Which question asks for contact details?",
+          "options": [
+            "What is your phone number?",
+            "What colour is it?",
+            "Where is the bag?"
+          ],
+          "correct_answer": "What is your phone number?",
+          "points": 1,
+          "position": 0
+        },
+        {
+          "id": "40b905d5-4388-5c84-92dd-1f93d7d3397b",
+          "kind": "multiple_choice",
+          "prompt": "Choose the correct question.",
+          "options": [
+            "How old you is?",
+            "How you old are?",
+            "How old are you?"
+          ],
+          "correct_answer": "How old are you?",
+          "points": 1,
+          "position": 1
+        },
+        {
+          "id": "82efb1d7-28b1-502d-9c6b-cd43b9a938e8",
+          "kind": "short_answer",
+          "prompt": "Write the number after nineteen.",
+          "options": [],
+          "correct_answer": "twenty",
+          "points": 1,
+          "position": 2
+        }
+      ],
+      "assessment_id": "f30de486-dcd9-5223-9e86-8b4c72d3b7f7",
+      "assignment": {
+        "id": "6fb506e6-1156-52d1-b291-eeaca39e942b",
+        "title": "Original-page work: 1d · Contact details",
+        "instructions": "Complete ALL numbered exercises on original PDF pages 14, 15, in order. Label each response by PDF page and exercise number. For speaking/pairwork, add a short account of your teacher-led practice. Mark any listening task 'pending audio' until authorized audio is available. The teacher should grade reading/grammar/vocabulary and writing against the displayed pages and review speaking separately. Submit your work here. Do not invent answers to inaudible listening tasks."
+      }
+    },
+    {
+      "id": "434879cf-e51b-5dbc-befb-616c6867fb2d",
+      "module_id": "a2adaf64-0c25-569d-8140-d9f2b19d73c7",
+      "title": "1e · What do you do?",
+      "position": 5,
+      "week": 3,
+      "minutes": 60,
+      "kind": "study",
+      "pages": [
+        16,
+        17
+      ],
+      "body": "Week 3 | 60 minutes | Original PDF pages 16, 17.\nRead every displayed original page and complete all its numbered tasks in order. The page images and lesson PDF preserve the supplied scan. Add your responses with the PDF page and exercise number. Discuss speaking and pairwork tasks with your teacher.\nListening: the publisher audio files were not supplied. Your teacher must provide authorized audio or mark that listening task pending; the app does not fabricate recordings or answer keys.\nSpolk practice below is additional material, separate from the original exercises. Original-page homework is teacher-reviewed; automatic quiz results are not the publisher answer key.",
+      "questions": [
+        {
+          "id": "fd7ecb52-90b5-580a-8a8a-d9e996cc68ec",
+          "kind": "multiple_choice",
+          "prompt": "I work in a hospital. I am ___ doctor.",
+          "options": [
+            "a",
+            "an",
+            "are"
+          ],
+          "correct_answer": "a",
+          "points": 1,
+          "position": 0
+        },
+        {
+          "id": "927c1b40-9378-536b-bdc6-950f710ca525",
+          "kind": "multiple_choice",
+          "prompt": "Choose the correct phrase.",
+          "options": [
+            "a actor",
+            "actor an",
+            "an actor"
+          ],
+          "correct_answer": "an actor",
+          "points": 1,
+          "position": 1
+        },
+        {
+          "id": "5fda9bea-4dcd-54b1-a3c7-6429e9b511e8",
+          "kind": "multiple_choice",
+          "prompt": "Which question asks about a job?",
+          "options": [
+            "What colour is it?",
+            "What do you do?",
+            "How old are you?"
+          ],
+          "correct_answer": "What do you do?",
+          "points": 1,
+          "position": 2
+        }
+      ],
+      "assessment_id": "87ccf8af-5c78-550e-84aa-b0918add7975",
+      "assignment": {
+        "id": "1cb124c3-a9dd-5a71-ae07-082c51f336c0",
+        "title": "Original-page work: 1e · What do you do?",
+        "instructions": "Complete ALL numbered exercises on original PDF pages 16, 17, in order. Label each response by PDF page and exercise number. For speaking/pairwork, add a short account of your teacher-led practice. Mark any listening task 'pending audio' until authorized audio is available. The teacher should grade reading/grammar/vocabulary and writing against the displayed pages and review speaking separately. Submit your work here. Do not invent answers to inaudible listening tasks."
+      }
+    },
+    {
+      "id": "b836ac1d-5417-5a4e-9799-3f4d971f096b",
+      "module_id": "a2adaf64-0c25-569d-8140-d9f2b19d73c7",
+      "title": "Nice to meet you: Round-up",
+      "position": 6,
+      "week": 3,
+      "minutes": 75,
+      "kind": "review",
+      "pages": [
+        18,
+        19
+      ],
+      "body": "Week 3 | 75 minutes | Original PDF pages 18, 19.\nRead every displayed original page and complete all its numbered tasks in order. The page images and lesson PDF preserve the supplied scan. Add your responses with the PDF page and exercise number. Discuss speaking and pairwork tasks with your teacher.\nListening: the publisher audio files were not supplied. Your teacher must provide authorized audio or mark that listening task pending; the app does not fabricate recordings or answer keys.\nSpolk practice below is additional material, separate from the original exercises. Original-page homework is teacher-reviewed; automatic quiz results are not the publisher answer key.",
+      "questions": [
+        {
+          "id": "2cc53263-4d70-5d2c-8043-441a3b3cb3dd",
+          "kind": "multiple_choice",
+          "prompt": "Good morning, Alex. How ___ you?",
+          "options": [
+            "are",
+            "is",
+            "am"
+          ],
+          "correct_answer": "are",
+          "points": 1,
+          "position": 0
+        },
+        {
+          "id": "4ad0b250-ec6a-535a-898a-f107236b8764",
+          "kind": "multiple_choice",
+          "prompt": "She is from Italy. She is ___.",
+          "options": [
+            "Italy",
+            "Italies",
+            "Italian"
+          ],
+          "correct_answer": "Italian",
+          "points": 1,
+          "position": 1
+        },
+        {
+          "id": "52c7f95b-1bb9-5856-9797-97d97ac3a9ec",
+          "kind": "multiple_choice",
+          "prompt": "Tom is a teacher. ___ class is here.",
+          "options": [
+            "Their",
+            "His",
+            "Her"
+          ],
+          "correct_answer": "His",
+          "points": 1,
+          "position": 2
+        },
+        {
+          "id": "0ef3a279-38bf-5e1e-a145-9c2f40d9be85",
+          "kind": "short_answer",
+          "prompt": "Write the number after nineteen.",
+          "options": [],
+          "correct_answer": "twenty",
+          "points": 1,
+          "position": 3
+        },
+        {
+          "id": "bb395601-bda9-58ef-baba-9e0a8214219b",
+          "kind": "multiple_choice",
+          "prompt": "Which question asks about a job?",
+          "options": [
+            "How old are you?",
+            "What colour is it?",
+            "What do you do?"
+          ],
+          "correct_answer": "What do you do?",
+          "points": 1,
+          "position": 4
+        }
+      ],
+      "assessment_id": "745526da-83e6-5cb2-87ff-0255bb8bb79e",
+      "assignment": {
+        "id": "7ed36846-4ab1-500a-9ce6-f7392e0041ec",
+        "title": "Original-page work: Nice to meet you: Round-up",
+        "instructions": "Complete ALL numbered exercises on original PDF pages 18, 19, in order. Label each response by PDF page and exercise number. For speaking/pairwork, add a short account of your teacher-led practice. Mark any listening task 'pending audio' until authorized audio is available. The teacher should grade reading/grammar/vocabulary and writing against the displayed pages and review speaking separately. Submit your work here. Do not invent answers to inaudible listening tasks."
+      }
+    },
+    {
+      "id": "3bcc84d3-bbed-52b7-b8d7-05f91afd5612",
+      "module_id": "a2adaf64-0c25-569d-8140-d9f2b19d73c7",
+      "title": "The British Isles: terminology",
+      "position": 7,
+      "week": 3,
+      "minutes": 45,
+      "kind": "culture",
+      "pages": [
+        20
+      ],
+      "body": "Week 3 | 45 minutes | Original PDF pages 20.\nRead every displayed original page and complete all its numbered tasks in order. The page images and lesson PDF preserve the supplied scan. Add your responses with the PDF page and exercise number. Discuss speaking and pairwork tasks with your teacher.\nRead the original culture/cross-curricular page and complete its comprehension tasks. Historical claims are reproduced as printed, not asserted to be current.\nListening: the publisher audio files were not supplied. Your teacher must provide authorized audio or mark that listening task pending; the app does not fabricate recordings or answer keys.\nSpolk practice below is additional material, separate from the original exercises. Original-page homework is teacher-reviewed; automatic quiz results are not the publisher answer key.",
+      "questions": [],
+      "assessment_id": null,
+      "assignment": {
+        "id": "a3e5d005-4a8d-5fff-b088-b12c782df3c7",
+        "title": "Original-page work: The British Isles: terminology",
+        "instructions": "Complete ALL numbered exercises on original PDF pages 20, in order. Label each response by PDF page and exercise number. For speaking/pairwork, add a short account of your teacher-led practice. Mark any listening task 'pending audio' until authorized audio is available. The teacher should grade reading/grammar/vocabulary and writing against the displayed pages and review speaking separately. Submit your work here. Do not invent answers to inaudible listening tasks."
+      }
+    },
+    {
+      "id": "7db8f6c2-6a62-5e2f-95b7-efec4dcf5c3e",
+      "module_id": "40eb12c6-6f0a-51ef-b613-f5a81ac557bd",
+      "title": "All about me: module introduction",
+      "position": 0,
+      "week": 4,
+      "minutes": 20,
+      "kind": "opener",
+      "pages": [
+        21
+      ],
+      "body": "Week 4 | 20 minutes | Original PDF pages 21.\nRead every displayed original page and complete all its numbered tasks in order. The page images and lesson PDF preserve the supplied scan. Add your responses with the PDF page and exercise number. Discuss speaking and pairwork tasks with your teacher.\nPreview the module objectives and pictures. Discuss the introductory questions and set a personal learning goal.\nListening: the publisher audio files were not supplied. Your teacher must provide authorized audio or mark that listening task pending; the app does not fabricate recordings or answer keys.\nSpolk practice below is additional material, separate from the original exercises. Original-page homework is teacher-reviewed; automatic quiz results are not the publisher answer key.",
+      "questions": [],
+      "assessment_id": null,
+      "assignment": null
+    },
+    {
+      "id": "02ec5e21-44b2-56a3-a1f2-8f347cf551b5",
+      "module_id": "40eb12c6-6f0a-51ef-b613-f5a81ac557bd",
+      "title": "2a · What colour is it?",
+      "position": 1,
+      "week": 4,
+      "minutes": 60,
+      "kind": "study",
+      "pages": [
+        22,
+        23
+      ],
+      "body": "Week 4 | 60 minutes | Original PDF pages 22, 23.\nRead every displayed original page and complete all its numbered tasks in order. The page images and lesson PDF preserve the supplied scan. Add your responses with the PDF page and exercise number. Discuss speaking and pairwork tasks with your teacher.\nListening: the publisher audio files were not supplied. Your teacher must provide authorized audio or mark that listening task pending; the app does not fabricate recordings or answer keys.\nSpolk practice below is additional material, separate from the original exercises. Original-page homework is teacher-reviewed; automatic quiz results are not the publisher answer key.",
+      "questions": [
+        {
+          "id": "faea716d-62f4-54bf-9759-43793fe92b9b",
+          "kind": "multiple_choice",
+          "prompt": "What is this? ___ is a red bag.",
+          "options": [
+            "They",
+            "He",
+            "It"
+          ],
+          "correct_answer": "It",
+          "points": 1,
+          "position": 0
+        },
+        {
+          "id": "d29706c9-1e09-59b1-bda3-dca6e741bdff",
+          "kind": "multiple_choice",
+          "prompt": "Choose the correct phrase.",
+          "options": [
+            "blue a umbrella",
+            "a blue umbrella",
+            "an blue umbrella"
+          ],
+          "correct_answer": "a blue umbrella",
+          "points": 1,
+          "position": 1
+        },
+        {
+          "id": "04afe841-5f0c-5202-b61e-56bfbb635bd7",
+          "kind": "multiple_choice",
+          "prompt": "That pen ___ black.",
+          "options": [
+            "is",
+            "are",
+            "am"
+          ],
+          "correct_answer": "is",
+          "points": 1,
+          "position": 2
+        }
+      ],
+      "assessment_id": "6c31aa27-1497-53dc-abac-f4c185be8d53",
+      "assignment": {
+        "id": "f3324356-60f4-5d9b-a4bf-8e6be4f86966",
+        "title": "Original-page work: 2a · What colour is it?",
+        "instructions": "Complete ALL numbered exercises on original PDF pages 22, 23, in order. Label each response by PDF page and exercise number. For speaking/pairwork, add a short account of your teacher-led practice. Mark any listening task 'pending audio' until authorized audio is available. The teacher should grade reading/grammar/vocabulary and writing against the displayed pages and review speaking separately. Submit your work here. Do not invent answers to inaudible listening tasks."
+      }
+    },
+    {
+      "id": "0ab5101c-ce2c-52df-a822-a7d34ba2dfb9",
+      "module_id": "40eb12c6-6f0a-51ef-b613-f5a81ac557bd",
+      "title": "2b · In my backpack",
+      "position": 2,
+      "week": 4,
+      "minutes": 60,
+      "kind": "study",
+      "pages": [
+        24,
+        25
+      ],
+      "body": "Week 4 | 60 minutes | Original PDF pages 24, 25.\nRead every displayed original page and complete all its numbered tasks in order. The page images and lesson PDF preserve the supplied scan. Add your responses with the PDF page and exercise number. Discuss speaking and pairwork tasks with your teacher.\nListening: the publisher audio files were not supplied. Your teacher must provide authorized audio or mark that listening task pending; the app does not fabricate recordings or answer keys.\nSpolk practice below is additional material, separate from the original exercises. Original-page homework is teacher-reviewed; automatic quiz results are not the publisher answer key.",
+      "questions": [
+        {
+          "id": "577e2caa-2f0e-5068-9e92-2cec3eb1252c",
+          "kind": "multiple_choice",
+          "prompt": "One watch, two ___.",
+          "options": [
+            "watchs",
+            "watch",
+            "watches"
+          ],
+          "correct_answer": "watches",
+          "points": 1,
+          "position": 0
+        },
+        {
+          "id": "729284d4-d693-5a51-9f28-3f8ad1a96fd0",
+          "kind": "multiple_choice",
+          "prompt": "___ are my books here.",
+          "options": [
+            "That",
+            "These",
+            "This"
+          ],
+          "correct_answer": "These",
+          "points": 1,
+          "position": 1
+        },
+        {
+          "id": "d89d336e-56eb-519e-9b61-b73b77bf32b3",
+          "kind": "multiple_choice",
+          "prompt": "One child, two ___.",
+          "options": [
+            "children",
+            "childs",
+            "childes"
+          ],
+          "correct_answer": "children",
+          "points": 1,
+          "position": 2
+        }
+      ],
+      "assessment_id": "807af371-5786-5bf1-a8a4-ad6cb14b3515",
+      "assignment": {
+        "id": "e210c51e-6fe6-56b6-bd06-7cf11c619291",
+        "title": "Original-page work: 2b · In my backpack",
+        "instructions": "Complete ALL numbered exercises on original PDF pages 24, 25, in order. Label each response by PDF page and exercise number. For speaking/pairwork, add a short account of your teacher-led practice. Mark any listening task 'pending audio' until authorized audio is available. The teacher should grade reading/grammar/vocabulary and writing against the displayed pages and review speaking separately. Submit your work here. Do not invent answers to inaudible listening tasks."
+      }
+    },
+    {
+      "id": "f83ad99c-5cf3-5645-b5ef-953890845eb6",
+      "module_id": "40eb12c6-6f0a-51ef-b613-f5a81ac557bd",
+      "title": "2c · Family ties",
+      "position": 3,
+      "week": 4,
+      "minutes": 60,
+      "kind": "study",
+      "pages": [
+        26,
+        27
+      ],
+      "body": "Week 4 | 60 minutes | Original PDF pages 26, 27.\nRead every displayed original page and complete all its numbered tasks in order. The page images and lesson PDF preserve the supplied scan. Add your responses with the PDF page and exercise number. Discuss speaking and pairwork tasks with your teacher.\nListening: the publisher audio files were not supplied. Your teacher must provide authorized audio or mark that listening task pending; the app does not fabricate recordings or answer keys.\nSpolk practice below is additional material, separate from the original exercises. Original-page homework is teacher-reviewed; automatic quiz results are not the publisher answer key.",
+      "questions": [
+        {
+          "id": "5b165ca2-4f90-598d-853f-5654a5f3d01b",
+          "kind": "multiple_choice",
+          "prompt": "My mother's brother is my ___.",
+          "options": [
+            "sister",
+            "daughter",
+            "uncle"
+          ],
+          "correct_answer": "uncle",
+          "points": 1,
+          "position": 0
+        },
+        {
+          "id": "960b6294-a6e9-5086-8f7c-bcacf7fed63a",
+          "kind": "multiple_choice",
+          "prompt": "She ___ got two brothers.",
+          "options": [
+            "is",
+            "has",
+            "have"
+          ],
+          "correct_answer": "has",
+          "points": 1,
+          "position": 1
+        },
+        {
+          "id": "68c051aa-53f7-54e3-9f2e-8d7477d48778",
+          "kind": "multiple_choice",
+          "prompt": "___ you got a sister?",
+          "options": [
+            "Have",
+            "Has",
+            "Are"
+          ],
+          "correct_answer": "Have",
+          "points": 1,
+          "position": 2
+        }
+      ],
+      "assessment_id": "2014c618-e4ee-5b17-a980-24b21c8ad4fe",
+      "assignment": {
+        "id": "110447f1-9f6c-5e2d-abc6-e9ca61a83bd0",
+        "title": "Original-page work: 2c · Family ties",
+        "instructions": "Complete ALL numbered exercises on original PDF pages 26, 27, in order. Label each response by PDF page and exercise number. For speaking/pairwork, add a short account of your teacher-led practice. Mark any listening task 'pending audio' until authorized audio is available. The teacher should grade reading/grammar/vocabulary and writing against the displayed pages and review speaking separately. Submit your work here. Do not invent answers to inaudible listening tasks."
+      }
+    },
+    {
+      "id": "428225b4-c688-5f21-bcf3-8be95d36a305",
+      "module_id": "40eb12c6-6f0a-51ef-b613-f5a81ac557bd",
+      "title": "2d · My favourite clothes",
+      "position": 4,
+      "week": 5,
+      "minutes": 60,
+      "kind": "study",
+      "pages": [
+        28,
+        29
+      ],
+      "body": "Week 5 | 60 minutes | Original PDF pages 28, 29.\nRead every displayed original page and complete all its numbered tasks in order. The page images and lesson PDF preserve the supplied scan. Add your responses with the PDF page and exercise number. Discuss speaking and pairwork tasks with your teacher.\nListening: the publisher audio files were not supplied. Your teacher must provide authorized audio or mark that listening task pending; the app does not fabricate recordings or answer keys.\nSpolk practice below is additional material, separate from the original exercises. Original-page homework is teacher-reviewed; automatic quiz results are not the publisher answer key.",
+      "questions": [
+        {
+          "id": "237041c1-34f9-556f-81e0-ca107f818ec6",
+          "kind": "multiple_choice",
+          "prompt": "Choose the correct phrase.",
+          "options": [
+            "nice a jacket",
+            "a nice jacket",
+            "a jacket nice"
+          ],
+          "correct_answer": "a nice jacket",
+          "points": 1,
+          "position": 0
+        },
+        {
+          "id": "aa5fca1f-1387-5088-b5c8-89f2f599f23c",
+          "kind": "multiple_choice",
+          "prompt": "These shoes ___ cheap.",
+          "options": [
+            "are",
+            "is",
+            "am"
+          ],
+          "correct_answer": "are",
+          "points": 1,
+          "position": 1
+        },
+        {
+          "id": "24675eb4-d0ea-5873-820c-cb06c2aeef1a",
+          "kind": "multiple_choice",
+          "prompt": "What is the opposite of expensive?",
+          "options": [
+            "tall",
+            "old",
+            "cheap"
+          ],
+          "correct_answer": "cheap",
+          "points": 1,
+          "position": 2
+        }
+      ],
+      "assessment_id": "59a68654-90e3-52aa-94d5-a868181cc9f2",
+      "assignment": {
+        "id": "2309ef32-bde3-5773-acbc-cb809e13f6aa",
+        "title": "Original-page work: 2d · My favourite clothes",
+        "instructions": "Complete ALL numbered exercises on original PDF pages 28, 29, in order. Label each response by PDF page and exercise number. For speaking/pairwork, add a short account of your teacher-led practice. Mark any listening task 'pending audio' until authorized audio is available. The teacher should grade reading/grammar/vocabulary and writing against the displayed pages and review speaking separately. Submit your work here. Do not invent answers to inaudible listening tasks."
+      }
+    },
+    {
+      "id": "6f2a00c6-5639-5f02-8b0e-e113201ea8c9",
+      "module_id": "40eb12c6-6f0a-51ef-b613-f5a81ac557bd",
+      "title": "2e · Looking good",
+      "position": 5,
+      "week": 5,
+      "minutes": 60,
+      "kind": "study",
+      "pages": [
+        30,
+        31
+      ],
+      "body": "Week 5 | 60 minutes | Original PDF pages 30, 31.\nRead every displayed original page and complete all its numbered tasks in order. The page images and lesson PDF preserve the supplied scan. Add your responses with the PDF page and exercise number. Discuss speaking and pairwork tasks with your teacher.\nListening: the publisher audio files were not supplied. Your teacher must provide authorized audio or mark that listening task pending; the app does not fabricate recordings or answer keys.\nSpolk practice below is additional material, separate from the original exercises. Original-page homework is teacher-reviewed; automatic quiz results are not the publisher answer key.",
+      "questions": [
+        {
+          "id": "6d5c0deb-1ee4-5555-bccc-e629f8102691",
+          "kind": "multiple_choice",
+          "prompt": "He has got blue ___.",
+          "options": [
+            "hair",
+            "eyes",
+            "eye"
+          ],
+          "correct_answer": "eyes",
+          "points": 1,
+          "position": 0
+        },
+        {
+          "id": "ca4b4c9a-8bfb-593b-9b09-4239a0bbdb85",
+          "kind": "multiple_choice",
+          "prompt": "Choose a description of hair.",
+          "options": [
+            "long and brown",
+            "twenty years old",
+            "from Canada"
+          ],
+          "correct_answer": "long and brown",
+          "points": 1,
+          "position": 1
+        },
+        {
+          "id": "74c50302-d12e-556e-a3b7-3e590d55b988",
+          "kind": "multiple_choice",
+          "prompt": "She is short. The opposite of short is ___.",
+          "options": [
+            "young",
+            "cheap",
+            "tall"
+          ],
+          "correct_answer": "tall",
+          "points": 1,
+          "position": 2
+        }
+      ],
+      "assessment_id": "69679bfe-1db3-5248-b3b0-185b2758f59e",
+      "assignment": {
+        "id": "a7c8393e-125e-50e9-9ae6-5decb6621b22",
+        "title": "Original-page work: 2e · Looking good",
+        "instructions": "Complete ALL numbered exercises on original PDF pages 30, 31, in order. Label each response by PDF page and exercise number. For speaking/pairwork, add a short account of your teacher-led practice. Mark any listening task 'pending audio' until authorized audio is available. The teacher should grade reading/grammar/vocabulary and writing against the displayed pages and review speaking separately. Submit your work here. Do not invent answers to inaudible listening tasks."
+      }
+    },
+    {
+      "id": "6d8055f3-00db-5902-877d-887854face40",
+      "module_id": "40eb12c6-6f0a-51ef-b613-f5a81ac557bd",
+      "title": "All about me: Round-up",
+      "position": 6,
+      "week": 5,
+      "minutes": 75,
+      "kind": "review",
+      "pages": [
+        32,
+        33
+      ],
+      "body": "Week 5 | 75 minutes | Original PDF pages 32, 33.\nRead every displayed original page and complete all its numbered tasks in order. The page images and lesson PDF preserve the supplied scan. Add your responses with the PDF page and exercise number. Discuss speaking and pairwork tasks with your teacher.\nListening: the publisher audio files were not supplied. Your teacher must provide authorized audio or mark that listening task pending; the app does not fabricate recordings or answer keys.\nSpolk practice below is additional material, separate from the original exercises. Original-page homework is teacher-reviewed; automatic quiz results are not the publisher answer key.",
+      "questions": [
+        {
+          "id": "dfb5dc4b-b3cb-5f96-87bf-0c7adf27e91e",
+          "kind": "multiple_choice",
+          "prompt": "What is this? ___ is a red bag.",
+          "options": [
+            "He",
+            "It",
+            "They"
+          ],
+          "correct_answer": "It",
+          "points": 1,
+          "position": 0
+        },
+        {
+          "id": "ecf27182-ea2e-5707-a2bb-49aaa35fdfdf",
+          "kind": "multiple_choice",
+          "prompt": "___ are my books here.",
+          "options": [
+            "These",
+            "This",
+            "That"
+          ],
+          "correct_answer": "These",
+          "points": 1,
+          "position": 1
+        },
+        {
+          "id": "7bf1f20f-d43d-5ec3-8d40-70cbd8c3efd8",
+          "kind": "multiple_choice",
+          "prompt": "___ you got a sister?",
+          "options": [
+            "Has",
+            "Are",
+            "Have"
+          ],
+          "correct_answer": "Have",
+          "points": 1,
+          "position": 2
+        },
+        {
+          "id": "1b2ba77a-12b2-580a-b454-09af17b3da28",
+          "kind": "multiple_choice",
+          "prompt": "What is the opposite of expensive?",
+          "options": [
+            "old",
+            "cheap",
+            "tall"
+          ],
+          "correct_answer": "cheap",
+          "points": 1,
+          "position": 3
+        },
+        {
+          "id": "6442bc8b-b420-5eb9-8449-b8f49e86aa37",
+          "kind": "multiple_choice",
+          "prompt": "She is short. The opposite of short is ___.",
+          "options": [
+            "tall",
+            "young",
+            "cheap"
+          ],
+          "correct_answer": "tall",
+          "points": 1,
+          "position": 4
+        }
+      ],
+      "assessment_id": "5df6bdb7-d815-5376-8dd7-2995e4362c6f",
+      "assignment": {
+        "id": "0fbfee4d-4ac2-5d9b-a50a-4f765563f363",
+        "title": "Original-page work: All about me: Round-up",
+        "instructions": "Complete ALL numbered exercises on original PDF pages 32, 33, in order. Label each response by PDF page and exercise number. For speaking/pairwork, add a short account of your teacher-led practice. Mark any listening task 'pending audio' until authorized audio is available. The teacher should grade reading/grammar/vocabulary and writing against the displayed pages and review speaking separately. Submit your work here. Do not invent answers to inaudible listening tasks."
+      }
+    },
+    {
+      "id": "5db32933-ff48-53c5-8369-a9bf0efba0b8",
+      "module_id": "40eb12c6-6f0a-51ef-b613-f5a81ac557bd",
+      "title": "Names for family members",
+      "position": 7,
+      "week": 5,
+      "minutes": 45,
+      "kind": "culture",
+      "pages": [
+        34
+      ],
+      "body": "Week 5 | 45 minutes | Original PDF pages 34.\nRead every displayed original page and complete all its numbered tasks in order. The page images and lesson PDF preserve the supplied scan. Add your responses with the PDF page and exercise number. Discuss speaking and pairwork tasks with your teacher.\nRead the original culture/cross-curricular page and complete its comprehension tasks. Historical claims are reproduced as printed, not asserted to be current.\nListening: the publisher audio files were not supplied. Your teacher must provide authorized audio or mark that listening task pending; the app does not fabricate recordings or answer keys.\nSpolk practice below is additional material, separate from the original exercises. Original-page homework is teacher-reviewed; automatic quiz results are not the publisher answer key.",
+      "questions": [],
+      "assessment_id": null,
+      "assignment": {
+        "id": "b22d097f-6d64-5ae2-b6d5-fa9fc5127623",
+        "title": "Original-page work: Names for family members",
+        "instructions": "Complete ALL numbered exercises on original PDF pages 34, in order. Label each response by PDF page and exercise number. For speaking/pairwork, add a short account of your teacher-led practice. Mark any listening task 'pending audio' until authorized audio is available. The teacher should grade reading/grammar/vocabulary and writing against the displayed pages and review speaking separately. Submit your work here. Do not invent answers to inaudible listening tasks."
+      }
+    },
+    {
+      "id": "a1cc8610-242b-5015-84f1-ee150956af51",
+      "module_id": "d260d87c-8421-50fd-9ac9-56504d20181c",
+      "title": "Everyday life: module introduction",
+      "position": 0,
+      "week": 6,
+      "minutes": 20,
+      "kind": "opener",
+      "pages": [
+        35
+      ],
+      "body": "Week 6 | 20 minutes | Original PDF pages 35.\nRead every displayed original page and complete all its numbered tasks in order. The page images and lesson PDF preserve the supplied scan. Add your responses with the PDF page and exercise number. Discuss speaking and pairwork tasks with your teacher.\nPreview the module objectives and pictures. Discuss the introductory questions and set a personal learning goal.\nListening: the publisher audio files were not supplied. Your teacher must provide authorized audio or mark that listening task pending; the app does not fabricate recordings or answer keys.\nSpolk practice below is additional material, separate from the original exercises. Original-page homework is teacher-reviewed; automatic quiz results are not the publisher answer key.",
+      "questions": [],
+      "assessment_id": null,
+      "assignment": null
+    },
+    {
+      "id": "4d369456-92a4-5603-817f-0fe6b86217c5",
+      "module_id": "d260d87c-8421-50fd-9ac9-56504d20181c",
+      "title": "3a · What time is it on?",
+      "position": 1,
+      "week": 6,
+      "minutes": 60,
+      "kind": "study",
+      "pages": [
+        36,
+        37
+      ],
+      "body": "Week 6 | 60 minutes | Original PDF pages 36, 37.\nRead every displayed original page and complete all its numbered tasks in order. The page images and lesson PDF preserve the supplied scan. Add your responses with the PDF page and exercise number. Discuss speaking and pairwork tasks with your teacher.\nListening: the publisher audio files were not supplied. Your teacher must provide authorized audio or mark that listening task pending; the app does not fabricate recordings or answer keys.\nSpolk practice below is additional material, separate from the original exercises. Original-page homework is teacher-reviewed; automatic quiz results are not the publisher answer key.",
+      "questions": [
+        {
+          "id": "42b75312-9d17-58c4-be09-a9f4b905719b",
+          "kind": "multiple_choice",
+          "prompt": "The news is ___ six o'clock.",
+          "options": [
+            "at",
+            "on",
+            "in"
+          ],
+          "correct_answer": "at",
+          "points": 1,
+          "position": 0
+        },
+        {
+          "id": "bd8557eb-81be-55c7-bf2b-571dc0bf3969",
+          "kind": "multiple_choice",
+          "prompt": "Choose a television programme.",
+          "options": [
+            "a kitchen",
+            "a wardrobe",
+            "a documentary"
+          ],
+          "correct_answer": "a documentary",
+          "points": 1,
+          "position": 1
+        },
+        {
+          "id": "6d109de0-356a-5e02-b653-660a88f94f3b",
+          "kind": "multiple_choice",
+          "prompt": "It is 7:30. It is half past ___.",
+          "options": [
+            "eight",
+            "seven",
+            "six"
+          ],
+          "correct_answer": "seven",
+          "points": 1,
+          "position": 2
+        }
+      ],
+      "assessment_id": "decbd2dc-0e41-54e1-8a0e-f522cfda4b20",
+      "assignment": {
+        "id": "5d392c37-fe77-590a-86f8-614514bb44c0",
+        "title": "Original-page work: 3a · What time is it on?",
+        "instructions": "Complete ALL numbered exercises on original PDF pages 36, 37, in order. Label each response by PDF page and exercise number. For speaking/pairwork, add a short account of your teacher-led practice. Mark any listening task 'pending audio' until authorized audio is available. The teacher should grade reading/grammar/vocabulary and writing against the displayed pages and review speaking separately. Submit your work here. Do not invent answers to inaudible listening tasks."
+      }
+    },
+    {
+      "id": "5707b67d-38ab-5e58-ab80-3cfb8393e4d5",
+      "module_id": "d260d87c-8421-50fd-9ac9-56504d20181c",
+      "title": "3b · Are you active?",
+      "position": 2,
+      "week": 6,
+      "minutes": 60,
+      "kind": "study",
+      "pages": [
+        38,
+        39
+      ],
+      "body": "Week 6 | 60 minutes | Original PDF pages 38, 39.\nRead every displayed original page and complete all its numbered tasks in order. The page images and lesson PDF preserve the supplied scan. Add your responses with the PDF page and exercise number. Discuss speaking and pairwork tasks with your teacher.\nListening: the publisher audio files were not supplied. Your teacher must provide authorized audio or mark that listening task pending; the app does not fabricate recordings or answer keys.\nSpolk practice below is additional material, separate from the original exercises. Original-page homework is teacher-reviewed; automatic quiz results are not the publisher answer key.",
+      "questions": [
+        {
+          "id": "37ad30f2-d6c3-530a-ac1c-2f601dfb10b5",
+          "kind": "multiple_choice",
+          "prompt": "I ___ tennis on Mondays.",
+          "options": [
+            "play",
+            "plays",
+            "playing"
+          ],
+          "correct_answer": "play",
+          "points": 1,
+          "position": 0
+        },
+        {
+          "id": "d2bb6818-ae64-55b0-b03d-d21cac815af7",
+          "kind": "multiple_choice",
+          "prompt": "___ you like reading?",
+          "options": [
+            "Does",
+            "Is",
+            "Do"
+          ],
+          "correct_answer": "Do",
+          "points": 1,
+          "position": 1
+        },
+        {
+          "id": "d5b4eab8-5077-5c6b-93a1-b918765d5088",
+          "kind": "multiple_choice",
+          "prompt": "I ___ watch television in the morning.",
+          "options": [
+            "isn't",
+            "don't",
+            "doesn't"
+          ],
+          "correct_answer": "don't",
+          "points": 1,
+          "position": 2
+        }
+      ],
+      "assessment_id": "b73a4f74-f06a-5268-9aa6-c10580536d27",
+      "assignment": {
+        "id": "42526b03-fd2f-5031-8b1a-948256e0758c",
+        "title": "Original-page work: 3b · Are you active?",
+        "instructions": "Complete ALL numbered exercises on original PDF pages 38, 39, in order. Label each response by PDF page and exercise number. For speaking/pairwork, add a short account of your teacher-led practice. Mark any listening task 'pending audio' until authorized audio is available. The teacher should grade reading/grammar/vocabulary and writing against the displayed pages and review speaking separately. Submit your work here. Do not invent answers to inaudible listening tasks."
+      }
+    },
+    {
+      "id": "6d4ef2e1-593a-5214-aba9-d9ae55264903",
+      "module_id": "d260d87c-8421-50fd-9ac9-56504d20181c",
+      "title": "3c · Daily routine",
+      "position": 3,
+      "week": 6,
+      "minutes": 60,
+      "kind": "study",
+      "pages": [
+        40,
+        41
+      ],
+      "body": "Week 6 | 60 minutes | Original PDF pages 40, 41.\nRead every displayed original page and complete all its numbered tasks in order. The page images and lesson PDF preserve the supplied scan. Add your responses with the PDF page and exercise number. Discuss speaking and pairwork tasks with your teacher.\nListening: the publisher audio files were not supplied. Your teacher must provide authorized audio or mark that listening task pending; the app does not fabricate recordings or answer keys.\nSpolk practice below is additional material, separate from the original exercises. Original-page homework is teacher-reviewed; automatic quiz results are not the publisher answer key.",
+      "questions": [
+        {
+          "id": "daa6f176-4404-59b5-8769-4aa710b0d407",
+          "kind": "multiple_choice",
+          "prompt": "Sara ___ up at seven.",
+          "options": [
+            "gets",
+            "get",
+            "getting"
+          ],
+          "correct_answer": "gets",
+          "points": 1,
+          "position": 0
+        },
+        {
+          "id": "565f0d0e-cc97-5548-9a92-34105891d372",
+          "kind": "multiple_choice",
+          "prompt": "He ___ work at five.",
+          "options": [
+            "finish",
+            "finishing",
+            "finishes"
+          ],
+          "correct_answer": "finishes",
+          "points": 1,
+          "position": 1
+        },
+        {
+          "id": "ac07fe23-640b-5c92-b1a3-c4bcf6b14f17",
+          "kind": "multiple_choice",
+          "prompt": "We have lunch ___ the afternoon.",
+          "options": [
+            "at",
+            "in",
+            "on"
+          ],
+          "correct_answer": "in",
+          "points": 1,
+          "position": 2
+        }
+      ],
+      "assessment_id": "943df9f4-3481-573b-bdf6-cf45b2be3e32",
+      "assignment": {
+        "id": "166af9c7-1c94-5713-850c-2c47dd05ce8c",
+        "title": "Original-page work: 3c · Daily routine",
+        "instructions": "Complete ALL numbered exercises on original PDF pages 40, 41, in order. Label each response by PDF page and exercise number. For speaking/pairwork, add a short account of your teacher-led practice. Mark any listening task 'pending audio' until authorized audio is available. The teacher should grade reading/grammar/vocabulary and writing against the displayed pages and review speaking separately. Submit your work here. Do not invent answers to inaudible listening tasks."
+      }
+    },
+    {
+      "id": "d2f8c5b5-76e0-5628-b926-9a621e401b44",
+      "module_id": "d260d87c-8421-50fd-9ac9-56504d20181c",
+      "title": "3d · Getting around",
+      "position": 4,
+      "week": 7,
+      "minutes": 60,
+      "kind": "study",
+      "pages": [
+        42,
+        43
+      ],
+      "body": "Week 7 | 60 minutes | Original PDF pages 42, 43.\nRead every displayed original page and complete all its numbered tasks in order. The page images and lesson PDF preserve the supplied scan. Add your responses with the PDF page and exercise number. Discuss speaking and pairwork tasks with your teacher.\nListening: the publisher audio files were not supplied. Your teacher must provide authorized audio or mark that listening task pending; the app does not fabricate recordings or answer keys.\nSpolk practice below is additional material, separate from the original exercises. Original-page homework is teacher-reviewed; automatic quiz results are not the publisher answer key.",
+      "questions": [
+        {
+          "id": "6ef8f150-e3ff-5ea4-a56f-8e658b16d5f6",
+          "kind": "multiple_choice",
+          "prompt": "___ he walk to work?",
+          "options": [
+            "Do",
+            "Is",
+            "Does"
+          ],
+          "correct_answer": "Does",
+          "points": 1,
+          "position": 0
+        },
+        {
+          "id": "8284d667-0e46-56fa-a106-cce2ac62739d",
+          "kind": "multiple_choice",
+          "prompt": "She ___ take the bus.",
+          "options": [
+            "isn't",
+            "doesn't",
+            "don't"
+          ],
+          "correct_answer": "doesn't",
+          "points": 1,
+          "position": 1
+        },
+        {
+          "id": "9ba06e39-f835-51ba-9184-87f9aa8dd5d0",
+          "kind": "multiple_choice",
+          "prompt": "How does he ___ to school?",
+          "options": [
+            "get",
+            "gets",
+            "getting"
+          ],
+          "correct_answer": "get",
+          "points": 1,
+          "position": 2
+        }
+      ],
+      "assessment_id": "35f07d70-0fa8-5f9a-83d7-dc16c143f9fb",
+      "assignment": {
+        "id": "61e4242f-ab2c-5fff-a355-01f879ac0e14",
+        "title": "Original-page work: 3d · Getting around",
+        "instructions": "Complete ALL numbered exercises on original PDF pages 42, 43, in order. Label each response by PDF page and exercise number. For speaking/pairwork, add a short account of your teacher-led practice. Mark any listening task 'pending audio' until authorized audio is available. The teacher should grade reading/grammar/vocabulary and writing against the displayed pages and review speaking separately. Submit your work here. Do not invent answers to inaudible listening tasks."
+      }
+    },
+    {
+      "id": "7e76c804-f1f6-5e63-9476-914c22c9d6fb",
+      "module_id": "d260d87c-8421-50fd-9ac9-56504d20181c",
+      "title": "3e · At home",
+      "position": 5,
+      "week": 7,
+      "minutes": 60,
+      "kind": "study",
+      "pages": [
+        44,
+        45
+      ],
+      "body": "Week 7 | 60 minutes | Original PDF pages 44, 45.\nRead every displayed original page and complete all its numbered tasks in order. The page images and lesson PDF preserve the supplied scan. Add your responses with the PDF page and exercise number. Discuss speaking and pairwork tasks with your teacher.\nListening: the publisher audio files were not supplied. Your teacher must provide authorized audio or mark that listening task pending; the app does not fabricate recordings or answer keys.\nSpolk practice below is additional material, separate from the original exercises. Original-page homework is teacher-reviewed; automatic quiz results are not the publisher answer key.",
+      "questions": [
+        {
+          "id": "cdaae7d2-6861-5164-8303-03b6c8f8048c",
+          "kind": "multiple_choice",
+          "prompt": "Choose the correct sentence.",
+          "options": [
+            "I tidy usually my room.",
+            "I my usually room tidy.",
+            "I usually tidy my room."
+          ],
+          "correct_answer": "I usually tidy my room.",
+          "points": 1,
+          "position": 0
+        },
+        {
+          "id": "f2265c1f-ee0f-56c2-958e-906f0918fcac",
+          "kind": "multiple_choice",
+          "prompt": "Which activity is housework?",
+          "options": [
+            "watching a film",
+            "doing the washing-up",
+            "playing tennis"
+          ],
+          "correct_answer": "doing the washing-up",
+          "points": 1,
+          "position": 1
+        },
+        {
+          "id": "b8b79ffc-1b51-5613-9e28-0a3c5a3f821e",
+          "kind": "multiple_choice",
+          "prompt": "We visit friends ___ Sundays.",
+          "options": [
+            "on",
+            "in",
+            "at"
+          ],
+          "correct_answer": "on",
+          "points": 1,
+          "position": 2
+        }
+      ],
+      "assessment_id": "e47f5f47-c76a-5cd4-b096-09fe0bfdf17f",
+      "assignment": {
+        "id": "716f206e-7848-5ff8-9cce-a6cb0e8f3728",
+        "title": "Original-page work: 3e · At home",
+        "instructions": "Complete ALL numbered exercises on original PDF pages 44, 45, in order. Label each response by PDF page and exercise number. For speaking/pairwork, add a short account of your teacher-led practice. Mark any listening task 'pending audio' until authorized audio is available. The teacher should grade reading/grammar/vocabulary and writing against the displayed pages and review speaking separately. Submit your work here. Do not invent answers to inaudible listening tasks."
+      }
+    },
+    {
+      "id": "8a91d138-b78f-5dfa-a52c-c4ec2e279a6a",
+      "module_id": "d260d87c-8421-50fd-9ac9-56504d20181c",
+      "title": "Everyday life: Round-up",
+      "position": 6,
+      "week": 7,
+      "minutes": 75,
+      "kind": "review",
+      "pages": [
+        46,
+        47
+      ],
+      "body": "Week 7 | 75 minutes | Original PDF pages 46, 47.\nRead every displayed original page and complete all its numbered tasks in order. The page images and lesson PDF preserve the supplied scan. Add your responses with the PDF page and exercise number. Discuss speaking and pairwork tasks with your teacher.\nListening: the publisher audio files were not supplied. Your teacher must provide authorized audio or mark that listening task pending; the app does not fabricate recordings or answer keys.\nSpolk practice below is additional material, separate from the original exercises. Original-page homework is teacher-reviewed; automatic quiz results are not the publisher answer key.",
+      "questions": [
+        {
+          "id": "9320ef95-be9e-50d2-89e2-7c3564275d2a",
+          "kind": "multiple_choice",
+          "prompt": "The news is ___ six o'clock.",
+          "options": [
+            "on",
+            "in",
+            "at"
+          ],
+          "correct_answer": "at",
+          "points": 1,
+          "position": 0
+        },
+        {
+          "id": "bf1986a0-69f8-5bfe-9aad-4a6a8a025b74",
+          "kind": "multiple_choice",
+          "prompt": "___ you like reading?",
+          "options": [
+            "Is",
+            "Do",
+            "Does"
+          ],
+          "correct_answer": "Do",
+          "points": 1,
+          "position": 1
+        },
+        {
+          "id": "8feeccc9-6e43-5972-b247-fbcf9fc3785e",
+          "kind": "multiple_choice",
+          "prompt": "We have lunch ___ the afternoon.",
+          "options": [
+            "in",
+            "on",
+            "at"
+          ],
+          "correct_answer": "in",
+          "points": 1,
+          "position": 2
+        },
+        {
+          "id": "bd84172f-d373-5917-aff3-3b7a07ae2bab",
+          "kind": "multiple_choice",
+          "prompt": "How does he ___ to school?",
+          "options": [
+            "gets",
+            "getting",
+            "get"
+          ],
+          "correct_answer": "get",
+          "points": 1,
+          "position": 3
+        },
+        {
+          "id": "44dc34dd-6906-582f-80cf-d50ee9ac661d",
+          "kind": "multiple_choice",
+          "prompt": "We visit friends ___ Sundays.",
+          "options": [
+            "at",
+            "on",
+            "in"
+          ],
+          "correct_answer": "on",
+          "points": 1,
+          "position": 4
+        }
+      ],
+      "assessment_id": "76f40dc2-1801-5233-99f7-471ba57e99fe",
+      "assignment": {
+        "id": "d05912ef-1ce6-56d4-9c19-5a5e57afe59c",
+        "title": "Original-page work: Everyday life: Round-up",
+        "instructions": "Complete ALL numbered exercises on original PDF pages 46, 47, in order. Label each response by PDF page and exercise number. For speaking/pairwork, add a short account of your teacher-led practice. Mark any listening task 'pending audio' until authorized audio is available. The teacher should grade reading/grammar/vocabulary and writing against the displayed pages and review speaking separately. Submit your work here. Do not invent answers to inaudible listening tasks."
+      }
+    },
+    {
+      "id": "2bfee944-3cdc-58cc-871d-099adde00683",
+      "module_id": "d260d87c-8421-50fd-9ac9-56504d20181c",
+      "title": "The Tembe Indians of the Amazon",
+      "position": 7,
+      "week": 7,
+      "minutes": 45,
+      "kind": "culture",
+      "pages": [
+        48
+      ],
+      "body": "Week 7 | 45 minutes | Original PDF pages 48.\nRead every displayed original page and complete all its numbered tasks in order. The page images and lesson PDF preserve the supplied scan. Add your responses with the PDF page and exercise number. Discuss speaking and pairwork tasks with your teacher.\nRead the original culture/cross-curricular page and complete its comprehension tasks. Historical claims are reproduced as printed, not asserted to be current.\nListening: the publisher audio files were not supplied. Your teacher must provide authorized audio or mark that listening task pending; the app does not fabricate recordings or answer keys.\nSpolk practice below is additional material, separate from the original exercises. Original-page homework is teacher-reviewed; automatic quiz results are not the publisher answer key.",
+      "questions": [],
+      "assessment_id": null,
+      "assignment": {
+        "id": "2d553d3d-942f-50f6-ab34-d0cb5056be84",
+        "title": "Original-page work: The Tembe Indians of the Amazon",
+        "instructions": "Complete ALL numbered exercises on original PDF pages 48, in order. Label each response by PDF page and exercise number. For speaking/pairwork, add a short account of your teacher-led practice. Mark any listening task 'pending audio' until authorized audio is available. The teacher should grade reading/grammar/vocabulary and writing against the displayed pages and review speaking separately. Submit your work here. Do not invent answers to inaudible listening tasks."
+      }
+    },
+    {
+      "id": "e3494bf3-661f-50e9-9a03-47c55399f33d",
+      "module_id": "80ae2785-3a26-5078-a1d8-910dff6d6ada",
+      "title": "Places: module introduction",
+      "position": 0,
+      "week": 8,
+      "minutes": 20,
+      "kind": "opener",
+      "pages": [
+        49
+      ],
+      "body": "Week 8 | 20 minutes | Original PDF pages 49.\nRead every displayed original page and complete all its numbered tasks in order. The page images and lesson PDF preserve the supplied scan. Add your responses with the PDF page and exercise number. Discuss speaking and pairwork tasks with your teacher.\nPreview the module objectives and pictures. Discuss the introductory questions and set a personal learning goal.\nListening: the publisher audio files were not supplied. Your teacher must provide authorized audio or mark that listening task pending; the app does not fabricate recordings or answer keys.\nSpolk practice below is additional material, separate from the original exercises. Original-page homework is teacher-reviewed; automatic quiz results are not the publisher answer key.",
+      "questions": [],
+      "assessment_id": null,
+      "assignment": null
+    },
+    {
+      "id": "10c2fd50-b247-56cd-ae0f-acc2d0aa77ec",
+      "module_id": "80ae2785-3a26-5078-a1d8-910dff6d6ada",
+      "title": "4a · Your house",
+      "position": 1,
+      "week": 8,
+      "minutes": 60,
+      "kind": "study",
+      "pages": [
+        50,
+        51
+      ],
+      "body": "Week 8 | 60 minutes | Original PDF pages 50, 51.\nRead every displayed original page and complete all its numbered tasks in order. The page images and lesson PDF preserve the supplied scan. Add your responses with the PDF page and exercise number. Discuss speaking and pairwork tasks with your teacher.\nListening: the publisher audio files were not supplied. Your teacher must provide authorized audio or mark that listening task pending; the app does not fabricate recordings or answer keys.\nSpolk practice below is additional material, separate from the original exercises. Original-page homework is teacher-reviewed; automatic quiz results are not the publisher answer key.",
+      "questions": [
+        {
+          "id": "a86e9595-cc80-5782-af8b-33f0ca3bdebd",
+          "kind": "multiple_choice",
+          "prompt": "There ___ a kitchen downstairs.",
+          "options": [
+            "am",
+            "is",
+            "are"
+          ],
+          "correct_answer": "is",
+          "points": 1,
+          "position": 0
+        },
+        {
+          "id": "d2d2e6b0-f7be-57c1-8259-1b7db54c5162",
+          "kind": "multiple_choice",
+          "prompt": "There ___ two bedrooms.",
+          "options": [
+            "are",
+            "is",
+            "be"
+          ],
+          "correct_answer": "are",
+          "points": 1,
+          "position": 1
+        },
+        {
+          "id": "5d72918c-1e36-500b-b7d8-d84235096114",
+          "kind": "multiple_choice",
+          "prompt": "Is there a garden? Yes, there ___.",
+          "options": [
+            "are",
+            "has",
+            "is"
+          ],
+          "correct_answer": "is",
+          "points": 1,
+          "position": 2
+        }
+      ],
+      "assessment_id": "13abad03-1d75-592c-a0d0-aea3a8cab39b",
+      "assignment": {
+        "id": "ab809b78-d13b-5c36-a7eb-cac40696c1e9",
+        "title": "Original-page work: 4a · Your house",
+        "instructions": "Complete ALL numbered exercises on original PDF pages 50, 51, in order. Label each response by PDF page and exercise number. For speaking/pairwork, add a short account of your teacher-led practice. Mark any listening task 'pending audio' until authorized audio is available. The teacher should grade reading/grammar/vocabulary and writing against the displayed pages and review speaking separately. Submit your work here. Do not invent answers to inaudible listening tasks."
+      }
+    },
+    {
+      "id": "6ddd3278-b1e7-5c7e-9ff1-330a64551a79",
+      "module_id": "80ae2785-3a26-5078-a1d8-910dff6d6ada",
+      "title": "4b · Hotel rooms",
+      "position": 2,
+      "week": 8,
+      "minutes": 60,
+      "kind": "study",
+      "pages": [
+        52,
+        53
+      ],
+      "body": "Week 8 | 60 minutes | Original PDF pages 52, 53.\nRead every displayed original page and complete all its numbered tasks in order. The page images and lesson PDF preserve the supplied scan. Add your responses with the PDF page and exercise number. Discuss speaking and pairwork tasks with your teacher.\nListening: the publisher audio files were not supplied. Your teacher must provide authorized audio or mark that listening task pending; the app does not fabricate recordings or answer keys.\nSpolk practice below is additional material, separate from the original exercises. Original-page homework is teacher-reviewed; automatic quiz results are not the publisher answer key.",
+      "questions": [
+        {
+          "id": "58a5b3af-6234-56d5-9950-084017ffc057",
+          "kind": "multiple_choice",
+          "prompt": "The lamp is next ___ the bed.",
+          "options": [
+            "on",
+            "to",
+            "at"
+          ],
+          "correct_answer": "to",
+          "points": 1,
+          "position": 0
+        },
+        {
+          "id": "b5798085-2e2f-55c3-a862-5c3f6b6687e8",
+          "kind": "multiple_choice",
+          "prompt": "Choose a room item.",
+          "options": [
+            "a wardrobe",
+            "a sandwich",
+            "a hospital"
+          ],
+          "correct_answer": "a wardrobe",
+          "points": 1,
+          "position": 1
+        },
+        {
+          "id": "2eeb308e-f14f-5849-b8fa-7c8af74824b1",
+          "kind": "multiple_choice",
+          "prompt": "The book is ___ the table, not below it.",
+          "options": [
+            "under",
+            "between",
+            "on"
+          ],
+          "correct_answer": "on",
+          "points": 1,
+          "position": 2
+        }
+      ],
+      "assessment_id": "9a2ff547-987b-57e2-9f8e-41a700c96f4f",
+      "assignment": {
+        "id": "d2a9c0a1-027a-5865-a13c-b7758d2eaaae",
+        "title": "Original-page work: 4b · Hotel rooms",
+        "instructions": "Complete ALL numbered exercises on original PDF pages 52, 53, in order. Label each response by PDF page and exercise number. For speaking/pairwork, add a short account of your teacher-led practice. Mark any listening task 'pending audio' until authorized audio is available. The teacher should grade reading/grammar/vocabulary and writing against the displayed pages and review speaking separately. Submit your work here. Do not invent answers to inaudible listening tasks."
+      }
+    },
+    {
+      "id": "6dd3d2f3-68cc-54d7-9818-38b16c18f080",
+      "module_id": "80ae2785-3a26-5078-a1d8-910dff6d6ada",
+      "title": "4c · Make yourself at home",
+      "position": 3,
+      "week": 8,
+      "minutes": 60,
+      "kind": "study",
+      "pages": [
+        54,
+        55
+      ],
+      "body": "Week 8 | 60 minutes | Original PDF pages 54, 55.\nRead every displayed original page and complete all its numbered tasks in order. The page images and lesson PDF preserve the supplied scan. Add your responses with the PDF page and exercise number. Discuss speaking and pairwork tasks with your teacher.\nListening: the publisher audio files were not supplied. Your teacher must provide authorized audio or mark that listening task pending; the app does not fabricate recordings or answer keys.\nSpolk practice below is additional material, separate from the original exercises. Original-page homework is teacher-reviewed; automatic quiz results are not the publisher answer key.",
+      "questions": [
+        {
+          "id": "83e19089-327c-5406-a291-638c6d5459ac",
+          "kind": "multiple_choice",
+          "prompt": "I like this sofa. Give ___ to me, please.",
+          "options": [
+            "they",
+            "it",
+            "he"
+          ],
+          "correct_answer": "it",
+          "points": 1,
+          "position": 0
+        },
+        {
+          "id": "11d5ede7-c5f4-5476-a2a4-17ce7f27895f",
+          "kind": "multiple_choice",
+          "prompt": "These chairs are nice. I like ___.",
+          "options": [
+            "them",
+            "they",
+            "their"
+          ],
+          "correct_answer": "them",
+          "points": 1,
+          "position": 1
+        },
+        {
+          "id": "128796f1-467d-5d64-9573-c757ea531c69",
+          "kind": "multiple_choice",
+          "prompt": "Choose a household appliance.",
+          "options": [
+            "a park",
+            "a street",
+            "a fridge"
+          ],
+          "correct_answer": "a fridge",
+          "points": 1,
+          "position": 2
+        }
+      ],
+      "assessment_id": "2b76c103-0f9d-5034-940a-64beec81ea8e",
+      "assignment": {
+        "id": "eb7ee472-ca51-50dd-a668-9ea4e7f38379",
+        "title": "Original-page work: 4c · Make yourself at home",
+        "instructions": "Complete ALL numbered exercises on original PDF pages 54, 55, in order. Label each response by PDF page and exercise number. For speaking/pairwork, add a short account of your teacher-led practice. Mark any listening task 'pending audio' until authorized audio is available. The teacher should grade reading/grammar/vocabulary and writing against the displayed pages and review speaking separately. Submit your work here. Do not invent answers to inaudible listening tasks."
+      }
+    },
+    {
+      "id": "2b1ff0d2-2331-5262-af9d-acc48a2f919c",
+      "module_id": "80ae2785-3a26-5078-a1d8-910dff6d6ada",
+      "title": "4d · In the city",
+      "position": 4,
+      "week": 9,
+      "minutes": 60,
+      "kind": "study",
+      "pages": [
+        56,
+        57
+      ],
+      "body": "Week 9 | 60 minutes | Original PDF pages 56, 57.\nRead every displayed original page and complete all its numbered tasks in order. The page images and lesson PDF preserve the supplied scan. Add your responses with the PDF page and exercise number. Discuss speaking and pairwork tasks with your teacher.\nListening: the publisher audio files were not supplied. Your teacher must provide authorized audio or mark that listening task pending; the app does not fabricate recordings or answer keys.\nSpolk practice below is additional material, separate from the original exercises. Original-page homework is teacher-reviewed; automatic quiz results are not the publisher answer key.",
+      "questions": [
+        {
+          "id": "89f07298-9a06-5784-97e2-5824dbcf818e",
+          "kind": "multiple_choice",
+          "prompt": "Choose a negative instruction.",
+          "options": [
+            "Don't turn left.",
+            "Doesn't turn left.",
+            "Not turns left."
+          ],
+          "correct_answer": "Don't turn left.",
+          "points": 1,
+          "position": 0
+        },
+        {
+          "id": "27dca285-0ec3-5b0f-81d1-ade2ac7efe14",
+          "kind": "multiple_choice",
+          "prompt": "Go straight ___ .",
+          "options": [
+            "in",
+            "at",
+            "on"
+          ],
+          "correct_answer": "on",
+          "points": 1,
+          "position": 1
+        },
+        {
+          "id": "78fc3333-6d2a-5768-9937-2eb7fb3674f4",
+          "kind": "multiple_choice",
+          "prompt": "Where can you catch a train?",
+          "options": [
+            "at a wardrobe",
+            "at the station",
+            "at a sofa"
+          ],
+          "correct_answer": "at the station",
+          "points": 1,
+          "position": 2
+        }
+      ],
+      "assessment_id": "915b21ad-6f02-5b37-bc8a-91f6401cb474",
+      "assignment": {
+        "id": "27784b0e-1ab0-59e1-b7d8-908408ec5ddd",
+        "title": "Original-page work: 4d · In the city",
+        "instructions": "Complete ALL numbered exercises on original PDF pages 56, 57, in order. Label each response by PDF page and exercise number. For speaking/pairwork, add a short account of your teacher-led practice. Mark any listening task 'pending audio' until authorized audio is available. The teacher should grade reading/grammar/vocabulary and writing against the displayed pages and review speaking separately. Submit your work here. Do not invent answers to inaudible listening tasks."
+      }
+    },
+    {
+      "id": "ff60a39d-3584-5e1a-9193-29193793b91e",
+      "module_id": "80ae2785-3a26-5078-a1d8-910dff6d6ada",
+      "title": "4e · House-hunting",
+      "position": 5,
+      "week": 9,
+      "minutes": 60,
+      "kind": "study",
+      "pages": [
+        58,
+        59
+      ],
+      "body": "Week 9 | 60 minutes | Original PDF pages 58, 59.\nRead every displayed original page and complete all its numbered tasks in order. The page images and lesson PDF preserve the supplied scan. Add your responses with the PDF page and exercise number. Discuss speaking and pairwork tasks with your teacher.\nListening: the publisher audio files were not supplied. Your teacher must provide authorized audio or mark that listening task pending; the app does not fabricate recordings or answer keys.\nSpolk practice below is additional material, separate from the original exercises. Original-page homework is teacher-reviewed; automatic quiz results are not the publisher answer key.",
+      "questions": [
+        {
+          "id": "721c067a-71e8-534a-a15e-f6986e5956a2",
+          "kind": "short_answer",
+          "prompt": "Write the ordinal number for 1.",
+          "options": [],
+          "correct_answer": "first",
+          "points": 1,
+          "position": 0
+        },
+        {
+          "id": "52578c51-0b0c-51a8-a502-7368f7e40de0",
+          "kind": "multiple_choice",
+          "prompt": "Choose the correct question.",
+          "options": [
+            "Where you live?",
+            "Where does you live?",
+            "Where do you live?"
+          ],
+          "correct_answer": "Where do you live?",
+          "points": 1,
+          "position": 1
+        },
+        {
+          "id": "46f06c7b-fd44-5307-86b2-1ddbc37a4a83",
+          "kind": "multiple_choice",
+          "prompt": "The opposite of modern is ___.",
+          "options": [
+            "comfortable",
+            "old-fashioned",
+            "spacious"
+          ],
+          "correct_answer": "old-fashioned",
+          "points": 1,
+          "position": 2
+        }
+      ],
+      "assessment_id": "dd7ba29f-4d8f-5465-8023-8202cc070341",
+      "assignment": {
+        "id": "311d01f7-87b3-506c-8913-e3e543d2dc72",
+        "title": "Original-page work: 4e · House-hunting",
+        "instructions": "Complete ALL numbered exercises on original PDF pages 58, 59, in order. Label each response by PDF page and exercise number. For speaking/pairwork, add a short account of your teacher-led practice. Mark any listening task 'pending audio' until authorized audio is available. The teacher should grade reading/grammar/vocabulary and writing against the displayed pages and review speaking separately. Submit your work here. Do not invent answers to inaudible listening tasks."
+      }
+    },
+    {
+      "id": "932f19e1-ba1f-52be-84d8-36b47e2310df",
+      "module_id": "80ae2785-3a26-5078-a1d8-910dff6d6ada",
+      "title": "Places: Round-up",
+      "position": 6,
+      "week": 9,
+      "minutes": 75,
+      "kind": "review",
+      "pages": [
+        60,
+        61
+      ],
+      "body": "Week 9 | 75 minutes | Original PDF pages 60, 61.\nRead every displayed original page and complete all its numbered tasks in order. The page images and lesson PDF preserve the supplied scan. Add your responses with the PDF page and exercise number. Discuss speaking and pairwork tasks with your teacher.\nListening: the publisher audio files were not supplied. Your teacher must provide authorized audio or mark that listening task pending; the app does not fabricate recordings or answer keys.\nSpolk practice below is additional material, separate from the original exercises. Original-page homework is teacher-reviewed; automatic quiz results are not the publisher answer key.",
+      "questions": [
+        {
+          "id": "abab6578-00f8-5689-9b1f-5f390cfcd0e3",
+          "kind": "multiple_choice",
+          "prompt": "There ___ a kitchen downstairs.",
+          "options": [
+            "is",
+            "are",
+            "am"
+          ],
+          "correct_answer": "is",
+          "points": 1,
+          "position": 0
+        },
+        {
+          "id": "a914575b-b69e-58d5-9a87-3b0b80f20f80",
+          "kind": "multiple_choice",
+          "prompt": "Choose a room item.",
+          "options": [
+            "a sandwich",
+            "a hospital",
+            "a wardrobe"
+          ],
+          "correct_answer": "a wardrobe",
+          "points": 1,
+          "position": 1
+        },
+        {
+          "id": "1930a0dd-9614-599d-859a-beb33e0957c5",
+          "kind": "multiple_choice",
+          "prompt": "Choose a household appliance.",
+          "options": [
+            "a street",
+            "a fridge",
+            "a park"
+          ],
+          "correct_answer": "a fridge",
+          "points": 1,
+          "position": 2
+        },
+        {
+          "id": "a08fcf0d-c518-5f07-b355-ffc88d2a1367",
+          "kind": "multiple_choice",
+          "prompt": "Where can you catch a train?",
+          "options": [
+            "at the station",
+            "at a sofa",
+            "at a wardrobe"
+          ],
+          "correct_answer": "at the station",
+          "points": 1,
+          "position": 3
+        },
+        {
+          "id": "3ceddefe-c6a9-5f62-aab0-79fda58dcc53",
+          "kind": "multiple_choice",
+          "prompt": "The opposite of modern is ___.",
+          "options": [
+            "spacious",
+            "comfortable",
+            "old-fashioned"
+          ],
+          "correct_answer": "old-fashioned",
+          "points": 1,
+          "position": 4
+        }
+      ],
+      "assessment_id": "f986016a-b375-5a91-ac92-2006367f96f7",
+      "assignment": {
+        "id": "ec0a102d-7013-5117-908b-261fd400de49",
+        "title": "Original-page work: Places: Round-up",
+        "instructions": "Complete ALL numbered exercises on original PDF pages 60, 61, in order. Label each response by PDF page and exercise number. For speaking/pairwork, add a short account of your teacher-led practice. Mark any listening task 'pending audio' until authorized audio is available. The teacher should grade reading/grammar/vocabulary and writing against the displayed pages and review speaking separately. Submit your work here. Do not invent answers to inaudible listening tasks."
+      }
+    },
+    {
+      "id": "606415fc-aa55-56cf-81eb-51beea4d87b8",
+      "module_id": "80ae2785-3a26-5078-a1d8-910dff6d6ada",
+      "title": "What's up there?",
+      "position": 7,
+      "week": 9,
+      "minutes": 45,
+      "kind": "culture",
+      "pages": [
+        62
+      ],
+      "body": "Week 9 | 45 minutes | Original PDF pages 62.\nRead every displayed original page and complete all its numbered tasks in order. The page images and lesson PDF preserve the supplied scan. Add your responses with the PDF page and exercise number. Discuss speaking and pairwork tasks with your teacher.\nRead the original culture/cross-curricular page and complete its comprehension tasks. Historical claims are reproduced as printed, not asserted to be current.\nListening: the publisher audio files were not supplied. Your teacher must provide authorized audio or mark that listening task pending; the app does not fabricate recordings or answer keys.\nSpolk practice below is additional material, separate from the original exercises. Original-page homework is teacher-reviewed; automatic quiz results are not the publisher answer key.",
+      "questions": [],
+      "assessment_id": null,
+      "assignment": {
+        "id": "07f237af-6d92-50dd-b492-73fab7a0bd3b",
+        "title": "Original-page work: What's up there?",
+        "instructions": "Complete ALL numbered exercises on original PDF pages 62, in order. Label each response by PDF page and exercise number. For speaking/pairwork, add a short account of your teacher-led practice. Mark any listening task 'pending audio' until authorized audio is available. The teacher should grade reading/grammar/vocabulary and writing against the displayed pages and review speaking separately. Submit your work here. Do not invent answers to inaudible listening tasks."
+      }
+    },
+    {
+      "id": "18e84f44-9f11-52fb-8cf3-a4115c142abe",
+      "module_id": "2244057d-a4f6-557b-b863-9e76f68fd953",
+      "title": "Food: module introduction",
+      "position": 0,
+      "week": 10,
+      "minutes": 20,
+      "kind": "opener",
+      "pages": [
+        63
+      ],
+      "body": "Week 10 | 20 minutes | Original PDF pages 63.\nRead every displayed original page and complete all its numbered tasks in order. The page images and lesson PDF preserve the supplied scan. Add your responses with the PDF page and exercise number. Discuss speaking and pairwork tasks with your teacher.\nPreview the module objectives and pictures. Discuss the introductory questions and set a personal learning goal.\nListening: the publisher audio files were not supplied. Your teacher must provide authorized audio or mark that listening task pending; the app does not fabricate recordings or answer keys.\nSpolk practice below is additional material, separate from the original exercises. Original-page homework is teacher-reviewed; automatic quiz results are not the publisher answer key.",
+      "questions": [],
+      "assessment_id": null,
+      "assignment": null
+    },
+    {
+      "id": "91b04196-c184-5876-ad8e-debe15783b02",
+      "module_id": "2244057d-a4f6-557b-b863-9e76f68fd953",
+      "title": "5a · Food preferences",
+      "position": 1,
+      "week": 10,
+      "minutes": 60,
+      "kind": "study",
+      "pages": [
+        64,
+        65
+      ],
+      "body": "Week 10 | 60 minutes | Original PDF pages 64, 65.\nRead every displayed original page and complete all its numbered tasks in order. The page images and lesson PDF preserve the supplied scan. Add your responses with the PDF page and exercise number. Discuss speaking and pairwork tasks with your teacher.\nListening: the publisher audio files were not supplied. Your teacher must provide authorized audio or mark that listening task pending; the app does not fabricate recordings or answer keys.\nSpolk practice below is additional material, separate from the original exercises. Original-page homework is teacher-reviewed; automatic quiz results are not the publisher answer key.",
+      "questions": [
+        {
+          "id": "1a0142df-bd9b-55b7-80da-359019bf2d28",
+          "kind": "multiple_choice",
+          "prompt": "Which item is a fruit?",
+          "options": [
+            "rice",
+            "chicken",
+            "an apple"
+          ],
+          "correct_answer": "an apple",
+          "points": 1,
+          "position": 0
+        },
+        {
+          "id": "91943f08-8e27-5790-9f10-f32d0fb31da5",
+          "kind": "multiple_choice",
+          "prompt": "Choose a countable food noun.",
+          "options": [
+            "milk",
+            "a banana",
+            "water"
+          ],
+          "correct_answer": "a banana",
+          "points": 1,
+          "position": 1
+        },
+        {
+          "id": "6d568555-bea3-577e-b5f4-0f8a4aebf76a",
+          "kind": "multiple_choice",
+          "prompt": "I ___ strawberries. They are my favourite.",
+          "options": [
+            "like",
+            "likes",
+            "liking"
+          ],
+          "correct_answer": "like",
+          "points": 1,
+          "position": 2
+        }
+      ],
+      "assessment_id": "a1c5aa8a-616d-5d4b-8449-f96f1a427385",
+      "assignment": {
+        "id": "453e738f-ef3f-59e5-8d93-b77943fdbbac",
+        "title": "Original-page work: 5a · Food preferences",
+        "instructions": "Complete ALL numbered exercises on original PDF pages 64, 65, in order. Label each response by PDF page and exercise number. For speaking/pairwork, add a short account of your teacher-led practice. Mark any listening task 'pending audio' until authorized audio is available. The teacher should grade reading/grammar/vocabulary and writing against the displayed pages and review speaking separately. Submit your work here. Do not invent answers to inaudible listening tasks."
+      }
+    },
+    {
+      "id": "8880ac19-701a-5915-8701-11d9655c2703",
+      "module_id": "2244057d-a4f6-557b-b863-9e76f68fd953",
+      "title": "5b · Can I take your order?",
+      "position": 2,
+      "week": 10,
+      "minutes": 60,
+      "kind": "study",
+      "pages": [
+        66,
+        67
+      ],
+      "body": "Week 10 | 60 minutes | Original PDF pages 66, 67.\nRead every displayed original page and complete all its numbered tasks in order. The page images and lesson PDF preserve the supplied scan. Add your responses with the PDF page and exercise number. Discuss speaking and pairwork tasks with your teacher.\nListening: the publisher audio files were not supplied. Your teacher must provide authorized audio or mark that listening task pending; the app does not fabricate recordings or answer keys.\nSpolk practice below is additional material, separate from the original exercises. Original-page homework is teacher-reviewed; automatic quiz results are not the publisher answer key.",
+      "questions": [
+        {
+          "id": "27411897-79b7-58ba-8101-e5745859d42e",
+          "kind": "multiple_choice",
+          "prompt": "There is ___ soup in the bowl.",
+          "options": [
+            "any",
+            "many",
+            "some"
+          ],
+          "correct_answer": "some",
+          "points": 1,
+          "position": 0
+        },
+        {
+          "id": "15b6aab9-abc5-5d3c-8a7b-91d9a56625e5",
+          "kind": "multiple_choice",
+          "prompt": "Have you got ___ cheese?",
+          "options": [
+            "many",
+            "any",
+            "a"
+          ],
+          "correct_answer": "any",
+          "points": 1,
+          "position": 1
+        },
+        {
+          "id": "b6feff83-81c8-50f9-bbde-fe76b95374d9",
+          "kind": "multiple_choice",
+          "prompt": "Choose a polite order.",
+          "options": [
+            "I'd like some chicken, please.",
+            "I chicken like please would.",
+            "Some please chicken am."
+          ],
+          "correct_answer": "I'd like some chicken, please.",
+          "points": 1,
+          "position": 2
+        }
+      ],
+      "assessment_id": "7ec71b52-24c8-5e79-bf2e-9fa54aa681cc",
+      "assignment": {
+        "id": "1a92121e-b793-5992-ab97-dd4e8b230c25",
+        "title": "Original-page work: 5b · Can I take your order?",
+        "instructions": "Complete ALL numbered exercises on original PDF pages 66, 67, in order. Label each response by PDF page and exercise number. For speaking/pairwork, add a short account of your teacher-led practice. Mark any listening task 'pending audio' until authorized audio is available. The teacher should grade reading/grammar/vocabulary and writing against the displayed pages and review speaking separately. Submit your work here. Do not invent answers to inaudible listening tasks."
+      }
+    },
+    {
+      "id": "b3913988-1b92-53c9-a444-7e3759e2a358",
+      "module_id": "2244057d-a4f6-557b-b863-9e76f68fd953",
+      "title": "5c · At the supermarket",
+      "position": 3,
+      "week": 10,
+      "minutes": 60,
+      "kind": "study",
+      "pages": [
+        68,
+        69
+      ],
+      "body": "Week 10 | 60 minutes | Original PDF pages 68, 69.\nRead every displayed original page and complete all its numbered tasks in order. The page images and lesson PDF preserve the supplied scan. Add your responses with the PDF page and exercise number. Discuss speaking and pairwork tasks with your teacher.\nListening: the publisher audio files were not supplied. Your teacher must provide authorized audio or mark that listening task pending; the app does not fabricate recordings or answer keys.\nSpolk practice below is additional material, separate from the original exercises. Original-page homework is teacher-reviewed; automatic quiz results are not the publisher answer key.",
+      "questions": [
+        {
+          "id": "5f87adcc-f5a5-5da8-99b1-07b7beca0aad",
+          "kind": "multiple_choice",
+          "prompt": "How ___ water do you drink?",
+          "options": [
+            "many",
+            "a",
+            "much"
+          ],
+          "correct_answer": "much",
+          "points": 1,
+          "position": 0
+        },
+        {
+          "id": "278a00b4-28aa-5963-a141-43b64c9aae9b",
+          "kind": "multiple_choice",
+          "prompt": "How ___ apples do you need?",
+          "options": [
+            "an",
+            "many",
+            "much"
+          ],
+          "correct_answer": "many",
+          "points": 1,
+          "position": 1
+        },
+        {
+          "id": "870e47aa-6026-5064-9349-649ea45028d9",
+          "kind": "multiple_choice",
+          "prompt": "Choose the correct container.",
+          "options": [
+            "a bottle of water",
+            "a slice of water",
+            "a loaf of water"
+          ],
+          "correct_answer": "a bottle of water",
+          "points": 1,
+          "position": 2
+        }
+      ],
+      "assessment_id": "81f349d3-8ad0-5f7e-9587-e4ff0e4ba157",
+      "assignment": {
+        "id": "c87fea9d-847c-5ec4-986c-59f0bf31a610",
+        "title": "Original-page work: 5c · At the supermarket",
+        "instructions": "Complete ALL numbered exercises on original PDF pages 68, 69, in order. Label each response by PDF page and exercise number. For speaking/pairwork, add a short account of your teacher-led practice. Mark any listening task 'pending audio' until authorized audio is available. The teacher should grade reading/grammar/vocabulary and writing against the displayed pages and review speaking separately. Submit your work here. Do not invent answers to inaudible listening tasks."
+      }
+    },
+    {
+      "id": "135055e5-77e8-5124-b33e-088aaa003d29",
+      "module_id": "2244057d-a4f6-557b-b863-9e76f68fd953",
+      "title": "5d · Fast food",
+      "position": 4,
+      "week": 11,
+      "minutes": 60,
+      "kind": "study",
+      "pages": [
+        70,
+        71
+      ],
+      "body": "Week 11 | 60 minutes | Original PDF pages 70, 71.\nRead every displayed original page and complete all its numbered tasks in order. The page images and lesson PDF preserve the supplied scan. Add your responses with the PDF page and exercise number. Discuss speaking and pairwork tasks with your teacher.\nListening: the publisher audio files were not supplied. Your teacher must provide authorized audio or mark that listening task pending; the app does not fabricate recordings or answer keys.\nSpolk practice below is additional material, separate from the original exercises. Original-page homework is teacher-reviewed; automatic quiz results are not the publisher answer key.",
+      "questions": [
+        {
+          "id": "fceb9c63-1e0f-5efd-ab72-6d4b7ba9204d",
+          "kind": "multiple_choice",
+          "prompt": "The price is 5. You pay 10. Your change is ___.",
+          "options": [
+            "15",
+            "5",
+            "10"
+          ],
+          "correct_answer": "5",
+          "points": 1,
+          "position": 0
+        },
+        {
+          "id": "1dc23b64-939d-56a1-b076-3b7dd8a1ad69",
+          "kind": "multiple_choice",
+          "prompt": "Choose an offer.",
+          "options": [
+            "Would you like a drink?",
+            "What colour is it?",
+            "Where is your bag?"
+          ],
+          "correct_answer": "Would you like a drink?",
+          "points": 1,
+          "position": 1
+        },
+        {
+          "id": "a889301c-12dc-5c20-a043-c817d8104678",
+          "kind": "multiple_choice",
+          "prompt": "Which expression asks for a price?",
+          "options": [
+            "How many is it?",
+            "How old is it?",
+            "How much is it?"
+          ],
+          "correct_answer": "How much is it?",
+          "points": 1,
+          "position": 2
+        }
+      ],
+      "assessment_id": "997acccc-4766-5e28-ad16-3ac26a0cc6bc",
+      "assignment": {
+        "id": "75dd5f69-4539-587c-a676-fd8b5032ad4a",
+        "title": "Original-page work: 5d · Fast food",
+        "instructions": "Complete ALL numbered exercises on original PDF pages 70, 71, in order. Label each response by PDF page and exercise number. For speaking/pairwork, add a short account of your teacher-led practice. Mark any listening task 'pending audio' until authorized audio is available. The teacher should grade reading/grammar/vocabulary and writing against the displayed pages and review speaking separately. Submit your work here. Do not invent answers to inaudible listening tasks."
+      }
+    },
+    {
+      "id": "d1e73a27-7d88-5c52-8162-de4ae3d2e89f",
+      "module_id": "2244057d-a4f6-557b-b863-9e76f68fd953",
+      "title": "5e · Eating habits",
+      "position": 5,
+      "week": 11,
+      "minutes": 60,
+      "kind": "study",
+      "pages": [
+        72,
+        73
+      ],
+      "body": "Week 11 | 60 minutes | Original PDF pages 72, 73.\nRead every displayed original page and complete all its numbered tasks in order. The page images and lesson PDF preserve the supplied scan. Add your responses with the PDF page and exercise number. Discuss speaking and pairwork tasks with your teacher.\nListening: the publisher audio files were not supplied. Your teacher must provide authorized audio or mark that listening task pending; the app does not fabricate recordings or answer keys.\nSpolk practice below is additional material, separate from the original exercises. Original-page homework is teacher-reviewed; automatic quiz results are not the publisher answer key.",
+      "questions": [
+        {
+          "id": "4de54254-a2e0-5b3c-84bd-9453cf7b05ce",
+          "kind": "multiple_choice",
+          "prompt": "I like tea ___ I don't like coffee.",
+          "options": [
+            "because of",
+            "but",
+            "or"
+          ],
+          "correct_answer": "but",
+          "points": 1,
+          "position": 0
+        },
+        {
+          "id": "fa451333-e469-5f2f-9239-fcd65541867a",
+          "kind": "multiple_choice",
+          "prompt": "I have toast ___ eggs for breakfast.",
+          "options": [
+            "and",
+            "but not",
+            "because of"
+          ],
+          "correct_answer": "and",
+          "points": 1,
+          "position": 1
+        },
+        {
+          "id": "827653fe-7bd0-59ce-ac85-14b412ee41a0",
+          "kind": "multiple_choice",
+          "prompt": "Which is an eating habit?",
+          "options": [
+            "The bag is red.",
+            "The station is near.",
+            "I have breakfast at seven."
+          ],
+          "correct_answer": "I have breakfast at seven.",
+          "points": 1,
+          "position": 2
+        }
+      ],
+      "assessment_id": "d4305dbe-7995-5efc-b8d9-03f7545755fa",
+      "assignment": {
+        "id": "9d316d8b-663c-59df-8aee-dc12cac64b8f",
+        "title": "Original-page work: 5e · Eating habits",
+        "instructions": "Complete ALL numbered exercises on original PDF pages 72, 73, in order. Label each response by PDF page and exercise number. For speaking/pairwork, add a short account of your teacher-led practice. Mark any listening task 'pending audio' until authorized audio is available. The teacher should grade reading/grammar/vocabulary and writing against the displayed pages and review speaking separately. Submit your work here. Do not invent answers to inaudible listening tasks."
+      }
+    },
+    {
+      "id": "3ccd4521-af71-55a9-a045-e01e54581711",
+      "module_id": "2244057d-a4f6-557b-b863-9e76f68fd953",
+      "title": "Food: Round-up",
+      "position": 6,
+      "week": 11,
+      "minutes": 75,
+      "kind": "review",
+      "pages": [
+        74,
+        75
+      ],
+      "body": "Week 11 | 75 minutes | Original PDF pages 74, 75.\nRead every displayed original page and complete all its numbered tasks in order. The page images and lesson PDF preserve the supplied scan. Add your responses with the PDF page and exercise number. Discuss speaking and pairwork tasks with your teacher.\nListening: the publisher audio files were not supplied. Your teacher must provide authorized audio or mark that listening task pending; the app does not fabricate recordings or answer keys.\nSpolk practice below is additional material, separate from the original exercises. Original-page homework is teacher-reviewed; automatic quiz results are not the publisher answer key.",
+      "questions": [
+        {
+          "id": "64a6adf4-e7b0-5726-8755-240637c399ee",
+          "kind": "multiple_choice",
+          "prompt": "Which item is a fruit?",
+          "options": [
+            "chicken",
+            "an apple",
+            "rice"
+          ],
+          "correct_answer": "an apple",
+          "points": 1,
+          "position": 0
+        },
+        {
+          "id": "754670c9-dfd9-5d12-a867-d983ce7dce29",
+          "kind": "multiple_choice",
+          "prompt": "Have you got ___ cheese?",
+          "options": [
+            "any",
+            "a",
+            "many"
+          ],
+          "correct_answer": "any",
+          "points": 1,
+          "position": 1
+        },
+        {
+          "id": "832156f7-49bb-53f1-9693-8144f1757308",
+          "kind": "multiple_choice",
+          "prompt": "Choose the correct container.",
+          "options": [
+            "a slice of water",
+            "a loaf of water",
+            "a bottle of water"
+          ],
+          "correct_answer": "a bottle of water",
+          "points": 1,
+          "position": 2
+        },
+        {
+          "id": "27b27ea1-b562-5698-b0df-551392090eaf",
+          "kind": "multiple_choice",
+          "prompt": "Which expression asks for a price?",
+          "options": [
+            "How old is it?",
+            "How much is it?",
+            "How many is it?"
+          ],
+          "correct_answer": "How much is it?",
+          "points": 1,
+          "position": 3
+        },
+        {
+          "id": "3183c316-3d18-5062-b562-539a90ff3f8e",
+          "kind": "multiple_choice",
+          "prompt": "Which is an eating habit?",
+          "options": [
+            "I have breakfast at seven.",
+            "The bag is red.",
+            "The station is near."
+          ],
+          "correct_answer": "I have breakfast at seven.",
+          "points": 1,
+          "position": 4
+        }
+      ],
+      "assessment_id": "0598026c-78bb-5bc7-bf73-5e2ecb091f4a",
+      "assignment": {
+        "id": "7442d6e7-0b77-5f39-8bb9-a9c81cf06cc6",
+        "title": "Original-page work: Food: Round-up",
+        "instructions": "Complete ALL numbered exercises on original PDF pages 74, 75, in order. Label each response by PDF page and exercise number. For speaking/pairwork, add a short account of your teacher-led practice. Mark any listening task 'pending audio' until authorized audio is available. The teacher should grade reading/grammar/vocabulary and writing against the displayed pages and review speaking separately. Submit your work here. Do not invent answers to inaudible listening tasks."
+      }
+    },
+    {
+      "id": "5adc59b1-9975-523a-8a8d-b1c6d33e55ec",
+      "module_id": "2244057d-a4f6-557b-b863-9e76f68fd953",
+      "title": "Jacket potatoes",
+      "position": 7,
+      "week": 11,
+      "minutes": 45,
+      "kind": "culture",
+      "pages": [
+        76
+      ],
+      "body": "Week 11 | 45 minutes | Original PDF pages 76.\nRead every displayed original page and complete all its numbered tasks in order. The page images and lesson PDF preserve the supplied scan. Add your responses with the PDF page and exercise number. Discuss speaking and pairwork tasks with your teacher.\nRead the original culture/cross-curricular page and complete its comprehension tasks. Historical claims are reproduced as printed, not asserted to be current.\nListening: the publisher audio files were not supplied. Your teacher must provide authorized audio or mark that listening task pending; the app does not fabricate recordings or answer keys.\nSpolk practice below is additional material, separate from the original exercises. Original-page homework is teacher-reviewed; automatic quiz results are not the publisher answer key.",
+      "questions": [],
+      "assessment_id": null,
+      "assignment": {
+        "id": "2f9282d1-1755-51c0-92b4-9c0cb45f66e6",
+        "title": "Original-page work: Jacket potatoes",
+        "instructions": "Complete ALL numbered exercises on original PDF pages 76, in order. Label each response by PDF page and exercise number. For speaking/pairwork, add a short account of your teacher-led practice. Mark any listening task 'pending audio' until authorized audio is available. The teacher should grade reading/grammar/vocabulary and writing against the displayed pages and review speaking separately. Submit your work here. Do not invent answers to inaudible listening tasks."
+      }
+    },
+    {
+      "id": "8af6cc89-5237-50c9-8827-4cdae10f9f07",
+      "module_id": "09a08441-57b4-5373-b491-1a5ac8414c7a",
+      "title": "Get busy: module introduction",
+      "position": 0,
+      "week": 12,
+      "minutes": 20,
+      "kind": "opener",
+      "pages": [
+        77
+      ],
+      "body": "Week 12 | 20 minutes | Original PDF pages 77.\nRead every displayed original page and complete all its numbered tasks in order. The page images and lesson PDF preserve the supplied scan. Add your responses with the PDF page and exercise number. Discuss speaking and pairwork tasks with your teacher.\nPreview the module objectives and pictures. Discuss the introductory questions and set a personal learning goal.\nListening: the publisher audio files were not supplied. Your teacher must provide authorized audio or mark that listening task pending; the app does not fabricate recordings or answer keys.\nSpolk practice below is additional material, separate from the original exercises. Original-page homework is teacher-reviewed; automatic quiz results are not the publisher answer key.",
+      "questions": [],
+      "assessment_id": null,
+      "assignment": null
+    },
+    {
+      "id": "9a2e8a18-15b5-59bb-bb88-034b65d5ab5e",
+      "module_id": "09a08441-57b4-5373-b491-1a5ac8414c7a",
+      "title": "6a · Talents and abilities",
+      "position": 1,
+      "week": 12,
+      "minutes": 60,
+      "kind": "study",
+      "pages": [
+        78,
+        79
+      ],
+      "body": "Week 12 | 60 minutes | Original PDF pages 78, 79.\nRead every displayed original page and complete all its numbered tasks in order. The page images and lesson PDF preserve the supplied scan. Add your responses with the PDF page and exercise number. Discuss speaking and pairwork tasks with your teacher.\nListening: the publisher audio files were not supplied. Your teacher must provide authorized audio or mark that listening task pending; the app does not fabricate recordings or answer keys.\nSpolk practice below is additional material, separate from the original exercises. Original-page homework is teacher-reviewed; automatic quiz results are not the publisher answer key.",
+      "questions": [
+        {
+          "id": "dbcb77ce-ec5a-5b96-a029-96a9ad2d16af",
+          "kind": "multiple_choice",
+          "prompt": "She ___ swim very well.",
+          "options": [
+            "can",
+            "cans",
+            "is can"
+          ],
+          "correct_answer": "can",
+          "points": 1,
+          "position": 0
+        },
+        {
+          "id": "054fd37a-1c8c-5a21-8fec-d66f4bc25af1",
+          "kind": "multiple_choice",
+          "prompt": "Can he dance? No, he ___.",
+          "options": [
+            "doesn't",
+            "isn't",
+            "can't"
+          ],
+          "correct_answer": "can't",
+          "points": 1,
+          "position": 1
+        },
+        {
+          "id": "1fe82187-124f-53c7-8e1a-8db34ebc65aa",
+          "kind": "multiple_choice",
+          "prompt": "Choose the correct sentence.",
+          "options": [
+            "I cans use a computer.",
+            "I can use a computer.",
+            "I can using a computer."
+          ],
+          "correct_answer": "I can use a computer.",
+          "points": 1,
+          "position": 2
+        }
+      ],
+      "assessment_id": "6a0a853d-b9ad-5670-9aa1-dbff5cfe1ef3",
+      "assignment": {
+        "id": "84d1d64f-575f-5640-9782-840014a81837",
+        "title": "Original-page work: 6a · Talents and abilities",
+        "instructions": "Complete ALL numbered exercises on original PDF pages 78, 79, in order. Label each response by PDF page and exercise number. For speaking/pairwork, add a short account of your teacher-led practice. Mark any listening task 'pending audio' until authorized audio is available. The teacher should grade reading/grammar/vocabulary and writing against the displayed pages and review speaking separately. Submit your work here. Do not invent answers to inaudible listening tasks."
+      }
+    },
+    {
+      "id": "36c45ebe-0bc2-5b99-8864-0f1b57f3bc27",
+      "module_id": "09a08441-57b4-5373-b491-1a5ac8414c7a",
+      "title": "6b · On the phone",
+      "position": 2,
+      "week": 12,
+      "minutes": 60,
+      "kind": "study",
+      "pages": [
+        80,
+        81
+      ],
+      "body": "Week 12 | 60 minutes | Original PDF pages 80, 81.\nRead every displayed original page and complete all its numbered tasks in order. The page images and lesson PDF preserve the supplied scan. Add your responses with the PDF page and exercise number. Discuss speaking and pairwork tasks with your teacher.\nListening: the publisher audio files were not supplied. Your teacher must provide authorized audio or mark that listening task pending; the app does not fabricate recordings or answer keys.\nSpolk practice below is additional material, separate from the original exercises. Original-page homework is teacher-reviewed; automatic quiz results are not the publisher answer key.",
+      "questions": [
+        {
+          "id": "f7b29748-8aed-5e0e-b44e-1269d83ba536",
+          "kind": "multiple_choice",
+          "prompt": "I ___ studying now.",
+          "options": [
+            "am",
+            "is",
+            "are"
+          ],
+          "correct_answer": "am",
+          "points": 1,
+          "position": 0
+        },
+        {
+          "id": "25d3778c-3b6a-5846-8132-9c86d18b2492",
+          "kind": "multiple_choice",
+          "prompt": "She is ___ on the phone.",
+          "options": [
+            "talk",
+            "talks",
+            "talking"
+          ],
+          "correct_answer": "talking",
+          "points": 1,
+          "position": 1
+        },
+        {
+          "id": "609d8d70-4b0f-5d07-8b3b-a5dec78f569e",
+          "kind": "multiple_choice",
+          "prompt": "They ___ watching TV now.",
+          "options": [
+            "doesn't",
+            "aren't",
+            "isn't"
+          ],
+          "correct_answer": "aren't",
+          "points": 1,
+          "position": 2
+        }
+      ],
+      "assessment_id": "b6997bbb-2cb1-57b7-a80f-83b3c76d03cb",
+      "assignment": {
+        "id": "2a5b3e53-6adb-56df-a8b8-228976b698f8",
+        "title": "Original-page work: 6b · On the phone",
+        "instructions": "Complete ALL numbered exercises on original PDF pages 80, 81, in order. Label each response by PDF page and exercise number. For speaking/pairwork, add a short account of your teacher-led practice. Mark any listening task 'pending audio' until authorized audio is available. The teacher should grade reading/grammar/vocabulary and writing against the displayed pages and review speaking separately. Submit your work here. Do not invent answers to inaudible listening tasks."
+      }
+    },
+    {
+      "id": "287306a5-a07d-5e31-ba28-ca6f24c26f78",
+      "module_id": "09a08441-57b4-5373-b491-1a5ac8414c7a",
+      "title": "6c · Get involved",
+      "position": 3,
+      "week": 12,
+      "minutes": 60,
+      "kind": "study",
+      "pages": [
+        82,
+        83
+      ],
+      "body": "Week 12 | 60 minutes | Original PDF pages 82, 83.\nRead every displayed original page and complete all its numbered tasks in order. The page images and lesson PDF preserve the supplied scan. Add your responses with the PDF page and exercise number. Discuss speaking and pairwork tasks with your teacher.\nListening: the publisher audio files were not supplied. Your teacher must provide authorized audio or mark that listening task pending; the app does not fabricate recordings or answer keys.\nSpolk practice below is additional material, separate from the original exercises. Original-page homework is teacher-reviewed; automatic quiz results are not the publisher answer key.",
+      "questions": [
+        {
+          "id": "93331499-f6f2-5f85-8b14-6b7d5d7d76e2",
+          "kind": "multiple_choice",
+          "prompt": "___ they planting trees?",
+          "options": [
+            "Are",
+            "Do",
+            "Is"
+          ],
+          "correct_answer": "Are",
+          "points": 1,
+          "position": 0
+        },
+        {
+          "id": "875126e5-ad34-5005-b9b2-de4fc4e9fd6f",
+          "kind": "multiple_choice",
+          "prompt": "What is he ___ now?",
+          "options": [
+            "do",
+            "does",
+            "doing"
+          ],
+          "correct_answer": "doing",
+          "points": 1,
+          "position": 1
+        },
+        {
+          "id": "a937921e-7f5b-51ac-8d4e-aea6c7973f25",
+          "kind": "multiple_choice",
+          "prompt": "Which action helps the environment?",
+          "options": [
+            "leaving taps running",
+            "recycling bottles",
+            "throwing rubbish in a lake"
+          ],
+          "correct_answer": "recycling bottles",
+          "points": 1,
+          "position": 2
+        }
+      ],
+      "assessment_id": "91fab3a1-552d-5734-b294-0717e6538c64",
+      "assignment": {
+        "id": "0455fbf0-55e4-516f-a483-268c5a34c5d8",
+        "title": "Original-page work: 6c · Get involved",
+        "instructions": "Complete ALL numbered exercises on original PDF pages 82, 83, in order. Label each response by PDF page and exercise number. For speaking/pairwork, add a short account of your teacher-led practice. Mark any listening task 'pending audio' until authorized audio is available. The teacher should grade reading/grammar/vocabulary and writing against the displayed pages and review speaking separately. Submit your work here. Do not invent answers to inaudible listening tasks."
+      }
+    },
+    {
+      "id": "4902e81d-4dbd-5030-9c9b-41cc573dfd9d",
+      "module_id": "09a08441-57b4-5373-b491-1a5ac8414c7a",
+      "title": "6d · Weather and arrangements",
+      "position": 4,
+      "week": 13,
+      "minutes": 60,
+      "kind": "study",
+      "pages": [
+        84,
+        85
+      ],
+      "body": "Week 13 | 60 minutes | Original PDF pages 84, 85.\nRead every displayed original page and complete all its numbered tasks in order. The page images and lesson PDF preserve the supplied scan. Add your responses with the PDF page and exercise number. Discuss speaking and pairwork tasks with your teacher.\nListening: the publisher audio files were not supplied. Your teacher must provide authorized audio or mark that listening task pending; the app does not fabricate recordings or answer keys.\nSpolk practice below is additional material, separate from the original exercises. Original-page homework is teacher-reviewed; automatic quiz results are not the publisher answer key.",
+      "questions": [
+        {
+          "id": "8e0fdeba-a681-5869-87b0-b816306227b4",
+          "kind": "multiple_choice",
+          "prompt": "Let's ___ a film.",
+          "options": [
+            "watching",
+            "watches",
+            "watch"
+          ],
+          "correct_answer": "watch",
+          "points": 1,
+          "position": 0
+        },
+        {
+          "id": "b2d60308-9ad1-5963-bcc9-ee9428938c3e",
+          "kind": "multiple_choice",
+          "prompt": "How about ___ a DVD?",
+          "options": [
+            "watches",
+            "watching",
+            "watch"
+          ],
+          "correct_answer": "watching",
+          "points": 1,
+          "position": 1
+        },
+        {
+          "id": "7600ceab-a684-56be-92a9-6d5b2b02262e",
+          "kind": "multiple_choice",
+          "prompt": "Choose a weather description.",
+          "options": [
+            "It is cloudy.",
+            "It is keyboard.",
+            "It is teacher."
+          ],
+          "correct_answer": "It is cloudy.",
+          "points": 1,
+          "position": 2
+        }
+      ],
+      "assessment_id": "c52dfe8c-6f4c-5fe9-9797-7cc08f4bc062",
+      "assignment": {
+        "id": "fc21258a-8580-5287-a45d-0c6fa8e67a98",
+        "title": "Original-page work: 6d · Weather and arrangements",
+        "instructions": "Complete ALL numbered exercises on original PDF pages 84, 85, in order. Label each response by PDF page and exercise number. For speaking/pairwork, add a short account of your teacher-led practice. Mark any listening task 'pending audio' until authorized audio is available. The teacher should grade reading/grammar/vocabulary and writing against the displayed pages and review speaking separately. Submit your work here. Do not invent answers to inaudible listening tasks."
+      }
+    },
+    {
+      "id": "3ab53388-51f5-5c4b-b75a-60d62400bc4c",
+      "module_id": "09a08441-57b4-5373-b491-1a5ac8414c7a",
+      "title": "6e · Computers and communication",
+      "position": 5,
+      "week": 13,
+      "minutes": 60,
+      "kind": "study",
+      "pages": [
+        86,
+        87
+      ],
+      "body": "Week 13 | 60 minutes | Original PDF pages 86, 87.\nRead every displayed original page and complete all its numbered tasks in order. The page images and lesson PDF preserve the supplied scan. Add your responses with the PDF page and exercise number. Discuss speaking and pairwork tasks with your teacher.\nListening: the publisher audio files were not supplied. Your teacher must provide authorized audio or mark that listening task pending; the app does not fabricate recordings or answer keys.\nSpolk practice below is additional material, separate from the original exercises. Original-page homework is teacher-reviewed; automatic quiz results are not the publisher answer key.",
+      "questions": [
+        {
+          "id": "4fc112f7-cd87-5fe4-9409-547322e718df",
+          "kind": "multiple_choice",
+          "prompt": "Which computer part do you type on?",
+          "options": [
+            "a screen",
+            "a mouse mat",
+            "a keyboard"
+          ],
+          "correct_answer": "a keyboard",
+          "points": 1,
+          "position": 0
+        },
+        {
+          "id": "5880c370-2ad9-572a-8d84-136b85117a72",
+          "kind": "short_answer",
+          "prompt": "Write 100 in words.",
+          "options": [],
+          "correct_answer": "one hundred",
+          "points": 1,
+          "position": 1
+        },
+        {
+          "id": "94385232-f70f-5c22-9209-610125b5713f",
+          "kind": "multiple_choice",
+          "prompt": "Choose an email closing.",
+          "options": [
+            "Best wishes,",
+            "Good morning?",
+            "How much?"
+          ],
+          "correct_answer": "Best wishes,",
+          "points": 1,
+          "position": 2
+        }
+      ],
+      "assessment_id": "4ee5c27e-88ca-5336-b825-7856c655b7e4",
+      "assignment": {
+        "id": "5960db5c-3270-552f-92b8-4543d0c68744",
+        "title": "Original-page work: 6e · Computers and communication",
+        "instructions": "Complete ALL numbered exercises on original PDF pages 86, 87, in order. Label each response by PDF page and exercise number. For speaking/pairwork, add a short account of your teacher-led practice. Mark any listening task 'pending audio' until authorized audio is available. The teacher should grade reading/grammar/vocabulary and writing against the displayed pages and review speaking separately. Submit your work here. Do not invent answers to inaudible listening tasks."
+      }
+    },
+    {
+      "id": "b863048e-f6dd-5d8d-aaad-7c275f352b56",
+      "module_id": "09a08441-57b4-5373-b491-1a5ac8414c7a",
+      "title": "Get busy: Round-up",
+      "position": 6,
+      "week": 13,
+      "minutes": 75,
+      "kind": "review",
+      "pages": [
+        88,
+        89
+      ],
+      "body": "Week 13 | 75 minutes | Original PDF pages 88, 89.\nRead every displayed original page and complete all its numbered tasks in order. The page images and lesson PDF preserve the supplied scan. Add your responses with the PDF page and exercise number. Discuss speaking and pairwork tasks with your teacher.\nListening: the publisher audio files were not supplied. Your teacher must provide authorized audio or mark that listening task pending; the app does not fabricate recordings or answer keys.\nSpolk practice below is additional material, separate from the original exercises. Original-page homework is teacher-reviewed; automatic quiz results are not the publisher answer key.",
+      "questions": [
+        {
+          "id": "0d207c88-717d-5bd8-94ec-00369d13fe9e",
+          "kind": "multiple_choice",
+          "prompt": "She ___ swim very well.",
+          "options": [
+            "cans",
+            "is can",
+            "can"
+          ],
+          "correct_answer": "can",
+          "points": 1,
+          "position": 0
+        },
+        {
+          "id": "18ad1bd7-6177-5d2f-9316-991e82bca325",
+          "kind": "multiple_choice",
+          "prompt": "She is ___ on the phone.",
+          "options": [
+            "talks",
+            "talking",
+            "talk"
+          ],
+          "correct_answer": "talking",
+          "points": 1,
+          "position": 1
+        },
+        {
+          "id": "d5f16d23-d185-58a7-bb4f-9974b76c0744",
+          "kind": "multiple_choice",
+          "prompt": "Which action helps the environment?",
+          "options": [
+            "recycling bottles",
+            "throwing rubbish in a lake",
+            "leaving taps running"
+          ],
+          "correct_answer": "recycling bottles",
+          "points": 1,
+          "position": 2
+        },
+        {
+          "id": "8e0ff2a3-a19c-51f4-ab43-23e467d39e06",
+          "kind": "multiple_choice",
+          "prompt": "Choose a weather description.",
+          "options": [
+            "It is keyboard.",
+            "It is teacher.",
+            "It is cloudy."
+          ],
+          "correct_answer": "It is cloudy.",
+          "points": 1,
+          "position": 3
+        },
+        {
+          "id": "7eab68a3-5a4e-56dd-9254-5944eb1a8758",
+          "kind": "multiple_choice",
+          "prompt": "Choose an email closing.",
+          "options": [
+            "How much?",
+            "Best wishes,",
+            "Good morning?"
+          ],
+          "correct_answer": "Best wishes,",
+          "points": 1,
+          "position": 4
+        }
+      ],
+      "assessment_id": "a00edebf-7792-560b-8a0f-6b048cc1195c",
+      "assignment": {
+        "id": "fd693cf7-7de0-59fb-8fd4-deb097401f8a",
+        "title": "Original-page work: Get busy: Round-up",
+        "instructions": "Complete ALL numbered exercises on original PDF pages 88, 89, in order. Label each response by PDF page and exercise number. For speaking/pairwork, add a short account of your teacher-led practice. Mark any listening task 'pending audio' until authorized audio is available. The teacher should grade reading/grammar/vocabulary and writing against the displayed pages and review speaking separately. Submit your work here. Do not invent answers to inaudible listening tasks."
+      }
+    },
+    {
+      "id": "3fbdabbf-7b46-50b4-8e8c-d9b27e97d3e6",
+      "module_id": "09a08441-57b4-5373-b491-1a5ac8414c7a",
+      "title": "Life in the fast lane",
+      "position": 7,
+      "week": 13,
+      "minutes": 45,
+      "kind": "culture",
+      "pages": [
+        90
+      ],
+      "body": "Week 13 | 45 minutes | Original PDF pages 90.\nRead every displayed original page and complete all its numbered tasks in order. The page images and lesson PDF preserve the supplied scan. Add your responses with the PDF page and exercise number. Discuss speaking and pairwork tasks with your teacher.\nRead the original culture/cross-curricular page and complete its comprehension tasks. Historical claims are reproduced as printed, not asserted to be current.\nListening: the publisher audio files were not supplied. Your teacher must provide authorized audio or mark that listening task pending; the app does not fabricate recordings or answer keys.\nSpolk practice below is additional material, separate from the original exercises. Original-page homework is teacher-reviewed; automatic quiz results are not the publisher answer key.",
+      "questions": [],
+      "assessment_id": null,
+      "assignment": {
+        "id": "524308c3-4122-567a-a060-784ff8190948",
+        "title": "Original-page work: Life in the fast lane",
+        "instructions": "Complete ALL numbered exercises on original PDF pages 90, in order. Label each response by PDF page and exercise number. For speaking/pairwork, add a short account of your teacher-led practice. Mark any listening task 'pending audio' until authorized audio is available. The teacher should grade reading/grammar/vocabulary and writing against the displayed pages and review speaking separately. Submit your work here. Do not invent answers to inaudible listening tasks."
+      }
+    },
+    {
+      "id": "44be7c60-1fe9-55eb-9a34-ed912c7b21f4",
+      "module_id": "af2ad401-ad45-53b5-bfa7-883cc855b778",
+      "title": "Looking back: module introduction",
+      "position": 0,
+      "week": 14,
+      "minutes": 20,
+      "kind": "opener",
+      "pages": [
+        91
+      ],
+      "body": "Week 14 | 20 minutes | Original PDF pages 91.\nRead every displayed original page and complete all its numbered tasks in order. The page images and lesson PDF preserve the supplied scan. Add your responses with the PDF page and exercise number. Discuss speaking and pairwork tasks with your teacher.\nPreview the module objectives and pictures. Discuss the introductory questions and set a personal learning goal.\nListening: the publisher audio files were not supplied. Your teacher must provide authorized audio or mark that listening task pending; the app does not fabricate recordings or answer keys.\nSpolk practice below is additional material, separate from the original exercises. Original-page homework is teacher-reviewed; automatic quiz results are not the publisher answer key.",
+      "questions": [],
+      "assessment_id": null,
+      "assignment": null
+    },
+    {
+      "id": "0f091cba-7f6f-522a-8483-10ac5b1c6095",
+      "module_id": "af2ad401-ad45-53b5-bfa7-883cc855b778",
+      "title": "7a · What a day!",
+      "position": 1,
+      "week": 14,
+      "minutes": 60,
+      "kind": "study",
+      "pages": [
+        92,
+        93
+      ],
+      "body": "Week 14 | 60 minutes | Original PDF pages 92, 93.\nRead every displayed original page and complete all its numbered tasks in order. The page images and lesson PDF preserve the supplied scan. Add your responses with the PDF page and exercise number. Discuss speaking and pairwork tasks with your teacher.\nListening: the publisher audio files were not supplied. Your teacher must provide authorized audio or mark that listening task pending; the app does not fabricate recordings or answer keys.\nSpolk practice below is additional material, separate from the original exercises. Original-page homework is teacher-reviewed; automatic quiz results are not the publisher answer key.",
+      "questions": [
+        {
+          "id": "39261677-1673-5de4-beb4-565cffd931a4",
+          "kind": "multiple_choice",
+          "prompt": "Yesterday I ___ my friends.",
+          "options": [
+            "visiting",
+            "visited",
+            "visit"
+          ],
+          "correct_answer": "visited",
+          "points": 1,
+          "position": 0
+        },
+        {
+          "id": "73e6e383-2122-5197-9b99-b8646a62c43b",
+          "kind": "multiple_choice",
+          "prompt": "Choose the past tense of go.",
+          "options": [
+            "went",
+            "goed",
+            "goes"
+          ],
+          "correct_answer": "went",
+          "points": 1,
+          "position": 1
+        },
+        {
+          "id": "9fed3db0-6d9d-576f-8a94-a10ed7ff9ac3",
+          "kind": "multiple_choice",
+          "prompt": "Last night we ___ a film.",
+          "options": [
+            "watch",
+            "watches",
+            "watched"
+          ],
+          "correct_answer": "watched",
+          "points": 1,
+          "position": 2
+        }
+      ],
+      "assessment_id": "0daa01ed-d2e1-5592-8fe5-0977a92ca13d",
+      "assignment": {
+        "id": "0b1b7d4c-f853-5f77-b8cb-c9d24837348b",
+        "title": "Original-page work: 7a · What a day!",
+        "instructions": "Complete ALL numbered exercises on original PDF pages 92, 93, in order. Label each response by PDF page and exercise number. For speaking/pairwork, add a short account of your teacher-led practice. Mark any listening task 'pending audio' until authorized audio is available. The teacher should grade reading/grammar/vocabulary and writing against the displayed pages and review speaking separately. Submit your work here. Do not invent answers to inaudible listening tasks."
+      }
+    },
+    {
+      "id": "8d04d29c-5b2f-5934-99b3-88d7f4e80b6c",
+      "module_id": "af2ad401-ad45-53b5-bfa7-883cc855b778",
+      "title": "7b · Unlucky days",
+      "position": 2,
+      "week": 14,
+      "minutes": 60,
+      "kind": "study",
+      "pages": [
+        94,
+        95
+      ],
+      "body": "Week 14 | 60 minutes | Original PDF pages 94, 95.\nRead every displayed original page and complete all its numbered tasks in order. The page images and lesson PDF preserve the supplied scan. Add your responses with the PDF page and exercise number. Discuss speaking and pairwork tasks with your teacher.\nListening: the publisher audio files were not supplied. Your teacher must provide authorized audio or mark that listening task pending; the app does not fabricate recordings or answer keys.\nSpolk practice below is additional material, separate from the original exercises. Original-page homework is teacher-reviewed; automatic quiz results are not the publisher answer key.",
+      "questions": [
+        {
+          "id": "06341f82-d219-550d-a883-82eda15da90e",
+          "kind": "multiple_choice",
+          "prompt": "I ___ go to work yesterday.",
+          "options": [
+            "doesn't",
+            "didn't",
+            "don't"
+          ],
+          "correct_answer": "didn't",
+          "points": 1,
+          "position": 0
+        },
+        {
+          "id": "8b90b9e0-7988-5895-9363-2385c12bc4bb",
+          "kind": "multiple_choice",
+          "prompt": "___ you see Alex last week?",
+          "options": [
+            "Did",
+            "Do",
+            "Does"
+          ],
+          "correct_answer": "Did",
+          "points": 1,
+          "position": 1
+        },
+        {
+          "id": "2ece811c-dae1-58ee-bbba-dd38fa3893ff",
+          "kind": "multiple_choice",
+          "prompt": "After did, choose the correct verb: Did she ___?",
+          "options": [
+            "fell",
+            "falls",
+            "fall"
+          ],
+          "correct_answer": "fall",
+          "points": 1,
+          "position": 2
+        }
+      ],
+      "assessment_id": "01b294a2-f2a0-5ae4-bc6e-6d8ddf764a9e",
+      "assignment": {
+        "id": "445fddf9-2f0d-50a2-ac79-de650dd967b5",
+        "title": "Original-page work: 7b · Unlucky days",
+        "instructions": "Complete ALL numbered exercises on original PDF pages 94, 95, in order. Label each response by PDF page and exercise number. For speaking/pairwork, add a short account of your teacher-led practice. Mark any listening task 'pending audio' until authorized audio is available. The teacher should grade reading/grammar/vocabulary and writing against the displayed pages and review speaking separately. Submit your work here. Do not invent answers to inaudible listening tasks."
+      }
+    },
+    {
+      "id": "d1d07311-1c6d-5c69-8f24-4e903bbf1617",
+      "module_id": "af2ad401-ad45-53b5-bfa7-883cc855b778",
+      "title": "7c · How was it?",
+      "position": 3,
+      "week": 14,
+      "minutes": 60,
+      "kind": "study",
+      "pages": [
+        96,
+        97
+      ],
+      "body": "Week 14 | 60 minutes | Original PDF pages 96, 97.\nRead every displayed original page and complete all its numbered tasks in order. The page images and lesson PDF preserve the supplied scan. Add your responses with the PDF page and exercise number. Discuss speaking and pairwork tasks with your teacher.\nListening: the publisher audio files were not supplied. Your teacher must provide authorized audio or mark that listening task pending; the app does not fabricate recordings or answer keys.\nSpolk practice below is additional material, separate from the original exercises. Original-page homework is teacher-reviewed; automatic quiz results are not the publisher answer key.",
+      "questions": [
+        {
+          "id": "cfae7892-beef-5b66-967c-38f640554d0c",
+          "kind": "multiple_choice",
+          "prompt": "The party ___ great.",
+          "options": [
+            "are",
+            "was",
+            "were"
+          ],
+          "correct_answer": "was",
+          "points": 1,
+          "position": 0
+        },
+        {
+          "id": "452afb71-c552-5dda-9c1c-2e9358cbd898",
+          "kind": "multiple_choice",
+          "prompt": "Where ___ you yesterday?",
+          "options": [
+            "were",
+            "was",
+            "is"
+          ],
+          "correct_answer": "were",
+          "points": 1,
+          "position": 1
+        },
+        {
+          "id": "0d3a98ee-0937-51ee-ae62-a91b164c4635",
+          "kind": "multiple_choice",
+          "prompt": "Was it boring? No, it ___.",
+          "options": [
+            "weren't",
+            "didn't",
+            "wasn't"
+          ],
+          "correct_answer": "wasn't",
+          "points": 1,
+          "position": 2
+        }
+      ],
+      "assessment_id": "0cdaabc4-f39f-5562-a714-21582d146f4e",
+      "assignment": {
+        "id": "94a0d95e-9e1e-5fd7-a7a7-991350e1c862",
+        "title": "Original-page work: 7c · How was it?",
+        "instructions": "Complete ALL numbered exercises on original PDF pages 96, 97, in order. Label each response by PDF page and exercise number. For speaking/pairwork, add a short account of your teacher-led practice. Mark any listening task 'pending audio' until authorized audio is available. The teacher should grade reading/grammar/vocabulary and writing against the displayed pages and review speaking separately. Submit your work here. Do not invent answers to inaudible listening tasks."
+      }
+    },
+    {
+      "id": "5defa597-aceb-58e2-8188-077833bda361",
+      "module_id": "af2ad401-ad45-53b5-bfa7-883cc855b778",
+      "title": "7d · Sports and routines",
+      "position": 4,
+      "week": 15,
+      "minutes": 60,
+      "kind": "study",
+      "pages": [
+        98,
+        99
+      ],
+      "body": "Week 15 | 60 minutes | Original PDF pages 98, 99.\nRead every displayed original page and complete all its numbered tasks in order. The page images and lesson PDF preserve the supplied scan. Add your responses with the PDF page and exercise number. Discuss speaking and pairwork tasks with your teacher.\nListening: the publisher audio files were not supplied. Your teacher must provide authorized audio or mark that listening task pending; the app does not fabricate recordings or answer keys.\nSpolk practice below is additional material, separate from the original exercises. Original-page homework is teacher-reviewed; automatic quiz results are not the publisher answer key.",
+      "questions": [
+        {
+          "id": "33587202-e43c-5b7a-81e9-966a519e86c5",
+          "kind": "multiple_choice",
+          "prompt": "I usually play tennis, but yesterday I ___ football.",
+          "options": [
+            "played",
+            "play",
+            "playing"
+          ],
+          "correct_answer": "played",
+          "points": 1,
+          "position": 0
+        },
+        {
+          "id": "d57d83e0-475a-5c8b-9a9c-8e10a0391035",
+          "kind": "multiple_choice",
+          "prompt": "Which sport uses a pool?",
+          "options": [
+            "golf",
+            "volleyball",
+            "swimming"
+          ],
+          "correct_answer": "swimming",
+          "points": 1,
+          "position": 1
+        },
+        {
+          "id": "4e9a5e02-2845-58f3-be19-8407bc0bafac",
+          "kind": "multiple_choice",
+          "prompt": "Choose a present habit.",
+          "options": [
+            "I visited Rome last year.",
+            "I play tennis every Friday.",
+            "I played tennis yesterday."
+          ],
+          "correct_answer": "I play tennis every Friday.",
+          "points": 1,
+          "position": 2
+        }
+      ],
+      "assessment_id": "4b26b038-e5b2-52ff-ba27-57348133a3d2",
+      "assignment": {
+        "id": "d79f5a17-c07e-52cb-bf24-56a054f8576d",
+        "title": "Original-page work: 7d · Sports and routines",
+        "instructions": "Complete ALL numbered exercises on original PDF pages 98, 99, in order. Label each response by PDF page and exercise number. For speaking/pairwork, add a short account of your teacher-led practice. Mark any listening task 'pending audio' until authorized audio is available. The teacher should grade reading/grammar/vocabulary and writing against the displayed pages and review speaking separately. Submit your work here. Do not invent answers to inaudible listening tasks."
+      }
+    },
+    {
+      "id": "3b4690c5-af77-5b2d-98bd-e9c93bce8022",
+      "module_id": "af2ad401-ad45-53b5-bfa7-883cc855b778",
+      "title": "7e · My life story",
+      "position": 5,
+      "week": 15,
+      "minutes": 60,
+      "kind": "study",
+      "pages": [
+        100,
+        101
+      ],
+      "body": "Week 15 | 60 minutes | Original PDF pages 100, 101.\nRead every displayed original page and complete all its numbered tasks in order. The page images and lesson PDF preserve the supplied scan. Add your responses with the PDF page and exercise number. Discuss speaking and pairwork tasks with your teacher.\nListening: the publisher audio files were not supplied. Your teacher must provide authorized audio or mark that listening task pending; the app does not fabricate recordings or answer keys.\nSpolk practice below is additional material, separate from the original exercises. Original-page homework is teacher-reviewed; automatic quiz results are not the publisher answer key.",
+      "questions": [
+        {
+          "id": "ade7c711-7993-54e4-a38d-20727a732af8",
+          "kind": "multiple_choice",
+          "prompt": "She was born ___ 1998.",
+          "options": [
+            "in",
+            "on",
+            "at"
+          ],
+          "correct_answer": "in",
+          "points": 1,
+          "position": 0
+        },
+        {
+          "id": "df02b5aa-65ff-5ccf-a445-ea0d40262f36",
+          "kind": "multiple_choice",
+          "prompt": "I stayed home ___ I was tired.",
+          "options": [
+            "but",
+            "or",
+            "because"
+          ],
+          "correct_answer": "because",
+          "points": 1,
+          "position": 1
+        },
+        {
+          "id": "2eaf9f57-5357-5dd5-9ca8-39e9157fd55c",
+          "kind": "multiple_choice",
+          "prompt": "Choose a completed life event.",
+          "options": [
+            "He studies every day.",
+            "He got a degree in 2020.",
+            "He is going to study tomorrow."
+          ],
+          "correct_answer": "He got a degree in 2020.",
+          "points": 1,
+          "position": 2
+        }
+      ],
+      "assessment_id": "2c61e626-dfd6-57d4-81c2-698823f3a140",
+      "assignment": {
+        "id": "54846c35-9fc0-5312-9e32-0812c8b099fe",
+        "title": "Original-page work: 7e · My life story",
+        "instructions": "Complete ALL numbered exercises on original PDF pages 100, 101, in order. Label each response by PDF page and exercise number. For speaking/pairwork, add a short account of your teacher-led practice. Mark any listening task 'pending audio' until authorized audio is available. The teacher should grade reading/grammar/vocabulary and writing against the displayed pages and review speaking separately. Submit your work here. Do not invent answers to inaudible listening tasks."
+      }
+    },
+    {
+      "id": "9c091da1-2da6-5c3c-b1c2-e6fbd7957967",
+      "module_id": "af2ad401-ad45-53b5-bfa7-883cc855b778",
+      "title": "Looking back: Round-up",
+      "position": 6,
+      "week": 15,
+      "minutes": 75,
+      "kind": "review",
+      "pages": [
+        102,
+        103
+      ],
+      "body": "Week 15 | 75 minutes | Original PDF pages 102, 103.\nRead every displayed original page and complete all its numbered tasks in order. The page images and lesson PDF preserve the supplied scan. Add your responses with the PDF page and exercise number. Discuss speaking and pairwork tasks with your teacher.\nListening: the publisher audio files were not supplied. Your teacher must provide authorized audio or mark that listening task pending; the app does not fabricate recordings or answer keys.\nSpolk practice below is additional material, separate from the original exercises. Original-page homework is teacher-reviewed; automatic quiz results are not the publisher answer key.",
+      "questions": [
+        {
+          "id": "407bd021-6fd7-5dc9-bd0c-16ebffe3e9cd",
+          "kind": "multiple_choice",
+          "prompt": "Yesterday I ___ my friends.",
+          "options": [
+            "visited",
+            "visit",
+            "visiting"
+          ],
+          "correct_answer": "visited",
+          "points": 1,
+          "position": 0
+        },
+        {
+          "id": "6d705915-8262-5559-a720-b784bb5770e7",
+          "kind": "multiple_choice",
+          "prompt": "___ you see Alex last week?",
+          "options": [
+            "Do",
+            "Does",
+            "Did"
+          ],
+          "correct_answer": "Did",
+          "points": 1,
+          "position": 1
+        },
+        {
+          "id": "a1c392ec-de95-52ca-89ae-efcc0f658498",
+          "kind": "multiple_choice",
+          "prompt": "Was it boring? No, it ___.",
+          "options": [
+            "didn't",
+            "wasn't",
+            "weren't"
+          ],
+          "correct_answer": "wasn't",
+          "points": 1,
+          "position": 2
+        },
+        {
+          "id": "caf48df6-7574-54a1-950d-865d843b1948",
+          "kind": "multiple_choice",
+          "prompt": "Choose a present habit.",
+          "options": [
+            "I play tennis every Friday.",
+            "I played tennis yesterday.",
+            "I visited Rome last year."
+          ],
+          "correct_answer": "I play tennis every Friday.",
+          "points": 1,
+          "position": 3
+        },
+        {
+          "id": "22315a1f-faa8-5ffb-af7a-544d971ab579",
+          "kind": "multiple_choice",
+          "prompt": "Choose a completed life event.",
+          "options": [
+            "He is going to study tomorrow.",
+            "He studies every day.",
+            "He got a degree in 2020."
+          ],
+          "correct_answer": "He got a degree in 2020.",
+          "points": 1,
+          "position": 4
+        }
+      ],
+      "assessment_id": "6e5cf301-5e8a-5a02-bc7e-89b09de46d77",
+      "assignment": {
+        "id": "fd7636ec-8be0-5965-9049-f7cf3865facd",
+        "title": "Original-page work: Looking back: Round-up",
+        "instructions": "Complete ALL numbered exercises on original PDF pages 102, 103, in order. Label each response by PDF page and exercise number. For speaking/pairwork, add a short account of your teacher-led practice. Mark any listening task 'pending audio' until authorized audio is available. The teacher should grade reading/grammar/vocabulary and writing against the displayed pages and review speaking separately. Submit your work here. Do not invent answers to inaudible listening tasks."
+      }
+    },
+    {
+      "id": "3c08c5f7-53a9-5177-a517-0c7318e1a7b9",
+      "module_id": "af2ad401-ad45-53b5-bfa7-883cc855b778",
+      "title": "The race to the South Pole",
+      "position": 7,
+      "week": 15,
+      "minutes": 45,
+      "kind": "culture",
+      "pages": [
+        104
+      ],
+      "body": "Week 15 | 45 minutes | Original PDF pages 104.\nRead every displayed original page and complete all its numbered tasks in order. The page images and lesson PDF preserve the supplied scan. Add your responses with the PDF page and exercise number. Discuss speaking and pairwork tasks with your teacher.\nRead the original culture/cross-curricular page and complete its comprehension tasks. Historical claims are reproduced as printed, not asserted to be current.\nListening: the publisher audio files were not supplied. Your teacher must provide authorized audio or mark that listening task pending; the app does not fabricate recordings or answer keys.\nSpolk practice below is additional material, separate from the original exercises. Original-page homework is teacher-reviewed; automatic quiz results are not the publisher answer key.",
+      "questions": [],
+      "assessment_id": null,
+      "assignment": {
+        "id": "5ff01577-3349-59a8-934e-d212118382ec",
+        "title": "Original-page work: The race to the South Pole",
+        "instructions": "Complete ALL numbered exercises on original PDF pages 104, in order. Label each response by PDF page and exercise number. For speaking/pairwork, add a short account of your teacher-led practice. Mark any listening task 'pending audio' until authorized audio is available. The teacher should grade reading/grammar/vocabulary and writing against the displayed pages and review speaking separately. Submit your work here. Do not invent answers to inaudible listening tasks."
+      }
+    },
+    {
+      "id": "5fa317ba-8fb5-522f-a488-bd8cc56c3816",
+      "module_id": "625f7fe5-bff0-57a7-81ca-7c688fc0ae81",
+      "title": "On holiday: module introduction",
+      "position": 0,
+      "week": 16,
+      "minutes": 20,
+      "kind": "opener",
+      "pages": [
+        105
+      ],
+      "body": "Week 16 | 20 minutes | Original PDF pages 105.\nRead every displayed original page and complete all its numbered tasks in order. The page images and lesson PDF preserve the supplied scan. Add your responses with the PDF page and exercise number. Discuss speaking and pairwork tasks with your teacher.\nPreview the module objectives and pictures. Discuss the introductory questions and set a personal learning goal.\nListening: the publisher audio files were not supplied. Your teacher must provide authorized audio or mark that listening task pending; the app does not fabricate recordings or answer keys.\nSpolk practice below is additional material, separate from the original exercises. Original-page homework is teacher-reviewed; automatic quiz results are not the publisher answer key.",
+      "questions": [],
+      "assessment_id": null,
+      "assignment": null
+    },
+    {
+      "id": "e877de7c-1fdd-59fc-8c31-403ad0a02fb7",
+      "module_id": "625f7fe5-bff0-57a7-81ca-7c688fc0ae81",
+      "title": "8a · Holiday plans",
+      "position": 1,
+      "week": 16,
+      "minutes": 60,
+      "kind": "study",
+      "pages": [
+        106,
+        107
+      ],
+      "body": "Week 16 | 60 minutes | Original PDF pages 106, 107.\nRead every displayed original page and complete all its numbered tasks in order. The page images and lesson PDF preserve the supplied scan. Add your responses with the PDF page and exercise number. Discuss speaking and pairwork tasks with your teacher.\nListening: the publisher audio files were not supplied. Your teacher must provide authorized audio or mark that listening task pending; the app does not fabricate recordings or answer keys.\nSpolk practice below is additional material, separate from the original exercises. Original-page homework is teacher-reviewed; automatic quiz results are not the publisher answer key.",
+      "questions": [
+        {
+          "id": "12608538-3645-56c5-887f-1e07f0c6b1c2",
+          "kind": "multiple_choice",
+          "prompt": "I am going to ___ my friends.",
+          "options": [
+            "visiting",
+            "visited",
+            "visit"
+          ],
+          "correct_answer": "visit",
+          "points": 1,
+          "position": 0
+        },
+        {
+          "id": "119e5016-6eb8-5a1a-8952-73474a22738c",
+          "kind": "multiple_choice",
+          "prompt": "She ___ going to travel tomorrow.",
+          "options": [
+            "am",
+            "is",
+            "are"
+          ],
+          "correct_answer": "is",
+          "points": 1,
+          "position": 1
+        },
+        {
+          "id": "a7d91e14-c4a1-5fdc-a144-4fac5b1e9263",
+          "kind": "multiple_choice",
+          "prompt": "Which is a season?",
+          "options": [
+            "spring",
+            "Monday",
+            "January"
+          ],
+          "correct_answer": "spring",
+          "points": 1,
+          "position": 2
+        }
+      ],
+      "assessment_id": "9e0ff46c-71b1-59d3-ac2d-a0d6113ddc57",
+      "assignment": {
+        "id": "a43b5f33-20c3-589b-968d-41b09e19177e",
+        "title": "Original-page work: 8a · Holiday plans",
+        "instructions": "Complete ALL numbered exercises on original PDF pages 106, 107, in order. Label each response by PDF page and exercise number. For speaking/pairwork, add a short account of your teacher-led practice. Mark any listening task 'pending audio' until authorized audio is available. The teacher should grade reading/grammar/vocabulary and writing against the displayed pages and review speaking separately. Submit your work here. Do not invent answers to inaudible listening tasks."
+      }
+    },
+    {
+      "id": "d5da1f48-5861-5b53-a29c-e15389a3bb58",
+      "module_id": "625f7fe5-bff0-57a7-81ca-7c688fc0ae81",
+      "title": "8b · Getting ready",
+      "position": 2,
+      "week": 16,
+      "minutes": 60,
+      "kind": "study",
+      "pages": [
+        108,
+        109
+      ],
+      "body": "Week 16 | 60 minutes | Original PDF pages 108, 109.\nRead every displayed original page and complete all its numbered tasks in order. The page images and lesson PDF preserve the supplied scan. Add your responses with the PDF page and exercise number. Discuss speaking and pairwork tasks with your teacher.\nListening: the publisher audio files were not supplied. Your teacher must provide authorized audio or mark that listening task pending; the app does not fabricate recordings or answer keys.\nSpolk practice below is additional material, separate from the original exercises. Original-page homework is teacher-reviewed; automatic quiz results are not the publisher answer key.",
+      "questions": [
+        {
+          "id": "5b92c71e-f2ee-555a-af5b-2502b5e3f4fb",
+          "kind": "multiple_choice",
+          "prompt": "___ you going to pack tonight?",
+          "options": [
+            "Do",
+            "Did",
+            "Are"
+          ],
+          "correct_answer": "Are",
+          "points": 1,
+          "position": 0
+        },
+        {
+          "id": "51bb7ff5-a4fc-5ca1-94b3-e4e97f6fafea",
+          "kind": "multiple_choice",
+          "prompt": "What are you going to ___?",
+          "options": [
+            "took",
+            "take",
+            "taking"
+          ],
+          "correct_answer": "take",
+          "points": 1,
+          "position": 1
+        },
+        {
+          "id": "4f4543fe-38a2-57fe-a2cc-96c2b95b34d4",
+          "kind": "multiple_choice",
+          "prompt": "Choose a travel preparation.",
+          "options": [
+            "book a flight",
+            "wash a cloud",
+            "turn a month"
+          ],
+          "correct_answer": "book a flight",
+          "points": 1,
+          "position": 2
+        }
+      ],
+      "assessment_id": "9d303bbf-1c9d-5d73-ac6b-52df57830301",
+      "assignment": {
+        "id": "b866222c-dcd4-51f1-a1ed-218e1300e43d",
+        "title": "Original-page work: 8b · Getting ready",
+        "instructions": "Complete ALL numbered exercises on original PDF pages 108, 109, in order. Label each response by PDF page and exercise number. For speaking/pairwork, add a short account of your teacher-led practice. Mark any listening task 'pending audio' until authorized audio is available. The teacher should grade reading/grammar/vocabulary and writing against the displayed pages and review speaking separately. Submit your work here. Do not invent answers to inaudible listening tasks."
+      }
+    },
+    {
+      "id": "36e93467-8368-5a5e-82d0-15defd954c1d",
+      "module_id": "625f7fe5-bff0-57a7-81ca-7c688fc0ae81",
+      "title": "8c · Holiday activities",
+      "position": 3,
+      "week": 16,
+      "minutes": 60,
+      "kind": "study",
+      "pages": [
+        110,
+        111
+      ],
+      "body": "Week 16 | 60 minutes | Original PDF pages 110, 111.\nRead every displayed original page and complete all its numbered tasks in order. The page images and lesson PDF preserve the supplied scan. Add your responses with the PDF page and exercise number. Discuss speaking and pairwork tasks with your teacher.\nListening: the publisher audio files were not supplied. Your teacher must provide authorized audio or mark that listening task pending; the app does not fabricate recordings or answer keys.\nSpolk practice below is additional material, separate from the original exercises. Original-page homework is teacher-reviewed; automatic quiz results are not the publisher answer key.",
+      "questions": [
+        {
+          "id": "90cf739b-4da6-5b4e-8333-81538783cdd1",
+          "kind": "multiple_choice",
+          "prompt": "I would like to ___ camping.",
+          "options": [
+            "going",
+            "went",
+            "go"
+          ],
+          "correct_answer": "go",
+          "points": 1,
+          "position": 0
+        },
+        {
+          "id": "862ceccf-7600-53c8-b6a0-ae85c98330bf",
+          "kind": "multiple_choice",
+          "prompt": "Choose a polite acceptance.",
+          "options": [
+            "Yes, I did yesterday.",
+            "Yes, I'd love to.",
+            "No, I isn't."
+          ],
+          "correct_answer": "Yes, I'd love to.",
+          "points": 1,
+          "position": 1
+        },
+        {
+          "id": "f7c4cadd-847c-56b8-9828-4caee49c1e11",
+          "kind": "multiple_choice",
+          "prompt": "She wants to ___ water sports.",
+          "options": [
+            "do",
+            "doing",
+            "did"
+          ],
+          "correct_answer": "do",
+          "points": 1,
+          "position": 2
+        }
+      ],
+      "assessment_id": "c6e2e84e-9439-57a4-b070-7f38545687ce",
+      "assignment": {
+        "id": "8f07bc4f-3c88-540d-a38b-4089f45d11b9",
+        "title": "Original-page work: 8c · Holiday activities",
+        "instructions": "Complete ALL numbered exercises on original PDF pages 110, 111, in order. Label each response by PDF page and exercise number. For speaking/pairwork, add a short account of your teacher-led practice. Mark any listening task 'pending audio' until authorized audio is available. The teacher should grade reading/grammar/vocabulary and writing against the displayed pages and review speaking separately. Submit your work here. Do not invent answers to inaudible listening tasks."
+      }
+    },
+    {
+      "id": "f7a91852-bc92-5905-800a-c9b1730beb33",
+      "module_id": "625f7fe5-bff0-57a7-81ca-7c688fc0ae81",
+      "title": "8d · Health and advice",
+      "position": 4,
+      "week": 17,
+      "minutes": 60,
+      "kind": "study",
+      "pages": [
+        112,
+        113
+      ],
+      "body": "Week 17 | 60 minutes | Original PDF pages 112, 113.\nRead every displayed original page and complete all its numbered tasks in order. The page images and lesson PDF preserve the supplied scan. Add your responses with the PDF page and exercise number. Discuss speaking and pairwork tasks with your teacher.\nListening: the publisher audio files were not supplied. Your teacher must provide authorized audio or mark that listening task pending; the app does not fabricate recordings or answer keys.\nSpolk practice below is additional material, separate from the original exercises. Original-page homework is teacher-reviewed; automatic quiz results are not the publisher answer key.",
+      "questions": [
+        {
+          "id": "b4e5489e-d286-5d3c-b9b6-f69bad3900f5",
+          "kind": "multiple_choice",
+          "prompt": "You should ___ a dentist.",
+          "options": [
+            "visited",
+            "visit",
+            "visiting"
+          ],
+          "correct_answer": "visit",
+          "points": 1,
+          "position": 0
+        },
+        {
+          "id": "30973b5d-1e09-55a1-a5e7-2df97f61e4fb",
+          "kind": "multiple_choice",
+          "prompt": "You ___ eat lots of sweets with toothache.",
+          "options": [
+            "shouldn't",
+            "should",
+            "are"
+          ],
+          "correct_answer": "shouldn't",
+          "points": 1,
+          "position": 1
+        },
+        {
+          "id": "ae72c116-7d1f-51a4-8532-8027d8dcfca7",
+          "kind": "multiple_choice",
+          "prompt": "Choose a health problem.",
+          "options": [
+            "a postcard",
+            "a forest",
+            "a headache"
+          ],
+          "correct_answer": "a headache",
+          "points": 1,
+          "position": 2
+        }
+      ],
+      "assessment_id": "85867b0e-0900-5ed2-a29d-69f79715ba3c",
+      "assignment": {
+        "id": "54190598-a9fe-597b-bfe6-99b239a6137a",
+        "title": "Original-page work: 8d · Health and advice",
+        "instructions": "Complete ALL numbered exercises on original PDF pages 112, 113, in order. Label each response by PDF page and exercise number. For speaking/pairwork, add a short account of your teacher-led practice. Mark any listening task 'pending audio' until authorized audio is available. The teacher should grade reading/grammar/vocabulary and writing against the displayed pages and review speaking separately. Submit your work here. Do not invent answers to inaudible listening tasks."
+      }
+    },
+    {
+      "id": "53838c35-1da0-5282-9c6e-ef77454aa65f",
+      "module_id": "625f7fe5-bff0-57a7-81ca-7c688fc0ae81",
+      "title": "8e · What a holiday!",
+      "position": 5,
+      "week": 17,
+      "minutes": 60,
+      "kind": "study",
+      "pages": [
+        114,
+        115
+      ],
+      "body": "Week 17 | 60 minutes | Original PDF pages 114, 115.\nRead every displayed original page and complete all its numbered tasks in order. The page images and lesson PDF preserve the supplied scan. Add your responses with the PDF page and exercise number. Discuss speaking and pairwork tasks with your teacher.\nListening: the publisher audio files were not supplied. Your teacher must provide authorized audio or mark that listening task pending; the app does not fabricate recordings or answer keys.\nSpolk practice below is additional material, separate from the original exercises. Original-page homework is teacher-reviewed; automatic quiz results are not the publisher answer key.",
+      "questions": [
+        {
+          "id": "dbc4c136-3f53-51e5-8f1a-ca857ea82127",
+          "kind": "multiple_choice",
+          "prompt": "A postcard usually describes ___.",
+          "options": [
+            "only a phone number",
+            "a place and your holiday",
+            "only a password"
+          ],
+          "correct_answer": "a place and your holiday",
+          "points": 1,
+          "position": 0
+        },
+        {
+          "id": "b52a17fc-9314-51d6-baa1-791fd391c700",
+          "kind": "multiple_choice",
+          "prompt": "We ___ the museum yesterday.",
+          "options": [
+            "visited",
+            "visit",
+            "visiting"
+          ],
+          "correct_answer": "visited",
+          "points": 1,
+          "position": 1
+        },
+        {
+          "id": "25f7cef3-ae26-56ae-a53c-54bc41fefa0d",
+          "kind": "multiple_choice",
+          "prompt": "Tomorrow we are going to ___ a boat trip.",
+          "options": [
+            "took",
+            "taking",
+            "take"
+          ],
+          "correct_answer": "take",
+          "points": 1,
+          "position": 2
+        }
+      ],
+      "assessment_id": "0202a7bd-7e81-5e77-87d0-d9bb43609b7f",
+      "assignment": {
+        "id": "f41f3676-5b37-552a-bd0e-6534260889b8",
+        "title": "Original-page work: 8e · What a holiday!",
+        "instructions": "Complete ALL numbered exercises on original PDF pages 114, 115, in order. Label each response by PDF page and exercise number. For speaking/pairwork, add a short account of your teacher-led practice. Mark any listening task 'pending audio' until authorized audio is available. The teacher should grade reading/grammar/vocabulary and writing against the displayed pages and review speaking separately. Submit your work here. Do not invent answers to inaudible listening tasks."
+      }
+    },
+    {
+      "id": "2d709b4b-a815-5145-ab60-5643c9cc7b91",
+      "module_id": "625f7fe5-bff0-57a7-81ca-7c688fc0ae81",
+      "title": "On holiday: Round-up",
+      "position": 6,
+      "week": 17,
+      "minutes": 75,
+      "kind": "review",
+      "pages": [
+        116,
+        117
+      ],
+      "body": "Week 17 | 75 minutes | Original PDF pages 116, 117.\nRead every displayed original page and complete all its numbered tasks in order. The page images and lesson PDF preserve the supplied scan. Add your responses with the PDF page and exercise number. Discuss speaking and pairwork tasks with your teacher.\nListening: the publisher audio files were not supplied. Your teacher must provide authorized audio or mark that listening task pending; the app does not fabricate recordings or answer keys.\nSpolk practice below is additional material, separate from the original exercises. Original-page homework is teacher-reviewed; automatic quiz results are not the publisher answer key.",
+      "questions": [
+        {
+          "id": "9f14cc37-03f5-51d7-9ac6-c6de681db506",
+          "kind": "multiple_choice",
+          "prompt": "I am going to ___ my friends.",
+          "options": [
+            "visited",
+            "visit",
+            "visiting"
+          ],
+          "correct_answer": "visit",
+          "points": 1,
+          "position": 0
+        },
+        {
+          "id": "10ebac40-138c-5cc4-bd9c-9a2b2a98525d",
+          "kind": "multiple_choice",
+          "prompt": "What are you going to ___?",
+          "options": [
+            "take",
+            "taking",
+            "took"
+          ],
+          "correct_answer": "take",
+          "points": 1,
+          "position": 1
+        },
+        {
+          "id": "f1c4dc97-b1c7-5851-9a7a-6a7fb003fc89",
+          "kind": "multiple_choice",
+          "prompt": "She wants to ___ water sports.",
+          "options": [
+            "doing",
+            "did",
+            "do"
+          ],
+          "correct_answer": "do",
+          "points": 1,
+          "position": 2
+        },
+        {
+          "id": "b9486f59-954b-58f3-abb9-a22f3acf9507",
+          "kind": "multiple_choice",
+          "prompt": "Choose a health problem.",
+          "options": [
+            "a forest",
+            "a headache",
+            "a postcard"
+          ],
+          "correct_answer": "a headache",
+          "points": 1,
+          "position": 3
+        },
+        {
+          "id": "f8e334ea-49cd-54c2-a0ce-6e29893b58f6",
+          "kind": "multiple_choice",
+          "prompt": "Tomorrow we are going to ___ a boat trip.",
+          "options": [
+            "take",
+            "took",
+            "taking"
+          ],
+          "correct_answer": "take",
+          "points": 1,
+          "position": 4
+        }
+      ],
+      "assessment_id": "6ad2b679-911c-5d6c-be56-addb1727c2e3",
+      "assignment": {
+        "id": "bb10c9db-253e-5ee7-bebc-68436d822209",
+        "title": "Original-page work: On holiday: Round-up",
+        "instructions": "Complete ALL numbered exercises on original PDF pages 116, 117, in order. Label each response by PDF page and exercise number. For speaking/pairwork, add a short account of your teacher-led practice. Mark any listening task 'pending audio' until authorized audio is available. The teacher should grade reading/grammar/vocabulary and writing against the displayed pages and review speaking separately. Submit your work here. Do not invent answers to inaudible listening tasks."
+      }
+    },
+    {
+      "id": "509bff5f-5cf7-5e64-a8c4-913b86f901a7",
+      "module_id": "625f7fe5-bff0-57a7-81ca-7c688fc0ae81",
+      "title": "Travelling to New Zealand",
+      "position": 7,
+      "week": 17,
+      "minutes": 45,
+      "kind": "culture",
+      "pages": [
+        118
+      ],
+      "body": "Week 17 | 45 minutes | Original PDF pages 118.\nRead every displayed original page and complete all its numbered tasks in order. The page images and lesson PDF preserve the supplied scan. Add your responses with the PDF page and exercise number. Discuss speaking and pairwork tasks with your teacher.\nRead the original culture/cross-curricular page and complete its comprehension tasks. Historical claims are reproduced as printed, not asserted to be current.\nListening: the publisher audio files were not supplied. Your teacher must provide authorized audio or mark that listening task pending; the app does not fabricate recordings or answer keys.\nSpolk practice below is additional material, separate from the original exercises. Original-page homework is teacher-reviewed; automatic quiz results are not the publisher answer key.",
+      "questions": [],
+      "assessment_id": null,
+      "assignment": {
+        "id": "79466459-2538-5f8d-aee0-e8e7bfcdd367",
+        "title": "Original-page work: Travelling to New Zealand",
+        "instructions": "Complete ALL numbered exercises on original PDF pages 118, in order. Label each response by PDF page and exercise number. For speaking/pairwork, add a short account of your teacher-led practice. Mark any listening task 'pending audio' until authorized audio is available. The teacher should grade reading/grammar/vocabulary and writing against the displayed pages and review speaking separately. Submit your work here. Do not invent answers to inaudible listening tasks."
+      }
+    },
+    {
+      "id": "004b4e4f-26aa-5101-91de-e3ead66587ab",
+      "module_id": "01d02777-8d30-59d1-ae99-764caf5d652f",
+      "title": "Pairwork activities: source pages 119-120",
+      "position": 0,
+      "week": 18,
+      "minutes": 60,
+      "kind": "reference",
+      "pages": [
+        119,
+        120
+      ],
+      "body": "Week 18 | 60 minutes | Original PDF pages 119, 120.\nRead every displayed original page and complete all its numbered tasks in order. The page images and lesson PDF preserve the supplied scan. Add your responses with the PDF page and exercise number. Discuss speaking and pairwork tasks with your teacher.\nUse the original pairwork, song, or language-reference material as labelled on the page. Keep Student A and Student B roles separate where indicated.\nListening: the publisher audio files were not supplied. Your teacher must provide authorized audio or mark that listening task pending; the app does not fabricate recordings or answer keys.\nSpolk practice below is additional material, separate from the original exercises. Original-page homework is teacher-reviewed; automatic quiz results are not the publisher answer key.",
+      "questions": [],
+      "assessment_id": null,
+      "assignment": {
+        "id": "f443dda1-f9b4-541a-81f5-32e84bf38dc4",
+        "title": "Original-page work: Pairwork activities: source pages 119-120",
+        "instructions": "Complete ALL numbered exercises on original PDF pages 119, 120, in order. Label each response by PDF page and exercise number. For speaking/pairwork, add a short account of your teacher-led practice. Mark any listening task 'pending audio' until authorized audio is available. The teacher should grade reading/grammar/vocabulary and writing against the displayed pages and review speaking separately. Submit your work here. Do not invent answers to inaudible listening tasks."
+      }
+    },
+    {
+      "id": "6f961ee3-fde2-5cfa-b992-d0c60d4e0d5d",
+      "module_id": "01d02777-8d30-59d1-ae99-764caf5d652f",
+      "title": "Pairwork activities: source pages 121-122",
+      "position": 1,
+      "week": 18,
+      "minutes": 60,
+      "kind": "reference",
+      "pages": [
+        121,
+        122
+      ],
+      "body": "Week 18 | 60 minutes | Original PDF pages 121, 122.\nRead every displayed original page and complete all its numbered tasks in order. The page images and lesson PDF preserve the supplied scan. Add your responses with the PDF page and exercise number. Discuss speaking and pairwork tasks with your teacher.\nUse the original pairwork, song, or language-reference material as labelled on the page. Keep Student A and Student B roles separate where indicated.\nListening: the publisher audio files were not supplied. Your teacher must provide authorized audio or mark that listening task pending; the app does not fabricate recordings or answer keys.\nSpolk practice below is additional material, separate from the original exercises. Original-page homework is teacher-reviewed; automatic quiz results are not the publisher answer key.",
+      "questions": [],
+      "assessment_id": null,
+      "assignment": {
+        "id": "324f1d52-9820-5b43-8f8a-a1bb97b8f8df",
+        "title": "Original-page work: Pairwork activities: source pages 121-122",
+        "instructions": "Complete ALL numbered exercises on original PDF pages 121, 122, in order. Label each response by PDF page and exercise number. For speaking/pairwork, add a short account of your teacher-led practice. Mark any listening task 'pending audio' until authorized audio is available. The teacher should grade reading/grammar/vocabulary and writing against the displayed pages and review speaking separately. Submit your work here. Do not invent answers to inaudible listening tasks."
+      }
+    },
+    {
+      "id": "69246080-4f0b-5d9e-885e-c16b4ced03a8",
+      "module_id": "01d02777-8d30-59d1-ae99-764caf5d652f",
+      "title": "Pairwork and song page: source pages 123-124",
+      "position": 2,
+      "week": 18,
+      "minutes": 60,
+      "kind": "reference",
+      "pages": [
+        123,
+        124
+      ],
+      "body": "Week 18 | 60 minutes | Original PDF pages 123, 124.\nRead every displayed original page and complete all its numbered tasks in order. The page images and lesson PDF preserve the supplied scan. Add your responses with the PDF page and exercise number. Discuss speaking and pairwork tasks with your teacher.\nUse the original pairwork, song, or language-reference material as labelled on the page. Keep Student A and Student B roles separate where indicated.\nListening: the publisher audio files were not supplied. Your teacher must provide authorized audio or mark that listening task pending; the app does not fabricate recordings or answer keys.\nSpolk practice below is additional material, separate from the original exercises. Original-page homework is teacher-reviewed; automatic quiz results are not the publisher answer key.",
+      "questions": [],
+      "assessment_id": null,
+      "assignment": {
+        "id": "4a83347d-bb90-567a-b41d-48c025864237",
+        "title": "Original-page work: Pairwork and song page: source pages 123-124",
+        "instructions": "Complete ALL numbered exercises on original PDF pages 123, 124, in order. Label each response by PDF page and exercise number. For speaking/pairwork, add a short account of your teacher-led practice. Mark any listening task 'pending audio' until authorized audio is available. The teacher should grade reading/grammar/vocabulary and writing against the displayed pages and review speaking separately. Submit your work here. Do not invent answers to inaudible listening tasks."
+      }
+    },
+    {
+      "id": "7bfc7266-3ccc-5a8b-9cb4-a20d40215150",
+      "module_id": "01d02777-8d30-59d1-ae99-764caf5d652f",
+      "title": "British and American English: supplied duplicate pages",
+      "position": 3,
+      "week": 18,
+      "minutes": 30,
+      "kind": "reference",
+      "pages": [
+        125,
+        126
+      ],
+      "body": "Week 18 | 30 minutes | Original PDF pages 125, 126.\nRead every displayed original page and complete all its numbered tasks in order. The page images and lesson PDF preserve the supplied scan. Add your responses with the PDF page and exercise number. Discuss speaking and pairwork tasks with your teacher.\nUse the original pairwork, song, or language-reference material as labelled on the page. Keep Student A and Student B roles separate where indicated.\nListening: the publisher audio files were not supplied. Your teacher must provide authorized audio or mark that listening task pending; the app does not fabricate recordings or answer keys.\nSpolk practice below is additional material, separate from the original exercises. Original-page homework is teacher-reviewed; automatic quiz results are not the publisher answer key.",
+      "questions": [],
+      "assessment_id": null,
+      "assignment": {
+        "id": "7d8231b0-fa78-56a3-8d48-fb1f56807bac",
+        "title": "Original-page work: British and American English: supplied duplicate pages",
+        "instructions": "Complete ALL numbered exercises on original PDF pages 125, 126, in order. Label each response by PDF page and exercise number. For speaking/pairwork, add a short account of your teacher-led practice. Mark any listening task 'pending audio' until authorized audio is available. The teacher should grade reading/grammar/vocabulary and writing against the displayed pages and review speaking separately. Submit your work here. Do not invent answers to inaudible listening tasks."
+      }
+    }
+  ]
+}

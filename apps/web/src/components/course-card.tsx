@@ -1,0 +1,4 @@
+import Link from "next/link";
+import { ArrowUpRight, Clock3, Radio } from "lucide-react";
+import type { Course } from "@/lib/catalogue";
+export function CourseCard({course:c}:{course:Course}){return <Link href={`/courses/${c.id}`} className={`course-card course-${c.id}`}><div className={`course-art ${c.color}`}><span className="course-school">{c.school}</span><span className="course-level">{c.level}</span><div className={`art-symbol ${c.id}`}>{c.school==="Business English"?"↗":c.school==="Conversational English"?"“":c.school==="Kids English"?"✳":"Aa"}</div><span className="art-caption">YOUR NEXT CHAPTER</span></div><div className="course-content"><h3>{c.title}</h3><p>{c.description}</p><div className="course-meta"><span><Clock3 size={14}/>{c.duration} weeks</span><span><Radio size={14}/>{c.format}</span><ArrowUpRight size={20}/></div></div></Link>}

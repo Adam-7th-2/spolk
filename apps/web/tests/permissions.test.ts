@@ -1,0 +1,21 @@
+import {describe,it,expect} from "vitest";
+import {canOpenLesson,canViewStudent,canJoinSession,canRecord,allowedUpload,type Actor} from "../src/lib/permissions";
+const student:Actor={id:"student-one",roles:["student"]};const teacher:Actor={id:"teacher-one",roles:["teacher"]};
+const now=new Date("2026-10-18T09:00:00Z");
+describe("resource permissions",()=>{
+it("denies anonymous lesson access",()=>expect(canOpenLesson(null,{enrolled:true,instructor:false,releasedAt:"2020-01-01",prerequisitesComplete:true},now)).toBe(false));
+it("denies another student’s records",()=>expect(canViewStudent(student,"student-two",false,false)).toBe(false));
+it("denies teachers unassigned students",()=>expect(canViewStudent(teacher,"student-two",false,false)).toBe(false));
+it("denies direct access to unreleased lessons",()=>expect(canOpenLesson(student,{enrolled:true,instructor:false,releasedAt:"2027-01-01",prerequisitesComplete:true},now)).toBe(false));
+it("enforces lesson prerequisites",()=>expect(canOpenLesson(student,{enrolled:true,instructor:false,releasedAt:"2020-01-01",prerequisitesComplete:false},now)).toBe(false));
+it("permits released enrolled lessons",()=>expect(canOpenLesson(student,{enrolled:true,instructor:false,releasedAt:"2020-01-01",prerequisitesComplete:true},now)).toBe(true));
+it("denies unauthorized classroom access",()=>expect(canJoinSession(false,true,"2026-10-19",now)).toBe(false));
+it("denies expired invitations",()=>expect(canJoinSession(true,true,"2026-10-17",now)).toBe(false));
+it("denies recording without consent",()=>expect(canRecord(teacher,true,false)).toBe(false));
+it("denies student recording",()=>expect(canRecord(student,true,true)).toBe(false));
+it("allows a linked guardian",()=>expect(canViewStudent({id:"guardian",roles:["guardian"]},"child",false,true)).toBe(true));
+it("denies an unlinked guardian",()=>expect(canViewStudent({id:"guardian",roles:["guardian"]},"child",false,false)).toBe(false));
+it("rejects executable uploads",()=>expect(allowedUpload("lesson.exe","application/pdf",100)).toBe(false));
+it("rejects oversized uploads",()=>expect(allowedUpload("lesson.pdf","application/pdf",11*1024*1024)).toBe(false));
+it("accepts bounded text documents",()=>expect(allowedUpload("lesson.txt","text/plain",100)).toBe(true));
+});
