@@ -33,7 +33,7 @@ This application needs a Node.js server. GitHub Pages cannot execute its authent
 
 Configure the host to install with `npm ci`, build with `npm run build`, and start with `npm run start`. Provide the variables from `apps/web/.env.example` through the host's environment settings. Set `NEXT_PUBLIC_SITE_URL` to the public HTTPS URL and configure the matching Supabase authentication redirects. `NEXT_PUBLIC_*` values must be available during the build. Apply the database migrations before exposing the hosted application, and use real hosted accounts; the offline database is not deployed or merged automatically.
 
-The original course files are included in this private repository. The file adapter requires persistent private storage for `apps/web/private/`. The included Docker deployment seeds course assets into a persistent volume while preserving uploads. See [hosting instructions](docs/HOSTING.md). A host with an ephemeral filesystem needs persistent storage or a private object-storage adapter; serverless hosting alone does not preserve uploads.
+The original course files are included in this private repository and Docker image. The default `render.yaml` uses a free web service and private Supabase Storage for student uploads, exam answers, and admin library additions, so those files survive ephemeral-server restarts. See [free hosting instructions](docs/HOSTING.md). A separate Docker Compose setup supports a persistent private volume on a managed server.
 
 Notification email delivery requires a configured provider and a scheduled worker. See [student workspace and email setup](docs/STUDENT_WORKSPACE.md). Local Ollama and any live-class providers need separate production services and configuration.
 

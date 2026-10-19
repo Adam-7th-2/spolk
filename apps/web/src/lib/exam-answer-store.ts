@@ -5,6 +5,8 @@ import {randomUUID,createHash} from "node:crypto";
 import {spawn} from "node:child_process";
 import {travellerExam} from "./traveller-exams";
 import {type AnswerIndex,reviewAnswerSheet,retrieveExamReferences} from "./exam-grading";
+import {cloudUploads} from './private-upload-config';
+import {privateUploadStorage} from './private-upload-client';
 export async function answerIndex(examId:string):Promise<AnswerIndex>{if(!travellerExam(examId))throw new Error("Unknown test");return JSON.parse(await readFile(resolve(process.cwd(),"private/books/traveller/exams",`${examId}-answer-index.json`),"utf8"));}
 export function answerDirectory(accountId:string,examId:string){if(!/^[0-9a-f-]{36}$/i.test(accountId)||!travellerExam(examId))throw new Error("Invalid file owner");return resolve(process.cwd(),"private/answer-uploads",accountId,examId);}
 export type UploadRecord={id:string;accountId:string;examId:string;name:string;kind:string;createdAt:string;startedAt:string;manualReview:boolean;sha256:string};
@@ -22,11 +24,24 @@ export function validateAnswerFile(name:string,bytes:Buffer){
  if(ext==="pdf"&&!bytes.subarray(0,5).equals(Buffer.from("%PDF-"))||ext==="docx"&&!header.startsWith("504b0304")||ext==="doc"&&header!=="d0cf11e0a1b11ae1"||ext==="png"&&header!=="89504e470d0a1a0a"||["jpg","jpeg"].includes(ext)&&!header.startsWith("ffd8ff"))throw new Error("The file contents do not match its format.");return ext;
 }
 export async function storeAnswerFile(accountId:string,examId:string,startedAt:string,name:string,kind:string,bytes:Buffer,manualReview:boolean){
- const directory=answerDirectory(accountId,examId);await mkdir(directory,{recursive:true});const id=randomUUID();const record:UploadRecord={id,accountId,examId,name:name.replace(/[\r\n\\/]/g,"_").slice(0,150),kind,createdAt:new Date().toISOString(),startedAt,manualReview,sha256:createHash("sha256").update(bytes).digest("hex")};
- await writeFile(resolve(directory,`${id}.bin`),bytes,{flag:"wx"});await writeFile(resolve(directory,`${id}.json`),JSON.stringify(record),{flag:"wx"});return record;
+ const directory=answerDirectory(accountId,examId),id=randomUUID();const record:UploadRecord={id,accountId,examId,name:name.replace(/[\r\n\\/]/g,"_").slice(0,150),kind,createdAt:new Date().toISOString(),startedAt,manualReview,sha256:createHash("sha256").update(bytes).digest("hex")};
+ if(cloudUploads()){
+  const remote=privateUploadStorage(),key=`answers/${accountId}/${examId}/${id}`;await remote.put(key+'.bin',bytes);
+  try{await remote.put(key+'.json',Buffer.from(JSON.stringify(record)),'application/json');}catch(error){await remote.remove(key+'.bin').catch(()=>{});throw error;}
+ }else{await mkdir(directory,{recursive:true});await writeFile(resolve(directory,`${id}.bin`),bytes,{flag:'wx'});await writeFile(resolve(directory,`${id}.json`),JSON.stringify(record),{flag:'wx'});}
+ return record;
 }
-export async function uploadedAnswer(accountId:string,examId:string,id:string){if(!/^[0-9a-f-]{36}$/i.test(id))throw new Error("Invalid upload");const directory=answerDirectory(accountId,examId);const record:UploadRecord=JSON.parse(await readFile(resolve(directory,`${id}.json`),"utf8"));if(record.accountId!==accountId||record.examId!==examId)throw new Error("File owner mismatch");return {record,bytes:await readFile(resolve(directory,`${id}.bin`))};}
-export async function listAnswerUploads(accountId:string,examId:string){try{const dir=answerDirectory(accountId,examId);const names=(await readdir(dir)).filter(n=>/^[0-9a-f-]{36}\.json$/i.test(n));return (await Promise.all(names.map(async n=>JSON.parse(await readFile(resolve(dir,n),"utf8")) as UploadRecord))).filter(r=>r.accountId===accountId&&r.examId===examId).sort((a,b)=>b.createdAt.localeCompare(a.createdAt));}catch{return [];}}
+export async function uploadedAnswer(accountId:string,examId:string,id:string){
+ if(!/^[0-9a-f-]{36}$/i.test(id))throw new Error('Invalid upload');const directory=answerDirectory(accountId,examId),remote=cloudUploads()?privateUploadStorage():null,key=`answers/${accountId}/${examId}/${id}`;
+ const record:UploadRecord=JSON.parse((remote?await remote.read(key+'.json'):await readFile(resolve(directory,id+'.json'))).toString('utf8'));
+ if(record.accountId!==accountId||record.examId!==examId)throw new Error('File owner mismatch');return {record,bytes:remote?await remote.read(key+'.bin'):await readFile(resolve(directory,id+'.bin'))};
+}
+export async function listAnswerUploads(accountId:string,examId:string){
+ const dir=answerDirectory(accountId,examId),remote=cloudUploads()?privateUploadStorage():null,prefix=`answers/${accountId}/${examId}`;
+ const files=remote?await remote.names(prefix):await readdir(dir).catch(error=>{if(error.code==='ENOENT')return [];throw error;});
+ const names=files.filter(n=>/^[0-9a-f-]{36}\.json$/i.test(n));
+ return (await Promise.all(names.map(async n=>JSON.parse((remote?await remote.read(`${prefix}/${n}`):await readFile(resolve(dir,n))).toString('utf8')) as UploadRecord))).filter(r=>r.accountId===accountId&&r.examId===examId).sort((a,b)=>b.createdAt.localeCompare(a.createdAt));
+}
 export async function referenceReview(examId:string,text:string){
  const index=await answerIndex(examId);const report=reviewAnswerSheet(index,text);
  if(process.env.EXAM_AI_EXPLANATIONS!=="1")return {...report,generatedExplanations:false};

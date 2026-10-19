@@ -4,6 +4,9 @@ import {fileURLToPath} from 'node:url';
 import {prepareHostedAssets} from './hosted-assets.mjs';
 
 if(process.env.NODE_ENV!=='production'||process.env.SPOLK_DATA_MODE==='local')throw new Error('Hosted startup requires production mode and hosted accounts.');
+process.env.NEXT_PUBLIC_SITE_URL||=process.env.RENDER_EXTERNAL_URL;
+if(process.env.RENDER==='true'&&process.env.PRIVATE_UPLOAD_STORAGE!=='supabase')throw new Error('Free Render hosting requires durable private cloud uploads.');
+if(process.env.PRIVATE_UPLOAD_STORAGE==='supabase'&&!process.env.SUPABASE_SERVICE_ROLE_KEY)throw new Error('Configure SUPABASE_SERVICE_ROLE_KEY in the host settings; do not commit it.');
 for(const key of ['NEXT_PUBLIC_SITE_URL','NEXT_PUBLIC_SUPABASE_URL','NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY']){
  if(!process.env[key])throw new Error(`Configure ${key} in the host environment.`);
 }

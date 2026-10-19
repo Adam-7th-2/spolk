@@ -1,6 +1,6 @@
 import folders from "../content/traveller-library.json";
 export {folders};
-export const MAX_LIBRARY_FILE=100*1024*1024;
+export const MAX_LIBRARY_FILE=50*1024*1024;
 export function libraryFolder(slug:string){return folders.find(f=>f.slug===slug);}
 export function canManageLibrary(roles:readonly string[]){return roles.includes("admin")||roles.includes("super_admin");}
 export function libraryExtension(name:string){const match=/\.(pdf|mp3|wav|m4a|ogg|flac|zip|rar|7z)$/i.exec(name);return match?.[1].toLowerCase()||null;}

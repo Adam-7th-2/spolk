@@ -8,11 +8,13 @@ COPY . .
 ARG NEXT_PUBLIC_SITE_URL
 ARG NEXT_PUBLIC_SUPABASE_URL
 ARG NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY
+ARG RENDER_EXTERNAL_URL
 ENV NEXT_PUBLIC_SITE_URL=${NEXT_PUBLIC_SITE_URL} \
     NEXT_PUBLIC_SUPABASE_URL=${NEXT_PUBLIC_SUPABASE_URL} \
     NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY=${NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY} \
     NEXT_TELEMETRY_DISABLED=1
-RUN npm run build && npm prune --omit=dev --ignore-scripts
+RUN export NEXT_PUBLIC_SITE_URL="${NEXT_PUBLIC_SITE_URL:-$RENDER_EXTERNAL_URL}" \
+    && npm run build && npm prune --omit=dev --ignore-scripts
 
 FROM node:24-bookworm-slim AS runtime
 RUN apt-get update && apt-get install -y --no-install-recommends python3 python3-venv gosu \

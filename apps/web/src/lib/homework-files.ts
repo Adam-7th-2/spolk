@@ -1,6 +1,7 @@
 import {mkdir,readFile,writeFile,unlink} from "node:fs/promises";
 import {resolve} from "node:path";
 import {randomUUID} from "node:crypto";
+import {cloudUploads} from './private-upload-config';
 export const MAX_HOMEWORK_FILE=10*1024*1024;
 export const HOMEWORK_ACCEPT=".pdf,.txt,.png,.jpg,.jpeg,.docx";
 export type HomeworkFile={id:string;name:string;type:string;size:number};
@@ -20,8 +21,9 @@ export async function storeHomeworkFile(file:File):Promise<HomeworkFile>{
  const bytes=new Uint8Array(await file.arrayBuffer()),type=homeworkType(file.name,bytes);
  if(!type)throw new Error('Choose a PDF, UTF-8 text, JPG, PNG, or DOCX file with matching contents.');
  const id=randomUUID(),name=file.name.replace(/[\x00-\x1f\x7f/\\]/g,'').slice(0,180)||'assignment';
- await mkdir(folder(),{recursive:true});await writeFile(resolve(folder(),id+'.bin'),bytes,{flag:'wx'});
+ if(cloudUploads()){const{privateUploadStorage}=await import('./private-upload-client');await privateUploadStorage().put(`homework/${id}.bin`,bytes);}
+ else{await mkdir(folder(),{recursive:true});await writeFile(resolve(folder(),id+'.bin'),bytes,{flag:'wx'});}
  return {id,name,type,size:bytes.byteLength};
 }
-export async function removeHomeworkFile(id:string){if(validId(id))await unlink(resolve(folder(),id+'.bin')).catch(()=>{});}
-export async function readHomeworkFile(id:string){if(!validId(id))throw new Error('Unknown file');return readFile(resolve(folder(),id+'.bin'));}
+export async function removeHomeworkFile(id:string){if(!validId(id))return;if(cloudUploads()){const{privateUploadStorage}=await import('./private-upload-client');await privateUploadStorage().remove(`homework/${id}.bin`).catch(()=>{});}else await unlink(resolve(folder(),id+'.bin')).catch(()=>{});}
+export async function readHomeworkFile(id:string){if(!validId(id))throw new Error('Unknown file');if(cloudUploads()){const{privateUploadStorage}=await import('./private-upload-client');return privateUploadStorage().read(`homework/${id}.bin`);}return readFile(resolve(folder(),id+'.bin'));}
