@@ -24,8 +24,8 @@ test("reading cards show the original page and only that page's audio markers",a
 test("practice cards save checked answers, resume progress and explain the final grade",async({page,browser},info)=>{
  const email=`practice-${randomUUID()}@example.invalid`;
  await page.goto("/login");await page.getByRole("tab",{name:"Create account"}).click();
- await page.getByLabel("Email address").fill(email);await page.getByLabel("Password (at least 12 characters)",{exact:true}).fill(password);await page.getByRole("button",{name:/Create your account/}).click();await expect(page.getByRole("status")).toContainText("Your local account is ready");
- const admin=await browser.newContext({baseURL:"http://127.0.0.1:3001"});
+ await page.getByLabel("Email address").fill(email);await page.getByLabel("Password (at least 12 characters)",{exact:true}).fill(password);await page.getByLabel("First name",{exact:true}).fill("Test");await page.getByLabel("Last name",{exact:true}).fill("Learner");await page.getByLabel("Country",{exact:true}).fill("Ethiopia");await page.getByLabel("City",{exact:true}).fill("Addis Ababa");await page.getByLabel("Learning goal",{exact:true}).fill("Practise English conversation and grammar.");await page.getByRole("button",{name:/Create your account/}).click();await expect(page.getByRole("status")).toContainText("Your local account is ready");
+ const admin=await browser.newContext({baseURL:process.env.SPOLK_E2E_BASE_URL||"http://127.0.0.1:3001"});
  try{
   const staff=await admin.newPage();await login(staff,"admin@spolk.local");await staff.goto("/admin/courses/traveller");
   await staff.getByLabel("Student email").fill(email);await staff.getByRole("button",{name:"Enroll student in Traveller",exact:true}).click();

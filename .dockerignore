@@ -4,6 +4,8 @@
 **/.next
 **/.next-local
 **/.next-verify
+**/.next-site-check
+**/.next-site-build
 **/.env*
 !**/.env.example
 **/test-results

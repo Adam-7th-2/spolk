@@ -25,3 +25,7 @@ apps/web/private/*
 
 apps/web/private/answer-uploads/
 apps/web/private/homework-uploads/
+
+.next-site-check/
+
+.next-site-build/

@@ -1,3 +1,4 @@
+import {hasSameOrigin} from "@/lib/request-origin";
 import {z} from 'zod';
 import {currentUser,database} from '@/lib/supabase';
 import {websiteHelp} from '@/lib/chat-help';
@@ -5,7 +6,7 @@ import {GeminiProvider} from '@/lib/gemini';
 import {collectCourseEvidence} from '@/lib/course-evidence';
 import {practiceEvidence} from '@/lib/practice-evidence';
 export async function POST(request:Request){
- if(request.headers.get('origin')!==new URL(request.url).origin)return Response.json({error:'Invalid request origin.'},{status:403});
+ if(!hasSameOrigin(request))return Response.json({error:'Invalid request origin.'},{status:403});
  if(!await currentUser())return Response.json({error:'Sign in to chat.'},{status:401});
  const parsed=z.object({question:z.string().trim().min(1).max(1000),courseId:z.uuid().optional(),history:z.array(z.object({role:z.enum(['user','assistant']),content:z.string().max(3000)})).max(10).default([])}).safeParse(await request.json().catch(()=>null));
  if(!parsed.success)return Response.json({error:'Enter a question of up to 1,000 characters.'},{status:400});

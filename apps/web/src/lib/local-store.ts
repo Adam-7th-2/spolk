@@ -91,5 +91,5 @@ type Store=Awaited<ReturnType<typeof openLocalStore>>;
 const globals=globalThis as typeof globalThis&{spolkLocalStore?:Promise<Store>};
 export function localStore(){
  const root=resolve(process.cwd(),"../../");
- return globals.spolkLocalStore??=openLocalStore(resolve(root,".tools/local-academy"),root).catch(error=>{delete globals.spolkLocalStore;throw error;});
+ return globals.spolkLocalStore??=openLocalStore(process.env.SPOLK_LOCAL_STORE_DIR||resolve(root,".tools/local-academy"),root).catch(error=>{delete globals.spolkLocalStore;throw error;});
 }

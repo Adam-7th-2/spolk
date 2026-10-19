@@ -4,6 +4,8 @@ export function hasSameOrigin(request:Request):boolean{
  if(!supplied)return false;
  try{
   const origin=new URL(supplied),target=new URL(request.url);
+  const configured=process.env.NEXT_PUBLIC_SITE_URL||process.env.RENDER_EXTERNAL_URL;
+  if(configured)return supplied===origin.origin&&origin.origin===new URL(configured).origin;
   const host=request.headers.get("host")??target.host;
   return supplied===origin.origin&&origin.protocol===target.protocol&&origin.host===host.toLowerCase();
  }catch{return false;}

@@ -1,3 +1,4 @@
+import {hasSameOrigin} from "@/lib/request-origin";
 import {NextResponse} from "next/server";
 import {currentUser,database} from "@/lib/supabase";
 import {travellerExam} from "@/lib/traveller-exams";
@@ -36,7 +37,7 @@ export async function GET(request:Request,{params}:{params:Promise<{examId:strin
  }catch{return NextResponse.json({error:"The file or private grading reference is unavailable. Your teacher can still review the submitted work."},{status:503,headers:noStore});}
 }
 export async function POST(request:Request,{params}:{params:Promise<{examId:string}>}){
- if(request.headers.get("origin")!==new URL(request.url).origin)return NextResponse.json({error:"Invalid origin."},{status:403});
+ if(!hasSameOrigin(request))return NextResponse.json({error:"Invalid origin."},{status:403});
  const{examId}=await params;const ctx=await context(request,examId);if(ctx.error)return ctx.error;
  if(ctx.staff||ctx.accountId!==ctx.user.id)return NextResponse.json({error:"Uploads are for the student’s own timed attempt."},{status:403});
  if(!ctx.sitting||ctx.sitting.submitted_at||Date.parse(ctx.sitting.deadline)<=Date.now()||Date.parse(ctx.exam.closes_at)<=Date.now())return NextResponse.json({error:"Start the test and upload before its deadline."},{status:403});

@@ -28,9 +28,9 @@ test("Traveller video administration requires authentication",async({page})=>{aw
 test("teacher test resources require authentication",async({page})=>{await page.goto("/teacher/traveller-tests");await expect(page).toHaveURL(/login/);});
 
 
-test("student answer uploads and grading reports require authentication",async({request})=>{
+test("student answer uploads and grading reports require authentication",async({request,baseURL})=>{
  const base="/api/traveller-exams/module-1/answers";
  for(const suffix of ["","?template=1","?download=10000000-0000-4000-8000-000000000001"]){expect((await request.get(base+suffix)).status()).toBe(401);}
- const response=await request.post(base,{headers:{origin:"http://localhost:3000"},multipart:{file:{name:"answers.txt",mimeType:"text/plain",buffer:Buffer.from("grammar.a.1: My answer")}}});expect(response.status()).toBe(401);
+ const response=await request.post(base,{headers:{origin:new URL(baseURL||"http://localhost:3000").origin},multipart:{file:{name:"answers.txt",mimeType:"text/plain",buffer:Buffer.from("grammar.a.1: My answer")}}});expect(response.status()).toBe(401);
  expect((await request.get("/private/answer-uploads/example.txt")).status()).toBe(404);
 });

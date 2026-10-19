@@ -43,3 +43,14 @@ test("teacher can open teaching workspace and the original test paper",async({pa
  await page.waitForURL("**/");
  expect((await page.request.get("/api/traveller-exam-assets/module-1/paper")).status()).toBe(401);
 });
+
+
+test("student gradebook shows personal results without teacher keys",async({page})=>{
+ await login(page,"student","dashboard");
+ await page.getByRole("link",{name:"My grades & feedback",exact:true}).click();
+ await expect(page).toHaveURL(/\/dashboard\/grades$/);
+ await expect(page.getByRole("heading",{name:"My grades & feedback",exact:true})).toBeVisible();
+ await expect(page.getByText("Average of marked work",{exact:true})).toBeVisible();
+ await expect(page.getByText("Published reference:",{exact:false})).toHaveCount(0);
+ expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
+});
