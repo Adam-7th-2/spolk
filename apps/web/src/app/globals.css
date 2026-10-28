@@ -131,5 +131,6 @@ h1,h2,h3,.wordmark,.course-content h3,.lms-course-hero h1,.lms-lesson-header h1{
 
 .grade-stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;margin:24px 0}.grade-stats article{padding:18px;border:1px solid #d7e1cc;background:#eef1e6;border-radius:14px;min-width:0}.grade-stats span,.grade-stats strong,.grade-stats a{display:block}.grade-stats span{font-size:11px;line-height:1.6}.grade-stats strong{font-size:28px;margin:8px 0;color:#18382d}.grade-stats a{font-size:11px;text-decoration:underline}.grade-item{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:16px}.grade-score{font-size:24px;font-weight:600}.grade-score small{display:block;font-size:11px;font-weight:400}.grade-feedback{grid-column:1/-1;white-space:pre-wrap;overflow-wrap:anywhere}.grade-feedback p{margin-bottom:0}@media(max-width:760px){.grade-stats{grid-template-columns:repeat(2,minmax(0,1fr))}.grade-item{grid-template-columns:1fr}.grade-score{margin:0}}
 
-.hero::before{background-image:linear-gradient(90deg,rgba(251,250,245,.94) 0%,rgba(251,250,245,.78) 48%,rgba(251,250,245,.25) 100%),url("/hero-classroom.jpg")}
-.hero-scene{background-image:linear-gradient(145deg,rgba(251,250,245,.18),rgba(25,56,45,.12)),url("/hero-learning.jpg")}
+.hero::before{background-image:linear-gradient(90deg,rgba(251,250,245,.94) 0%,rgba(251,250,245,.78) 48%,rgba(251,250,245,.25) 100%),url("/hero-background.png")}
+.hero-scene{background-image:linear-gradient(145deg,rgba(251,250,245,.08),rgba(25,56,45,.02)),url("/hero-learning.png");background-position:center top}
+.hero-scene::after{background:linear-gradient(145deg,rgba(9,35,28,.02),rgba(9,35,28,.16))}
