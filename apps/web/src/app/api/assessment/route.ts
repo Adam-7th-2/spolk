@@ -18,7 +18,9 @@ export async function POST(req:Request){
  const parsed=schema.safeParse(await req.json().catch(()=>null));
  if(!parsed.success)return NextResponse.json({error:"Invalid assessment request"},{status:400});
  const input=parsed.data,db=await database();
- const failure=(code?:string)=>NextResponse.json({error:code==="PGRST202"?"Your teacher needs to enable the updated practice quiz.":"Assessment unavailable. Check your lesson access, attempt limit, and deadline."},{status:403});
+ const failure=(code?:string)=>code==="PGRST202"
+  ?NextResponse.json({error:"The practice quiz database update is missing. An administrator must run supabase/migrations/202610190001_assessment_cards.sql in the Supabase SQL Editor. This is a database setup issue, not a teacher or account-role setting."},{status:503})
+  :NextResponse.json({error:"Assessment unavailable. Check your lesson access, attempt limit, and deadline."},{status:403});
  if(input.action==="start"){
   const{data,error}=await db.rpc("start_assessment",{aid:input.assessmentId});if(error)return failure(error.code);
   const{data:review,error:reviewError}=await db.rpc("assessment_practice_review",{attempt_id:data.attemptId});if(reviewError)return failure(reviewError.code);

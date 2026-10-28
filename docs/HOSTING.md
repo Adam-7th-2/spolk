@@ -7,7 +7,7 @@ The selected deployment uses one **free Render Docker web service**, the existin
 ## Connect and deploy
 
 1. Connect Render and Supabase to this workspace, or use the corresponding provider dashboards. Render needs access to the private `Adam-7th-2/spolk` GitHub repository.
-2. Ensure the Supabase project is active. Apply the application migrations in order, including `202610190003_private_upload_bucket.sql`. That migration creates the non-public `spolk-private-uploads` bucket. It adds no anonymous or authenticated Storage object policies: the app authorizes each request before its server-side client reads or writes the bucket.
+2. Ensure the Supabase project is active. Apply the application migrations in order, including `202610190001_assessment_cards.sql` and `202610190003_private_upload_bucket.sql`. The assessment migration installs the saved-answer quiz functions; the upload migration creates the non-public `spolk-private-uploads` bucket. It adds no anonymous or authenticated Storage object policies: the app authorizes each request before its server-side client reads or writes the bucket.
 3. Create a Render Blueprint from the repository and review that the service plan is **Free** and no disk or paid resource is proposed.
 4. Provide `NEXT_PUBLIC_SUPABASE_URL`, `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY`, and `SUPABASE_SERVICE_ROLE_KEY` in Render's environment settings. Only the public URL/key are Docker build arguments. Keep the service-role key server-only and never paste it into source code.
 5. The Blueprint sets `PRIVATE_UPLOAD_STORAGE=supabase` and `PRIVATE_UPLOAD_BUCKET=spolk-private-uploads`. Render's default `RENDER_EXTERNAL_URL` supplies the HTTPS site URL at build time and runtime. For a custom domain, set `NEXT_PUBLIC_SITE_URL` and rebuild.

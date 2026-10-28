@@ -4,7 +4,7 @@ The [student workspace upgrade](STUDENT_WORKSPACE.md) adds progress-based lesson
 
 Read & learn uses one original page card at a time, with only that page's mapped listening tracks and lesson practice prompts. Practice quizzes save each checked answer before showing detailed feedback; checked answers remain fixed when resuming or submitting. The countdown, attempt limits, and final score are enforced by the database. This feedback is for supplementary lesson assessments; original scheduled exams retain their separate workflow.
 
-Existing local databases automatically apply `supabase/migrations/202610190001_assessment_cards.sql` at startup. Before using the updated quiz with hosted Supabase, apply that migration in the Supabase SQL Editor or through the migration workflow. Local database upgrades do not update hosted Supabase.
+Existing local databases automatically apply `supabase/migrations/202610190001_assessment_cards.sql` at startup. Before using the updated quiz with hosted Supabase, apply that migration in the Supabase SQL Editor or through the migration workflow. Local database upgrades do not update hosted Supabase. If the quiz reports that this migration is missing, it must be applied by a Supabase project administrator; changing a teacher, learner, or academy-admin role will not resolve it.
 
 Run `npm run dev:local` from the repository root with Node 22 or newer. The site opens at http://127.0.0.1:3001/login. This separate port keeps the usual hosted development server available at port 3000. Set `PORT` if you need another local port.
 
