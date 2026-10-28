@@ -4,6 +4,26 @@ import book from '../src/content/traveller.json' with {type:'json'};
 const password='SpolkLocal2026!';
 test.use({actionTimeout:15000});
 async function login(page:Page,email:string){await page.goto('/login');await page.getByLabel('Email address').fill(email);await page.getByLabel('Password',{exact:true}).fill(password);await page.locator('form button').click();await page.waitForURL(/\/(dashboard|admin|teacher)$/);}
+test('role-based mobile navigation works for learners, teachers and admins',async({browser})=>{
+ const baseURL=process.env.SPOLK_E2E_BASE_URL||'http://127.0.0.1:3001';
+ for(const account of [
+  {email:'student@spolk.local',home:'dashboard',label:'My learning',target:'/dashboard'},
+  {email:'teacher@spolk.local',home:'teacher',label:'Teaching workspace',target:'/teacher'},
+  {email:'admin@spolk.local',home:'admin',label:'Academy admin',target:'/admin'},
+ ]){
+  const context=await browser.newContext({baseURL,viewport:{width:320,height:812}});
+  try{
+   const page=await context.newPage();
+   await login(page,account.email);
+   await page.getByRole('button',{name:'Open navigation menu'}).click();
+   const menu=page.getByRole('navigation',{name:'Mobile navigation'});
+   await expect(menu.getByRole('link',{name:account.label,exact:true})).toBeVisible();
+   await menu.getByRole('link',{name:account.label,exact:true}).click();
+   await expect(page).toHaveURL(new RegExp(`/${account.target.slice(1)}$`));
+   expect(await page.evaluate(()=>document.documentElement.scrollWidth)).toBeLessThanOrEqual(320);
+  }finally{await context.close();}
+ }
+});
 test('student profile, progress locks, uploaded work and teacher support work across accounts',async({page,browser},info)=>{
  test.setTimeout(120000);
  const token=randomUUID(),email=`workspace-${token}@example.invalid`,filename=`work-${token}.txt`;

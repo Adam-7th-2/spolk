@@ -1,7 +1,26 @@
 import {test,expect} from "@playwright/test";
 test("discover a course and begin an application",async({page})=>{await page.goto("/");await expect(page.getByRole("heading",{name:/Your world/})).toBeVisible();await page.getByRole("link",{name:"Find your starting point"}).click();await page.getByRole("searchbox").count();await page.getByLabel("Search courses").fill("everyday");await expect(page.getByRole("heading",{name:"English for everyday life"})).toBeVisible();await page.getByRole("link",{name:/General English A2/}).click();await page.getByRole("link",{name:"Apply for this course"}).click();await expect(page.getByLabel("Your program")).toHaveValue("everyday-english");await expect(page.getByRole("button",{name:"Send my application"})).toBeDisabled();});
 test("private learning requires real authentication",async({page})=>{await page.goto("/dashboard");await expect(page).toHaveURL(/login/);await expect(page.getByRole("heading",{name:"Hello again."})).toBeVisible();});
-test("mobile and desktop layouts stay within the viewport",async({page})=>{await page.goto("/");expect(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth)).toBe(true);await page.locator("summary").filter({hasText:"Where should I start?"}).click();await expect(page.getByText(/Placement and enrollment are confirmed/)).toBeVisible();});
+test("mobile navigation works and public pages fit phone, tablet and desktop widths",async({page})=>{
+ for(const width of [320,375,768,1024,1440]){
+  await page.setViewportSize({width,height:900});
+  for(const path of ["/","/courses","/about","/apply","/contact","/privacy","/login"]){
+   await page.goto(path);
+   const pageWidth=await page.evaluate(()=>document.documentElement.scrollWidth);
+   expect(pageWidth,`${path} overflows at ${width}px`).toBeLessThanOrEqual(width);
+  }
+ }
+ await page.setViewportSize({width:375,height:812});
+ await page.goto("/");
+ await page.getByRole("button",{name:"Open navigation menu"}).click();
+ const menu=page.getByRole("navigation",{name:"Mobile navigation"});
+ await expect(menu).toBeVisible();
+ await menu.getByRole("link",{name:"Our programs"}).click();
+ await expect(page).toHaveURL(/\/courses$/);
+ await page.goto("/");
+ await page.locator("summary").filter({hasText:"Where should I start?"}).click();
+ await expect(page.getByText(/Placement and enrollment are confirmed/)).toBeVisible();
+});
 
 test("book assets and course administration require authentication",async({page,request})=>{
  await page.goto("/admin/courses/traveller");await expect(page).toHaveURL(/login/);
