@@ -1,0 +1,15 @@
+.hero::before{background-image:linear-gradient(90deg,rgba(251,250,245,.94) 0%,rgba(251,250,245,.78) 48%,rgba(251,250,245,.25) 100%),url("/hero-background.png")}
+.hero-scene{background-image:linear-gradient(145deg,rgba(251,250,245,.08),rgba(25,56,45,.02)),url("/hero-learning.png");background-position:center top}
+.hero-scene::after{background:linear-gradient(145deg,rgba(9,35,28,.02),rgba(9,35,28,.16))}
+
+.mobile-menu{display:none}
+@media(max-width:760px){
+ .header{position:relative;z-index:20;gap:12px;padding:0 16px}
+ .header .mobile-menu{display:block;flex:none}
+ .mobile-menu-toggle{width:42px;height:42px;display:grid;place-items:center;padding:0;border:1px solid var(--line);border-radius:50%;background:var(--cream);color:var(--ink);cursor:pointer}
+ .mobile-menu-toggle:focus-visible,.mobile-menu-panel a:focus-visible{outline:2px solid var(--green);outline-offset:3px}
+ .header .mobile-menu-panel{position:absolute;top:calc(100% + 8px);left:12px;right:12px;display:grid;gap:3px;padding:10px;border:1px solid var(--line);border-radius:14px;background:var(--cream);box-shadow:0 14px 35px rgba(24,56,45,.16);font-size:13px;font-weight:500;z-index:30}
+ .mobile-menu-panel a{display:block;padding:11px 12px;border-radius:8px}
+ .mobile-menu-panel a:hover{background:#edf1e6}
+ .page-section>nav[aria-label="Teacher navigation"]{flex-wrap:wrap;gap:12px!important}
+}

@@ -1,8 +1,8 @@
 "use server";
 import {z} from "zod";
 import {currentUser,database,isConfigured} from "@/lib/supabase";
-import {courses} from "@/lib/catalogue";
-const schema=z.object({course:z.string().refine(id=>courses.some(c=>c.id===id)),goal:z.string().trim().min(10).max(2000),level:z.enum(["Not sure","A1","A2","B1","B2","C1","C2"]),language:z.enum(["en","ru","am"]),adult:z.literal("yes")});
+import {isOpenCourse} from "@/lib/catalogue";
+const schema=z.object({course:z.string().refine(isOpenCourse),goal:z.string().trim().min(10).max(2000),level:z.enum(["Not sure","A1","A2","B1","B2","C1","C2"]),language:z.enum(["en","ru","am"]),adult:z.literal("yes")});
 export async function apply(_: {message:string;error:boolean},form:FormData){
  if(!isConfigured())return {message:"Applications are not open in this local environment. Nothing has been submitted.",error:true};
  const user=await currentUser();if(!user)return {message:"Please sign in before applying.",error:true};

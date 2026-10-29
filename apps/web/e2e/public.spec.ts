@@ -1,5 +1,5 @@
 import {test,expect} from "@playwright/test";
-test("discover a course and begin an application",async({page})=>{await page.goto("/");await expect(page.getByRole("heading",{name:/Your world/})).toBeVisible();await page.getByRole("link",{name:"Find your starting point"}).click();await page.getByRole("searchbox").count();await page.getByLabel("Search courses").fill("everyday");await expect(page.getByRole("heading",{name:"English for everyday life"})).toBeVisible();await page.getByRole("link",{name:/General English A2/}).click();await page.getByRole("link",{name:"Apply for this course"}).click();await expect(page.getByLabel("Your program")).toHaveValue("everyday-english");await expect(page.getByRole("button",{name:"Send my application"})).toBeDisabled();});
+test("discover a course and begin an application",async({page})=>{await page.goto("/");await expect(page.getByRole("heading",{name:/Your world/})).toBeVisible();await page.getByRole("link",{name:"Find your starting point"}).click();await page.getByRole("searchbox").count();await page.getByLabel("Search courses").fill("everyday");await expect(page.getByRole("heading",{name:"English for everyday life"})).toBeVisible();await expect(page.getByText("Not open yet").first()).toBeVisible();await page.getByLabel("Search courses").fill("traveller");await page.getByRole("link",{name:/Traveller Beginners/}).click();await page.getByRole("link",{name:"Apply for this course"}).click();await expect(page.getByLabel("Your program")).toHaveValue("traveller-beginners");await expect(page.getByRole("button",{name:"Send my application"})).toBeDisabled();});
 test("private learning requires real authentication",async({page})=>{await page.goto("/dashboard");await expect(page).toHaveURL(/login/);await expect(page.getByRole("heading",{name:"Hello again."})).toBeVisible();});
 test("mobile navigation works and public pages fit phone, tablet and desktop widths",async({page})=>{
  for(const width of [320,375,768,1024,1440]){
@@ -25,7 +25,7 @@ test("mobile navigation works and public pages fit phone, tablet and desktop wid
 test("book assets and course administration require authentication",async({page,request})=>{
  await page.goto("/admin/courses/traveller");await expect(page).toHaveURL(/login/);
  const lesson="d1000000-0000-4000-8000-000000000002";
- for(const url of [`/api/book-pages/${lesson}/8`,`/api/book-lessons/${lesson}`,"/api/traveller/preview/1"]){expect((await request.get(url)).status()).toBe(401);}
+ for(const url of [`/api/book-pages/${lesson}/8`,`/api/book-pages/${lesson}/8/text`,`/api/book-lessons/${lesson}`,"/api/traveller/preview/1"]){expect((await request.get(url)).status()).toBe(401);}
  expect((await request.get("/private/books/traveller/source.pdf")).status()).toBe(404);
 });
 
