@@ -13,35 +13,35 @@
     "test:e2e": "playwright test"
   },
   "dependencies": {
-    "@fontsource/poppins": "latest",
+    "@fontsource/poppins": "5.3.0",
     "@livekit/components-react": "^2.9.24",
     "@livekit/components-styles": "^1.2.0",
     "@react-three/fiber": "^9.8.2",
-    "@supabase/ssr": "latest",
-    "@supabase/supabase-js": "latest",
+    "@supabase/ssr": "0.12.7",
+    "@supabase/supabase-js": "2.118.0",
     "livekit-client": "^2.23.0",
     "livekit-server-sdk": "^2.19.1",
-    "lucide-react": "latest",
-    "next": "latest",
+    "lucide-react": "1.59.0",
+    "next": "16.4.2",
     "nodemailer": "^10.1.7",
-    "react": "latest",
-    "react-dom": "latest",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
     "three": "^0.186.1",
-    "zod": "latest"
+    "zod": "4.6.7"
   },
   "devDependencies": {
     "@electric-sql/pglite": "^0.5.10",
-    "@playwright/test": "latest",
-    "@tailwindcss/postcss": "latest",
-    "@types/node": "latest",
-    "@types/react": "latest",
-    "@types/react-dom": "latest",
+    "@playwright/test": "1.64.1",
+    "@tailwindcss/postcss": "4.3.3",
+    "@types/node": "26.6.5",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
     "@types/three": "^0.186.0",
-    "eslint": "latest",
-    "eslint-config-next": "latest",
-    "tailwindcss": "latest",
-    "typescript": "latest",
-    "vitest": "latest"
+    "eslint": "9.39.5",
+    "eslint-config-next": "16.4.2",
+    "tailwindcss": "4.3.3",
+    "typescript": "6.0.3",
+    "vitest": "5.0.5"
   },
   "type": "module"
 }

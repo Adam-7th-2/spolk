@@ -7,9 +7,9 @@ async function login(page:Page,email:string){await page.goto('/login');await pag
 test('role-based mobile navigation works for learners, teachers and admins',async({browser})=>{
  const baseURL=process.env.SPOLK_E2E_BASE_URL||'http://127.0.0.1:3001';
  for(const account of [
-  {email:'student@spolk.local',home:'dashboard',label:'My learning',target:'/dashboard'},
-  {email:'teacher@spolk.local',home:'teacher',label:'Teaching workspace',target:'/teacher'},
-  {email:'admin@spolk.local',home:'admin',label:'Academy admin',target:'/admin'},
+  {email:'student@spolk.local',home:'dashboard',label:'Learn',target:'/dashboard'},
+  {email:'teacher@spolk.local',home:'teacher',label:'People',target:'/teacher'},
+  {email:'admin@spolk.local',home:'admin',label:'People',target:'/admin'},
  ]){
   const context=await browser.newContext({baseURL,viewport:{width:320,height:812}});
   try{

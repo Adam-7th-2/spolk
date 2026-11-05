@@ -1,32 +1,56 @@
 export const dynamic = "force-dynamic";
-import { redirect } from "next/navigation";
 import Link from "next/link";
-import { currentUser, database } from "@/lib/supabase";
-import { signOut } from "@/app/auth/actions";
-import { courses } from "@/lib/catalogue";
-import {gradeSummary,loadGradebook} from "@/lib/gradebook";
-import {DailyStreak} from "@/components/daily-streak";
+import { redirect } from "next/navigation";
+import { loadActor } from "@/lib/actor";
+import { database } from "@/lib/supabase";
 import { workspaceHome } from "@/lib/workspaces";
+import { formatWhen } from "@/lib/local-time";
+
+type Progress = { id: string; course_id: string; total: number; completed: number };
+
 export default async function Dashboard() {
- const user=await currentUser(); if(!user) redirect("/login");
- const db=await database();
- const [{data:isAdmin},{data:isTeacher},{data:isGuardian}]=await Promise.all([db.rpc("is_admin"),db.rpc("has_role",{wanted:"teacher"}),db.rpc("has_role",{wanted:"guardian"})]);
- const roleChecks=[isAdmin?"admin":null,isTeacher?"teacher":null,isGuardian?"guardian":null];
- const home=workspaceHome(roleChecks.filter((role):role is string=>Boolean(role))); if(home!=="/dashboard") redirect(home);
- const{data:profile}=await db.from("profiles").select("first_name").eq("id",user.id).maybeSingle();
- const firstName=profile?.first_name?.trim()||String(user.user_metadata?.first_name||"").trim();
- const [applications,enrollments,courseResult,feedback,sessions,notifications,progress,lessonCatalog]=await Promise.all([
-  db.from("enrollment_applications").select("id,course_slug,status").eq("account_id",user.id).order("created_at",{ascending:false}),
-  db.from("course_enrollments").select("id,course_id,status").eq("account_id",user.id),
+ const actor = await loadActor();
+ if (!actor) redirect("/login");
+ const home = workspaceHome(actor.roles);
+ if (home !== "/dashboard") redirect(home);
+ const db = await database();
+ const [enrollments, courses, sessions, notifications, lessonCatalog] = await Promise.all([
+  db.from("course_enrollments").select("course_id,status").eq("account_id", actor.id).eq("status", "active"),
   db.from("courses").select("id,title"),
-  db.from("grades").select("id,score,feedback").order("graded_at",{ascending:false}).limit(10),
-  db.from("live_sessions").select("id,title,starts_at").is("cancelled_at",null).gt("ends_at",new Date().toISOString()).order("starts_at").limit(5),
-  db.from("notifications").select("id,body").eq("account_id",user.id).order("created_at",{ascending:false}).limit(5),
-  db.from("lesson_progress").select("lesson_id").eq("account_id",user.id),
-  db.rpc("my_course_progress")
+  db.from("live_sessions").select("id,title,starts_at").is("cancelled_at", null).gt("ends_at", new Date().toISOString()).order("starts_at").limit(1),
+  db.from("notifications").select("id,body,read_at").eq("account_id", actor.id).is("read_at", null).order("created_at", { ascending: false }).limit(1),
+  db.rpc("my_course_progress"),
  ]);
- const loadError=[applications,enrollments,courseResult,feedback,sessions,notifications,progress,lessonCatalog].some(r=>r.error);
- const gradebook=await loadGradebook(db,user.id),gradeStats=gradeSummary(gradebook.rows);
- const courseProgress=((lessonCatalog.data||[]) as {id:string;course_id:string;status:string;total:number;completed:number}[]).map(course=>({...course,percent:course.total?Math.round(course.completed/course.total*100):0}));
- return <section className="section page-section dashboard-grid"><aside className="sidebar"><Link href="/dashboard">My learning</Link><Link href="/dashboard/grades">My grades & feedback</Link><Link href="/courses">Explore courses</Link><Link href="/apply">Apply for a course</Link><Link href="/dashboard/tutor">Course tutor</Link><Link href="/dashboard/speaking-practice">Speaking practice</Link><form action={signOut}><button className="button small secondary">Log out</button></form></aside><div><div className="eyebrow">YOUR SPACE TO GROW</div><p className="fine">Signed in as {user.email}</p><h1>{firstName?`Hi, ${firstName}.`:"Hi there."}</h1><p>Your courses and applications, all in one place.</p><div className="grade-stats"><article><span>Active courses</span><strong>{enrollments.data?.filter(e=>e.status==="active").length||0}</strong></article><article><span>Lessons completed</span><strong>{progress.data?.length||0}</strong></article><article><span>Awaiting grading</span><strong>{gradeStats.pending}</strong></article><article><span>Marked-work average</span><strong>{gradeStats.average===null?"?":`${gradeStats.average}%`}</strong><Link href="/dashboard/grades">View all grades</Link></article></div>{gradebook.error&&<p role="alert">Grade summaries are temporarily incomplete.</p>}<DailyStreak/><article className="dashboard-card dashboard-progress"><h2>Continue learning</h2>{courseProgress.length?courseProgress.map(course=><div className="progress-course" key={course.id}><div className="progress-course-heading"><strong>{courseResult.data?.find(item=>item.id===course.course_id)?.title||"Your course"}</strong><span>{course.percent}%</span></div><div className="progress-track"><span style={{width:`${course.percent}%`}}/></div><small>{course.completed} of {course.total} lessons complete</small><Link className="text-link" href={`/dashboard/courses/${course.course_id}`}>Continue course →</Link></div>):<p>Enroll in a course to start tracking your progress.</p>}</article>{loadError&&<p role="alert" className="status error">Some learning records could not be loaded. Please refresh.</p>}<article className="dashboard-card"><h2>Your progress</h2><p>{progress.data?.length||0} lessons completed across your learning path.</p><div className="progress-track" aria-label={`${progress.data?.length||0} lessons completed`}><span style={{width:`${Math.min(100,courseProgress.reduce((n,c)=>n+c.total,0)?Math.round(100*courseProgress.reduce((n,c)=>n+c.completed,0)/courseProgress.reduce((n,c)=>n+c.total,0)):0)}%`}}/></div></article><article className="dashboard-card"><h2>My courses</h2>{!enrollments.data?.length?<><p>Your first chapter starts with a course application.</p><Link className="text-link" href="/courses">Find your course →</Link></>:enrollments.data.map(e=><div className="dashboard-card" key={e.id}><h3>{courseResult.data?.find(c=>c.id===e.course_id)?.title||"Your course"}</h3><p>Enrollment: {e.status}</p><Link className="button small" href={`/dashboard/courses/${e.course_id}`}>Open course →</Link></div>)}</article><article className="dashboard-card"><h2>Your learning tools</h2><div className="dashboard-tools"><Link href="/dashboard/tutor"><strong>Course tutor</strong><span>Ask questions about your current lesson →</span></Link><Link href="/dashboard/speaking-practice"><strong>Speaking practice</strong><span>Build confidence with live practice →</span></Link></div></article><article className="dashboard-card"><h2>Upcoming classes</h2><p><Link className="text-link" href="/dashboard/schedule">Open your live schedule →</Link></p>{sessions.data?.length?sessions.data.map(s=><p key={s.id}><Link className="text-link" href={`/classroom/${s.id}`}>{s.title} →</Link><br/><small>{new Date(s.starts_at).toISOString()} (UTC)</small></p>):<p>No upcoming classes.</p>}</article><article className="dashboard-card"><h2>Grades & teacher feedback</h2><p><Link className="text-link" href="/dashboard/grades">Open my full gradebook</Link></p>{feedback.data?.length?feedback.data.map(g=><div key={g.id}><strong>{g.score}/100</strong><p>{g.feedback}</p></div>):<p>Your teacher’s feedback will appear after grading.</p>}</article><article className="dashboard-card"><h2>Notifications</h2>{notifications.data?.length?notifications.data.map(n=><p key={n.id}>{n.body}</p>):<p>You’re all caught up.</p>}</article><article className="dashboard-card"><h2>Your applications</h2>{applications.data?.length?applications.data.map(a=><div className="syllabus" key={a.id}><h3>{courses.find(c=>c.id===a.course_slug)?.title||a.course_slug}</h3><span>{a.status}</span></div>):<p>No applications yet.</p>}</article></div></section>;
+ const progress = ((lessonCatalog.data || []) as Progress[]).map(course => ({
+  ...course,
+  title: courses.data?.find(item => item.id === course.course_id)?.title || "Your course",
+  percent: course.total ? Math.round(course.completed / course.total * 100) : 0,
+ }));
+ const next = progress.find(course => course.percent < 100) || progress[0];
+ const deadline = sessions.data?.[0];
+ const notice = notifications.data?.[0];
+ return <section className="section page-section">
+  <div className="eyebrow">YOUR SPACE TO GROW</div>
+  <h1>{actor.firstName ? `Hi, ${actor.firstName}.` : "Hi there."}</h1>
+  <p>One next step. The rest of your record lives in Grades, Schedule, and Messages.</p>
+  {(enrollments.error || courses.error || sessions.error || notifications.error || lessonCatalog.error) && <p role="alert" className="status error">Some learning records could not be loaded. Please refresh.</p>}
+  <article className="dashboard-card">
+   <h2>Continue learning</h2>
+   {next ? <>
+    <div className="progress-course-heading"><strong>{next.title}</strong><span>{next.percent}%</span></div>
+    <div className="progress-track"><span style={{ width: `${next.percent}%` }} /></div>
+    <small>{next.completed} of {next.total} lessons complete</small>
+    <p><Link className="button" href={`/dashboard/courses/${next.course_id}`}>Continue course →</Link></p>
+   </> : <p>Enroll in Traveller Beginners to start your next lesson. <Link className="text-link" href="/courses">See open courses →</Link></p>}
+  </article>
+  <article className="dashboard-card">
+   <h2>Next deadline</h2>
+   {deadline ? <p><Link className="text-link" href={`/classroom/${deadline.id}`}>{deadline.title} →</Link><br /><small>{formatWhen(deadline.starts_at, actor.timezone)}</small></p> : <p>No upcoming class. <Link className="text-link" href="/dashboard/schedule">Open your schedule →</Link></p>}
+  </article>
+  <article className="dashboard-card">
+   <h2>Unread notice</h2>
+   {notice ? <p>{notice.body}</p> : <p>You’re all caught up.</p>}
+   <p><Link className="text-link" href="/workspace/notifications">All notifications →</Link></p>
+  </article>
+ </section>;
 }

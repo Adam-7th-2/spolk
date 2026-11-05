@@ -25,7 +25,7 @@ npm test
 npm run build
 ```
 
-The CI template in `.github/ci.yml.example` includes these checks and the public browser checks. The current GitHub login has repository access but lacks the `workflow` OAuth scope, so the template is inactive. After granting that scope, move it to `.github/workflows/ci.yml` to enable Actions. Authenticated local browser tests need the original private course assets described in [Traveller setup](docs/TRAVELLER_SETUP.md).
+GitHub Actions runs these checks from `.github/workflows/ci.yml`, including the public browser checks. Authenticated local browser tests stay on your machine (`npm run test:e2e:local -w @spolk/web`) and need the original private course assets described in [Traveller setup](docs/TRAVELLER_SETUP.md).
 
 ## Deploy the full LMS
 

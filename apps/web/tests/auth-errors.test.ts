@@ -1,4 +1,8 @@
 import {it,expect} from "vitest";
+import {userFromVerifiedAuth} from "../src/lib/verified-user";
+it("does not authenticate when verification fails",()=>{expect(userFromVerifiedAuth(null,{message:"AuthRetryableFetchError"})).toBeNull();expect(userFromVerifiedAuth({id:"learner"},{message:"outage"})).toBeNull();});
+it("returns only a verified user",()=>expect(userFromVerifiedAuth({id:"learner"},null)).toEqual({id:"learner"}));
+
 import {signupErrorMessage} from "../src/lib/auth-errors";
 it("explains the default email service restriction",()=>expect(signupErrorMessage({code:"email_address_not_authorized"})).toContain("custom SMTP"));
 it("distinguishes email quota from database failure",()=>{expect(signupErrorMessage({code:"over_email_send_rate_limit"})).toContain("limit");expect(signupErrorMessage({status:500})).toContain("trigger");});

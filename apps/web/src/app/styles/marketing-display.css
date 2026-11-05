@@ -1,0 +1,67 @@
+.exam-upload-card{padding:24px;border:1px solid #b3c8a5;border-radius:14px;background:#f3f7ed;margin:22px 0}.exam-upload-card label{display:block;margin:18px 0}.exam-upload-card input{margin-top:8px}.exam-listening-question{border-bottom:1px solid var(--line);padding:18px 0}.exam-listening-question>strong{font-size:13px}.exam-feedback-row{padding:18px;border:1px solid var(--line);border-radius:10px;margin-top:14px;overflow-wrap:anywhere}.exam-feedback-row h4{font-size:14px}.exam-feedback-row small{font-size:10px}
+.hero-scene::before{content:"";position:absolute;inset:4% 5%;border-radius:34% 27% 31% 24%;background-image:linear-gradient(135deg,rgba(25,55,210,.18),rgba(248,105,38,.12) 48%,rgba(17,105,64,.18)),url("https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=85");background-size:cover;background-position:center;opacity:.72;filter:saturate(1.18);transform:rotate(-6deg);animation:heroTextureFloat 12s ease-in-out infinite;z-index:0;box-shadow:0 24px 60px rgba(24,56,45,.12)}
+.hero-scene::after{content:"";position:absolute;inset:0;border-radius:30%;background:radial-gradient(circle at 18% 25%,rgba(82,99,244,.2),transparent 24%),radial-gradient(circle at 80% 72%,rgba(237,109,46,.18),transparent 26%);mix-blend-mode:screen;pointer-events:none;z-index:0}
+.hero-scene>*{z-index:1}
+@keyframes heroTextureFloat{0%,100%{transform:rotate(-6deg) translate3d(0,0,0) scale(1)}50%{transform:rotate(-3deg) translate3d(0,-10px,0) scale(1.035)}}
+.hero-copy{position:relative;z-index:2}
+.hero{position:relative;isolation:isolate;overflow:hidden;border-radius:0 0 30px 30px}
+.hero::before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(251,250,245,.94) 0%,rgba(251,250,245,.78) 48%,rgba(251,250,245,.25) 100%),url("https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=1600&q=85");background-size:cover;background-position:center;opacity:.9;z-index:0;animation:heroTextureFloat 16s ease-in-out infinite}
+.hero-scene{z-index:1}
+.hero-scene::before{inset:0;border-radius:30px;opacity:.95;transform:rotate(0deg);background-size:cover;background-repeat:no-repeat;background-position:center;box-shadow:0 24px 60px rgba(24,56,45,.16)}
+.hero-scene .learning-window,.hero-scene .scene-orbit,.hero-scene .scene-dots,.hero-scene .note-bubble,.hero-scene .floating-star,.hero-scene .scene-spark,.hero-scene .scene-label{display:none}
+.hero::before,.hero-scene::before,.hero-scene::after{display:none}
+.hero{background:var(--cream)}
+.hero::before{content:"";display:block;position:absolute;inset:0;background:linear-gradient(90deg,rgba(251,250,245,.94) 0%,rgba(251,250,245,.78) 48%,rgba(251,250,245,.25) 100%),url("https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=1600&q=85");background-size:cover;background-position:center;opacity:.9;z-index:0;animation:heroTextureFloat 16s ease-in-out infinite}
+.hero-scene{background:linear-gradient(145deg,rgba(251,250,245,.18),rgba(25,56,45,.12)),url("https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=85");background-size:cover;background-position:center;border-radius:28px;box-shadow:0 22px 55px rgba(24,56,45,.18);overflow:hidden}
+.hero-scene{animation:heroNotebookFloat 10s ease-in-out infinite;filter:saturate(.86) contrast(1.04)}
+.hero-scene::after{content:"";display:block;position:absolute;inset:0;background:linear-gradient(145deg,rgba(9,35,28,.12),rgba(9,35,28,.42));mix-blend-mode:multiply;pointer-events:none;z-index:0}
+@keyframes heroNotebookFloat{0%,100%{transform:translateY(0) rotate(0deg)}50%{transform:translateY(-8px) rotate(.7deg)}}
+
+/* Hand-drawn motion accents keep the hero feeling tactile and human. */
+.hero::after{content:"✳";position:absolute;right:4%;top:8%;z-index:1;color:#c3d77e;font-size:clamp(3.5rem,6vw,5.5rem);line-height:1;opacity:.78;pointer-events:none;animation:heroDoodleSpin 9s ease-in-out infinite}
+.hero-copy::before{content:"•  •  •";position:absolute;right:1.5rem;top:-2.5rem;color:#8cae58;font-size:.8rem;letter-spacing:.55rem;opacity:.72;transform:rotate(-8deg);animation:heroDoodleDots 5s ease-in-out infinite}
+.hero-copy::after{content:"";position:absolute;right:-2.5rem;top:2rem;width:5.5rem;height:5.5rem;border:2px solid rgba(140,174,88,.58);border-left-color:transparent;border-bottom-color:rgba(140,174,88,.28);border-radius:52% 48% 58% 42%;transform:rotate(18deg);pointer-events:none;animation:heroDoodleRing 7s ease-in-out infinite}
+@keyframes heroDoodleSpin{0%,100%{transform:rotate(-10deg) scale(.92);opacity:.55}50%{transform:rotate(12deg) scale(1.08);opacity:.9}}
+@keyframes heroDoodleDots{0%,100%{transform:translateY(0) rotate(-8deg);opacity:.45}50%{transform:translateY(-6px) rotate(3deg);opacity:.9}}
+@keyframes heroDoodleRing{0%,100%{transform:rotate(18deg) scale(.9);opacity:.35}50%{transform:rotate(-12deg) scale(1.08);opacity:.8}}
+@media (prefers-reduced-motion:reduce){.hero::after,.hero-copy::before,.hero-copy::after{animation:none}}
+
+/* Traveller cards use a warm editorial image treatment with a quiet lift on hover. */
+.course-card{animation:courseCardRise .65s both;will-change:transform}
+.course-card:nth-child(2){animation-delay:.08s}.course-card:nth-child(3){animation-delay:.16s}.course-card:nth-child(4){animation-delay:.24s}
+.course-traveller-beginners .course-art{background-image:linear-gradient(135deg,rgba(29,75,55,.1),rgba(246,231,169,.28)),url("https://unsplash.com/photos/XjCC9sGlk6k/download?force=true&w=1200"),url("https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=1200&q=85");background-size:100% 100%;background-position:center;background-repeat:no-repeat;isolation:isolate}
+.course-traveller-beginners .course-art::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(248,238,190,.14),rgba(29,75,55,.32));z-index:0;animation:courseImageBreath 10s ease-in-out infinite}
+.course-traveller-beginners .course-art>*{position:relative;z-index:1}
+.course-traveller-beginners .art-symbol{display:none}
+.course-traveller-beginners .course-art::before{content:"✈";position:absolute;left:-2.5rem;top:42%;z-index:2;color:#fffdf2;font-size:2rem;text-shadow:0 2px 8px rgba(24,56,45,.45);animation:travellerPlaneAcross 8s ease-in-out infinite;pointer-events:none}
+.course-everyday-english .course-art{background-image:linear-gradient(135deg,rgba(35,89,67,.18),rgba(225,234,216,.3)),url("https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=85")}
+.course-business-english .course-art{background-image:linear-gradient(135deg,rgba(76,54,112,.2),rgba(230,222,240,.3)),url("https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=1200&q=85")}
+.course-conversation .course-art{background-image:linear-gradient(135deg,rgba(123,72,45,.18),rgba(244,223,208,.3)),url("https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=1200&q=85")}
+.course-young-explorers .course-art{background-image:linear-gradient(135deg,rgba(29,91,68,.14),rgba(243,235,188,.28)),url("https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?auto=format&fit=crop&w=1200&q=85")}
+.course-ielts .course-art{background-image:linear-gradient(135deg,rgba(70,58,117,.16),rgba(230,222,240,.28)),url("https://images.unsplash.com/photo-1457369804613-52c61a468e7d?auto=format&fit=crop&w=1200&q=85")}
+.course-english-for-tech .course-art{background-image:linear-gradient(135deg,rgba(28,71,86,.2),rgba(225,234,216,.25)),url("https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=85")}
+.course-everyday-english .course-art,.course-business-english .course-art,.course-conversation .course-art,.course-young-explorers .course-art,.course-ielts .course-art,.course-english-for-tech .course-art{background-size:cover;background-position:center;background-repeat:no-repeat;isolation:isolate}
+.course-everyday-english .course-art::after,.course-business-english .course-art::after,.course-conversation .course-art::after,.course-young-explorers .course-art::after,.course-ielts .course-art::after,.course-english-for-tech .course-art::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(255,255,255,.04),rgba(24,56,45,.32));z-index:0;animation:courseImageBreath 11s ease-in-out infinite}
+.course-everyday-english .course-art>*,.course-business-english .course-art>*,.course-conversation .course-art>*,.course-young-explorers .course-art>*,.course-ielts .course-art>*,.course-english-for-tech .course-art>*{position:relative;z-index:1;color:#fffdf2;text-shadow:0 1px 5px rgba(24,56,45,.35)}
+.course-art .art-symbol{display:none}
+.course-card .course-art{transition:transform .45s ease,background-position .7s ease}
+.course-card:hover .course-art{transform:scale(1.018)}
+.course-card:not(.course-traveller-beginners) .course-art::before{content:"✦";position:absolute;right:14%;top:23%;z-index:2;color:rgba(255,253,242,.9);font-size:1.35rem;text-shadow:0 2px 8px rgba(24,56,45,.35);animation:courseSparkFloat 5s ease-in-out infinite;pointer-events:none}
+.course-card.course-business-english .course-art::before{content:"↗";right:16%;top:48%;font-size:3.2rem;font-weight:600;color:#f4edff;text-shadow:3px 4px 0 rgba(92,64,132,.58);animation:businessArrowRise 4.8s ease-in-out infinite}
+.course-traveller-beginners .art-symbol{color:#f7f0cf;text-shadow:8px 7px 0 rgba(25,70,49,.65);mix-blend-mode:screen;animation:courseSymbolFloat 6s ease-in-out infinite}
+.course-card:hover .course-art{background-position:52% 48%}.course-card:hover .art-symbol{transform:translate(-50%,-54%) rotate(-8deg) scale(1.04)}
+@keyframes courseCardRise{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}
+@keyframes courseImageBreath{0%,100%{opacity:.72;transform:scale(1)}50%{opacity:.95;transform:scale(1.045)}}
+@keyframes courseSymbolFloat{0%,100%{transform:translate(-50%,-50%) rotate(-12deg)}50%{transform:translate(-50%,-55%) rotate(-8deg)}}
+@keyframes travellerPlaneAcross{0%{transform:translateX(0) translateY(8px) rotate(-8deg);opacity:0}12%{opacity:.95}50%{transform:translateX(18rem) translateY(-10px) rotate(4deg);opacity:1}88%{opacity:.95}100%{transform:translateX(38rem) translateY(-22px) rotate(8deg);opacity:0}}
+@keyframes courseSparkFloat{0%,100%{transform:translate3d(0,0,0) rotate(0deg);opacity:.4}50%{transform:translate3d(-7px,-9px,0) rotate(18deg);opacity:1}}
+@keyframes businessArrowRise{0%,100%{transform:translate3d(0,8px,0) rotate(-8deg);opacity:.55}50%{transform:translate3d(-8px,-14px,0) rotate(2deg);opacity:1}}
+@media (prefers-reduced-motion:reduce){.course-card,.course-traveller-beginners .course-art::after,.course-traveller-beginners .art-symbol,.course-traveller-beginners .course-art::before,.course-card:not(.course-traveller-beginners) .course-art::before,.course-card.course-business-english .course-art::before{animation:none}.course-card:hover .course-art{background-position:center;transform:none}}
+
+/* Editorial display type gives the learning journey a more elegant voice. */
+:root{--display-font:Georgia,"Times New Roman",serif}
+h1,h2,h3,.wordmark,.course-content h3,.lms-course-hero h1,.lms-lesson-header h1{font-family:var(--display-font);font-weight:400;letter-spacing:-.04em}
+.hero h1{font-size:clamp(44px,5.8vw,80px);line-height:1.04}
+.section-heading h2,.page-section>h1{line-height:1.08}
+.course-content h3{font-size:20px}
+.wordmark{font-family:Poppins,Arial,sans-serif;font-weight:600;letter-spacing:-3px}
