@@ -1,5 +1,5 @@
 import {it,expect,vi} from "vitest";
-import {hasSameOrigin} from "../src/lib/request-origin";
+import {hasSameOrigin,publicOrigin} from "../src/lib/request-origin";
 it('uses the configured public origin behind an internal proxy and rejects another site',()=>{
  vi.stubEnv('NEXT_PUBLIC_SITE_URL','https://spolk.onrender.com');
  try{expect(hasSameOrigin(new Request('http://localhost:10000/api/daily-checkin',{headers:{origin:'https://spolk.onrender.com'}}))).toBe(true);expect(hasSameOrigin(new Request('http://localhost:10000/api/daily-checkin',{headers:{origin:'https://evil.example'}}))).toBe(false);}finally{vi.unstubAllEnvs();}
@@ -7,6 +7,12 @@ it('uses the configured public origin behind an internal proxy and rejects anoth
 it("accepts the browser host even when Next uses an internal localhost URL",()=>{
  expect(hasSameOrigin(new Request("http://localhost:3001/api/assessment",{headers:{host:"127.0.0.1:3001",origin:"http://127.0.0.1:3001"}}))).toBe(true);
  expect(hasSameOrigin(new Request("https://spolk.example/api/assessment",{headers:{origin:"https://spolk.example"}}))).toBe(true);
+});
+it("redirects through the public site when Render reports an internal bind address",()=>{
+ vi.stubEnv("NEXT_PUBLIC_SITE_URL","");
+ vi.stubEnv("RENDER_EXTERNAL_URL","https://spolk.onrender.com");
+ try{expect(publicOrigin(new Request("https://0.0.0.0:10000/auth/callback?code=abc"))).toBe("https://spolk.onrender.com");}finally{vi.unstubAllEnvs();}
+ expect(publicOrigin(new Request("https://0.0.0.0:10000/auth/callback",{headers:{"x-forwarded-host":"spolk.onrender.com","x-forwarded-proto":"https"}}))).toBe("https://spolk.onrender.com");
 });
 it("rejects missing, malformed, cross-site, scheme and port mismatches",()=>{
  for(const origin of [null,"null","https://evil.example","http://127.0.0.1:3002","https://127.0.0.1:3001","http://127.0.0.1:3001/path","http://user@127.0.0.1:3001"]){
