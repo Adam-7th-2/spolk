@@ -27,5 +27,5 @@ test("account creation keeps the restored email and password fields",async({page
  await expect(page.getByLabel("Password (at least 12 characters)",{exact:true})).toBeVisible();
  await expect(page.getByLabel("First name",{exact:true})).toBeVisible();
  await expect(page.getByLabel("Learning goal",{exact:true})).toBeVisible();
- await expect(page.getByRole("button",{name:"Continue with Google"})).toHaveCount(0);
+ await expect(page.getByRole("button",{name:"Continue with Google"})).toBeVisible();
 });

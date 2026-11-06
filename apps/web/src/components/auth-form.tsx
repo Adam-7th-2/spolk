@@ -13,18 +13,34 @@ export function AuthForm({reset=false,initialMessage="",offline=false}:{reset?:b
  const[loginMessage,setLoginMessage]=useState("");
  const[loginPending,setLoginPending]=useState(false);
  const[state,action,pending]=useActionState(reset?requestReset:authenticate,{message:initialMessage,error:Boolean(initialMessage)});
+ function browserClient(){
+  const url=process.env.NEXT_PUBLIC_SUPABASE_URL;
+  const key=process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY||process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
+  if(!url||!key)return null;
+  return createBrowserClient(url,key,{global:{fetch:(input,init)=>fetch(input,{...init,signal:init?.signal?AbortSignal.any([init.signal,AbortSignal.timeout(15000)]):AbortSignal.timeout(15000)})}});
+ }
  async function browserLogin(form:HTMLFormElement){
   if(loginPending)return;
   setLoginMessage("");setLoginPending(true);
-  const url=process.env.NEXT_PUBLIC_SUPABASE_URL;
-  const key=process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY||process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
-  if(!url||!key){setLoginMessage("Account services are not configured yet.");setLoginPending(false);return;}
+  const db=browserClient();
+  if(!db){setLoginMessage("Account services are not configured yet.");setLoginPending(false);return;}
   const values=new FormData(form);
   try{
-   const db=createBrowserClient(url,key,{global:{fetch:(input,init)=>fetch(input,{...init,signal:init?.signal?AbortSignal.any([init.signal,AbortSignal.timeout(15000)]):AbortSignal.timeout(15000)})}});
    const{error}=await db.auth.signInWithPassword({email:String(values.get("email")||"").trim(),password:String(values.get("password")||"")});
    if(error){setLoginMessage(signinErrorMessage(error));setLoginPending(false);return;}
    router.replace("/dashboard");router.refresh();
+  }catch{
+   setLoginMessage("The sign-in service could not be reached. Please check your connection and try again.");setLoginPending(false);
+  }
+ }
+ async function googleSignIn(){
+  if(loginPending||pending)return;
+  setLoginMessage("");setLoginPending(true);
+  const db=browserClient();
+  if(!db){setLoginMessage("Account services are not configured yet.");setLoginPending(false);return;}
+  try{
+   const{error}=await db.auth.signInWithOAuth({provider:"google",options:{redirectTo:`${window.location.origin}/auth/callback`}});
+   if(error){setLoginMessage(signinErrorMessage(error));setLoginPending(false);}
   }catch{
    setLoginMessage("The sign-in service could not be reached. Please check your connection and try again.");setLoginPending(false);
   }
@@ -50,6 +66,7 @@ export function AuthForm({reset=false,initialMessage="",offline=false}:{reset?:b
    {(loginMessage||state.message)&&<div role="status" className={`status ${loginMessage||state.error?"error":""}`}>{loginMessage||state.message}</div>}
    <button className="button" disabled={pending||loginPending}>{pending||loginPending?"One moment…":reset?"Send reset link":mode==="login"?"Log in →":"Create your account →"}</button>
   </form>
+  {!reset&&!offline&&<button type="button" className="button secondary" disabled={pending||loginPending} onClick={()=>void googleSignIn()}>Continue with Google</button>}
   <Link className="text-link" href={reset?"/login":"/reset-password"}>{reset?"Back to log in":"Forgot your password?"}</Link>
  </div>;
 }
