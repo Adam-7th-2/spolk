@@ -3,7 +3,7 @@ services:
   - type: web
     name: spolk
     runtime: docker
-    repo: https://github.com/Adam-7th-2/spolk
+    repo: https://github.com/Kaleab-y/spolk
     branch: main
     plan: free
     region: frankfurt
